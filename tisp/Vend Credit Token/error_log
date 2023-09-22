@@ -1,0 +1,129 @@
+[22-Oct-2022 09:35:44 America/New_York] PHP Notice:  Undefined property: stdClass::$name in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 24
+[22-Oct-2022 09:35:45 America/New_York] PHP Notice:  Undefined variable: response in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 39
+[22-Oct-2022 09:35:45 America/New_York] PHP Notice:  Trying to get property 'statusCode' of non-object in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 39
+[22-Oct-2022 09:37:51 America/New_York] PHP Notice:  Undefined property: stdClass::$name in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 24
+[22-Oct-2022 09:37:52 America/New_York] PHP Notice:  Undefined variable: response in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 39
+[22-Oct-2022 09:37:52 America/New_York] PHP Notice:  Trying to get property 'statusCode' of non-object in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 39
+[22-Oct-2022 09:43:07 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 8
+[22-Oct-2022 09:43:07 America/New_York] PHP Notice:  Undefined index: value in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 9
+[22-Oct-2022 09:43:07 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 10
+[22-Oct-2022 09:43:18 America/New_York] PHP Notice:  Undefined property: stdClass::$name in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 24
+[22-Oct-2022 09:43:19 America/New_York] PHP Notice:  Undefined variable: response in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 39
+[22-Oct-2022 09:43:19 America/New_York] PHP Notice:  Trying to get property 'statusCode' of non-object in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 39
+[22-Oct-2022 09:46:16 America/New_York] PHP Notice:  Undefined property: stdClass::$name in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 24
+[22-Oct-2022 09:46:16 America/New_York] PHP Notice:  Undefined variable: response in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 39
+[22-Oct-2022 09:46:16 America/New_York] PHP Notice:  Trying to get property 'statusCode' of non-object in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 39
+[22-Oct-2022 09:46:16 America/New_York] PHP Notice:  Undefined variable: response in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 40
+[22-Oct-2022 09:46:16 America/New_York] PHP Notice:  Trying to get property 'status' of non-object in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 40
+[22-Oct-2022 09:49:51 America/New_York] PHP Notice:  Undefined property: stdClass::$name in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 24
+[22-Oct-2022 09:49:52 America/New_York] PHP Notice:  Undefined variable: response in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 39
+[22-Oct-2022 09:49:52 America/New_York] PHP Notice:  Trying to get property 'statusCode' of non-object in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 39
+[22-Oct-2022 09:49:52 America/New_York] PHP Notice:  Undefined variable: response in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 40
+[22-Oct-2022 09:49:52 America/New_York] PHP Notice:  Trying to get property 'status' of non-object in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 40
+[22-Oct-2022 09:55:56 America/New_York] PHP Notice:  Undefined property: stdClass::$name in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 24
+[22-Oct-2022 09:55:57 America/New_York] PHP Notice:  Undefined variable: response in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 40
+[22-Oct-2022 09:55:57 America/New_York] PHP Notice:  Trying to get property 'status' of non-object in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 40
+[22-Oct-2022 10:10:04 America/New_York] PHP Notice:  Undefined property: stdClass::$name in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 24
+[22-Oct-2022 10:13:43 America/New_York] PHP Notice:  Undefined property: stdClass::$name in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 24
+[22-Oct-2022 11:05:42 America/New_York] PHP Notice:  Undefined property: stdClass::$name in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 25
+[22-Oct-2022 11:08:35 America/New_York] PHP Notice:  Undefined property: stdClass::$name in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 25
+[22-Oct-2022 11:17:10 America/New_York] PHP Notice:  Undefined property: stdClass::$name in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 25
+[22-Oct-2022 16:35:43 America/New_York] PHP Notice:  Undefined property: stdClass::$messageId in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 49
+[22-Oct-2022 16:35:43 America/New_York] PHP Notice:  Undefined property: stdClass::$description in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 50
+[22-Oct-2022 16:35:43 America/New_York] PHP Notice:  Undefined property: stdClass::$vendTime in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 51
+[22-Oct-2022 16:35:43 America/New_York] PHP Notice:  Undefined property: stdClass::$tariff in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 52
+[22-Oct-2022 16:35:43 America/New_York] PHP Notice:  Undefined property: stdClass::$unitsActual in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 53
+[22-Oct-2022 16:35:43 America/New_York] PHP Notice:  Undefined property: stdClass::$unitName in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 54
+[22-Oct-2022 16:35:43 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenHex in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 55
+[22-Oct-2022 16:35:43 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 56
+[22-Oct-2022 16:47:28 America/New_York] PHP Notice:  Undefined variable: results in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 48
+[22-Oct-2022 16:47:28 America/New_York] PHP Notice:  Undefined property: stdClass::$messageId in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 50
+[22-Oct-2022 16:47:28 America/New_York] PHP Notice:  Undefined property: stdClass::$description in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 51
+[22-Oct-2022 16:47:28 America/New_York] PHP Notice:  Undefined property: stdClass::$vendTime in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 52
+[22-Oct-2022 16:47:28 America/New_York] PHP Notice:  Undefined property: stdClass::$tariff in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 53
+[22-Oct-2022 16:47:28 America/New_York] PHP Notice:  Undefined property: stdClass::$unitsActual in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 54
+[22-Oct-2022 16:47:28 America/New_York] PHP Notice:  Undefined property: stdClass::$unitName in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 55
+[22-Oct-2022 16:47:28 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenHex in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 56
+[22-Oct-2022 16:47:28 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 57
+[22-Oct-2022 17:02:14 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 66
+[22-Oct-2022 17:03:31 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 66
+[22-Oct-2022 17:05:03 America/New_York] PHP Notice:  Undefined property: stdClass::$messageId in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 50
+[22-Oct-2022 17:05:03 America/New_York] PHP Notice:  Undefined property: stdClass::$description in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 51
+[22-Oct-2022 17:05:03 America/New_York] PHP Notice:  Undefined property: stdClass::$vendTime in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 52
+[22-Oct-2022 17:05:03 America/New_York] PHP Notice:  Undefined property: stdClass::$tariff in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 53
+[22-Oct-2022 17:05:03 America/New_York] PHP Notice:  Undefined property: stdClass::$unitsActual in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 54
+[22-Oct-2022 17:05:03 America/New_York] PHP Notice:  Undefined property: stdClass::$unitName in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 55
+[22-Oct-2022 17:05:03 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenHex in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 56
+[22-Oct-2022 17:05:03 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 57
+[22-Oct-2022 17:05:03 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 73
+[22-Oct-2022 17:07:22 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 73
+[22-Oct-2022 17:15:47 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 73
+[22-Oct-2022 17:15:59 America/New_York] PHP Notice:  Undefined property: stdClass::$messageId in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 50
+[22-Oct-2022 17:15:59 America/New_York] PHP Notice:  Undefined property: stdClass::$description in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 51
+[22-Oct-2022 17:15:59 America/New_York] PHP Notice:  Undefined property: stdClass::$vendTime in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 52
+[22-Oct-2022 17:15:59 America/New_York] PHP Notice:  Undefined property: stdClass::$tariff in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 53
+[22-Oct-2022 17:15:59 America/New_York] PHP Notice:  Undefined property: stdClass::$unitsActual in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 54
+[22-Oct-2022 17:15:59 America/New_York] PHP Notice:  Undefined property: stdClass::$unitName in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 55
+[22-Oct-2022 17:15:59 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenHex in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 56
+[22-Oct-2022 17:15:59 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 57
+[22-Oct-2022 17:15:59 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 73
+[22-Oct-2022 17:17:23 America/New_York] PHP Notice:  Undefined property: stdClass::$messageId in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 50
+[22-Oct-2022 17:17:23 America/New_York] PHP Notice:  Undefined property: stdClass::$description in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 51
+[22-Oct-2022 17:17:23 America/New_York] PHP Notice:  Undefined property: stdClass::$vendTime in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 52
+[22-Oct-2022 17:17:23 America/New_York] PHP Notice:  Undefined property: stdClass::$tariff in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 53
+[22-Oct-2022 17:17:23 America/New_York] PHP Notice:  Undefined property: stdClass::$unitsActual in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 54
+[22-Oct-2022 17:17:23 America/New_York] PHP Notice:  Undefined property: stdClass::$unitName in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 55
+[22-Oct-2022 17:17:23 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenHex in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 56
+[22-Oct-2022 17:17:23 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 57
+[22-Oct-2022 17:17:23 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 73
+[22-Oct-2022 17:19:52 America/New_York] PHP Notice:  Undefined property: stdClass::$messageId in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 50
+[22-Oct-2022 17:19:52 America/New_York] PHP Notice:  Undefined property: stdClass::$description in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 51
+[22-Oct-2022 17:19:52 America/New_York] PHP Notice:  Undefined property: stdClass::$vendTime in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 52
+[22-Oct-2022 17:19:52 America/New_York] PHP Notice:  Undefined property: stdClass::$tariff in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 53
+[22-Oct-2022 17:19:52 America/New_York] PHP Notice:  Undefined property: stdClass::$unitsActual in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 54
+[22-Oct-2022 17:19:52 America/New_York] PHP Notice:  Undefined property: stdClass::$unitName in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 55
+[22-Oct-2022 17:19:52 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenHex in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 56
+[22-Oct-2022 17:19:52 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 57
+[22-Oct-2022 17:19:52 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 73
+[22-Oct-2022 17:24:21 America/New_York] PHP Notice:  Undefined property: stdClass::$messageId in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 50
+[22-Oct-2022 17:24:21 America/New_York] PHP Notice:  Undefined property: stdClass::$description in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 51
+[22-Oct-2022 17:24:21 America/New_York] PHP Notice:  Undefined property: stdClass::$vendTime in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 52
+[22-Oct-2022 17:24:21 America/New_York] PHP Notice:  Undefined property: stdClass::$tariff in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 53
+[22-Oct-2022 17:24:21 America/New_York] PHP Notice:  Undefined property: stdClass::$unitsActual in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 54
+[22-Oct-2022 17:24:21 America/New_York] PHP Notice:  Undefined property: stdClass::$unitName in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 55
+[22-Oct-2022 17:24:21 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenHex in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 56
+[22-Oct-2022 17:24:21 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 57
+[22-Oct-2022 17:24:21 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 73
+[22-Oct-2022 17:25:14 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 73
+[22-Oct-2022 17:32:28 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 37
+[25-Oct-2022 08:12:24 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 8
+[25-Oct-2022 08:12:24 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 9
+[25-Oct-2022 08:12:33 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 8
+[25-Oct-2022 08:12:33 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 9
+[25-Oct-2022 08:13:10 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 37
+[25-Oct-2022 08:13:18 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 8
+[25-Oct-2022 08:13:18 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 9
+[25-Oct-2022 08:14:05 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 8
+[25-Oct-2022 08:14:05 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 9
+[25-Oct-2022 08:14:10 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 8
+[25-Oct-2022 08:14:10 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 9
+[25-Oct-2022 08:15:47 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 37
+[25-Oct-2022 08:18:32 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 38
+[25-Oct-2022 08:19:01 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 73
+[25-Oct-2022 08:20:36 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 74
+[25-Oct-2022 08:22:40 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 74
+[25-Oct-2022 16:46:30 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 38
+[25-Oct-2022 16:46:40 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 8
+[25-Oct-2022 16:46:40 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 9
+[25-Oct-2022 16:48:04 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 8
+[25-Oct-2022 16:48:04 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 9
+[25-Oct-2022 16:54:59 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 40
+[26-Oct-2022 07:49:19 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 74
+[26-Oct-2022 07:55:48 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/post.php on line 74
+[28-Oct-2022 02:02:45 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 23
+[28-Oct-2022 02:02:51 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 8
+[28-Oct-2022 02:02:51 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 9
+[28-Oct-2022 02:02:51 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 23
+[28-Oct-2022 02:02:53 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 8
+[28-Oct-2022 02:02:53 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 9
+[28-Oct-2022 02:02:53 America/New_York] PHP Warning:  Use of undefined constant VERIFY_STATUS - assumed 'VERIFY_STATUS' (this will throw an Error in a future version of PHP) in /home/realeoki/fikxers.com/tisp/Vend Credit Token/status-post.php on line 23

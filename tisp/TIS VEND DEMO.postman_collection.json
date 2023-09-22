@@ -1,0 +1,188 @@
+{
+	"info": {
+		"_postman_id": "70bd3807-9d07-44ca-a2cc-8f1bc3145135",
+		"name": "TIS VEND DEMO",
+		"description": "This collection is for testing TIS Vending",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1507750"
+	},
+	"item": [
+		{
+			"name": "Verify Meter",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"var publicKey = \"XPk04MywmC8DCJWP4GK8\";\r",
+							"var privateKey = \"WgVEgppnJ74T3HBw7utkZQrsrbA4nVkJ5BoE1MOk\";\r",
+							"var merchantId = \"TIS/2107\";\r",
+							"var d = new Date();\r",
+							"var transactionId = d.getTime();\r",
+							"var value = \"1000\";\r",
+							"var meterPAN = \"14315436973\";\r",
+							"var service = \"verifyMeter\";\r",
+							"\r",
+							"var apiHash = CryptoJS.SHA512(privateKey + \"|\" + publicKey + \"|\" + meterPAN);\r",
+							"\r",
+							"postman.setGlobalVariable('merchantId', merchantId);\r",
+							"postman.setGlobalVariable('publicKey', publicKey);\r",
+							"postman.setGlobalVariable('privateKey', privateKey);\r",
+							"postman.setGlobalVariable('transactionId', transactionId);\r",
+							"postman.setGlobalVariable('value', value);\r",
+							"postman.setGlobalVariable('meterPAN', meterPAN);\r",
+							"postman.setGlobalVariable('apiHash', apiHash);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"publicKey\":\"{{publicKey}}\",\"mac\":\"{{apiHash}}\",\"merchantId\":\"{{merchantId}}\",\"transactionId\":\"{{transactionId}}\",\"value\":\"{{value}}\",\"meterPAN\":\"{{meterPAN}}\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://vendingdemo.tisdynamicssolutions.com/api/verify/meter",
+					"protocol": "https",
+					"host": [
+						"vendingdemo",
+						"tisdynamicssolutions",
+						"com"
+					],
+					"path": [
+						"api",
+						"verify",
+						"meter"
+					]
+				},
+				"description": "Generate token"
+			},
+			"response": []
+		},
+		{
+			"name": "Vend Credit Token",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"var publicKey = \"ekcg9qRa8CCa8nYzQ4in\";\r",
+							"var privateKey = \"DiG94rsq4STzroJKqoK5nJdT6NUoYjE7biUO4RdM\";\r",
+							"var merchantId = \"TIS/2105\";\r",
+							"var d = new Date();\r",
+							"var transactionId = d.getTime();\r",
+							"var value = \"1000\";\r",
+							"var meterPAN = \"04191738758\";\r",
+							"var service = \"vendCreditToken\";\r",
+							"\r",
+							"var apiHash = CryptoJS.SHA512(privateKey + \"|\" + publicKey + \"|\" + meterPAN + \"|\" + transactionId);\r",
+							"\r",
+							"postman.setGlobalVariable('merchantId', merchantId);\r",
+							"postman.setGlobalVariable('publicKey', publicKey);\r",
+							"postman.setGlobalVariable('privateKey', privateKey);\r",
+							"postman.setGlobalVariable('transactionId', transactionId);\r",
+							"postman.setGlobalVariable('value', value);\r",
+							"postman.setGlobalVariable('meterPAN', meterPAN);\r",
+							"postman.setGlobalVariable('apiHash', apiHash);"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"publicKey\":\"{{publicKey}}\",\"mac\":\"{{apiHash}}\",\"merchantId\":\"{{merchantId}}\",\"transactionId\":\"{{transactionId}}\",\"value\":\"{{value}}\",\"meterPAN\":\"{{meterPAN}}\",\"service\":\"vendCreditToken\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://vendingdemo.tisdynamicssolutions.com/api/vend/credit-token",
+					"protocol": "https",
+					"host": [
+						"vendingdemo",
+						"tisdynamicssolutions",
+						"com"
+					],
+					"path": [
+						"api",
+						"vend",
+						"credit-token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Verify Transaction Status",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"var publicKey = \"XPk04MywmC8DCJWP4GK8\";\r",
+							"var privateKey = \"WgVEgppnJ74T3HBw7utkZQrsrbA4nVkJ5BoE1MOk\";\r",
+							"var merchantId = \"TIS/2107\";\r",
+							"var transactionId = \"1651249401838\";\r",
+							"var value = \"1000\";\r",
+							"var meterPAN = \"04191738758\";\r",
+							"var service = \"vendCreditToken\";\r",
+							"\r",
+							"var apiHash = CryptoJS.SHA512(privateKey + \"|\" + publicKey + \"|\" + transactionId);\r",
+							"\r",
+							"postman.setGlobalVariable('merchantId', merchantId);\r",
+							"postman.setGlobalVariable('publicKey', publicKey);\r",
+							"postman.setGlobalVariable('privateKey', privateKey);\r",
+							"postman.setGlobalVariable('transactionId', transactionId);\r",
+							"postman.setGlobalVariable('value', value);\r",
+							"postman.setGlobalVariable('meterPAN', meterPAN);\r",
+							"postman.setGlobalVariable('apiHash', apiHash);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"publicKey\":\"{{publicKey}}\",\"mac\":\"{{apiHash}}\",\"merchantId\":\"{{merchantId}}\",\"transactionId\":\"{{transactionId}}\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://vendingdemo.tisdynamicssolutions.com/api/verify/status",
+					"protocol": "https",
+					"host": [
+						"vendingdemo",
+						"tisdynamicssolutions",
+						"com"
+					],
+					"path": [
+						"api",
+						"verify",
+						"status"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,17 @@
+[23-Nov-2020 19:42:50 America/New_York] PHP Notice:  Undefined index: owner in /home/realeoki/fikxers.com/qr-code/barcode-script.php on line 4
+[23-Nov-2020 19:42:50 America/New_York] PHP Notice:  Undefined index: flat_no in /home/realeoki/fikxers.com/qr-code/barcode-script.php on line 5
+[23-Nov-2020 19:42:50 America/New_York] PHP Notice:  Undefined index: block_no in /home/realeoki/fikxers.com/qr-code/barcode-script.php on line 5
+[23-Nov-2020 19:42:50 America/New_York] PHP Notice:  Undefined index: regno in /home/realeoki/fikxers.com/qr-code/barcode-script.php on line 7
+[23-Nov-2020 19:42:50 America/New_York] PHP Notice:  Undefined index: comp in /home/realeoki/fikxers.com/qr-code/barcode-script.php on line 8
+[31-Jul-2022 11:24:05 America/New_York] PHP Warning:  Undefined array key "arr_date" in /home/realeoki/fikxers.com/qr-code/barcode-script.php on line 23
+[31-Jul-2022 11:24:05 America/New_York] PHP Warning:  Undefined array key "arr_time" in /home/realeoki/fikxers.com/qr-code/barcode-script.php on line 24
+[31-Jul-2022 11:24:11 America/New_York] PHP Warning:  Undefined array key "arr_date" in /home/realeoki/fikxers.com/qr-code/barcode-script.php on line 23
+[31-Jul-2022 11:24:11 America/New_York] PHP Warning:  Undefined array key "arr_time" in /home/realeoki/fikxers.com/qr-code/barcode-script.php on line 24
+[31-Jul-2022 16:01:19 America/New_York] PHP Warning:  Undefined array key "arr_date" in /home/realeoki/fikxers.com/qr-code/barcode-script.php on line 23
+[31-Jul-2022 16:01:19 America/New_York] PHP Warning:  Undefined array key "arr_time" in /home/realeoki/fikxers.com/qr-code/barcode-script.php on line 24
+[31-Jul-2022 16:01:37 America/New_York] PHP Warning:  Undefined array key "arr_date" in /home/realeoki/fikxers.com/qr-code/barcode-script.php on line 23
+[31-Jul-2022 16:01:37 America/New_York] PHP Warning:  Undefined array key "arr_time" in /home/realeoki/fikxers.com/qr-code/barcode-script.php on line 24
+[31-Jul-2022 16:55:55 America/New_York] PHP Warning:  Undefined array key "arr_date" in /home/realeoki/fikxers.com/qr-code/barcode-script.php on line 23
+[31-Jul-2022 16:55:55 America/New_York] PHP Warning:  Undefined array key "arr_time" in /home/realeoki/fikxers.com/qr-code/barcode-script.php on line 24
+[31-Jul-2022 17:29:15 America/New_York] PHP Warning:  Undefined array key "arr_date" in /home/realeoki/fikxers.com/qr-code/barcode-script.php on line 23
+[31-Jul-2022 17:29:15 America/New_York] PHP Warning:  Undefined array key "arr_time" in /home/realeoki/fikxers.com/qr-code/barcode-script.php on line 24

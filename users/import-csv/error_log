@@ -1,0 +1,96 @@
+[15-Jul-2023 10:30:32 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:30:32 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:30:32 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:30:32 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:30:32 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:30:32 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:30:37 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:30:37 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:30:37 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:30:37 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:30:37 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:30:37 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:38:18 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:38:18 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:38:18 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:38:18 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:38:18 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:38:18 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:38:30 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:38:30 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:38:30 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:38:30 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:38:30 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:38:30 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:38:32 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:38:32 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:38:32 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:38:32 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:38:32 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:38:32 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:38:34 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:38:34 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:38:34 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:38:34 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:38:34 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:38:34 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:38:42 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:38:42 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:38:42 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:38:42 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:38:42 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:38:42 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:38:43 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:38:43 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:38:43 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:38:43 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:38:43 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:38:43 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:38:45 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:38:45 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:38:45 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:38:45 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:38:45 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:38:45 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:40:03 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:40:03 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:40:03 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:40:03 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:40:03 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:40:03 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:40:14 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:40:14 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:40:14 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:40:14 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:40:14 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:40:14 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:40:19 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:40:19 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:40:19 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:40:19 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:40:19 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:40:19 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:40:25 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:40:25 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:40:25 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:40:25 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:40:25 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:40:25 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:41:18 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:41:18 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:41:18 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:41:18 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:41:18 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:41:18 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:41:30 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:41:30 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:41:30 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[15-Jul-2023 10:41:30 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 57
+[15-Jul-2023 10:41:30 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 60
+[15-Jul-2023 10:41:30 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/managerr.net/users/import-csv/DataSource.php on line 63
+[21-Jul-2023 13:56:14 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/fikxers.com/users/import-csv/DataSource.php on line 57
+[21-Jul-2023 13:56:14 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/fikxers.com/users/import-csv/DataSource.php on line 60
+[21-Jul-2023 13:56:14 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/import-csv/DataSource.php on line 63
+[21-Jul-2023 13:56:14 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/fikxers.com/users/import-csv/DataSource.php on line 57
+[21-Jul-2023 13:56:14 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/fikxers.com/users/import-csv/DataSource.php on line 60
+[21-Jul-2023 13:56:14 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/import-csv/DataSource.php on line 63

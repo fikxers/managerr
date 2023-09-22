@@ -1,0 +1,107 @@
+[30-Sep-2020 11:26:11 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 56
+[30-Sep-2020 11:26:11 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 59
+[30-Sep-2020 11:26:11 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 62
+[30-Sep-2020 11:26:11 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 56
+[30-Sep-2020 11:26:11 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 59
+[30-Sep-2020 11:26:11 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 62
+[30-Sep-2020 11:26:11 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 76
+[30-Sep-2020 11:26:11 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php:82
+Stack trace:
+#0 /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/index.php(179): Phppot\DataSource->select('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 82
+[30-Sep-2020 11:26:27 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 56
+[30-Sep-2020 11:26:27 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 59
+[30-Sep-2020 11:26:27 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 62
+[30-Sep-2020 11:26:27 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 56
+[30-Sep-2020 11:26:27 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 59
+[30-Sep-2020 11:26:27 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 62
+[30-Sep-2020 11:26:27 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 76
+[30-Sep-2020 11:26:27 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php:82
+Stack trace:
+#0 /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/index.php(179): Phppot\DataSource->select('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 82
+[30-Sep-2020 11:28:16 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 56
+[30-Sep-2020 11:28:16 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 59
+[30-Sep-2020 11:28:16 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 62
+[30-Sep-2020 11:28:16 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 56
+[30-Sep-2020 11:28:16 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 59
+[30-Sep-2020 11:28:16 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 62
+[30-Sep-2020 11:28:16 America/New_York] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/index.php on line 20
+[30-Sep-2020 11:28:16 America/New_York] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/index.php on line 24
+[30-Sep-2020 11:28:16 America/New_York] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/index.php on line 28
+[30-Sep-2020 11:28:16 America/New_York] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/index.php on line 33
+[30-Sep-2020 11:28:16 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 106
+[30-Sep-2020 11:28:16 America/New_York] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, first array member is not a valid class name or object in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 149
+[30-Sep-2020 11:28:16 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php:109
+Stack trace:
+#0 /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/index.php(46): Phppot\DataSource->insert('INSERT into hos...', 'issss', Array)
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 109
+[30-Sep-2020 11:28:39 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 56
+[30-Sep-2020 11:28:39 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 59
+[30-Sep-2020 11:28:39 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 62
+[30-Sep-2020 11:28:39 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 56
+[30-Sep-2020 11:28:39 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 59
+[30-Sep-2020 11:28:39 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 62
+[30-Sep-2020 11:28:39 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 76
+[30-Sep-2020 11:28:39 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php:82
+Stack trace:
+#0 /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/index.php(179): Phppot\DataSource->select('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 82
+[30-Sep-2020 11:31:06 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 56
+[30-Sep-2020 11:31:06 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 59
+[30-Sep-2020 11:31:06 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 62
+[30-Sep-2020 11:31:06 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 56
+[30-Sep-2020 11:31:06 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 59
+[30-Sep-2020 11:31:06 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 62
+[30-Sep-2020 11:31:06 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 76
+[30-Sep-2020 11:31:06 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php:82
+Stack trace:
+#0 /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/index.php(179): Phppot\DataSource->select('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 82
+[30-Sep-2020 11:31:09 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 56
+[30-Sep-2020 11:31:09 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 59
+[30-Sep-2020 11:31:09 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 62
+[30-Sep-2020 11:31:09 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 56
+[30-Sep-2020 11:31:09 America/New_York] PHP Notice:  Problem with connecting to database. in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 59
+[30-Sep-2020 11:31:09 America/New_York] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 62
+[30-Sep-2020 11:31:09 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 76
+[30-Sep-2020 11:31:09 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php:82
+Stack trace:
+#0 /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/index.php(179): Phppot\DataSource->select('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 82
+[30-Sep-2020 11:33:04 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php:84
+Stack trace:
+#0 /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/index.php(179): Phppot\DataSource->select('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 84
+[30-Sep-2020 11:33:16 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php:84
+Stack trace:
+#0 /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/index.php(179): Phppot\DataSource->select('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 84
+[30-Sep-2020 11:39:37 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php:84
+Stack trace:
+#0 /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/index.php(179): Phppot\DataSource->select('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 84
+[30-Sep-2020 11:40:13 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php:84
+Stack trace:
+#0 /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/index.php(179): Phppot\DataSource->select('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 84
+[30-Sep-2020 11:40:18 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php:84
+Stack trace:
+#0 /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/index.php(179): Phppot\DataSource->select('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 84
+[30-Sep-2020 11:40:25 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php:84
+Stack trace:
+#0 /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/index.php(179): Phppot\DataSource->select('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/users/hostelfikxers/users/import-csv/DataSource.php on line 84

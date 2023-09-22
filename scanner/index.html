@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Camera Access and Image Capture Example</title>
+</head>
+<body>
+    <h1>Camera Access and Image Capture Example</h1>
+
+    <div id="video-container">
+        <video id="video-preview" autoplay></video>
+    </div>
+
+    <button id="capture-button">Capture</button>
+
+    <script>
+        const videoPreview = document.getElementById('video-preview');
+        const captureButton = document.getElementById('capture-button');
+
+        // Access the camera stream
+        navigator.mediaDevices.getUserMedia({ video: true })
+            .then(stream => {
+                videoPreview.srcObject = stream;
+            })
+            .catch(error => {
+                console.error('Error accessing the camera: ', error);
+            });
+
+        // Capture an image from the video stream
+        captureButton.addEventListener('click', () => {
+            const canvas = document.createElement('canvas');
+            const context = canvas.getContext('2d');
+            context.drawImage(videoPreview, 0, 0, canvas.width, canvas.height);
+
+            // Convert the captured image to base64
+            const imageData = canvas.toDataURL('image/png');
+
+            // Send the captured image data to the server
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', 'save_image.php', true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    console.log('Image saved successfully.');
+                }
+            };
+            xhr.send('imageData=' + encodeURIComponent(imageData));
+        });
+    </script>
+</body>
+</html>

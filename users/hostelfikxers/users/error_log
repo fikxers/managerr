@@ -1,0 +1,1106 @@
+[07-Jun-2019 17:55:56 America/New_York] PHP Parse error:  syntax error, unexpected '$password' (T_VARIABLE) in /home/realeoki/fikxers.com/users/view_mgrs.php on line 40
+[07-Jun-2019 17:56:04 America/New_York] PHP Parse error:  syntax error, unexpected '$password' (T_VARIABLE) in /home/realeoki/fikxers.com/users/view_mgrs.php on line 40
+[10-Jun-2019 12:46:28 America/New_York] PHP Notice:  Undefined variable: total_price in /home/realeoki/fikxers.com/users/flat.php on line 229
+[10-Jun-2019 12:46:28 America/New_York] PHP Notice:  Undefined variable: total_price in /home/realeoki/fikxers.com/users/flat.php on line 230
+[10-Jun-2019 12:46:28 America/New_York] PHP Notice:  Undefined index: phone in /home/realeoki/fikxers.com/users/flat.php on line 232
+[10-Jun-2019 19:29:25 America/New_York] PHP Notice:  Undefined variable: total_price in /home/realeoki/fikxers.com/users/flat.php on line 229
+[10-Jun-2019 19:29:25 America/New_York] PHP Notice:  Undefined variable: total_price in /home/realeoki/fikxers.com/users/flat.php on line 230
+[10-Jun-2019 19:29:25 America/New_York] PHP Notice:  Undefined index: phone in /home/realeoki/fikxers.com/users/flat.php on line 232
+[10-Jun-2019 19:29:41 America/New_York] PHP Notice:  Undefined variable: total_price in /home/realeoki/fikxers.com/users/flat.php on line 229
+[10-Jun-2019 19:29:41 America/New_York] PHP Notice:  Undefined variable: total_price in /home/realeoki/fikxers.com/users/flat.php on line 230
+[10-Jun-2019 19:29:41 America/New_York] PHP Notice:  Undefined index: phone in /home/realeoki/fikxers.com/users/flat.php on line 232
+[12-Jun-2019 17:45:45 America/New_York] PHP Notice:  Undefined variable: total_price in /home/realeoki/fikxers.com/users/flat.php on line 229
+[12-Jun-2019 17:45:45 America/New_York] PHP Notice:  Undefined variable: total_price in /home/realeoki/fikxers.com/users/flat.php on line 230
+[12-Jun-2019 17:45:45 America/New_York] PHP Notice:  Undefined index: phone in /home/realeoki/fikxers.com/users/flat.php on line 232
+[12-Jun-2019 17:46:30 America/New_York] PHP Notice:  Undefined variable: total_price in /home/realeoki/fikxers.com/users/flat.php on line 229
+[12-Jun-2019 17:46:30 America/New_York] PHP Notice:  Undefined variable: total_price in /home/realeoki/fikxers.com/users/flat.php on line 230
+[12-Jun-2019 17:46:30 America/New_York] PHP Notice:  Undefined index: phone in /home/realeoki/fikxers.com/users/flat.php on line 232
+[13-Jun-2019 10:51:55 America/New_York] PHP Notice:  Undefined variable: total_price in /home/realeoki/fikxers.com/users/flat.php on line 229
+[13-Jun-2019 10:51:55 America/New_York] PHP Notice:  Undefined variable: total_price in /home/realeoki/fikxers.com/users/flat.php on line 230
+[13-Jun-2019 10:51:55 America/New_York] PHP Notice:  Undefined index: phone in /home/realeoki/fikxers.com/users/flat.php on line 232
+[13-Jun-2019 10:52:26 America/New_York] PHP Notice:  Undefined variable: total_price in /home/realeoki/fikxers.com/users/flat.php on line 229
+[13-Jun-2019 10:52:26 America/New_York] PHP Notice:  Undefined variable: total_price in /home/realeoki/fikxers.com/users/flat.php on line 230
+[13-Jun-2019 10:52:26 America/New_York] PHP Notice:  Undefined index: phone in /home/realeoki/fikxers.com/users/flat.php on line 232
+[13-Jun-2019 20:47:29 America/New_York] PHP Notice:  Undefined variable: total_price in /home/realeoki/fikxers.com/users/flat.php on line 229
+[13-Jun-2019 20:47:29 America/New_York] PHP Notice:  Undefined variable: total_price in /home/realeoki/fikxers.com/users/flat.php on line 230
+[13-Jun-2019 20:47:29 America/New_York] PHP Notice:  Undefined index: phone in /home/realeoki/fikxers.com/users/flat.php on line 232
+[14-Jun-2019 09:31:06 America/New_York] PHP Notice:  Undefined variable: estate_name in /home/realeoki/fikxers.com/users/view_mgrs.php on line 30
+[14-Jun-2019 09:31:06 America/New_York] PHP Notice:  Undefined variable: address in /home/realeoki/fikxers.com/users/view_mgrs.php on line 30
+[14-Jun-2019 09:31:06 America/New_York] PHP Notice:  Undefined variable: no_of_blocks in /home/realeoki/fikxers.com/users/view_mgrs.php on line 30
+[14-Jun-2019 09:31:06 America/New_York] PHP Notice:  Undefined variable: no_of_flats in /home/realeoki/fikxers.com/users/view_mgrs.php on line 30
+[14-Jun-2019 09:32:08 America/New_York] PHP Notice:  Undefined variable: estate_name in /home/realeoki/fikxers.com/users/view_mgrs.php on line 30
+[14-Jun-2019 09:32:08 America/New_York] PHP Notice:  Undefined variable: address in /home/realeoki/fikxers.com/users/view_mgrs.php on line 30
+[14-Jun-2019 09:32:08 America/New_York] PHP Notice:  Undefined variable: no_of_blocks in /home/realeoki/fikxers.com/users/view_mgrs.php on line 30
+[14-Jun-2019 09:32:08 America/New_York] PHP Notice:  Undefined variable: no_of_flats in /home/realeoki/fikxers.com/users/view_mgrs.php on line 30
+[15-Jun-2019 07:28:17 America/New_York] PHP Notice:  Undefined variable: name in /home/realeoki/fikxers.com/users/view_flats.php on line 36
+[15-Jun-2019 07:28:17 America/New_York] PHP Notice:  Undefined variable: admin_type in /home/realeoki/fikxers.com/users/view_flats.php on line 37
+[17-Jun-2019 17:11:06 America/New_York] PHP Notice:  Undefined index: flat_no in /home/realeoki/fikxers.com/users/view_flats.php on line 91
+[17-Jun-2019 17:11:06 America/New_York] PHP Notice:  Undefined index: block_no in /home/realeoki/fikxers.com/users/view_flats.php on line 92
+[17-Jun-2019 17:11:06 America/New_York] PHP Notice:  Undefined index: owner in /home/realeoki/fikxers.com/users/view_flats.php on line 94
+[17-Jun-2019 17:11:06 America/New_York] PHP Notice:  Undefined index: no_of_equipments in /home/realeoki/fikxers.com/users/view_flats.php on line 96
+[17-Jun-2019 17:11:06 America/New_York] PHP Notice:  Undefined index: flat_no in /home/realeoki/fikxers.com/users/view_flats.php on line 91
+[17-Jun-2019 17:11:06 America/New_York] PHP Notice:  Undefined index: block_no in /home/realeoki/fikxers.com/users/view_flats.php on line 92
+[17-Jun-2019 17:11:06 America/New_York] PHP Notice:  Undefined index: owner in /home/realeoki/fikxers.com/users/view_flats.php on line 94
+[17-Jun-2019 17:11:06 America/New_York] PHP Notice:  Undefined index: no_of_equipments in /home/realeoki/fikxers.com/users/view_flats.php on line 96
+[17-Jun-2019 17:12:16 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/view_flats.php on line 77
+[19-Jun-2019 03:20:18 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 8
+[19-Jun-2019 03:20:19 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 9
+[19-Jun-2019 03:20:19 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 10
+[19-Jun-2019 03:20:29 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 8
+[19-Jun-2019 03:20:29 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 9
+[19-Jun-2019 03:20:29 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 10
+[19-Jun-2019 03:20:46 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 8
+[19-Jun-2019 03:20:46 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 9
+[19-Jun-2019 03:20:46 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 10
+[19-Jun-2019 03:22:20 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 8
+[19-Jun-2019 03:22:20 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 9
+[19-Jun-2019 03:22:20 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 10
+[19-Jun-2019 16:34:33 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 8
+[19-Jun-2019 16:34:33 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 9
+[19-Jun-2019 16:34:33 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 10
+[19-Jun-2019 16:34:43 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 8
+[19-Jun-2019 16:34:43 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 9
+[19-Jun-2019 16:34:43 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 10
+[19-Jun-2019 16:35:00 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 8
+[19-Jun-2019 16:35:00 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 9
+[19-Jun-2019 16:35:00 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 10
+[19-Jun-2019 16:35:14 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 8
+[19-Jun-2019 16:35:14 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 9
+[19-Jun-2019 16:35:14 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 10
+[19-Jun-2019 16:35:23 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 8
+[19-Jun-2019 16:35:23 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 9
+[19-Jun-2019 16:35:23 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 10
+[19-Jun-2019 16:37:28 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 8
+[19-Jun-2019 16:37:28 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 9
+[19-Jun-2019 16:37:28 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 10
+[20-Jun-2019 19:16:47 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 8
+[20-Jun-2019 19:16:47 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 9
+[20-Jun-2019 19:16:47 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 10
+[20-Jun-2019 19:17:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 8
+[20-Jun-2019 19:17:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 9
+[20-Jun-2019 19:17:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 10
+[20-Jun-2019 19:17:10 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 8
+[20-Jun-2019 19:17:10 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 9
+[20-Jun-2019 19:17:10 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 10
+[21-Jun-2019 09:36:41 America/New_York] PHP Notice:  Undefined variable: num_eqpm in /home/realeoki/fikxers.com/users/view_equipments.php on line 17
+[21-Jun-2019 10:45:43 America/New_York] PHP Notice:  Undefined variable: mysqli in /home/realeoki/fikxers.com/users/update.php on line 17
+[21-Jun-2019 10:45:43 America/New_York] PHP Fatal error:  Call to a member function query() on null in /home/realeoki/fikxers.com/users/update.php on line 17
+[21-Jun-2019 10:48:19 America/New_York] PHP Notice:  Undefined variable: mysqli in /home/realeoki/fikxers.com/users/update.php on line 17
+[21-Jun-2019 10:48:19 America/New_York] PHP Fatal error:  Call to a member function query() on null in /home/realeoki/fikxers.com/users/update.php on line 17
+[21-Jun-2019 10:50:23 America/New_York] PHP Notice:  Undefined variable: mysqli in /home/realeoki/fikxers.com/users/update.php on line 17
+[21-Jun-2019 10:50:23 America/New_York] PHP Fatal error:  Call to a member function query() on null in /home/realeoki/fikxers.com/users/update.php on line 17
+[21-Jun-2019 10:50:32 America/New_York] PHP Notice:  Undefined variable: mysqli in /home/realeoki/fikxers.com/users/update.php on line 17
+[21-Jun-2019 10:50:32 America/New_York] PHP Fatal error:  Call to a member function query() on null in /home/realeoki/fikxers.com/users/update.php on line 17
+[21-Jun-2019 10:52:21 America/New_York] PHP Notice:  Undefined variable: mysqli in /home/realeoki/fikxers.com/users/update.php on line 17
+[21-Jun-2019 10:52:21 America/New_York] PHP Fatal error:  Call to a member function query() on null in /home/realeoki/fikxers.com/users/update.php on line 17
+[21-Jun-2019 10:52:32 America/New_York] PHP Notice:  Undefined variable: mysqli in /home/realeoki/fikxers.com/users/update.php on line 17
+[21-Jun-2019 10:52:32 America/New_York] PHP Fatal error:  Call to a member function query() on null in /home/realeoki/fikxers.com/users/update.php on line 17
+[21-Jun-2019 11:14:47 America/New_York] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/realeoki/fikxers.com/users/update.php on line 41
+[21-Jun-2019 11:14:59 America/New_York] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/realeoki/fikxers.com/users/update.php on line 41
+[21-Jun-2019 12:29:49 America/New_York] PHP Notice:  Undefined index: flat_no in /home/realeoki/fikxers.com/users/repairs.php on line 70
+[21-Jun-2019 12:29:49 America/New_York] PHP Notice:  Undefined index: block_no in /home/realeoki/fikxers.com/users/repairs.php on line 71
+[21-Jun-2019 12:29:49 America/New_York] PHP Notice:  Undefined index: estate_code in /home/realeoki/fikxers.com/users/repairs.php on line 72
+[21-Jun-2019 12:29:49 America/New_York] PHP Notice:  Undefined index: owner in /home/realeoki/fikxers.com/users/repairs.php on line 73
+[21-Jun-2019 12:29:49 America/New_York] PHP Notice:  Undefined index: phone in /home/realeoki/fikxers.com/users/repairs.php on line 74
+[21-Jun-2019 12:29:49 America/New_York] PHP Notice:  Undefined index: no_of_equipments in /home/realeoki/fikxers.com/users/repairs.php on line 75
+[21-Jun-2019 12:55:15 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:55:15 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:55:15 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 102
+[21-Jun-2019 12:55:15 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:55:15 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:55:15 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 102
+[21-Jun-2019 12:55:15 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:55:15 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:55:15 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 102
+[21-Jun-2019 12:58:08 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:58:08 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:58:08 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:58:08 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:58:08 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:58:08 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:59:19 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:59:19 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:59:19 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:59:19 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:59:19 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:59:19 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:59:36 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:59:36 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:59:36 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:59:36 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:59:36 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 12:59:36 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:01:55 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:01:55 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:01:55 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:01:55 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:01:55 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:01:55 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:02:05 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:02:05 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:02:05 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:02:05 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:02:38 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/update.php on line 56
+[21-Jun-2019 13:03:58 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/update.php on line 56
+[21-Jun-2019 13:05:27 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/update.php on line 56
+[21-Jun-2019 13:05:33 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:05:33 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:05:33 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:05:33 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:05:38 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:05:38 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:05:38 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:05:38 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:05:43 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/update.php on line 56
+[21-Jun-2019 13:06:24 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:06:24 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:06:24 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:06:24 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/view_fixers.php on line 101
+[21-Jun-2019 13:13:17 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/update_fixer.php on line 28
+[21-Jun-2019 13:13:17 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 29
+[21-Jun-2019 13:13:28 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/update_fixer.php on line 28
+[21-Jun-2019 13:13:28 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 29
+[21-Jun-2019 13:16:03 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/update_fixer.php on line 28
+[21-Jun-2019 13:16:03 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 29
+[21-Jun-2019 13:16:23 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/update_fixer.php on line 28
+[21-Jun-2019 13:16:23 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 29
+[21-Jun-2019 13:17:52 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/update_fixer.php on line 28
+[21-Jun-2019 13:17:52 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 29
+[21-Jun-2019 13:21:22 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/fikxers.com/users/update_fixer.php on line 68
+[21-Jun-2019 13:24:46 America/New_York] PHP Notice:  Undefined index: phone in /home/realeoki/fikxers.com/users/update_fixer.php on line 28
+[21-Jun-2019 13:26:44 America/New_York] PHP Notice:  Undefined index: phone in /home/realeoki/fikxers.com/users/update_fixer.php on line 28
+[21-Jun-2019 18:35:49 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 34
+[21-Jun-2019 18:35:49 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/update_fixer.php on line 37
+[21-Jun-2019 18:35:49 America/New_York] PHP Notice:  Undefined variable: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 39
+[21-Jun-2019 18:43:10 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 34
+[21-Jun-2019 18:43:10 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/update_fixer.php on line 37
+[21-Jun-2019 18:43:10 America/New_York] PHP Notice:  Undefined variable: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 39
+[22-Jun-2019 06:03:39 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 34
+[22-Jun-2019 06:03:39 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/update_fixer.php on line 37
+[22-Jun-2019 06:03:39 America/New_York] PHP Notice:  Undefined variable: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 39
+[26-Jun-2019 07:29:19 America/New_York] PHP Notice:  Undefined index: flats.flat_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 80
+[26-Jun-2019 07:29:19 America/New_York] PHP Notice:  Undefined index: flats.block_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 81
+[26-Jun-2019 07:31:26 America/New_York] PHP Notice:  Undefined index: flats.flat_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 80
+[26-Jun-2019 07:31:26 America/New_York] PHP Notice:  Undefined index: flats.block_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 81
+[26-Jun-2019 15:14:17 America/New_York] PHP Notice:  Undefined index: flats.flat_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 80
+[26-Jun-2019 15:14:17 America/New_York] PHP Notice:  Undefined index: flats.block_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 81
+[26-Jun-2019 15:42:03 America/New_York] PHP Notice:  Undefined index: flats.flat_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 80
+[26-Jun-2019 15:42:03 America/New_York] PHP Notice:  Undefined index: flats.block_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 81
+[27-Jun-2019 07:55:02 America/New_York] PHP Notice:  Undefined index: flats.flat_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 80
+[27-Jun-2019 07:55:02 America/New_York] PHP Notice:  Undefined index: flats.block_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 81
+[28-Jun-2019 20:53:13 America/New_York] PHP Notice:  Undefined index: flats.flat_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 80
+[28-Jun-2019 20:53:13 America/New_York] PHP Notice:  Undefined index: flats.block_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 81
+[30-Jun-2019 19:17:10 America/New_York] PHP Notice:  Undefined index: flats.flat_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 80
+[30-Jun-2019 19:17:10 America/New_York] PHP Notice:  Undefined index: flats.block_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 81
+[01-Jul-2019 07:31:48 America/New_York] PHP Notice:  Undefined index: flats.flat_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 80
+[01-Jul-2019 07:31:48 America/New_York] PHP Notice:  Undefined index: flats.block_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 81
+[01-Jul-2019 07:43:19 America/New_York] PHP Notice:  Undefined index: flats.flat_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 81
+[01-Jul-2019 07:43:19 America/New_York] PHP Notice:  Undefined index: flats.block_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 82
+[01-Jul-2019 07:45:23 America/New_York] PHP Notice:  Undefined index: flats.flat_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 81
+[01-Jul-2019 07:45:23 America/New_York] PHP Notice:  Undefined index: flats.block_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 82
+[01-Jul-2019 07:47:36 America/New_York] PHP Notice:  Undefined index: flats.flat_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 81
+[01-Jul-2019 07:47:36 America/New_York] PHP Notice:  Undefined index: flats.block_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 82
+[02-Jul-2019 18:25:41 America/New_York] PHP Notice:  Undefined index: flats.flat_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 81
+[02-Jul-2019 18:25:41 America/New_York] PHP Notice:  Undefined index: flats.block_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 82
+[02-Jul-2019 18:27:43 America/New_York] PHP Notice:  Undefined index: flats.flat_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 81
+[02-Jul-2019 18:27:43 America/New_York] PHP Notice:  Undefined index: flats.block_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 82
+[04-Jul-2019 17:35:32 America/New_York] PHP Notice:  Undefined index: flats.flat_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 81
+[04-Jul-2019 17:35:32 America/New_York] PHP Notice:  Undefined index: flats.block_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 82
+[04-Jul-2019 17:36:08 America/New_York] PHP Notice:  Undefined index: flats.flat_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 81
+[04-Jul-2019 17:36:08 America/New_York] PHP Notice:  Undefined index: flats.block_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 82
+[08-Jul-2019 17:15:28 America/New_York] PHP Notice:  Undefined index: flats.flat_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 81
+[08-Jul-2019 17:15:28 America/New_York] PHP Notice:  Undefined index: flats.block_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 82
+[08-Jul-2019 17:16:00 America/New_York] PHP Notice:  Undefined index: flats.flat_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 81
+[08-Jul-2019 17:16:00 America/New_York] PHP Notice:  Undefined index: flats.block_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 82
+[12-Jul-2019 10:54:41 America/New_York] PHP Notice:  Undefined index: flats.flat_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 81
+[12-Jul-2019 10:54:41 America/New_York] PHP Notice:  Undefined index: flats.block_no in /home/realeoki/fikxers.com/users/estate_mgr.php on line 82
+[15-Jul-2019 11:24:48 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 8
+[15-Jul-2019 11:24:48 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 9
+[15-Jul-2019 11:24:48 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 10
+[15-Jul-2019 18:51:01 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 34
+[15-Jul-2019 18:51:01 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/update_fixer.php on line 37
+[15-Jul-2019 18:51:01 America/New_York] PHP Notice:  Undefined variable: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 39
+[17-Jul-2019 05:56:25 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/estate_mgr.php on line 101
+[17-Jul-2019 05:56:25 America/New_York] PHP Fatal error:  Call to a member function execute() on null in /home/realeoki/fikxers.com/users/estate_mgr.php on line 102
+[17-Jul-2019 05:57:18 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/estate_mgr.php on line 101
+[17-Jul-2019 05:57:18 America/New_York] PHP Fatal error:  Call to a member function execute() on null in /home/realeoki/fikxers.com/users/estate_mgr.php on line 102
+[17-Jul-2019 07:20:57 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat.php on line 226
+[17-Jul-2019 07:21:57 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat.php on line 226
+[17-Jul-2019 07:29:00 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat.php on line 216
+[17-Jul-2019 07:29:11 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat.php on line 216
+[17-Jul-2019 07:35:17 America/New_York] PHP Notice:  Undefined variable: stmt in /home/realeoki/fikxers.com/users/fixer.php on line 43
+[17-Jul-2019 07:35:17 America/New_York] PHP Fatal error:  Call to a member function execute() on null in /home/realeoki/fikxers.com/users/fixer.php on line 43
+[17-Jul-2019 07:36:00 America/New_York] PHP Notice:  Undefined variable: stmt in /home/realeoki/fikxers.com/users/fixer.php on line 43
+[17-Jul-2019 07:36:00 America/New_York] PHP Fatal error:  Call to a member function execute() on null in /home/realeoki/fikxers.com/users/fixer.php on line 43
+[18-Jul-2019 03:38:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat.php on line 216
+[18-Jul-2019 06:44:44 America/New_York] PHP Fatal error:  Call to undefined method PDO::close() in /home/realeoki/fikxers.com/users/estate_mgr.php on line 124
+[29-Jul-2019 09:12:04 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 8
+[29-Jul-2019 09:12:04 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 9
+[29-Jul-2019 09:12:04 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 10
+[30-Jul-2019 08:51:39 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 8
+[30-Jul-2019 08:51:39 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 9
+[30-Jul-2019 08:51:39 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 10
+[30-Jul-2019 18:47:48 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/index.php on line 30
+[30-Jul-2019 18:47:48 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/index.php on line 30
+[30-Jul-2019 18:47:48 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/index.php on line 31
+[30-Jul-2019 18:47:48 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/index.php on line 31
+[30-Jul-2019 18:47:48 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/index.php on line 30
+[30-Jul-2019 18:47:48 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/index.php on line 30
+[30-Jul-2019 18:47:48 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/index.php on line 31
+[30-Jul-2019 18:47:48 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/index.php on line 31
+[30-Jul-2019 18:47:48 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/index.php on line 30
+[30-Jul-2019 18:47:48 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/index.php on line 30
+[30-Jul-2019 18:47:48 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/index.php on line 31
+[30-Jul-2019 18:47:48 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/index.php on line 31
+[30-Jul-2019 18:47:48 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/index.php on line 30
+[30-Jul-2019 18:47:48 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/index.php on line 30
+[30-Jul-2019 18:47:48 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/index.php on line 31
+[30-Jul-2019 18:47:48 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/index.php on line 31
+[30-Jul-2019 19:49:22 America/New_York] PHP Notice:  Undefined index: skill in /home/realeoki/fikxers.com/users/fixer.php on line 46
+[30-Jul-2019 19:49:22 America/New_York] PHP Notice:  Undefined index: skill2 in /home/realeoki/fikxers.com/users/fixer.php on line 46
+[30-Jul-2019 19:49:22 America/New_York] PHP Notice:  Undefined index: skill3 in /home/realeoki/fikxers.com/users/fixer.php on line 46
+[30-Jul-2019 19:49:22 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'required_skill' in 'where clause'' in /home/realeoki/fikxers.com/users/fixer.php:48
+Stack trace:
+#0 /home/realeoki/fikxers.com/users/fixer.php(48): PDOStatement->execute()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/users/fixer.php on line 48
+[30-Jul-2019 19:49:51 America/New_York] PHP Notice:  Undefined property: stdClass::$skill2 in /home/realeoki/fikxers.com/users/fixer_sidebar.php on line 12
+[30-Jul-2019 19:49:51 America/New_York] PHP Notice:  Undefined property: stdClass::$skill3 in /home/realeoki/fikxers.com/users/fixer_sidebar.php on line 13
+[30-Jul-2019 19:49:51 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'required_skill' in 'where clause'' in /home/realeoki/fikxers.com/users/fixer.php:48
+Stack trace:
+#0 /home/realeoki/fikxers.com/users/fixer.php(48): PDOStatement->execute()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/users/fixer.php on line 48
+[30-Jul-2019 19:50:19 America/New_York] PHP Notice:  Undefined property: stdClass::$skill2 in /home/realeoki/fikxers.com/users/fixer_sidebar.php on line 12
+[30-Jul-2019 19:50:19 America/New_York] PHP Notice:  Undefined property: stdClass::$skill3 in /home/realeoki/fikxers.com/users/fixer_sidebar.php on line 13
+[30-Jul-2019 19:50:19 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'required_skill' in 'where clause'' in /home/realeoki/fikxers.com/users/fixer.php:48
+Stack trace:
+#0 /home/realeoki/fikxers.com/users/fixer.php(48): PDOStatement->execute()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/users/fixer.php on line 48
+[09-Sep-2019 11:21:27 America/New_York] PHP Fatal error:  Call to undefined method mysqli_stmt::fetchAll() in /home/realeoki/fikxers.com/users/flat.php on line 76
+[09-Sep-2019 11:22:32 America/New_York] PHP Fatal error:  Call to undefined method mysqli_stmt::fetchAll() in /home/realeoki/fikxers.com/users/flat.php on line 76
+[09-Sep-2019 11:23:12 America/New_York] PHP Fatal error:  Call to undefined method mysqli_stmt::fetchAll() in /home/realeoki/fikxers.com/users/flat.php on line 76
+[09-Sep-2019 11:23:45 America/New_York] PHP Fatal error:  Call to undefined method mysqli_stmt::fetchAll() in /home/realeoki/fikxers.com/users/flat.php on line 76
+[09-Sep-2019 11:26:21 America/New_York] PHP Fatal error:  Call to undefined method mysqli_stmt::fetchAll() in /home/realeoki/fikxers.com/users/flat.php on line 76
+[09-Sep-2019 11:26:24 America/New_York] PHP Fatal error:  Call to undefined method mysqli_stmt::fetchAll() in /home/realeoki/fikxers.com/users/flat.php on line 76
+[09-Sep-2019 11:26:54 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[09-Sep-2019 11:26:54 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[09-Sep-2019 11:26:54 America/New_York] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/realeoki/fikxers.com/users/estate_mgr.php on line 96
+[09-Sep-2019 11:26:54 America/New_York] PHP Fatal error:  Call to a member function execute() on null in /home/realeoki/fikxers.com/users/estate_mgr.php on line 97
+[09-Sep-2019 11:27:32 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 8
+[09-Sep-2019 11:27:32 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 9
+[09-Sep-2019 11:27:32 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 10
+[09-Sep-2019 11:27:32 America/New_York] PHP Fatal error:  Call to undefined method mysqli_stmt::fetchAll() in /home/realeoki/fikxers.com/users/flat.php on line 76
+[09-Sep-2019 11:28:02 America/New_York] PHP Fatal error:  Call to undefined method mysqli_stmt::fetchAll() in /home/realeoki/fikxers.com/users/flat.php on line 76
+[09-Sep-2019 11:28:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 8
+[09-Sep-2019 11:28:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 9
+[09-Sep-2019 11:28:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 10
+[09-Sep-2019 11:33:08 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 69
+[09-Sep-2019 20:19:51 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 69
+[09-Sep-2019 20:20:43 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[09-Sep-2019 20:20:43 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[09-Sep-2019 20:21:52 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[09-Sep-2019 20:21:55 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[09-Sep-2019 20:21:55 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[11-Sep-2019 00:06:12 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:06:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[11-Sep-2019 00:08:39 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:08:42 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:08:42 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[11-Sep-2019 00:09:09 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:09:09 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:09:09 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:09:09 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:09:09 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:12:47 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:12:47 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:12:47 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:12:47 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:12:47 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:12:47 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:13:16 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:13:16 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[11-Sep-2019 00:14:51 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:14:51 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[11-Sep-2019 00:15:16 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:15:16 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 69
+[11-Sep-2019 00:15:36 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:15:36 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 69
+[11-Sep-2019 00:18:18 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/repairs.php on line 60
+[11-Sep-2019 00:26:14 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:26:14 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[11-Sep-2019 00:27:39 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:27:42 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:27:42 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[11-Sep-2019 00:32:19 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:32:19 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[11-Sep-2019 00:33:27 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:33:27 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[11-Sep-2019 00:33:32 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:33:32 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:33:32 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:33:32 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:33:32 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:33:32 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:34:05 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:34:05 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:34:05 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:34:05 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:34:05 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:34:05 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:38:23 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:38:23 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[11-Sep-2019 00:41:43 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:41:43 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:41:43 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:41:43 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:41:43 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:41:43 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:48:09 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:48:09 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[11-Sep-2019 00:48:19 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:48:19 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:48:19 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:48:19 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:48:19 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:48:19 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:50:18 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:50:18 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:50:18 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:50:18 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:50:18 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:50:18 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:50:18 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[11-Sep-2019 00:50:26 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:50:26 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[11-Sep-2019 00:50:48 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:50:51 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[11-Sep-2019 00:50:51 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[11-Sep-2019 01:01:59 America/New_York] PHP Notice:  Undefined index: order_id in /home/realeoki/fikxers.com/users/fixer.php on line 38
+[11-Sep-2019 01:02:23 America/New_York] PHP Notice:  Undefined index: order_id in /home/realeoki/fikxers.com/users/fixer.php on line 38
+[11-Sep-2019 05:09:46 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 69
+[11-Sep-2019 05:25:52 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 8
+[11-Sep-2019 05:25:52 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 9
+[11-Sep-2019 05:25:52 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 10
+[13-Sep-2019 19:20:24 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[13-Sep-2019 19:20:24 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[13-Sep-2019 19:20:57 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[13-Sep-2019 19:21:00 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[13-Sep-2019 19:21:00 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[13-Sep-2019 19:22:49 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[13-Sep-2019 19:22:49 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[13-Sep-2019 19:22:57 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[13-Sep-2019 19:22:57 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:22:57 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:22:57 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:22:57 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:22:57 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:22:57 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:24:34 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[13-Sep-2019 19:24:34 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:24:34 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:24:34 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:24:34 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:24:34 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:24:34 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:28:44 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[13-Sep-2019 19:28:44 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[13-Sep-2019 19:28:54 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[13-Sep-2019 19:28:54 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:28:54 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:28:54 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:28:54 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:28:54 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:28:54 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:33:57 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:33:57 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:33:57 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:33:57 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:33:57 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:33:57 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:33:57 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:34:27 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 34
+[13-Sep-2019 19:34:27 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/update_fixer.php on line 37
+[13-Sep-2019 19:34:27 America/New_York] PHP Notice:  Undefined variable: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 39
+[13-Sep-2019 19:34:42 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 34
+[13-Sep-2019 19:34:42 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/update_fixer.php on line 37
+[13-Sep-2019 19:34:42 America/New_York] PHP Notice:  Undefined variable: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 39
+[13-Sep-2019 19:34:58 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 34
+[13-Sep-2019 19:34:58 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/update_fixer.php on line 37
+[13-Sep-2019 19:34:58 America/New_York] PHP Notice:  Undefined variable: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 39
+[13-Sep-2019 19:35:09 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:35:09 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:35:09 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:35:09 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:35:09 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:35:09 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:35:09 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:35:31 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 34
+[13-Sep-2019 19:35:31 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/update_fixer.php on line 37
+[13-Sep-2019 19:35:31 America/New_York] PHP Notice:  Undefined variable: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 39
+[13-Sep-2019 19:35:43 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 34
+[13-Sep-2019 19:35:43 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/update_fixer.php on line 37
+[13-Sep-2019 19:35:43 America/New_York] PHP Notice:  Undefined variable: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 39
+[13-Sep-2019 19:35:52 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:35:52 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:35:52 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:35:52 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:35:52 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:35:52 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:35:52 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:37:31 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/assign_fixers.php on line 46
+[13-Sep-2019 19:41:48 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:41:48 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:41:48 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:41:48 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:41:48 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:41:48 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:41:48 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[13-Sep-2019 19:42:19 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 34
+[13-Sep-2019 19:42:19 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/update_fixer.php on line 37
+[13-Sep-2019 19:42:19 America/New_York] PHP Notice:  Undefined variable: name in /home/realeoki/fikxers.com/users/update_fixer.php on line 39
+[13-Sep-2019 19:44:41 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[13-Sep-2019 19:44:41 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[13-Sep-2019 19:45:19 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[13-Sep-2019 19:45:21 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[13-Sep-2019 19:45:21 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[13-Sep-2019 19:49:52 America/New_York] PHP Notice:  Undefined index: order_id in /home/realeoki/fikxers.com/users/fixer.php on line 38
+[17-Sep-2019 20:41:36 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[17-Sep-2019 20:41:36 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[17-Sep-2019 20:42:29 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[17-Sep-2019 20:42:29 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[17-Sep-2019 20:42:29 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[17-Sep-2019 20:42:29 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[17-Sep-2019 20:42:29 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[17-Sep-2019 20:42:29 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[17-Sep-2019 20:42:29 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[17-Sep-2019 20:42:52 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[17-Sep-2019 20:42:52 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[19-Sep-2019 22:28:06 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 270
+[19-Sep-2019 22:28:06 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[24-Sep-2019 19:41:08 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[24-Sep-2019 19:41:09 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[24-Sep-2019 19:41:16 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[24-Sep-2019 19:43:19 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[24-Sep-2019 19:49:29 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[24-Sep-2019 19:55:48 America/New_York] PHP Notice:  Undefined index: flat_no in /home/realeoki/fikxers.com/users/flat.php on line 85
+[24-Sep-2019 19:55:48 America/New_York] PHP Notice:  Undefined index: block_no in /home/realeoki/fikxers.com/users/flat.php on line 86
+[24-Sep-2019 19:55:48 America/New_York] PHP Notice:  Undefined index: owner in /home/realeoki/fikxers.com/users/flat.php on line 87
+[24-Sep-2019 20:03:43 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[24-Sep-2019 20:03:43 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[24-Sep-2019 20:03:50 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[24-Sep-2019 20:06:45 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[24-Sep-2019 20:06:45 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[24-Sep-2019 20:06:51 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[24-Sep-2019 20:07:03 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[24-Sep-2019 20:07:56 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[24-Sep-2019 20:11:23 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 8
+[24-Sep-2019 20:11:23 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 9
+[24-Sep-2019 20:11:23 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 10
+[24-Sep-2019 20:12:30 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 6
+[24-Sep-2019 20:12:30 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[24-Sep-2019 20:12:30 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[24-Sep-2019 20:13:52 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[24-Sep-2019 20:13:52 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[24-Sep-2019 20:13:52 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[24-Sep-2019 20:13:52 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[24-Sep-2019 20:13:52 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[24-Sep-2019 20:13:52 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[24-Sep-2019 20:13:52 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[24-Sep-2019 21:23:31 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[24-Sep-2019 21:23:31 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[24-Sep-2019 21:23:37 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[24-Sep-2019 21:23:37 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[24-Sep-2019 21:23:37 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[24-Sep-2019 21:23:37 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[24-Sep-2019 21:23:37 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[24-Sep-2019 21:27:12 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[24-Sep-2019 21:27:12 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[24-Sep-2019 21:27:17 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[24-Sep-2019 21:27:17 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[24-Sep-2019 21:27:17 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[24-Sep-2019 21:27:17 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[24-Sep-2019 21:27:17 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[24-Sep-2019 21:27:17 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[25-Sep-2019 05:08:22 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[25-Sep-2019 05:08:23 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[25-Sep-2019 05:08:41 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[25-Sep-2019 05:08:41 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[25-Sep-2019 05:08:41 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[25-Sep-2019 05:08:41 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[25-Sep-2019 05:08:41 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[25-Sep-2019 05:08:41 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[25-Sep-2019 05:08:56 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[25-Sep-2019 05:08:56 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[25-Sep-2019 05:08:59 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[25-Sep-2019 05:08:59 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[25-Sep-2019 05:16:48 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[25-Sep-2019 05:17:33 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 273
+[25-Sep-2019 05:17:33 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[25-Sep-2019 05:19:07 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/home_service.php on line 59
+[26-Sep-2019 12:08:43 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initialize.php on line 37
+[26-Sep-2019 12:08:43 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initialize.php on line 46
+[26-Sep-2019 12:10:56 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initialize.php on line 37
+[26-Sep-2019 12:10:56 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initialize.php on line 46
+[26-Sep-2019 15:48:36 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initialize.php on line 37
+[26-Sep-2019 15:48:36 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initialize.php on line 46
+[26-Sep-2019 15:49:35 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initialize.php on line 37
+[26-Sep-2019 15:49:35 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initialize.php on line 46
+[27-Sep-2019 04:47:00 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initialize.php on line 37
+[27-Sep-2019 04:47:00 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initialize.php on line 46
+[28-Sep-2019 07:15:31 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 07:15:31 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[28-Sep-2019 07:16:12 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 07:16:48 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 07:16:48 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[28-Sep-2019 07:16:48 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[28-Sep-2019 07:16:48 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[28-Sep-2019 07:16:48 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[28-Sep-2019 07:16:48 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[28-Sep-2019 07:16:48 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[28-Sep-2019 07:16:48 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[28-Sep-2019 07:17:08 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 07:17:27 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 07:17:27 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[28-Sep-2019 07:17:34 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 07:18:50 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 07:18:50 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[28-Sep-2019 07:18:50 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[28-Sep-2019 07:18:50 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[28-Sep-2019 07:18:50 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[28-Sep-2019 07:18:50 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[28-Sep-2019 07:18:50 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[28-Sep-2019 07:19:43 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 07:19:43 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[28-Sep-2019 07:19:43 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[28-Sep-2019 07:19:43 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[28-Sep-2019 07:19:43 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[28-Sep-2019 07:19:43 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[28-Sep-2019 07:19:43 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[28-Sep-2019 07:19:53 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 07:20:13 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 07:34:22 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 07:35:17 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 07:35:29 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/update_due.php on line 28
+[28-Sep-2019 07:35:29 America/New_York] PHP Notice:  Undefined index: name in /home/realeoki/fikxers.com/users/update_due.php on line 29
+[28-Sep-2019 07:35:29 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/update_due.php on line 56
+[28-Sep-2019 07:37:35 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/update_due.php on line 54
+[28-Sep-2019 07:37:43 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/update_due.php on line 54
+[28-Sep-2019 07:38:52 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 07:39:00 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/update_due.php on line 66
+[28-Sep-2019 07:39:00 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/fikxers.com/users/update_due.php on line 68
+[28-Sep-2019 07:39:00 America/New_York] PHP Notice:  Undefined variable: location in /home/realeoki/fikxers.com/users/update_due.php on line 85
+[28-Sep-2019 07:39:51 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 07:39:58 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/update_due.php on line 66
+[28-Sep-2019 07:39:58 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/fikxers.com/users/update_due.php on line 68
+[28-Sep-2019 07:39:58 America/New_York] PHP Notice:  Undefined variable: location in /home/realeoki/fikxers.com/users/update_due.php on line 85
+[28-Sep-2019 07:41:53 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/update_due.php on line 66
+[28-Sep-2019 07:41:53 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/fikxers.com/users/update_due.php on line 68
+[28-Sep-2019 07:52:40 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/update_due.php on line 70
+[28-Sep-2019 07:52:40 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/fikxers.com/users/update_due.php on line 72
+[28-Sep-2019 08:01:41 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/update_due.php on line 70
+[28-Sep-2019 08:01:41 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/fikxers.com/users/update_due.php on line 72
+[28-Sep-2019 08:03:27 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/update_due.php on line 70
+[28-Sep-2019 08:03:27 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/fikxers.com/users/update_due.php on line 72
+[28-Sep-2019 08:05:53 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/update_due.php on line 70
+[28-Sep-2019 08:05:53 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/fikxers.com/users/update_due.php on line 72
+[28-Sep-2019 08:06:05 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 08:06:13 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/update_due.php on line 70
+[28-Sep-2019 08:06:13 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/fikxers.com/users/update_due.php on line 72
+[28-Sep-2019 08:08:48 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 08:08:56 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/update_due.php on line 70
+[28-Sep-2019 08:08:56 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/fikxers.com/users/update_due.php on line 72
+[28-Sep-2019 08:29:16 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/update_due.php on line 69
+[28-Sep-2019 08:29:16 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/fikxers.com/users/update_due.php on line 71
+[28-Sep-2019 08:29:51 America/New_York] PHP Notice:  Undefined index: lstMntlyDuePaid in /home/realeoki/fikxers.com/users/update_due.php on line 32
+[28-Sep-2019 08:29:54 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 08:34:16 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/update_due.php on line 71
+[28-Sep-2019 08:34:16 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/fikxers.com/users/update_due.php on line 73
+[28-Sep-2019 08:34:32 America/New_York] PHP Notice:  Undefined index: lstMntlyDuePaid in /home/realeoki/fikxers.com/users/update_due.php on line 32
+[28-Sep-2019 08:36:34 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 08:36:44 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/update_due.php on line 72
+[28-Sep-2019 08:36:44 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/fikxers.com/users/update_due.php on line 74
+[28-Sep-2019 08:36:50 America/New_York] PHP Notice:  Undefined index: lstMntlyDuePaid in /home/realeoki/fikxers.com/users/update_due.php on line 32
+[28-Sep-2019 08:38:38 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 08:39:20 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 08:39:25 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/update_due.php on line 72
+[28-Sep-2019 08:39:25 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/fikxers.com/users/update_due.php on line 74
+[28-Sep-2019 08:39:40 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 08:40:20 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 08:40:20 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[28-Sep-2019 08:40:20 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[28-Sep-2019 08:40:20 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[28-Sep-2019 08:40:20 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[28-Sep-2019 08:40:20 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[28-Sep-2019 08:40:20 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[28-Sep-2019 08:40:29 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[28-Sep-2019 08:46:05 America/New_York] PHP Notice:  Undefined index: flat_no in /home/realeoki/fikxers.com/users/dues.php on line 79
+[28-Sep-2019 08:46:05 America/New_York] PHP Notice:  Undefined index: block_no in /home/realeoki/fikxers.com/users/dues.php on line 80
+[28-Sep-2019 08:46:05 America/New_York] PHP Notice:  Undefined index: owner in /home/realeoki/fikxers.com/users/dues.php on line 82
+[28-Sep-2019 08:46:05 America/New_York] PHP Notice:  Undefined index: flat_no in /home/realeoki/fikxers.com/users/dues.php on line 79
+[28-Sep-2019 08:46:05 America/New_York] PHP Notice:  Undefined index: block_no in /home/realeoki/fikxers.com/users/dues.php on line 80
+[28-Sep-2019 08:46:05 America/New_York] PHP Notice:  Undefined index: owner in /home/realeoki/fikxers.com/users/dues.php on line 82
+[28-Sep-2019 08:46:05 America/New_York] PHP Notice:  Undefined index: estate in /home/realeoki/fikxers.com/users/dues.php on line 120
+[28-Sep-2019 18:00:04 America/New_York] PHP Notice:  Undefined index: flat_no in /home/realeoki/fikxers.com/users/dues.php on line 79
+[28-Sep-2019 18:00:04 America/New_York] PHP Notice:  Undefined index: block_no in /home/realeoki/fikxers.com/users/dues.php on line 80
+[28-Sep-2019 18:00:04 America/New_York] PHP Notice:  Undefined index: owner in /home/realeoki/fikxers.com/users/dues.php on line 82
+[28-Sep-2019 18:00:04 America/New_York] PHP Notice:  Undefined index: flat_no in /home/realeoki/fikxers.com/users/dues.php on line 79
+[28-Sep-2019 18:00:04 America/New_York] PHP Notice:  Undefined index: block_no in /home/realeoki/fikxers.com/users/dues.php on line 80
+[28-Sep-2019 18:00:04 America/New_York] PHP Notice:  Undefined index: owner in /home/realeoki/fikxers.com/users/dues.php on line 82
+[28-Sep-2019 18:00:04 America/New_York] PHP Notice:  Undefined index: estate in /home/realeoki/fikxers.com/users/dues.php on line 120
+[28-Sep-2019 18:08:34 America/New_York] PHP Notice:  Undefined index: flat_no in /home/realeoki/fikxers.com/users/dues.php on line 79
+[28-Sep-2019 18:08:34 America/New_York] PHP Notice:  Undefined index: block_no in /home/realeoki/fikxers.com/users/dues.php on line 80
+[28-Sep-2019 18:08:34 America/New_York] PHP Notice:  Undefined index: owner in /home/realeoki/fikxers.com/users/dues.php on line 82
+[28-Sep-2019 18:08:34 America/New_York] PHP Notice:  Undefined index: flat_no in /home/realeoki/fikxers.com/users/dues.php on line 79
+[28-Sep-2019 18:08:34 America/New_York] PHP Notice:  Undefined index: block_no in /home/realeoki/fikxers.com/users/dues.php on line 80
+[28-Sep-2019 18:08:34 America/New_York] PHP Notice:  Undefined index: owner in /home/realeoki/fikxers.com/users/dues.php on line 82
+[28-Sep-2019 18:08:34 America/New_York] PHP Notice:  Undefined index: estate in /home/realeoki/fikxers.com/users/dues.php on line 125
+[28-Sep-2019 18:23:09 America/New_York] PHP Notice:  Undefined index: selectedOption in /home/realeoki/fikxers.com/users/load_data.php on line 4
+[28-Sep-2019 18:23:09 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/realeoki/fikxers.com/users/load_data.php on line 8
+[28-Sep-2019 18:23:13 America/New_York] PHP Notice:  Undefined index: selectedOption in /home/realeoki/fikxers.com/users/load_data.php on line 4
+[28-Sep-2019 18:23:13 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/realeoki/fikxers.com/users/load_data.php on line 8
+[28-Sep-2019 18:23:16 America/New_York] PHP Notice:  Undefined index: selectedOption in /home/realeoki/fikxers.com/users/load_data.php on line 4
+[28-Sep-2019 18:23:16 America/New_York] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/realeoki/fikxers.com/users/load_data.php on line 8
+[28-Sep-2019 18:30:41 America/New_York] PHP Notice:  Undefined index: flat_no in /home/realeoki/fikxers.com/users/dues.php on line 79
+[28-Sep-2019 18:30:41 America/New_York] PHP Notice:  Undefined index: block_no in /home/realeoki/fikxers.com/users/dues.php on line 80
+[28-Sep-2019 18:30:41 America/New_York] PHP Notice:  Undefined index: owner in /home/realeoki/fikxers.com/users/dues.php on line 82
+[28-Sep-2019 18:30:41 America/New_York] PHP Notice:  Undefined index: flat_no in /home/realeoki/fikxers.com/users/dues.php on line 79
+[28-Sep-2019 18:30:41 America/New_York] PHP Notice:  Undefined index: block_no in /home/realeoki/fikxers.com/users/dues.php on line 80
+[28-Sep-2019 18:30:41 America/New_York] PHP Notice:  Undefined index: owner in /home/realeoki/fikxers.com/users/dues.php on line 82
+[28-Sep-2019 18:30:41 America/New_York] PHP Notice:  Undefined index: estate in /home/realeoki/fikxers.com/users/dues.php on line 120
+[28-Sep-2019 18:32:39 America/New_York] PHP Notice:  Undefined index: flat_no in /home/realeoki/fikxers.com/users/dues.php on line 79
+[28-Sep-2019 18:32:39 America/New_York] PHP Notice:  Undefined index: block_no in /home/realeoki/fikxers.com/users/dues.php on line 80
+[28-Sep-2019 18:32:39 America/New_York] PHP Notice:  Undefined index: owner in /home/realeoki/fikxers.com/users/dues.php on line 82
+[28-Sep-2019 18:32:39 America/New_York] PHP Notice:  Undefined index: flat_no in /home/realeoki/fikxers.com/users/dues.php on line 79
+[28-Sep-2019 18:32:39 America/New_York] PHP Notice:  Undefined index: block_no in /home/realeoki/fikxers.com/users/dues.php on line 80
+[28-Sep-2019 18:32:39 America/New_York] PHP Notice:  Undefined index: owner in /home/realeoki/fikxers.com/users/dues.php on line 82
+[28-Sep-2019 18:32:39 America/New_York] PHP Notice:  Undefined index: estate in /home/realeoki/fikxers.com/users/dues.php on line 120
+[30-Sep-2019 01:43:20 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initialize.php on line 37
+[30-Sep-2019 01:43:20 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initialize.php on line 46
+[30-Sep-2019 02:15:30 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 6
+[30-Sep-2019 02:15:30 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[30-Sep-2019 02:15:30 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[06-Oct-2019 13:24:09 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 13:24:09 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[06-Oct-2019 13:24:46 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 13:24:46 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[06-Oct-2019 13:24:46 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[06-Oct-2019 13:24:46 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[06-Oct-2019 13:24:46 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[06-Oct-2019 13:24:46 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[06-Oct-2019 13:24:46 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[06-Oct-2019 13:25:29 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 13:25:42 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 13:25:42 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 13:25:42 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 13:25:42 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 13:25:42 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 13:25:42 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 13:25:42 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 13:25:42 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 13:25:55 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 13:25:55 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[06-Oct-2019 13:27:14 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 13:27:19 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 13:27:19 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[06-Oct-2019 13:27:27 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 13:27:27 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[06-Oct-2019 13:27:47 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 13:35:03 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initialize.php on line 37
+[06-Oct-2019 13:35:03 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initialize.php on line 46
+[06-Oct-2019 14:05:29 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/assign_fixers.php on line 46
+[06-Oct-2019 14:16:34 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 14:16:34 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[06-Oct-2019 14:18:46 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 14:18:46 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[06-Oct-2019 14:18:46 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[06-Oct-2019 14:18:46 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[06-Oct-2019 14:18:46 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[06-Oct-2019 14:18:46 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[06-Oct-2019 14:18:46 America/New_York] PHP Notice:  Undefined index: fixer_status in /home/realeoki/fikxers.com/users/view_fixers.php on line 105
+[06-Oct-2019 14:19:25 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 14:20:00 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 14:20:00 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:20:00 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:20:00 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:20:00 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:20:00 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:20:00 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:20:00 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:20:03 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 14:20:03 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:20:03 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:20:03 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:20:03 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:20:03 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:20:03 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:20:03 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:20:18 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 14:24:13 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 14:24:13 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[06-Oct-2019 14:27:24 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 14:27:24 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[06-Oct-2019 14:27:28 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 14:27:28 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:27:28 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:27:28 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:27:28 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:27:28 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:27:28 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:27:28 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[06-Oct-2019 14:27:48 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 14:27:48 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[06-Oct-2019 14:28:45 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 14:28:48 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[06-Oct-2019 14:28:48 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[06-Oct-2019 14:30:36 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initialize.php on line 37
+[06-Oct-2019 14:30:36 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initialize.php on line 46
+[06-Oct-2019 14:30:37 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initialize.php on line 37
+[06-Oct-2019 14:30:37 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initialize.php on line 46
+[06-Oct-2019 17:35:30 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initialize.php on line 37
+[06-Oct-2019 17:35:30 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initialize.php on line 46
+[06-Oct-2019 17:35:42 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initialize.php on line 37
+[06-Oct-2019 17:35:42 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initialize.php on line 46
+[06-Oct-2019 18:06:50 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initialize.php on line 37
+[06-Oct-2019 18:06:50 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initialize.php on line 46
+[06-Oct-2019 19:16:07 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initialize.php on line 37
+[06-Oct-2019 19:16:07 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initialize.php on line 46
+[09-Oct-2019 08:01:55 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initialize.php on line 37
+[09-Oct-2019 08:01:55 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initialize.php on line 46
+[11-Oct-2019 02:03:18 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initialize.php on line 37
+[11-Oct-2019 02:03:18 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initialize.php on line 46
+[13-Oct-2019 12:04:33 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initialize.php on line 37
+[13-Oct-2019 12:04:33 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initialize.php on line 46
+[13-Oct-2019 14:54:16 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initialize.php on line 37
+[13-Oct-2019 14:54:16 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initialize.php on line 46
+[13-Oct-2019 14:59:27 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initialize.php on line 37
+[13-Oct-2019 14:59:27 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initialize.php on line 46
+[13-Oct-2019 15:13:13 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/realeoki/fikxers.com/users/pay.php on line 6
+[13-Oct-2019 15:13:19 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/realeoki/fikxers.com/users/pay.php on line 6
+[13-Oct-2019 15:13:26 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/realeoki/fikxers.com/users/pay.php on line 6
+[13-Oct-2019 15:14:20 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initialize.php on line 37
+[13-Oct-2019 15:14:20 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initialize.php on line 46
+[13-Oct-2019 15:19:30 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initialize.php on line 41
+[13-Oct-2019 15:19:30 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initialize.php on line 50
+[13-Oct-2019 15:48:18 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[13-Oct-2019 15:48:18 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[13-Oct-2019 15:48:44 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[13-Oct-2019 15:48:44 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[13-Oct-2019 15:49:43 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[13-Oct-2019 15:49:43 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[13-Oct-2019 15:52:49 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[13-Oct-2019 15:52:49 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[13-Oct-2019 15:56:21 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[13-Oct-2019 15:56:21 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[13-Oct-2019 20:59:42 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[13-Oct-2019 20:59:42 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[14-Oct-2019 17:40:32 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[14-Oct-2019 17:40:32 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[15-Oct-2019 08:25:07 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[15-Oct-2019 08:25:07 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[15-Oct-2019 17:09:35 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[15-Oct-2019 17:09:35 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[15-Oct-2019 17:10:20 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[15-Oct-2019 17:10:20 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[15-Oct-2019 17:11:02 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[15-Oct-2019 17:11:02 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[17-Oct-2019 12:54:24 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[17-Oct-2019 12:54:24 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[17-Oct-2019 12:54:40 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[17-Oct-2019 12:54:40 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[22-Oct-2019 11:23:30 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[22-Oct-2019 11:23:30 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[22-Oct-2019 11:24:09 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[22-Oct-2019 11:24:09 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[22-Oct-2019 13:02:55 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[22-Oct-2019 13:02:55 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[25-Oct-2019 20:16:04 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[25-Oct-2019 20:16:04 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[27-Oct-2019 20:00:38 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[27-Oct-2019 20:00:38 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[29-Oct-2019 15:25:16 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[29-Oct-2019 15:25:16 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[31-Oct-2019 21:53:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[31-Oct-2019 21:53:01 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[01-Nov-2019 12:10:15 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[01-Nov-2019 12:10:15 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[04-Nov-2019 18:40:01 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[04-Nov-2019 18:40:01 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[07-Nov-2019 04:59:27 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[07-Nov-2019 04:59:27 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[08-Nov-2019 02:39:32 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initpay.php on line 36
+[08-Nov-2019 02:39:32 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initpay.php on line 45
+[10-Nov-2019 14:24:17 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[10-Nov-2019 14:24:17 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[10-Nov-2019 14:24:25 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[10-Nov-2019 14:37:30 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/initializeagain.php on line 46
+[10-Nov-2019 14:37:30 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/realeoki/fikxers.com/users/flat_sidebar.php:264) in /home/realeoki/fikxers.com/users/initializeagain.php on line 53
+[10-Nov-2019 17:24:09 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 6
+[10-Nov-2019 17:24:09 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/mgr_sidebar.php on line 278
+[10-Nov-2019 17:24:09 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/estate_mgr.php on line 45
+[05-Apr-2020 20:03:57 America/New_York] PHP Notice:  Trying to get property of non-object in /home/realeoki/fikxers.com/users/assign_fixers.php on line 46
+[05-Apr-2020 20:04:06 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[05-Apr-2020 20:04:06 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[05-Apr-2020 20:04:06 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/completed.php on line 68
+[28-Sep-2020 10:31:34 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/hmgr_sidebar.php on line 174
+[28-Sep-2020 10:31:34 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/hmgr_sidebar.php on line 191
+[28-Sep-2020 10:31:34 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/hmgr_sidebar.php on line 208
+[28-Sep-2020 10:31:34 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 42
+[28-Sep-2020 10:31:34 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[28-Sep-2020 10:31:34 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[28-Sep-2020 10:33:56 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/hmgr_sidebar.php on line 174
+[28-Sep-2020 10:33:56 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/hmgr_sidebar.php on line 191
+[28-Sep-2020 10:33:56 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/hmgr_sidebar.php on line 208
+[28-Sep-2020 10:33:56 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 42
+[28-Sep-2020 10:33:56 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[28-Sep-2020 10:33:56 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[28-Sep-2020 10:34:05 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/hmgr_sidebar.php on line 174
+[28-Sep-2020 10:34:05 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/hmgr_sidebar.php on line 191
+[28-Sep-2020 10:34:05 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/hmgr_sidebar.php on line 208
+[28-Sep-2020 10:34:35 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php:4
+Stack trace:
+#0 /home/realeoki/fikxers.com/users/hostelfikxers/users/room.php(3): include()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 4
+[28-Sep-2020 10:42:44 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php:4
+Stack trace:
+#0 /home/realeoki/fikxers.com/users/hostelfikxers/users/my_requests.php(3): include()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 4
+[28-Sep-2020 10:43:09 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php:4
+Stack trace:
+#0 /home/realeoki/fikxers.com/users/hostelfikxers/users/room.php(3): include()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 4
+[28-Sep-2020 10:43:11 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php:4
+Stack trace:
+#0 /home/realeoki/fikxers.com/users/hostelfikxers/users/room.php(3): include()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 4
+[28-Sep-2020 10:51:22 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 87
+[28-Sep-2020 10:56:08 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 87
+[28-Sep-2020 10:56:08 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/my_requests.php on line 14
+[28-Sep-2020 10:58:17 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 87
+[28-Sep-2020 10:58:17 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/my_requests.php on line 14
+[28-Sep-2020 11:06:47 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[28-Sep-2020 11:06:47 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[28-Sep-2020 11:07:08 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[28-Sep-2020 11:07:08 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[28-Sep-2020 11:10:22 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/inventory.php on line 44
+[28-Sep-2020 11:22:51 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[28-Sep-2020 11:22:51 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[28-Sep-2020 12:09:37 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:09:37 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:09:37 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:09:37 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:09:37 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:12:25 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:12:25 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:12:25 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:12:25 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:12:25 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:12:43 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:12:43 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:12:43 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:12:43 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:12:43 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:16:32 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:16:32 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:16:32 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:16:32 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:16:32 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:17:04 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:17:04 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:17:04 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:17:04 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:17:04 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:17:52 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:17:52 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:17:52 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:17:52 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:17:52 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:18:15 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:18:15 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:18:15 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:18:15 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:18:15 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:25:19 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:25:19 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:25:19 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:25:19 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:25:19 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:25:50 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:25:50 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:25:50 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:25:50 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 12:25:50 America/New_York] PHP Notice:  Undefined index: location in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_locations.php on line 53
+[28-Sep-2020 13:22:55 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[28-Sep-2020 13:22:55 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[28-Sep-2020 13:23:23 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[28-Sep-2020 13:23:23 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[28-Sep-2020 22:42:13 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[28-Sep-2020 22:42:13 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[28-Sep-2020 22:43:15 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[28-Sep-2020 22:43:15 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[30-Sep-2020 11:03:51 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[30-Sep-2020 11:03:51 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[30-Sep-2020 11:03:59 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[30-Sep-2020 11:03:59 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[30-Sep-2020 14:09:34 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[30-Sep-2020 14:09:34 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[30-Sep-2020 19:11:46 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[30-Sep-2020 19:11:46 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[30-Sep-2020 19:12:26 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[30-Sep-2020 19:12:26 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[30-Sep-2020 19:23:34 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/hostelfikxers/users/book_service.php on line 6
+[30-Sep-2020 19:25:16 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/hostelfikxers/users/book_service.php on line 6
+[30-Sep-2020 19:26:39 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[30-Sep-2020 19:26:39 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[30-Sep-2020 19:27:03 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[30-Sep-2020 19:27:03 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[30-Sep-2020 19:27:11 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[30-Sep-2020 19:27:11 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[30-Sep-2020 19:27:19 America/New_York] PHP Notice:  Undefined index: fikxer in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel-update.php on line 60
+[30-Sep-2020 19:27:21 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[30-Sep-2020 19:27:21 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[30-Sep-2020 19:27:26 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[30-Sep-2020 19:27:26 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[30-Sep-2020 19:27:32 America/New_York] PHP Notice:  Undefined index: fikxer in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel-update.php on line 60
+[30-Sep-2020 19:27:35 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[30-Sep-2020 19:27:35 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[30-Sep-2020 19:27:39 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[30-Sep-2020 19:27:39 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[30-Sep-2020 19:28:16 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[30-Sep-2020 19:28:16 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[01-Oct-2020 04:49:15 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[01-Oct-2020 04:49:15 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[01-Oct-2020 04:51:38 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[01-Oct-2020 04:51:38 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[01-Oct-2020 04:52:06 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[01-Oct-2020 04:52:06 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[01-Oct-2020 04:53:57 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[01-Oct-2020 04:53:57 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[01-Oct-2020 04:54:10 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[01-Oct-2020 04:54:10 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[01-Oct-2020 05:37:19 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[01-Oct-2020 05:37:19 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[01-Oct-2020 05:46:28 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[01-Oct-2020 05:46:28 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[01-Oct-2020 09:51:48 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[01-Oct-2020 09:51:48 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[01-Oct-2020 09:52:35 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[01-Oct-2020 09:52:35 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[01-Oct-2020 09:52:59 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[01-Oct-2020 09:52:59 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[01-Oct-2020 09:53:02 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[01-Oct-2020 09:53:02 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[01-Oct-2020 09:53:08 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[01-Oct-2020 09:53:08 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[01-Oct-2020 09:53:38 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[01-Oct-2020 09:53:38 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[01-Oct-2020 09:53:42 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[01-Oct-2020 09:53:42 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[01-Oct-2020 09:54:05 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[01-Oct-2020 09:54:05 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[01-Oct-2020 10:10:33 America/New_York] PHP Notice:  Trying to get property 'room_no' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 7
+[01-Oct-2020 10:10:33 America/New_York] PHP Notice:  Trying to get property 'full_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 8
+[01-Oct-2020 10:10:33 America/New_York] PHP Notice:  Trying to get property 'hostel' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 9
+[01-Oct-2020 10:10:33 America/New_York] PHP Notice:  Trying to get property 'hostel_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 12
+[01-Oct-2020 10:10:33 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 91
+[01-Oct-2020 10:10:35 America/New_York] PHP Notice:  Trying to get property 'room_no' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 7
+[01-Oct-2020 10:10:35 America/New_York] PHP Notice:  Trying to get property 'full_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 8
+[01-Oct-2020 10:10:35 America/New_York] PHP Notice:  Trying to get property 'hostel' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 9
+[01-Oct-2020 10:10:35 America/New_York] PHP Notice:  Trying to get property 'hostel_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 12
+[01-Oct-2020 10:10:35 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 91
+[01-Oct-2020 10:10:35 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/my_requests.php on line 14
+[01-Oct-2020 10:10:42 America/New_York] PHP Notice:  Trying to get property 'room_no' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 7
+[01-Oct-2020 10:10:42 America/New_York] PHP Notice:  Trying to get property 'full_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 8
+[01-Oct-2020 10:10:42 America/New_York] PHP Notice:  Trying to get property 'hostel' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 9
+[01-Oct-2020 10:10:42 America/New_York] PHP Notice:  Trying to get property 'hostel_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 12
+[01-Oct-2020 10:10:42 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 91
+[01-Oct-2020 10:10:42 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/my_requests.php on line 14
+[01-Oct-2020 10:10:46 America/New_York] PHP Notice:  Trying to get property 'room_no' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 7
+[01-Oct-2020 10:10:46 America/New_York] PHP Notice:  Trying to get property 'full_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 8
+[01-Oct-2020 10:10:46 America/New_York] PHP Notice:  Trying to get property 'hostel' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 9
+[01-Oct-2020 10:10:46 America/New_York] PHP Notice:  Trying to get property 'hostel_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 12
+[01-Oct-2020 10:10:46 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 91
+[01-Oct-2020 10:10:46 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_details.php on line 38
+[01-Oct-2020 10:10:55 America/New_York] PHP Notice:  Trying to get property 'room_no' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 7
+[01-Oct-2020 10:10:55 America/New_York] PHP Notice:  Trying to get property 'full_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 8
+[01-Oct-2020 10:10:55 America/New_York] PHP Notice:  Trying to get property 'hostel' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 9
+[01-Oct-2020 10:10:55 America/New_York] PHP Notice:  Trying to get property 'hostel_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 12
+[01-Oct-2020 10:10:55 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 91
+[01-Oct-2020 10:10:58 America/New_York] PHP Notice:  Undefined variable: sql in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostelequipments.php on line 24
+[01-Oct-2020 10:10:58 America/New_York] PHP Warning:  mysqli::query(): Empty query in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostelequipments.php on line 24
+[01-Oct-2020 10:10:58 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostelequipments.php on line 25
+[01-Oct-2020 10:11:03 America/New_York] PHP Notice:  Trying to get property 'room_no' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 7
+[01-Oct-2020 10:11:03 America/New_York] PHP Notice:  Trying to get property 'full_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 8
+[01-Oct-2020 10:11:03 America/New_York] PHP Notice:  Trying to get property 'hostel' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 9
+[01-Oct-2020 10:11:03 America/New_York] PHP Notice:  Trying to get property 'hostel_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 12
+[01-Oct-2020 10:11:03 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 91
+[01-Oct-2020 10:11:05 America/New_York] PHP Notice:  Undefined variable: sql in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostelequipments.php on line 24
+[01-Oct-2020 10:11:05 America/New_York] PHP Warning:  mysqli::query(): Empty query in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostelequipments.php on line 24
+[01-Oct-2020 10:11:05 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostelequipments.php on line 25
+[01-Oct-2020 10:11:13 America/New_York] PHP Notice:  Trying to get property 'room_no' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 7
+[01-Oct-2020 10:11:13 America/New_York] PHP Notice:  Trying to get property 'full_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 8
+[01-Oct-2020 10:11:13 America/New_York] PHP Notice:  Trying to get property 'hostel' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 9
+[01-Oct-2020 10:11:13 America/New_York] PHP Notice:  Trying to get property 'hostel_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 12
+[01-Oct-2020 10:11:13 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 91
+[01-Oct-2020 10:11:25 America/New_York] PHP Notice:  Trying to get property 'room_no' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 7
+[01-Oct-2020 10:11:25 America/New_York] PHP Notice:  Trying to get property 'full_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 8
+[01-Oct-2020 10:11:25 America/New_York] PHP Notice:  Trying to get property 'hostel' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 9
+[01-Oct-2020 10:11:25 America/New_York] PHP Notice:  Trying to get property 'hostel_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 12
+[01-Oct-2020 10:11:25 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 91
+[01-Oct-2020 10:11:25 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/my_requests.php on line 14
+[01-Oct-2020 10:11:27 America/New_York] PHP Notice:  Trying to get property 'room_no' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 7
+[01-Oct-2020 10:11:27 America/New_York] PHP Notice:  Trying to get property 'full_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 8
+[01-Oct-2020 10:11:27 America/New_York] PHP Notice:  Trying to get property 'hostel' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 9
+[01-Oct-2020 10:11:27 America/New_York] PHP Notice:  Trying to get property 'hostel_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 12
+[01-Oct-2020 10:11:27 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 91
+[01-Oct-2020 10:11:27 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_details.php on line 38
+[01-Oct-2020 10:11:29 America/New_York] PHP Notice:  Trying to get property 'room_no' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 7
+[01-Oct-2020 10:11:29 America/New_York] PHP Notice:  Trying to get property 'full_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 8
+[01-Oct-2020 10:11:29 America/New_York] PHP Notice:  Trying to get property 'hostel' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 9
+[01-Oct-2020 10:11:29 America/New_York] PHP Notice:  Trying to get property 'hostel_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 12
+[01-Oct-2020 10:11:29 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 91
+[01-Oct-2020 10:11:33 America/New_York] PHP Notice:  Undefined variable: sql in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostelequipments.php on line 24
+[01-Oct-2020 10:11:33 America/New_York] PHP Warning:  mysqli::query(): Empty query in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostelequipments.php on line 24
+[01-Oct-2020 10:11:33 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostelequipments.php on line 25
+[01-Oct-2020 10:11:41 America/New_York] PHP Notice:  Trying to get property 'room_no' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 7
+[01-Oct-2020 10:11:41 America/New_York] PHP Notice:  Trying to get property 'full_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 8
+[01-Oct-2020 10:11:41 America/New_York] PHP Notice:  Trying to get property 'hostel' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 9
+[01-Oct-2020 10:11:41 America/New_York] PHP Notice:  Trying to get property 'hostel_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 12
+[01-Oct-2020 10:11:41 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 91
+[01-Oct-2020 10:12:49 America/New_York] PHP Notice:  Trying to get property 'room_no' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 7
+[01-Oct-2020 10:12:49 America/New_York] PHP Notice:  Trying to get property 'full_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 8
+[01-Oct-2020 10:12:49 America/New_York] PHP Notice:  Trying to get property 'hostel' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 9
+[01-Oct-2020 10:12:49 America/New_York] PHP Notice:  Trying to get property 'hostel_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 12
+[01-Oct-2020 10:12:49 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 91
+[01-Oct-2020 10:12:49 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_details.php on line 38
+[01-Oct-2020 10:13:26 America/New_York] PHP Notice:  Undefined variable: sql in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostelequipments.php on line 24
+[01-Oct-2020 10:13:26 America/New_York] PHP Warning:  mysqli::query(): Empty query in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostelequipments.php on line 24
+[01-Oct-2020 10:13:26 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostelequipments.php on line 25
+[01-Oct-2020 10:13:29 America/New_York] PHP Notice:  Trying to get property 'room_no' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 7
+[01-Oct-2020 10:13:29 America/New_York] PHP Notice:  Trying to get property 'full_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 8
+[01-Oct-2020 10:13:29 America/New_York] PHP Notice:  Trying to get property 'hostel' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 9
+[01-Oct-2020 10:13:29 America/New_York] PHP Notice:  Trying to get property 'hostel_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 12
+[01-Oct-2020 10:13:29 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 91
+[01-Oct-2020 10:13:29 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_details.php on line 38
+[01-Oct-2020 10:13:34 America/New_York] PHP Notice:  Trying to get property 'room_no' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 7
+[01-Oct-2020 10:13:34 America/New_York] PHP Notice:  Trying to get property 'full_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 8
+[01-Oct-2020 10:13:34 America/New_York] PHP Notice:  Trying to get property 'hostel' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 9
+[01-Oct-2020 10:13:34 America/New_York] PHP Notice:  Trying to get property 'hostel_name' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 12
+[01-Oct-2020 10:13:34 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_sidebar.php on line 91
+[01-Oct-2020 10:13:34 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/fikxers.com/users/hostelfikxers/users/room_details.php on line 38
+[01-Oct-2020 10:16:06 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[01-Oct-2020 10:16:06 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[03-Oct-2020 03:05:59 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/fikxers.com/users/hostelfikxers/users/book_service.php on line 6
+[03-Oct-2020 03:07:05 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[03-Oct-2020 03:07:05 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[03-Oct-2020 03:08:20 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[03-Oct-2020 03:08:20 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_workorder.php on line 95
+[29-Oct-2020 06:07:29 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[29-Oct-2020 06:07:29 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[29-Oct-2020 06:07:56 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94
+[29-Oct-2020 06:07:56 America/New_York] PHP Notice:  Undefined variable: reqid in /home/realeoki/fikxers.com/users/hostelfikxers/users/hostel_mgr.php on line 94

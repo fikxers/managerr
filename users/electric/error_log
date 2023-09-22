@@ -1,0 +1,367 @@
+[28-Oct-2022 13:40:53 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/fikxers.com/users/electric/post.php on line 8
+[28-Oct-2022 13:40:53 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/fikxers.com/users/electric/post.php on line 10
+[28-Oct-2022 13:45:20 America/New_York] PHP Parse error:  syntax error, unexpected '=' in /home/realeoki/fikxers.com/users/electric/post.php on line 25
+[28-Oct-2022 13:45:27 America/New_York] PHP Parse error:  syntax error, unexpected '=' in /home/realeoki/fikxers.com/users/electric/post.php on line 25
+[28-Oct-2022 13:50:15 America/New_York] PHP Notice:  Undefined property: stdClass::$messageId in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[28-Oct-2022 13:50:15 America/New_York] PHP Notice:  Undefined property: stdClass::$description in /home/realeoki/fikxers.com/users/electric/post2.php on line 51
+[28-Oct-2022 13:50:15 America/New_York] PHP Notice:  Undefined property: stdClass::$vendTime in /home/realeoki/fikxers.com/users/electric/post2.php on line 52
+[28-Oct-2022 13:50:15 America/New_York] PHP Notice:  Undefined property: stdClass::$tariff in /home/realeoki/fikxers.com/users/electric/post2.php on line 53
+[28-Oct-2022 13:50:15 America/New_York] PHP Notice:  Undefined property: stdClass::$unitsActual in /home/realeoki/fikxers.com/users/electric/post2.php on line 54
+[28-Oct-2022 13:50:15 America/New_York] PHP Notice:  Undefined property: stdClass::$unitName in /home/realeoki/fikxers.com/users/electric/post2.php on line 55
+[28-Oct-2022 13:50:15 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenHex in /home/realeoki/fikxers.com/users/electric/post2.php on line 56
+[28-Oct-2022 13:50:15 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 57
+[28-Oct-2022 13:53:36 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/fikxers.com/users/electric/post2.php on line 8
+[28-Oct-2022 13:53:36 America/New_York] PHP Notice:  Undefined index: value in /home/realeoki/fikxers.com/users/electric/post2.php on line 9
+[28-Oct-2022 13:53:36 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/fikxers.com/users/electric/post2.php on line 10
+[28-Oct-2022 13:55:18 America/New_York] PHP Notice:  Undefined property: stdClass::$messageId in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[28-Oct-2022 13:55:18 America/New_York] PHP Notice:  Undefined property: stdClass::$description in /home/realeoki/fikxers.com/users/electric/post2.php on line 51
+[28-Oct-2022 13:55:18 America/New_York] PHP Notice:  Undefined property: stdClass::$vendTime in /home/realeoki/fikxers.com/users/electric/post2.php on line 52
+[28-Oct-2022 13:55:18 America/New_York] PHP Notice:  Undefined property: stdClass::$tariff in /home/realeoki/fikxers.com/users/electric/post2.php on line 53
+[28-Oct-2022 13:55:18 America/New_York] PHP Notice:  Undefined property: stdClass::$unitsActual in /home/realeoki/fikxers.com/users/electric/post2.php on line 54
+[28-Oct-2022 13:55:18 America/New_York] PHP Notice:  Undefined property: stdClass::$unitName in /home/realeoki/fikxers.com/users/electric/post2.php on line 55
+[28-Oct-2022 13:55:18 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenHex in /home/realeoki/fikxers.com/users/electric/post2.php on line 56
+[28-Oct-2022 13:55:18 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 57
+[28-Oct-2022 15:06:22 America/New_York] PHP Notice:  Undefined property: stdClass::$messageId in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[28-Oct-2022 15:06:22 America/New_York] PHP Notice:  Undefined property: stdClass::$description in /home/realeoki/fikxers.com/users/electric/post2.php on line 51
+[28-Oct-2022 15:06:22 America/New_York] PHP Notice:  Undefined property: stdClass::$vendTime in /home/realeoki/fikxers.com/users/electric/post2.php on line 52
+[28-Oct-2022 15:06:22 America/New_York] PHP Notice:  Undefined property: stdClass::$tariff in /home/realeoki/fikxers.com/users/electric/post2.php on line 53
+[28-Oct-2022 15:06:22 America/New_York] PHP Notice:  Undefined property: stdClass::$unitsActual in /home/realeoki/fikxers.com/users/electric/post2.php on line 54
+[28-Oct-2022 15:06:22 America/New_York] PHP Notice:  Undefined property: stdClass::$unitName in /home/realeoki/fikxers.com/users/electric/post2.php on line 55
+[28-Oct-2022 15:06:22 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenHex in /home/realeoki/fikxers.com/users/electric/post2.php on line 56
+[28-Oct-2022 15:06:22 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 57
+[28-Oct-2022 15:27:04 America/New_York] PHP Notice:  Undefined property: stdClass::$messageId in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[28-Oct-2022 15:27:04 America/New_York] PHP Notice:  Undefined property: stdClass::$description in /home/realeoki/fikxers.com/users/electric/post2.php on line 51
+[28-Oct-2022 15:27:04 America/New_York] PHP Notice:  Undefined property: stdClass::$vendTime in /home/realeoki/fikxers.com/users/electric/post2.php on line 52
+[28-Oct-2022 15:27:04 America/New_York] PHP Notice:  Undefined property: stdClass::$tariff in /home/realeoki/fikxers.com/users/electric/post2.php on line 53
+[28-Oct-2022 15:27:04 America/New_York] PHP Notice:  Undefined property: stdClass::$unitsActual in /home/realeoki/fikxers.com/users/electric/post2.php on line 54
+[28-Oct-2022 15:27:04 America/New_York] PHP Notice:  Undefined property: stdClass::$unitName in /home/realeoki/fikxers.com/users/electric/post2.php on line 55
+[28-Oct-2022 15:27:04 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenHex in /home/realeoki/fikxers.com/users/electric/post2.php on line 56
+[28-Oct-2022 15:27:04 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 57
+[28-Oct-2022 16:03:51 America/New_York] PHP Notice:  Undefined property: stdClass::$messageId in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[28-Oct-2022 16:03:51 America/New_York] PHP Notice:  Undefined property: stdClass::$description in /home/realeoki/fikxers.com/users/electric/post2.php on line 51
+[28-Oct-2022 16:03:51 America/New_York] PHP Notice:  Undefined property: stdClass::$vendTime in /home/realeoki/fikxers.com/users/electric/post2.php on line 52
+[28-Oct-2022 16:03:51 America/New_York] PHP Notice:  Undefined property: stdClass::$tariff in /home/realeoki/fikxers.com/users/electric/post2.php on line 53
+[28-Oct-2022 16:03:51 America/New_York] PHP Notice:  Undefined property: stdClass::$unitsActual in /home/realeoki/fikxers.com/users/electric/post2.php on line 54
+[28-Oct-2022 16:03:51 America/New_York] PHP Notice:  Undefined property: stdClass::$unitName in /home/realeoki/fikxers.com/users/electric/post2.php on line 55
+[28-Oct-2022 16:03:51 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenHex in /home/realeoki/fikxers.com/users/electric/post2.php on line 56
+[28-Oct-2022 16:03:51 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 57
+[28-Oct-2022 20:51:51 America/New_York] PHP Notice:  Undefined property: stdClass::$messageId in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[28-Oct-2022 20:51:51 America/New_York] PHP Notice:  Undefined property: stdClass::$description in /home/realeoki/fikxers.com/users/electric/post2.php on line 51
+[28-Oct-2022 20:51:51 America/New_York] PHP Notice:  Undefined property: stdClass::$vendTime in /home/realeoki/fikxers.com/users/electric/post2.php on line 52
+[28-Oct-2022 20:51:51 America/New_York] PHP Notice:  Undefined property: stdClass::$tariff in /home/realeoki/fikxers.com/users/electric/post2.php on line 53
+[28-Oct-2022 20:51:51 America/New_York] PHP Notice:  Undefined property: stdClass::$unitsActual in /home/realeoki/fikxers.com/users/electric/post2.php on line 54
+[28-Oct-2022 20:51:51 America/New_York] PHP Notice:  Undefined property: stdClass::$unitName in /home/realeoki/fikxers.com/users/electric/post2.php on line 55
+[28-Oct-2022 20:51:51 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenHex in /home/realeoki/fikxers.com/users/electric/post2.php on line 56
+[28-Oct-2022 20:51:51 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 57
+[29-Oct-2022 03:42:32 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/fikxers.com/users/electric/post2.php on line 11
+[29-Oct-2022 03:42:36 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 46
+[29-Oct-2022 03:42:36 America/New_York] PHP Notice:  Undefined variable: transaction_date in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:42:36 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:42:36 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:42:36 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:42:36 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:42:36 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:42:36 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:45:50 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/fikxers.com/users/electric/post2.php on line 11
+[29-Oct-2022 03:45:53 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 46
+[29-Oct-2022 03:45:53 America/New_York] PHP Notice:  Undefined variable: transaction_date in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:45:53 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:45:53 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:45:53 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:45:53 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:45:53 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:45:53 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:56:00 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/fikxers.com/users/electric/post2.php on line 11
+[29-Oct-2022 03:56:02 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 46
+[29-Oct-2022 03:56:02 America/New_York] PHP Notice:  Undefined variable: transaction_date in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:56:02 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:56:02 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:56:02 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:56:02 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:56:02 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:56:02 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:56:17 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/fikxers.com/users/electric/post2.php on line 11
+[29-Oct-2022 03:56:20 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 46
+[29-Oct-2022 03:56:20 America/New_York] PHP Notice:  Undefined variable: transaction_date in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:56:20 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:56:20 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:56:20 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:56:20 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:56:20 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:56:20 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:58:14 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/fikxers.com/users/electric/post2.php on line 11
+[29-Oct-2022 03:58:16 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 46
+[29-Oct-2022 03:58:16 America/New_York] PHP Notice:  Undefined variable: transaction_date in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:58:16 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:58:16 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:58:16 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:58:16 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:58:16 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:58:16 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:59:19 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/fikxers.com/users/electric/post2.php on line 11
+[29-Oct-2022 03:59:22 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 46
+[29-Oct-2022 03:59:22 America/New_York] PHP Notice:  Undefined variable: transaction_date in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:59:22 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:59:22 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:59:22 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:59:22 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:59:22 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 03:59:22 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 04:00:49 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/fikxers.com/users/electric/post2.php on line 11
+[29-Oct-2022 04:00:51 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 46
+[29-Oct-2022 04:00:51 America/New_York] PHP Notice:  Undefined variable: transaction_date in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 04:00:51 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 04:00:51 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 04:00:51 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 04:00:51 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 04:00:51 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 04:00:51 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 04:04:52 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/fikxers.com/users/electric/post2.php on line 11
+[29-Oct-2022 04:04:54 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 46
+[29-Oct-2022 04:04:54 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:04:54 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:04:54 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:04:54 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:04:54 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:04:54 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:04:54 America/New_York] PHP Notice:  Undefined variable: transaction_date in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 04:06:13 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/fikxers.com/users/electric/post2.php on line 11
+[29-Oct-2022 04:06:15 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 46
+[29-Oct-2022 04:06:15 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:06:15 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:06:15 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:06:15 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:06:15 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:06:15 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:06:15 America/New_York] PHP Notice:  Undefined variable: transaction_date in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 04:06:15 America/New_York] PHP Notice:  Undefined variable: querry in /home/realeoki/fikxers.com/users/electric/post2.php on line 59
+[29-Oct-2022 04:06:51 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/fikxers.com/users/electric/post2.php on line 11
+[29-Oct-2022 04:06:53 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 46
+[29-Oct-2022 04:06:53 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:06:53 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:06:53 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:06:53 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:06:53 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:06:53 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:06:53 America/New_York] PHP Notice:  Undefined variable: transaction_date in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 04:08:39 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/fikxers.com/users/electric/post2.php on line 11
+[29-Oct-2022 04:08:41 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 46
+[29-Oct-2022 04:08:41 America/New_York] PHP Notice:  Undefined variable: transaction_date in /home/realeoki/fikxers.com/users/electric/post2.php on line 50
+[29-Oct-2022 04:15:17 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/fikxers.com/users/electric/post2.php on line 11
+[29-Oct-2022 04:15:20 America/New_York] PHP Notice:  Undefined variable: status in /home/realeoki/fikxers.com/users/electric/post2.php on line 79
+[29-Oct-2022 04:17:11 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/fikxers.com/users/electric/post2.php on line 11
+[29-Oct-2022 04:17:13 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:18:52 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/fikxers.com/users/electric/post2.php on line 11
+[29-Oct-2022 04:18:54 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:21:23 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/fikxers.com/users/electric/post2.php on line 11
+[29-Oct-2022 04:21:25 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:23:02 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/fikxers.com/users/electric/post2.php on line 11
+[29-Oct-2022 04:23:10 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/fikxers.com/users/electric/post2.php on line 11
+[29-Oct-2022 04:23:12 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:23:12 America/New_York] PHP Notice:  Undefined property: stdClass::$unitsActual in /home/realeoki/fikxers.com/users/electric/post2.php on line 49
+[29-Oct-2022 04:28:50 America/New_York] PHP Notice:  Undefined property: stdClass::$tokenDec in /home/realeoki/fikxers.com/users/electric/post2.php on line 51
+[29-Oct-2022 04:28:50 America/New_York] PHP Notice:  Undefined property: stdClass::$unitsActual in /home/realeoki/fikxers.com/users/electric/post2.php on line 51
+[03-Nov-2022 11:22:48 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/fikxers.com/users/electric/post2.php on line 8
+[03-Nov-2022 11:22:48 America/New_York] PHP Notice:  Undefined index: value in /home/realeoki/fikxers.com/users/electric/post2.php on line 9
+[03-Nov-2022 11:22:48 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/fikxers.com/users/electric/post2.php on line 10
+[03-Nov-2022 16:42:21 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/fikxers.com/users/electric/mgrvend.php on line 8
+[03-Nov-2022 16:42:21 America/New_York] PHP Notice:  Undefined index: value in /home/realeoki/fikxers.com/users/electric/mgrvend.php on line 8
+[03-Nov-2022 16:42:21 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/fikxers.com/users/electric/mgrvend.php on line 8
+[03-Nov-2022 16:55:23 America/New_York] PHP Notice:  Undefined index: flat_no in /home/realeoki/fikxers.com/users/electric/post2.php on line 52
+[03-Nov-2022 16:55:23 America/New_York] PHP Notice:  Undefined index: block_no in /home/realeoki/fikxers.com/users/electric/post2.php on line 52
+[12-Apr-2023 14:54:02 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/managerr.net/users/electric/post2.php on line 8
+[12-Apr-2023 14:54:02 America/New_York] PHP Notice:  Undefined index: value in /home/realeoki/managerr.net/users/electric/post2.php on line 9
+[12-Apr-2023 14:54:02 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/managerr.net/users/electric/post2.php on line 10
+[12-Apr-2023 14:54:02 America/New_York] PHP Notice:  Undefined index: generated_by in /home/realeoki/managerr.net/users/electric/post2.php on line 11
+[12-Apr-2023 14:54:22 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/managerr.net/users/electric/post2.php on line 8
+[12-Apr-2023 14:54:22 America/New_York] PHP Notice:  Undefined index: value in /home/realeoki/managerr.net/users/electric/post2.php on line 9
+[12-Apr-2023 14:54:22 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/managerr.net/users/electric/post2.php on line 10
+[12-Apr-2023 14:54:22 America/New_York] PHP Notice:  Undefined index: generated_by in /home/realeoki/managerr.net/users/electric/post2.php on line 11
+[04-Jun-2023 12:10:03 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/managerr.net/users/electric/post2.php on line 8
+[04-Jun-2023 12:10:03 America/New_York] PHP Notice:  Undefined index: value in /home/realeoki/managerr.net/users/electric/post2.php on line 9
+[04-Jun-2023 12:10:03 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/managerr.net/users/electric/post2.php on line 10
+[04-Jun-2023 12:10:03 America/New_York] PHP Notice:  Undefined index: generated_by in /home/realeoki/managerr.net/users/electric/post2.php on line 11
+[06-Jun-2023 04:17:35 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$customerName in /home/realeoki/managerr.net/users/electric/post2.php on line 58
+[06-Jun-2023 04:19:58 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$customerName in /home/realeoki/managerr.net/users/electric/post2.php on line 58
+[05-Jun-2023 23:20:19 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/managerr.net/users/electric/post2.php on line 8
+[05-Jun-2023 23:20:19 America/New_York] PHP Notice:  Undefined index: value in /home/realeoki/managerr.net/users/electric/post2.php on line 9
+[05-Jun-2023 23:20:19 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/managerr.net/users/electric/post2.php on line 10
+[05-Jun-2023 23:20:19 America/New_York] PHP Notice:  Undefined index: generated_by in /home/realeoki/managerr.net/users/electric/post2.php on line 11
+[05-Jun-2023 23:30:42 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 31
+[05-Jun-2023 23:30:42 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 31
+[05-Jun-2023 23:30:47 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 31
+[05-Jun-2023 23:30:47 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 31
+[05-Jun-2023 23:30:49 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 31
+[05-Jun-2023 23:30:49 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 31
+[05-Jun-2023 23:31:04 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 31
+[05-Jun-2023 23:31:04 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 31
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 35
+[05-Jun-2023 23:39:03 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 35
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 35
+[05-Jun-2023 23:45:30 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 35
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 35
+[05-Jun-2023 23:52:32 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 35
+[06-Jun-2023 04:58:46 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$customerName in /home/realeoki/managerr.net/users/electric/post2.php on line 58
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 12
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Undefined variable: _SESSION in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 35
+[05-Jun-2023 23:58:46 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 35
+[06-Jun-2023 05:03:52 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$customerName in /home/realeoki/managerr.net/users/electric/post2.php on line 58
+[06-Jun-2023 05:16:06 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$customerName in /home/realeoki/managerr.net/users/electric/post2.php on line 58
+[06-Jun-2023 05:27:04 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$customerName in /home/realeoki/managerr.net/users/electric/post2.php on line 58
+[06-Jun-2023 05:30:20 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$customerName in /home/realeoki/managerr.net/users/electric/post2.php on line 58
+[06-Jun-2023 00:41:15 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[06-Jun-2023 00:41:15 America/New_York] PHP Notice:  Undefined index: customerName in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[06-Jun-2023 00:41:15 America/New_York] PHP Notice:  Undefined index: description in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[06-Jun-2023 00:41:15 America/New_York] PHP Notice:  Undefined index: value in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[06-Jun-2023 00:41:15 America/New_York] PHP Notice:  Undefined index: tariff in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[06-Jun-2023 00:41:15 America/New_York] PHP Notice:  Undefined index: token in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[06-Jun-2023 00:41:15 America/New_York] PHP Notice:  Undefined index: unitsActual in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[06-Jun-2023 00:41:15 America/New_York] PHP Notice:  Undefined index: unitName in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[06-Jun-2023 00:41:15 America/New_York] PHP Notice:  Undefined index: generated_by in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 15
+[06-Jun-2023 00:41:15 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 15
+[06-Jun-2023 00:41:15 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 15
+[06-Jun-2023 00:42:23 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[06-Jun-2023 00:42:23 America/New_York] PHP Notice:  Undefined index: customerName in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[06-Jun-2023 00:42:23 America/New_York] PHP Notice:  Undefined index: description in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[06-Jun-2023 00:42:23 America/New_York] PHP Notice:  Undefined index: value in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[06-Jun-2023 00:42:23 America/New_York] PHP Notice:  Undefined index: tariff in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[06-Jun-2023 00:42:23 America/New_York] PHP Notice:  Undefined index: token in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[06-Jun-2023 00:42:23 America/New_York] PHP Notice:  Undefined index: unitsActual in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[06-Jun-2023 00:42:23 America/New_York] PHP Notice:  Undefined index: unitName in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[06-Jun-2023 00:42:23 America/New_York] PHP Notice:  Undefined index: generated_by in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 15
+[06-Jun-2023 00:42:23 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 15
+[06-Jun-2023 00:42:23 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 15
+[06-Jun-2023 04:56:21 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[06-Jun-2023 04:56:21 America/New_York] PHP Notice:  Undefined index: customerName in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[06-Jun-2023 04:56:21 America/New_York] PHP Notice:  Undefined index: description in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[06-Jun-2023 04:56:21 America/New_York] PHP Notice:  Undefined index: value in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[06-Jun-2023 04:56:21 America/New_York] PHP Notice:  Undefined index: tariff in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[06-Jun-2023 04:56:21 America/New_York] PHP Notice:  Undefined index: token in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[06-Jun-2023 04:56:21 America/New_York] PHP Notice:  Undefined index: unitsActual in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[06-Jun-2023 04:56:21 America/New_York] PHP Notice:  Undefined index: unitName in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 15
+[06-Jun-2023 04:56:21 America/New_York] PHP Notice:  Undefined index: generated_by in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 15
+[06-Jun-2023 04:56:21 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 15
+[06-Jun-2023 04:56:21 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 16
+[06-Jun-2023 04:56:21 America/New_York] PHP Notice:  Undefined index: estate_name in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 16
+[06-Jun-2023 04:56:21 America/New_York] PHP Notice:  Undefined index: estate_address in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 16
+[06-Jun-2023 04:56:21 America/New_York] PHP Notice:  Undefined index: email in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 37
+[01-Jul-2023 13:34:39 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submystr_to_array() in /home/realeoki/managerr.net/users/electric/verifystatus.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 32
+[01-Jul-2023 13:34:46 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submystr_to_array() in /home/realeoki/managerr.net/users/electric/verifystatus.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 32
+[01-Jul-2023 13:35:26 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submystr_to_array() in /home/realeoki/managerr.net/users/electric/verifystatus.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 32
+[01-Jul-2023 13:35:48 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function submystr_to_array() in /home/realeoki/managerr.net/users/electric/verifystatus.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 32
+[05-Jul-2023 09:17:07 America/New_York] PHP Notice:  Undefined property: stdClass::$customerName in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 32
+[05-Jul-2023 09:19:21 America/New_York] PHP Notice:  Undefined property: stdClass::$customerName in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 32
+[05-Jul-2023 09:21:37 America/New_York] PHP Notice:  Undefined property: stdClass::$customerName in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 32
+[05-Jul-2023 09:23:11 America/New_York] PHP Notice:  Undefined property: stdClass::$customerName in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 32
+[05-Jul-2023 09:23:57 America/New_York] PHP Notice:  Undefined property: stdClass::$customerName in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 32
+[05-Jul-2023 09:24:06 America/New_York] PHP Notice:  Undefined property: stdClass::$customerName in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 32
+[05-Jul-2023 09:25:31 America/New_York] PHP Notice:  Undefined property: stdClass::$customerName in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 32
+[05-Jul-2023 09:26:06 America/New_York] PHP Notice:  Undefined property: stdClass::$customerName in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 32
+[05-Jul-2023 09:26:45 America/New_York] PHP Notice:  Undefined property: stdClass::$customerName in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 32
+[05-Jul-2023 09:41:59 America/New_York] PHP Notice:  Undefined property: stdClass::$customerName in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 32
+[05-Jul-2023 10:30:10 America/New_York] PHP Notice:  Undefined property: stdClass::$customerName in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 32
+[05-Jul-2023 10:30:35 America/New_York] PHP Notice:  Undefined property: stdClass::$customerName in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 32
+[05-Jul-2023 11:48:48 America/New_York] PHP Notice:  Undefined index: estate_name in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 35
+[05-Jul-2023 11:48:48 America/New_York] PHP Notice:  Undefined index: estate_address in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 35
+[05-Jul-2023 11:48:48 America/New_York] PHP Notice:  Undefined index: owner in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 35
+[05-Jul-2023 14:04:41 America/New_York] PHP Notice:  Undefined index: estate_name in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 35
+[05-Jul-2023 14:04:41 America/New_York] PHP Notice:  Undefined index: estate_address in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 35
