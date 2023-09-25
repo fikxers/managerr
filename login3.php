@@ -22,7 +22,9 @@
 <section class="pt-20 pb-20">
 
     <div class="m-auto col-lg-10">
+            <div class="">
 
+            </div>
             <h1 class="login-title blue-color">LET'S GET STARTED</h1>
 
         <div class="">
@@ -48,16 +50,97 @@
 
                             <div class="col-lg-4">
                                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                    <a class="cs-nav nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Resident</a>
-                                    <a class="cs-nav nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Estate/Community</a>
+                                    <a class="cs-nav nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                        <span class="active">
+                                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="16" cy="16" r="16" fill="#1ED760"/>
+                                            </svg>
+                                        </span>
+                                        <span class="img"><img src="./img/home-select.png" /></span>
+                                        <span class="text">Resident</span>
+                                    </a>
+                                    <a class="cs-nav nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                                        <span class="inactive">
+                                            <svg width="32" height="32" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                              <circle cx="18" cy="18" r="17" stroke="#060C2C" stroke-width="2"/>
+                                            </svg>
+                                        </span>
+                                        <span class="img"><img src="./img/more-houses.png" /></span>
+                                        <span class="text">Estate/Community</span>
+                                    </a>
                                 </div>
+                            </div>
+                            <div class="col-lg-10">
+                                <button class="btn btn-danger provide-btn">Provide Personal Info</button>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
 
+                            <h5 class="register-what-2">Please enter the following information?</h5>
+
+                            <form class="col-lg-10">
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="text" class="form-control form-control-custom" placeholder="First name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control form-control-custom" placeholder="Last name">
+                                    </div>
+                                </div>
+                                <div class="row mb-3 pad-33">
+                                    <div class="col">
+                                        <input type="text" class="form-control form-control-custom" placeholder="Phone Number">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control form-control-custom" placeholder="Email">
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="col-lg-10">
+                                <button class="btn btn-danger provide-btn">+ Join Community</button>
+                            </div>
                         </div>
                         <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-
+                            <form class="col-lg-5 search-residential">
+                                <div class="col">
+                                    <input type="text" class="form-control form-control-custom" placeholder="Type Estate Or Community Name">
+                                </div>
+                            </form>
+                            <hr>
+                            <div class="result-count-text">3 Results found</div>
+                            <div class="row result-wrapper">
+                                <div class="col-md-4">
+                                    Pearl Nuga
+                                </div>
+                                <div class="col-md-5">
+                                    25 Shobarinde off Lingali Bustop
+                                </div>
+                                <div class="col-md-3">
+                                    <button class="btn btn-reply">SELECT</button>
+                                </div>
+                            </div>
+                            <div class="row result-wrapper">
+                                <div class="col-md-4">
+                                    Pearl Nuga
+                                </div>
+                                <div class="col-md-5">
+                                    25 Shobarinde off Lingali Bustop
+                                </div>
+                                <div class="col-md-3">
+                                    <button class="btn btn-reply">SELECT</button>
+                                </div>
+                            </div>
+                            <div class="row result-wrapper">
+                                <div class="col-md-4">
+                                    Pearl Nuga
+                                </div>
+                                <div class="col-md-5">
+                                    25 Shobarinde off Lingali Bustop
+                                </div>
+                                <div class="col-md-3">
+                                    <button class="btn btn-reply">SELECT</button>
+                                </div>
+                            </div>
                         </div>
                         <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
 
