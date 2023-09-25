@@ -116,7 +116,7 @@
                                     25 Shobarinde off Lingali Bustop
                                 </div>
                                 <div class="col-md-3">
-                                    <button class="btn btn-reply">SELECT</button>
+                                    <button class="btn btn-select">SELECT</button>
                                 </div>
                             </div>
                             <div class="row result-wrapper">
@@ -127,7 +127,7 @@
                                     25 Shobarinde off Lingali Bustop
                                 </div>
                                 <div class="col-md-3">
-                                    <button class="btn btn-reply">SELECT</button>
+                                    <button class="btn btn-select">SELECT</button>
                                 </div>
                             </div>
                             <div class="row result-wrapper">
@@ -138,7 +138,7 @@
                                     25 Shobarinde off Lingali Bustop
                                 </div>
                                 <div class="col-md-3">
-                                    <button class="btn btn-reply">SELECT</button>
+                                    <button class="btn btn-select">SELECT</button>
                                 </div>
                             </div>
                         </div>

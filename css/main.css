@@ -978,6 +978,6 @@ h5.register-what{color: rgba(29, 44, 77, 1); font-size: 36px; font-weight: 500; 
 .form-control-custom{padding: 0px 50px;height: 96px; border-radius: 36px}
 .pad-33{padding-top: 33px; padding-bottom: 60px;}
 h5.register-what-2{color: rgba(29, 44, 77, 1); font-size: 36px; font-weight: 500; margin-left: 30px; padding-top: 55px; padding-bottom: 60px}
-.search-residential{padding-top: 50px; padding-bottom: 60px}
-.result-count-text{padding-bottom: 33px;}
-.result-wrapper{background: rgba(19, 36, 126, 0.10);padding: 24px 50px; color: #060c2c; font-size: 24px; margin-bottom: 10px}
+.search-residential{padding-top: 40px; padding-bottom: 30px}
+.result-count-text{padding-bottom: 33px;padding-top: 33px}
+.result-wrapper{background: rgba(19, 36, 126, 0.10);padding: 24px; color: #060c2c; font-size: 24px; margin-bottom: 10px}
