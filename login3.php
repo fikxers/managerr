@@ -109,7 +109,7 @@
                             <hr>
                             <div class="result-count-text">3 Results found</div>
                             <div class="row result-wrapper">
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     Pearl Nuga
                                 </div>
                                 <div class="col-md-5">
@@ -120,7 +120,18 @@
                                 </div>
                             </div>
                             <div class="row result-wrapper">
+                                <div class="col-md-3">
+                                    Pearl Nuga
+                                </div>
                                 <div class="col-md-4">
+                                    25 Shobarinde off Lingali Bustop
+                                </div>
+                                <div class="col-md-4">
+                                    <button class="btn btn-select">SELECT</button>
+                                </div>
+                            </div>
+                            <div class="row result-wrapper">
+                                <div class="col-md-3">
                                     Pearl Nuga
                                 </div>
                                 <div class="col-md-5">
@@ -130,16 +141,8 @@
                                     <button class="btn btn-select">SELECT</button>
                                 </div>
                             </div>
-                            <div class="row result-wrapper">
-                                <div class="col-md-4">
-                                    Pearl Nuga
-                                </div>
-                                <div class="col-md-5">
-                                    25 Shobarinde off Lingali Bustop
-                                </div>
-                                <div class="col-md-3">
-                                    <button class="btn btn-select">SELECT</button>
-                                </div>
+                            <div class="">
+                                <button class="btn btn-danger provide-btn grey-btn">Verify Account</button>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">

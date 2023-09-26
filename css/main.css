@@ -930,6 +930,7 @@ input:checked + .slider:before {
     background: rgba(60, 60, 59, 0.5);
     padding: 50px; 
     margin-top: 40px;
+    backdrop-filter: blur(11.927144050598145px);
 }
 .heading-one h2{ color: rgba(19, 36, 126, 1); font-size: 66.9px; line-height: 81.55px;}
 .spacing-empower{margin: 70px; font-size: 20px; margin-right: 182px; min-width: 355px}
@@ -948,14 +949,14 @@ input:checked + .slider:before {
 .discount-section-area{background: #eee; padding: 70px 50px}
 .col-md-6.this-for h1{color: rgba(19, 36, 126, 1); font-size: 66.9px; font-weight: 700; line-height: 81.55px;}
 .col-md-6.this-for p {color: rgba(19, 36, 126, 1); font-size: 20px; line-height:30px; padding-top: 20px; font-weight: 600}
-.this-for-col{margin: 20px;margin-right: 182px;}
+.this-for-col{margin: 20px;margin-right: 50px;}
 .this-for-col h3{color: rgba(29, 44, 77, 1); font-size: 24px; margin: 30px 0px; line-height: 32.74px;}
 .this-for-col p {color: rgba(29, 44, 77, 1); font-size: 18.89px; line-height:28.34px}
 .nav-menu.footer{font-weight: 700; font-size: 14.17px; line-height:18.75px; color: rgba(0, 0, 0, 1)}
 .btn-green-rd{ border-radius: 7.87px}
 .description-o{color: #fff; font-size: 20px; line-height: 30px; font-weight: 600; padding-top: 20px;}
 .sub-title-o{color: #fff; font-size: 29.91px; line-height: 38.94px; padding-top:20px}
-.wall-paper{right: 314px; position: relative; top: 20px;}
+.wall-paper{right: 314px; position: relative; top: 20px;padding-top: 89px;}
 .banner-area{height: 100vh}
 .blue-color{color: rgba(19, 36, 126, 1)}
 .login-title{font-size: 64px; font-weight: 700; padding-top: 70px}
@@ -975,9 +976,11 @@ h5.register-what{color: rgba(29, 44, 77, 1); font-size: 36px; font-weight: 500; 
 .provide-btn{padding: 15px 38px; height: 78px;background: #1ed760; min-width: 333px;
     border: none;border-radius:20px;float: right; font-size: 24px;}
 .provide-btn:hover{background: rgb(19, 36, 126)}
-.form-control-custom{padding: 0px 50px;height: 96px; border-radius: 36px}
+.form-control-custom{padding: 0px 30px;height: 66px; border-radius: 36px}
 .pad-33{padding-top: 33px; padding-bottom: 60px;}
 h5.register-what-2{color: rgba(29, 44, 77, 1); font-size: 36px; font-weight: 500; margin-left: 30px; padding-top: 55px; padding-bottom: 60px}
-.search-residential{padding-top: 40px; padding-bottom: 30px}
+.search-residential{padding-top: 30px; padding-bottom: 30px}
 .result-count-text{padding-bottom: 33px;padding-top: 33px}
-.result-wrapper{background: rgba(19, 36, 126, 0.10);padding: 24px; color: #060c2c; font-size: 24px; margin-bottom: 10px}
+.result-wrapper{background: rgba(19, 36, 126, 0.10);padding: 14px; color: #060c2c; font-size: 24px; margin-bottom: 10px}
+.btn.btn-select{padding: 10px 38px; background: #13247E; border-radius: 15px;color: #ffff; float: right}
+.grey-btn{background: #d8d8d8;}

@@ -125,7 +125,7 @@
 					</div>
 					<div class="container-two">
 						<div class="row">
-							<div class="col-md-2 this-for-col">
+							<div class="col-md-3 this-for-col">
 								<img src="./img/3970.png" />
 								<h3>Gated Resedential Communities and Estates</h3>
 								<p>
@@ -137,7 +137,7 @@
 									<button class="primary-btn add-btn btn btn-green btn-green-rd">Join Now</button>
 								</div>
 							</div>
-							<div class="col-md-2 this-for-col">
+							<div class="col-md-3 this-for-col">
 								<img src="./img/3969.png" />
 								<h3>Condominiums and Apartment Complexes</h3>
 								<p>
@@ -150,7 +150,7 @@
 									<button class="primary-btn add-btn btn btn-green btn-green-rd">Join Now</button>
 								</div>
 							</div>
-							<div class="col-md-2 this-for-col">
+							<div class="col-md-3 this-for-col">
 								<img src="./img/3968.png" />
 								<h3>Commercial / Recreational Facilities</h3>
 								<p>
