@@ -1,6 +1,7 @@
 <?php $title='Home'; include('header2.php'); //include_once('redirect_if_logged_in.php'); ?>
 			<!-- <div class="add-button"><button class="primary-btn add-btn btn btn-danger">Add to home screen</button></div> -->
 			<!-- start banner Area -->
+
 			<section class="banner-area" id="home">
 				<div class="container">
                 <header id="header" id="home">
@@ -37,7 +38,7 @@
 					</div>
 				</div>
 			</section>
-			
+            <div class="body-wrapper">
 			<!-- Start home-about Area -->
 			<section class="thriving-community">			
 				<div class="col"><br>
@@ -189,6 +190,7 @@
 					</div>
 			    </div>
 			</section>
-		
+            </div>
+
 		</body>
 	</html>
