@@ -1,6 +1,4 @@
-<?php require('auth.php'); $title ='Estates'; ?>
-
-	<?php
+<?php require('auth.php'); $title ='Estates'; 
 	  require('../db.php');
 	  if (isset($_POST['estate_code'])){
 	  $estate_name = stripslashes($_REQUEST['estate_name']);
@@ -22,11 +20,11 @@
 	      else if($_SESSION['admin_type']=='mgr'){
 		   include('mgr_sidebar.php');
 		  }
-		?>
+?>
     <div class="page-content-wrapper ">
       <div class="container-fluid">
-				<div class="row">       
-					<div class="col-lg-12">
+		<div class="row">       
+		  <div class="col-lg-12">
             <div class="card m-b-30">
               <div class="card-body">
                 <h4 class="mt-0 header-title">All Estates</h4>
@@ -35,28 +33,29 @@
                   <?php include ('../db.php');
 									$sql = "SELECT * FROM estates"; $result = $con->query($sql);
                   if ($result->num_rows > 0) { ?>
-									<table id="tech-companies-1" class="table  table-striped">
-                    <thead class="titles"><tr><th>Name</th><th>Code</th>
-                      <th>Address</th><th># of blocks</th><th># of flats</th><th>Action</th> </tr></thead>
-                    <tbody> <?php
-														while($row = $result->fetch_assoc()) { ?>
-															<tr>
-															<td><?php echo $row['estate_name']; ?></td>
-															<td><?php echo $row['estate_code']; ?></td>
-															<td><?php echo $row['address']; ?></td>
-															<td><?php echo $row['no_of_blocks']; ?></td>
-															<td><?php echo $row['no_of_flats']; ?></td>
-															<?php
-															echo "<td><a href='update_estate.php?id=" .$row['estate_code']."&flats=" .$row['no_of_flats']."&blocks=" .$row['no_of_blocks']."&address=" .$row['address']."&name=" .$row['estate_name']."' data-toggle='tooltip' data-original-title='Update'><i class='fa fa-pencil text-success m-r-10'></i></a> <a href='delete_estate.php?id=" . $row['estate_code'] . "' data-toggle='tooltip' data-original-title='Delete'><i class='fa fa-trash text-danger m-r-10'></i></a> </td>";
-															?>
-															</tr>
-														<?php
-														}
-													} else {
-														echo "No estate in database.";
-													}
-													$con->close();
-													?>
+					<table id="tech-companies-1" class="table table-bordered table-striped">
+                      <thead class="titles">
+					     <tr><th>Name</th><th>Code</th><th>Address</th><th># of blocks</th><th># of flats</th><th>Action</th> </tr>
+					  </thead>
+                      <tbody> 
+					  <?php while($row = $result->fetch_assoc()) { ?>
+						<tr>
+							<td><?php echo $row['estate_name']; ?></td>
+							<td><?php echo $row['estate_code']; ?></td>
+							<td><?php echo $row['address']; ?></td>
+							<td><?php echo $row['no_of_blocks']; ?></td>
+							<td><?php echo $row['no_of_flats']; ?></td>
+							<?php
+							echo "<td><a href='update_estate.php?id=" .$row['estate_code']."&flats=" .$row['no_of_flats']."&blocks=" .$row['no_of_blocks']."&address=" .$row['address']."&name=" .$row['estate_name']."' data-toggle='tooltip' data-original-title='Update'><i class='fa fa-pencil text-success m-r-10'></i></a> <a href='delete_estate.php?id=" . $row['estate_code'] . "' data-toggle='tooltip' data-original-title='Delete'><i class='fa fa-trash text-danger m-r-10'></i></a> </td>";
+							?>
+						</tr>
+					  <?php
+						}
+					} else {
+					   echo "No estate in database.";
+					  }
+					  $con->close();
+					  ?>
                       </tbody>
                     </table>
                   </div>
@@ -64,23 +63,30 @@
               </div>
             </div>
           </div> <!-- end col -->
-					<div class="col-lg-12">
+		  <div class="col-lg-12">
             <div class="card m-b-30">
               <div class="card-body">
-              <h4 class="mt-0 header-title">Add Estate</h4>
-              <p class="text-muted m-b-30 font-14">Enter details of a new estate.</p><form class="" action="" method="POST">
-              <div class="form-group">
-                <input type="text" name="estate_name" class="form-control" required placeholder="Name of Estate"/></div>
-              <div class="form-group">
-                <input type="text" name="estate_code" class="form-control" required placeholder="Estate Code"/></div>
-							<div class="form-group">
-                <input type="text" name="address" class="form-control" required placeholder="Full address"/></div>
-							<div class="form-group">
-                <input data-parsley-type="number" name="no_of_blocks" type="text" class="form-control" required placeholder="No. of blocks"/></div>
-							<div class="form-group">
-                <input data-parsley-type="number" name="no_of_flats" type="text" class="form-control" required placeholder="No. of flats"/></div> 
-              <div class="form-group">
-                <button type="submit" class="btn btn-primary waves-effect waves-light">Submit</button><button type="reset" class="btn btn-secondary waves-effect m-l-5">Cancel</button></div>
+                <h4 class="mt-0 header-title">Add Estate</h4>
+                <p class="text-muted m-b-30 font-14">Enter details of a new estate.</p><form class="" action="" method="POST">
+                <div class="form-group">
+                  <input type="text" name="estate_name" class="form-control" required placeholder="Name of Estate"/>
+				</div>
+                <div class="form-group">
+                  <input type="text" name="estate_code" class="form-control" required placeholder="Estate Code"/>
+				</div>
+				<div class="form-group">
+                  <input type="text" name="address" class="form-control" required placeholder="Full address"/>
+				</div>
+				<div class="form-group">
+                  <input data-parsley-type="number" name="no_of_blocks" type="text" class="form-control" required placeholder="No. of blocks">
+				</div>
+				<div class="form-group">
+                  <input data-parsley-type="number" name="no_of_flats" type="text" class="form-control" required placeholder="No. of flats"/>
+				</div> 
+                <div class="form-group">
+                  <button type="submit" class="btn btn-primary waves-effect waves-light">Add Estate</button>
+				  <button type="reset" class="btn btn-secondary waves-effect m-l-5">Clear Form</button>
+				</div>
               </form>
               </div>
             </div>

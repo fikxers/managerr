@@ -7,6 +7,7 @@
   //   $_SESSION['id'] = $_GET['id']; $_SESSION['admin_type'] = $_GET['admin_type'];
   // }
   if($_SESSION['admin_type'] != 'admin'){ session_destroy(); header("Location: ../login.php");}
+  require ('functions.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -77,10 +78,24 @@
                                 <span> Home</span>
                             </a>
                         </li>
+						<li>
+                            <a href="#" class="waves-effect"><i class="ti-settings"></i><span> Settings </span></a>
+                        </li>
                         <li class="has_sub">
                             <a href="javascript:void(0);" class="waves-effect"><i class="ti-user"></i> <span> Users </span> <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span></a>
                             <ul class="list-unstyled">
-                                <li><a href="view_flats.php">Flats<span class="badge badge-success pull-right">
+								<li><a href="view_admins.php">Admins<span class="badge badge-success pull-right">
+								  <?php
+									include ('../db.php');
+									$sql = "SELECT COUNT(*) AS cnt FROM admins"; 
+									//include where clause for specific flat
+									$result = $con->query($sql);
+									$values = mysqli_fetch_assoc($result); 
+									$num_eqpm = $values['cnt'];
+									echo $num_eqpm;								
+								   ?>
+								</span></a></li>
+                                <li><a href="view_flats.php">Residents<span class="badge badge-success pull-right">
 								  <?php
 									include ('../db.php');
 									$sql = "SELECT COUNT(*) AS cnt FROM flats"; 
@@ -113,7 +128,7 @@
 									echo $num_eqpm;								
 								   ?>
 								</span></a></li>
-                                <li><a href="view_residents.php">Residents<span class="badge badge-success pull-right">
+                                <li><a href="view_residents.php">Hostel Residents<span class="badge badge-success pull-right">
                                   <?php
                                     include ('../db.php');
                                     $sql = "SELECT COUNT(*) AS cnt FROM residents"; 
@@ -148,23 +163,30 @@
                                 </span></a></li>
                             </ul>
                         </li>
-						<!--<li>
-                            <a href="view_estates.php" class="waves-effect"><i class="ti-calendar"></i><span> Estates </span></a>
-                        </li>
-                        <li>
+                        <!--<li>
                             <a href="view_hostels.php" class="waves-effect"><i class="ti-calendar"></i><span> Hostels </span></a>
                         </li>-->
 						<li class="has_sub">
-                            <a href="javascript:void(0);" class="waves-effect"><i class="ti-shopping-cart"></i> <span> Estate Mgt </span> <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span></a>
+                            <a href="javascript:void(0);" class="waves-effect"><i class="ti-layers"></i> <span> Estate Mgt </span> <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="assign_fixers.php">Assign Fixers</a></li>
-                                <li><a href="completed.php">History</a></li>
-                                <!--<li><a href="view_mgrs.php">Estate Mgrs</a></li>-->
+                                <li><a href="completed.php">Work Orders</a></li>
 								<li><a href="view_estates.php">View Estates</a></li>
+								<li><a href="#" class="waves-effect"><!--<i class="ti-id-badge"></i>--><span> Visitor Mgt </span></a></li>
+								<li><a href="#">Notifications</a></li>
+                            </ul>
+                        </li>
+						<li class="has_sub">
+                            <a href="javascript:void(0);" class="waves-effect"><i class="ti-wallet"></i> <span> Transactions </span> <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span></a>
+                            <ul class="list-unstyled">
+								<li><a href="#" class="waves-effect"><span> Wallet Deposits </span></a></li>
+								<li><a href="#">Electricity</a></li>
+								<li><a href="#">Estate Payments</a></li> <li><a href="#">Deposits</a></li>
+								<li><a href="#">History</a></li>
                             </ul>
                         </li>
                         <li class="has_sub">
-                            <a href="javascript:void(0);" class="waves-effect"><i class="ti-shopping-cart"></i> <span> Hostel Mgt </span> <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span></a>
+                            <a href="javascript:void(0);" class="waves-effect"><i class="ti-id-badge"></i> <span> Hostel Mgt </span> <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="#">Add Fikxer</a></li>
                                 <li><a href="#">Add Asset</a></li>
@@ -172,7 +194,7 @@
                             </ul>
                         </li>
 						<li class="has_sub">
-                            <a href="javascript:void(0);" class="waves-effect"><i class="ti-settings"></i> <span> Flat Mgt </span> <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span></a>
+                            <a href="javascript:void(0);" class="waves-effect"><i class="ti-id-badge"></i> <span> Resident Mgt </span> <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="view_equipments.php">Assets<span class="badge badge-success pull-right">
 								  <?php
@@ -185,7 +207,7 @@
 									echo $num_eqpm;								
 								   ?>
 								</span></a></li>
-                                <li><a href="repairs.php">Work Orders<span class="badge badge-success pull-right">
+                                <li><a href="repairs.php">Work Requests<span class="badge badge-success pull-right">
 								  <?php
 									include ('../db.php');
 									$sql = "SELECT COUNT(*) AS cnt FROM orders"; 
@@ -276,12 +298,12 @@
                                     <div class="mini-stat-info text-right text-light">
                                         <span class="counter text-white"><?php
 										include ('../db.php');
-										$sql = "SELECT COUNT(*) AS cnt FROM flats"; 																		
+										$sql = "SELECT COUNT(*) AS cnt FROM flats"; 									
 										$result = $con->query($sql); 
 										$values = mysqli_fetch_assoc($result);  
 										$num = $values['cnt']; 
 										echo $num;								
-									   ?></span> Total Flats
+									   ?></span> Estate Residents
                                     </div>
                                 </div>
 								</a>
@@ -298,7 +320,7 @@
 										$values = mysqli_fetch_assoc($result);  
 										$num = $values['cnt']; 															
 										echo $num;								
-									   ?></span> Total Fikxers
+									   ?></span> Estate Fikxers
                                     </div>
                                 </div>
 								</a>
@@ -315,7 +337,7 @@
 										$values = mysqli_fetch_assoc($result);  
 										$num = $values['cnt'];								
 										echo $num;								
-									   ?></span> Total Managers
+									   ?></span> Estate FMs
                                     </div>
                                 </div>
 								</a>

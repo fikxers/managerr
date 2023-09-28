@@ -1,0 +1,20 @@
+<!-- sp:pagelayer/pl_post_props {"post_title":"Footer","post_status":"publish","post_date":"2021-10-07 06:27:03","post_author":"1","post_name":"footer","pagelayer-id":"ayx108"} /-->
+<!-- sp:pagelayer/pl_row {"stretch":"auto","col_gap":"10","width_content":"auto","row_height":"default","column_pos":"default","content_pos":"default","overlay_hover_delay":"400","row_shape_top_color":"#fff","row_shape_top_width":"100","row_shape_top_height":"100","row_shape_bottom_color":"#fff","row_shape_bottom_width":"100","row_shape_bottom_height":"100","ele_bg_hover_delay":"400","ele_bg_type":"color","ele_bg_color":"#e1e1e1ff","ele_padding":"40px,0px,40px,0px","pagelayer-id":"y7b2868"} -->
+<!-- sp:pagelayer/pl_col {"widget_space":"15","overlay_hover_delay":"400","ele_bg_hover_delay":"400","col":"2","pagelayer-id":"ymb6475"} -->
+<!-- sp:pagelayer/pl_wp_title {"site_name":"Drone","site_title_style":"Wallpoet,30,,500,,,Solid,,,,","site_title_state":"normal","text-align":"center","ele_bg_hover_delay":"400","site_logo":"true","logo_img_size":"custom","align":"top","vertical_align":"top","logo_img_type":"custom-logo","logo_img":"{{theme_url}}\/images\/logo.png","logo_img_custom_size":"45","title_padding":"15,0,15,0","title_color":"#000000ff","logo_img_custom_size_tablet":"15","title_padding_tablet":"40,0,0,30","site_title_style_tablet":"Wallpoet,50,,500,,,Solid,,,,","logo_img_custom_size_mobile":"25","title_padding_mobile":"20,0,0,15","site_title_style_mobile":"Wallpoet,40,,,,,Solid,,,,","pagelayer-id":"y5h8447"} /-->
+<!-- /sp:pagelayer/pl_col -->
+<!-- sp:pagelayer/pl_col {"widget_space":"15","overlay_hover_delay":"400","ele_bg_hover_delay":"400","col":"3","content_pos":"center","pagelayer-id":"5lr5128"} -->
+<!-- sp:pagelayer/pl_email {"icon":"fas fa-envelope","ele_bg_hover_delay":"400","icon_size":"40","icon_color":"#000000ff","typography":"Oswald,20,,500,,,Solid,1.8,,,","space":"20","align":"center","typography_mobile":["","16","","","","","Solid","","","",""],"icon_size_mobile":20,"pagelayer-id":"abn6361"} /-->
+<!-- /sp:pagelayer/pl_col -->
+<!-- sp:pagelayer/pl_col {"widget_space":"15","overlay_hover_delay":"400","ele_bg_hover_delay":"400","col":"3","content_pos":"center","pagelayer-id":"j428492"} -->
+<!-- sp:pagelayer/pl_phone {"icon":"fas fa-phone-alt","ele_bg_hover_delay":"400","typography":"Oswald,20,,500,,,Solid,,,,","space":"14","icon_color":"#000000ff","icon_size":"30","align":"center","typography_mobile":["","16","","","","","Solid","","","",""],"icon_size_mobile":20,"pagelayer-id":"nfj3362"} /-->
+<!-- /sp:pagelayer/pl_col -->
+<!-- sp:pagelayer/pl_col {"widget_space":"15","overlay_hover_delay":"400","ele_bg_hover_delay":"400","col":"4","content_pos":"center","pagelayer-id":"u005317"} -->
+<!-- sp:pagelayer/pl_address {"icon":"fas fa-map-marker-alt","ele_bg_hover_delay":"400","icon_size":"30","icon_color":"#000000ff","space":"20","typography":"Oswald,20,,500,,,Solid,1.4,,,","align":"center","typography_mobile":["","16","","","","","Solid","","","",""],"icon_size_mobile":20,"align_mobile":"center","pagelayer-id":"t9y6199"} /-->
+<!-- /sp:pagelayer/pl_col -->
+<!-- /sp:pagelayer/pl_row -->
+<!-- sp:pagelayer/pl_row {"stretch":"auto","col_gap":"10","width_content":"auto","row_height":"default","overlay_hover_delay":"400","row_shape_top_color":"#fff","row_shape_top_width":"100","row_shape_top_height":"100","row_shape_bottom_color":"#fff","row_shape_bottom_width":"100","row_shape_bottom_height":"100","ele_bg_hover_delay":"400","ele_bg_type":"color","ele_bg_color":"#e1e1e1ff","pagelayer-id":"tzb2352"} -->
+<!-- sp:pagelayer/pl_col {"widget_space":"15","overlay_hover_delay":"400","ele_bg_hover_delay":"400","pagelayer-id":"jjl3621"} -->
+<!-- sp:pagelayer/pl_copyright {"ele_bg_hover_delay":"400","typography":"Oswald,20,,500,,,Solid,,,,","ele_padding":"0px,0px,20px,0px","copyright_text":"\u00a9 2021 Fashionova. All rights reserved.","pagelayer-id":"8sq6349"} /-->
+<!-- /sp:pagelayer/pl_col -->
+<!-- /sp:pagelayer/pl_row -->

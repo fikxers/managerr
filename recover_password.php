@@ -36,9 +36,9 @@
 		//Set PHPMailer to use the sendmail transport
 		$mail->isSendmail(); //$mail->IsSMTP(); 
 		//Set who the message is to be sent from
-		$mail->setFrom('support@managerr.net', 'Manager Support');
+		$mail->setFrom('support@managerr.net', 'Managerr Support');
 		//Set an alternative reply-to address
-		$mail->addReplyTo('info@managerr.net', 'Manager Support');
+		$mail->addReplyTo('info@managerr.net', 'Managerr Support');
 		//Set who the message is to be sent to
 		$mail->addAddress($to);//$mail->addAddress('ypolycarp@gmail.com');
 		//Set the subject line

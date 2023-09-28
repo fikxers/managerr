@@ -6,7 +6,7 @@
 			https://www.zope-europe.org/avoid-mysql-queries-within-loops/
 				*/
   //$dsn = 'mysql:host=localhost;dbname=realeoki_fikxers'; $username = 'root'; $password = '';
-  $dsn = 'mysql:host=localhost;dbname=realeoki_fikxers2'; $username = 'realeoki_root'; $password = 'tamgenius';
+  $dsn = 'mysql:host=localhost;dbname=realeoki_fikxers'; $username = 'realeoki_root'; $password = 'tamgenius';
   try{
     // connect to mysql
     $con = new PDO($dsn,$username,$password);

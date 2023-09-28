@@ -24,8 +24,8 @@ else{
           <div class="card-body">
 						<div class="table-rep-plugin">
               <div class="table-responsive b-0" data-pattern="priority-columns">
-              	<button type='button' onclick="window.location.href = 'report.php?title=4';" class='btn btn-success btn-sm ml-1 mb-3' style='border-radius: 10px; float: right;'><b>Download CSV Report</b></button>
-								<button type='button' onclick="window.location.href = 'reportpdf.php?title=4';" class='btn btn-danger btn-sm mb-3' style='border-radius: 10px; float: right;'><b>Download PDF Report</b></button>
+              	<!-- <button type='button' onclick="window.location.href = 'report.php?title=4';" class='btn btn-success btn-sm ml-1 mb-3' style='border-radius: 10px; float: right;'><b>Download CSV Report</b></button>
+								<button type='button' onclick="window.location.href = 'reportpdf.php?title=4';" class='btn btn-danger btn-sm mb-3' style='border-radius: 10px; float: right;'><b>Download PDF Report</b></button> -->
                 <?php include ('../db.php');
 								$sql = "SELECT * FROM entrance_codes where estate='".$_SESSION['estate']."' and status='invite'";
 								$result = $con->query($sql);

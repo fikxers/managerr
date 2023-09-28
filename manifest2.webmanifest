@@ -2,7 +2,7 @@
     "theme_color": "#fff",
     "background_color": "#fff",
     "display": "standalone",
-    "start_url": "login.php",
+    "start_url": "/login.php",
     "name": "Managerr",
     "short_name": "Managerr",
     "description": "The Integrated Facilities Management Application.",

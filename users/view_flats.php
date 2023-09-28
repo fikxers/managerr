@@ -1,5 +1,4 @@
-<?php require('auth.php'); $title ='Residents'; 
-	  require('../db.php'); require('functions.php'); 
+<?php require('auth.php'); $title ='Residents'; include ('../db.php');
 	  if (isset($_POST['flat_no'])){
 	    $flat_no = stripslashes($_REQUEST['flat_no']);
 	    $block_no = stripslashes($_REQUEST['block_no']);
@@ -7,10 +6,10 @@
 	    //$no_of_equipments = stripslashes($_REQUEST['no_of_equipments']);
 	    if( isset($_SESSION['admin_type']) && $_SESSION['admin_type']=='admin'){
 		  	$estate_code = stripslashes($_REQUEST['estate_code']); 
-			}
-			else if( isset($_SESSION['admin_type']) && $_SESSION['admin_type']=='mgr'){
-			  $estate_code = $_SESSION['estate'];
-			}
+		}
+		else if( isset($_SESSION['admin_type']) && $_SESSION['admin_type']=='mgr'){
+			$estate_code = $_SESSION['estate'];
+		}
 	    $owner = stripslashes($_REQUEST['owner']);
 	    $phone = stripslashes($_REQUEST['phone']);
 	    $email = stripslashes($_REQUEST['email']);
@@ -18,7 +17,7 @@
 	    $password2 = stripslashes($_REQUEST['rpassword']);
 	    if(trim($password)=='' || trim($password2)=='')
 	    {
-			echo('All fields are required!');
+		  echo('All fields are required!');
 		  header('Location: view_fixers.php');
 	    }
 	    else if($password != $password2)
@@ -36,9 +35,9 @@
 		  //b4 insert, check if exists 
 		  //check if flat_no && block_no && estate_code already in db
 		  //alternatively, use email as pk
-	    $query = "INSERT into `flats` (email,flat_no,block_no,estate_code,phone,owner,created_at) VALUES ('".$email."','$flat_no','$block_no', '$estate_code','$phone','$owner','$trn_date')";
+	      $query = "INSERT into `flats` (email,flat_no,block_no,estate_code,phone,owner,created_at) VALUES ('".$email."','$flat_no','$block_no', '$estate_code','$phone','$owner','$trn_date')";
 		  $query2 = "INSERT into `users` (email, password, admin_type) VALUES ('".$email."', '".md5($password)."', '$admin_type')";
-	    $result = mysqli_query($con,$query);
+	      $result = mysqli_query($con,$query);
 		  if($result){
 		  $result2 = mysqli_query($con,$query2);
 			// the message
@@ -47,99 +46,99 @@
 			$msg = wordwrap($msg,70);
 			// send email
 			mail($email,"Successful Registration on Managerr.com",$msg);
-					
 			echo "<script>alert('Resident added successfully.');</script>";
-		  echo "<script type='text/javascript'>window.top.location='view_flats.php';</script>"; exit;
+		    echo "<script type='text/javascript'>window.top.location='view_flats.php';</script>"; exit;
 		  }
 		  else{
-				$error=mysqli_error($con);
-				echo '<script type="text/javascript">alert("Error: '.$error.'");</script>';
-				//echo "<script>alert('Error adding resident.');</script>";
-			  echo "<script type='text/javascript'>window.top.location='view_flats.php';</script>"; exit;
-			}
+			$error=mysqli_error($con);
+			echo '<script type="text/javascript">alert("Error: '.$error.'");</script>';
+			//echo "<script>alert('Error adding resident.');</script>";
+			echo "<script type='text/javascript'>window.top.location='view_flats.php';</script>"; exit;
+		  }
 	    }
 	  }
 	  else if (isset($_POST['activate'])){
-			//$id = $_REQUEST['id']; 
-			$query = "UPDATE users set status=1 WHERE email = '".$_REQUEST['email']."'";
-			$result2 = mysqli_query($con,$query); 
-			if($result2){
-			  echo "<script>alert('Resident activated successfully.');</script>";
-			  echo "<script type='text/javascript'>window.top.location='view_flats.php';</script>"; exit;
-			}
-			else{
-			  echo "<script>alert('Activation Error. Please try again.');</script>";
-			  echo "<script type='text/javascript'>window.top.location='view_flats.php';</script>"; exit;
-			}  
+		//$id = $_REQUEST['id']; 
+		$query = "UPDATE users set status=1 WHERE email = '".$_REQUEST['email']."'";
+		$result2 = mysqli_query($con,$query); 
+		if($result2){
+			echo "<script>alert('Resident activated successfully.');</script>";
+			echo "<script type='text/javascript'>window.top.location='view_flats.php';</script>"; exit;
+		}
+		else{
+			echo "<script>alert('Activation Error. Please try again.');</script>";
+			echo "<script type='text/javascript'>window.top.location='view_flats.php';</script>"; exit;
+		}
 	  }
 	  else if (isset($_POST['credit'])){
-			$amount = $_REQUEST['amount']; $id = $_REQUEST['id']; $action = $_REQUEST['bal'];
-			$query = "UPDATE flats set amount_paid=amount_paid+$amount, last_payment_type='fm_credit', last_payment_date='".date("Y-m-d")."' WHERE id = $id";
-			if($action=='debt'){$query = "UPDATE flats set total_debt=total_debt+$amount, updated_at='".date("Y-m-d H:i:s")."' WHERE id = $id";}
-			$result2 = mysqli_query($con,$query); 
-			if($result2){
-			  echo "<script>alert('Resident Account updated successfully.');</script>";
-			  echo "<script type='text/javascript'>window.top.location='view_flats.php';</script>"; exit;
-			}
-			else{
-			  echo "<script>alert('Account update Unsuccessful. Please try again.');</script>";
-			  echo "<script type='text/javascript'>window.top.location='view_flats.php';</script>"; exit;
-			}  
+		$amount = $_REQUEST['amount']; $id = $_REQUEST['id']; $action = $_REQUEST['bal'];
+		$query = "UPDATE flats set amount_paid=amount_paid+$amount, last_payment_type='fm_credit', last_payment_date='".date("Y-m-d")."' WHERE id = $id";
+		if($action=='debt'){$query = "UPDATE flats set total_debt=total_debt+$amount, updated_at='".date("Y-m-d H:i:s")."' WHERE id = $id";}
+		$result2 = mysqli_query($con,$query); 
+		if($result2){
+			echo "<script>alert('Resident Account updated successfully.');</script>";
+			echo "<script type='text/javascript'>window.top.location='view_flats.php';</script>"; exit;
+		}
+		else{
+			echo "<script>alert('Account update Unsuccessful. Please try again.');</script>";
+			echo "<script type='text/javascript'>window.top.location='view_flats.php';</script>"; exit;
+		}  
 	  }
 	  else{
-			//echo "<script>alert('Error');</script>";
-		  if( isset($_SESSION['admin_type']) && $_SESSION['admin_type']=='admin'){
+		//echo "<script>alert('Error');</script>";
+		if( isset($_SESSION['admin_type']) && $_SESSION['admin_type']=='admin'){
 		   include('admin_sidebar.php'); 
-		  }
+		}
 	    else if( isset($_SESSION['admin_type']) && $_SESSION['admin_type']=='mgr'){
 		   include('mgr_sidebar.php');
-			}
+		}
 		?>
 	  <div class="row">       
-			<div class="col-lg-12">
-        <div class="card m-b-30">
-          <div class="card-body">
-            <h4 class="mt-0 header-title">All Residents</h4>
-			   		<span style="float: right">
-				     	<a type='button' href="./import-csv" class='btn text-primary btn-primary btn-sm' style='background-color: transparent; border-width: 0px;'><i class="fa fa-file m-r-10 m-b-10"></i>Import CSV</a>
-					 		<button type='button' class='btn text-dark btn-dark btn-sm' style='background-color: transparent; border-width: 0px;' data-toggle='modal' data-target="#residentmodal" data-original-title="Add Resident"><i class="fa fa-user-plus m-r-10 m-b-10"></i><b>Add Resident</b>
-						 </button>
-						 <button type='button' class='btn btn-danger text-danger btn-sm' style='background-color: transparent; border-width: 0px;' data-toggle='modal' data-target="#activatemodal" data-original-title="Activate Resident"><i class="fa fa-check m-r-10 m-b-10"></i><b>Activate Resident</b>
-						 </button>
-			   		</span>
-            <div class="table-rep-plugin">
-              <div class="table-responsive b-0" data-pattern="priority-columns">
+		<div class="col-lg-12">
+          <div class="card m-b-30">
+            <div class="card-body">
+              <h4 class="mt-0 header-title">All Residents</h4>
+			  <span style="float: right">
+				<a type='button' href="./import-csv" class='btn text-primary btn-primary btn-sm' style='background-color: transparent; border-width: 0px;'><i class="fa fa-file m-r-10 m-b-10"></i>Import CSV</a>
+				<button type='button' class='btn text-dark btn-dark btn-sm' style='background-color: transparent; border-width: 0px;' data-toggle='modal' data-target="#residentmodal" data-original-title="Add Resident"><i class="fa fa-user-plus m-r-10 m-b-10"></i><b>Add Resident</b>
+				</button>
+				<button type='button' class='btn btn-danger text-danger btn-sm' style='background-color: transparent; border-width: 0px;' data-toggle='modal' data-target="#activatemodal" data-original-title="Activate Resident"><i class="fa fa-check m-r-10 m-b-10"></i><b>Activate Resident</b>
+				</button>
+			  </span>
+              <div class="table-rep-plugin">
+                <div class="table-responsive b-0" data-pattern="priority-columns">
                 <?php include ('../db.php'); 
                 $sql = "SELECT * FROM flats ORDER BY block_no, flat_no";
-							 	if($_SESSION['admin_type']=='mgr'){
-								  $sql = "SELECT * FROM flats where estate_code='".$_SESSION['estate']."' ORDER BY block_no, flat_no"; }
-								  $result = $con->query($sql);
-								  if ($result->num_rows > 0) { ?>
-				 					<table id="tech-companies-1" class="table table-bordered table-striped">
+				if($_SESSION['admin_type']=='mgr'){
+				  $sql = "SELECT * FROM flats where estate_code='".$_SESSION['estate']."' ORDER BY block_no, flat_no"; }
+				  $result = $con->query($sql);
+				  if ($result->num_rows > 0) { ?>
+				  <table id="tech-companies-1" class="table table-bordered table-striped">
                     <thead><tr class="titles"><th>Flat</th><th>Block</th>
-                    <?php if($_SESSION['admin_type']=='admin'){echo "<th>Estate</th>";} ?><th>Resident</th><th>Ownership</th> <th>Phone</th>
-                     <th># of assets</th><th>Due Status</th><th>Acct Bal</th><th>Action</th></tr></thead>
+                    <?php if($_SESSION['admin_type']=='admin'){echo "<th>Estate</th>";} ?>
+                    <th>Resident</th><!--<th>Ownership</th>--> <th>Phone</th>
+                    <th># of assets</th><th>Due Status</th><th>Acct Bal</th><th>Action</th></tr>
+                    </thead>
                     <tbody> <?php while($row = $result->fetch_assoc()) { ?>
-										  <tr><td><?php echo $row['flat_no']; ?></td>
-											<td><?php echo $row['block_no']; ?></td>
-											<?php if($_SESSION['admin_type']=='admin'){echo "<td>".$row['estate_code']."</td>";} ?>
-											<td><?php echo $row['owner']; ?></td><td><?php echo $row['ownership']; ?></td>
-											<td><?php echo $row['phone']; ?></td>
-											<?php $sql = "SELECT COUNT(*) AS cnt FROM equipments where flat='".$row['email']."'"; 
-											    $res = $con->query($sql);
-												$values = mysqli_fetch_assoc($res); 
-												$num_eqpm = $values['cnt']; ?>
-											<td><?php echo $num_eqpm; ?></td>
-											<!--<td><?php //$stat = $row['status']; if($stat=='good' || $stat=='Good'){echo '<span class="badge badge-success">'.$stat.'</span>';} else {echo '<span class="badge badge-danger">'.$stat.'</span>';} ?></td>-->
-											<td><?php if($row['amount_paid']-$row['total_debt'] >= 0)	{echo '<span class="badge badge-success">Good</span>';}  
-											else{echo '<span class="badge badge-danger">Owing</span>';}?></td>
-											<td><?php echo acct_bal($row['amount_paid'],$row['total_debt']); ?></td>
-											<?php echo "<td><a href='update_flat.php?id=" .$row['email']."&phone=" .$row['phone']."&owner=" .$row['owner']."&flat=" .$row['flat_no']."&block=" .$row['block_no']."&meter=" .$row['meter_pan']."' data-toggle='tooltip' data-original-title='Update'><i class='fa fa-pencil text-success'></i></a>
-											<button type='button' class='btn btn-info text-info btn-sm' style='background-color: transparent; border-width: 0px;' 
-											data-toggle='modal' data-target='#creditmodal-" .$row['id']."' data-original-title='Activate Resident'><i class='ti-wallet text-info'></i></button></td>"; ?>
-											<!--<a href='delete_flat.php?id=" . $row['email'] . "' data-toggle='tooltip' data-original-title='Delete'><i class='fa fa-trash text-danger m-r-10'></i></a> -->
-											</tr>
-											<!-- Credit Modal -->
+						<tr><td><?php echo $row['flat_no']; ?></td>
+							<td><?php echo $row['block_no']; ?></td>
+							<?php if($_SESSION['admin_type']=='admin'){echo "<td>".$row['estate_code']."</td>";} ?>
+							<td><?php echo $row['owner']; ?></td><!--<td><?php echo $row['ownership']; ?></td>-->
+							<td><?php echo $row['phone']; ?></td>
+							<?php $sql = "SELECT COUNT(*) AS cnt FROM equipments where flat='".$row['email']."'"; 
+								$res = $con->query($sql);
+								$values = mysqli_fetch_assoc($res); 
+								$num_eqpm = $values['cnt']; ?>
+							<td><?php echo $num_eqpm; ?></td>
+							<!--<td><?php //$stat = $row['status']; if($stat=='good' || $stat=='Good'){echo '<span class="badge badge-success">'.$stat.'</span>';} else {echo '<span class="badge badge-danger">'.$stat.'</span>';} ?></td>-->
+							<td><?php if($row['amount_paid']-$row['total_debt'] >= 0)	{echo '<span class="badge badge-success">Good</span>';}  
+								else{echo '<span class="badge badge-danger">Owing</span>';}?></td>
+							<td><?php echo acct_bal($row['amount_paid'],$row['total_debt']); ?></td>
+							<?php echo "<td><a href='update_flat.php?id=" .$row['email']."&phone=" .$row['phone']."&owner=" .$row['owner']."&flat=" .$row['flat_no']."&block=" .$row['block_no']."&meter=" .$row['meter_pan']."' data-toggle='tooltip' data-original-title='Update Resident Info'><i class='fa fa-pencil text-success'></i></a>
+							<button type='button' class='btn btn-info text-info btn-sm' style='background-color: transparent; border-width: 0px;' data-toggle='modal' data-target='#creditmodal-" .$row['id']."' title='Update Resident Balance' data-original-title='Update Resident Balance'><i class='ti-wallet text-info'></i></button>							<a href='history.php?flat_id=".$row['id']."' data-toggle='tooltip' data-original-title='View Resident History'><i class='fa fa-solid fa-eye'></i></a></td>"; ?>
+							<!--<a href='history.php?flat_email=" .$row['email']."&flat_no=" .$row['flat_no']."&block=" .$row['block_no']."' data-toggle='tooltip' data-original-title='View Resident History'><i class='fa fa-solid fa-eye'></i></a><a href='delete_flat.php?id=" . $row['email'] . "' data-toggle='tooltip' data-original-title='Delete'><i class='fa fa-trash text-danger m-r-10'></i></a> -->
+						</tr>
+							            <!-- Credit Modal -->
                                     	  <div class="modal fade" id="creditmodal-<?php echo $row['id']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                                     		<div class="modal-dialog modal-dialog-centered" role="document">
                                     		  <div class="modal-content">
@@ -157,7 +156,7 @@
             										    <label>What do you want to do?</label><br>
             										    Credit Account <input class="" type="radio" name="bal" checked="checked" value="cred" /> 
             										    Add Debt <input class="" type="radio" name="bal" value="debt" /> <br>
-                                                        <input type="number" name="amount" step="1000" min="1000" class="form-control" />
+                                                        <input type="number" name="amount" step="500" min="1000" class="form-control" />
                                                         <input type="hidden" name="id" value="<?php echo $row['id']; ?>" />
                                                       </div>		
                                                       <div class="form-group col-lg-12">
@@ -170,16 +169,16 @@
                                     		  </div>
                                     		</div>
                                     	  </div>
-                                    	  <!-- /Credit Modal -->
+                                    	  <!-- /Credit Modal -->										   
 											<?php } } else {echo "No resident in database.";}
 											$con->close(); ?>
                     </tbody>
                   </table>
-                  </div>
-								 </div>
                 </div>
-               </div>
-             </div> <!-- end col -->
+			   </div>
+              </div>
+              </div>
+            </div> <!-- end col -->
 			 <!-- Add Resident Modal -->
 			 <div class="modal fade" id="activatemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 				<div class="modal-dialog modal-dialog-centered" role="document">
@@ -222,7 +221,7 @@
 				</div>
 			  </div>
 			  <!-- /Add Resident Modal -->
-			  
+			 
 			  <!-- Activate Resident Modal -->
 			 <div class="modal fade" id="residentmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 				<div class="modal-dialog modal-dialog-centered" role="document">
@@ -267,9 +266,8 @@
 				</div>
 			</div>
 			<!-- /Activate Resident Modal -->
-			 
         </div><!-- container -->
       </div><!-- Page content Wrapper -->
-		</div><!-- content -->
+	</div><!-- content -->
 	<?php include('footer.php'); } ?>
 </html>

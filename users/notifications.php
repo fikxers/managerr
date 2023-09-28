@@ -136,10 +136,10 @@
 								data-toggle='modal' data-target="#chatmodal" data-original-title="Contact Resident"><i class="fa fa-comment m-b-10"></i> <b>Contact Resident</b></button></span>
 								<div class="table-responsive b-0" data-pattern="priority-columns">
 								    <?php include ('../db.php');
-									$sql = "SELECT * FROM messages join flats on messages.sender=flats.email where receiver='".$estate_code."' ";
+									$sql = "SELECT * FROM messages join flats on messages.sender=flats.email where receiver='".$estate_code."' AND flats.estate_code='".$estate_code."' order by  date_received desc";
 									$result = $con->query($sql);
 									if ($result->num_rows > 0) { ?>
-									<table id="tech-companies-1" class="table  table-striped">
+									<table id="tech-companies-1" class="table  table-bordered">
                     	               <thead>
                     	                 <tr class="titles">
                     	                    <th>Subject</th><th>Message</th><th>Sender</th><th>Date Sent</th> <th>Action</th> 
@@ -149,7 +149,7 @@
 											<tr>
 											  <td><?php echo $row['subject']; ?></td><td><?php echo $row['message']; ?></td>
 											  <td><?php $sender="Flat ".$row['flat_no']."- Block ".$row['block_no']; echo $sender;//$row['sender']; ?></td>
-											  <td><?php echo $row['date_received']; ?></td>
+											  <td><?php echo format_date($row['date_received']); ?></td>
 											  <td><button type='button' class='btn text-success btn-success btn-sm' style='background-color: transparent; border-width: 0px;' 
 								                data-toggle='modal' data-target="#replymodal-<?php echo $row['mid']; ?>" data-original-title="Reply Message"><i class="fa fa-reply" aria-hidden="true"></i></button></td>
 											</tr>
@@ -194,10 +194,10 @@
 								</span>
 								<div class="table-responsive b-0" data-pattern="priority-columns">
 								    <?php include ('../db.php');
-									$sql = "SELECT * FROM broadcast where estate='".$estate_code."'";
+									$sql = "SELECT * FROM broadcast where estate='".$estate_code."'  order by  send_date desc";
 									$result = $con->query($sql);
 									if ($result->num_rows > 0) { ?>
-									<table id="tech-companies-1" class="table  table-striped">
+									<table id="tech-companies-1" class="table  table-stripped table-bordered">
                 	                    <thead>
                 	                      <tr class="titles">
                 	                        <th>Subject</th><th>Message</th><th>Date Sent</th>
@@ -205,7 +205,7 @@
                 	                    </thead>
                 	                   	<tbody><?php while($row = $result->fetch_assoc()) { ?>
 											<tr>
-											  <td><?php echo $row['subject']; ?></td><td><?php echo $row['message']; ?></td><td><?php echo $row['send_date']; ?></td>
+											  <td><?php echo $row['subject']; ?></td><td><?php echo $row['message']; ?></td><td><?php echo format_date($row['send_date']); ?></td>
 											</tr>
 										<?php }
 										  } else {echo "No messages yet.";} $con->close();

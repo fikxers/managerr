@@ -88,37 +88,37 @@
                   <div class="form-group">
                     <input type="text" name="mgr_name" class="form-control" required placeholder="Name of Estate Manager"/></div>
                     <!--<div class="form-group"><input type="text" name="estate_code" class="form-control" required placeholder="Estate CODE"/></div>-->
-									<div class="form-group">
-									  <select class="form-control" required name="estate_code" >
-										<option value="">Select Estate Code</option>
-										<?php include ('../db.php');
-										$sql="select estate_code from estates"; 
-										$result = $con->query($sql);
-										while($row = $result->fetch_assoc()) { ?>
-										<option value="<?php echo $row['estate_code']; ?>"><?php echo $row['estate_code']; ?></option><?php } ?>
-									  </select>
-									</div>
-									<div class="form-group">
+					<div class="form-group">
+					  <select class="form-control" required name="estate_code" >
+						<option value="">Select Estate</option>
+						<?php include ('../db.php');
+						$sql="select estate_code,estate_name from estates"; 
+						$result = $con->query($sql);
+						while($row = $result->fetch_assoc()) { ?>
+						<option value="<?php echo $row['estate_code']; ?>"><?php echo $row['estate_name']; ?></option><?php } ?>
+					  </select>
+					</div>
+					<div class="form-group">
                       <input type="text" name="phone" class="form-control" required placeholder="Phone"/>
-                  </div>
-									<div class="form-group">
+                    </div>
+					<div class="form-group">
                       <input name="email" type="text" class="form-control" required placeholder="Email"/>
                     </div>
-									<div class="form-group">
+					<div class="form-group">
                       <input name="password" type="password" class="form-control" required placeholder="Password"/>
-                  </div> 
-									<div class="form-group">
-                    <input name="rpassword" type="password" class="form-control" required placeholder="Repeat password"/>
-                  </div>
-                  <div class="form-group">
-                    <button type="submit" class="btn btn-primary waves-effect waves-light">Submit</button><button type="reset" class="btn btn-secondary waves-effect m-l-5">Cancel</button>
-                  </div>
-                  </form>
-                  </div>
+                    </div> 
+					<div class="form-group">
+                      <input name="rpassword" type="password" class="form-control" required placeholder="Repeat password"/>
+                    </div>
+                    <div class="form-group">
+                      <button type="submit" class="btn btn-primary waves-effect waves-light">Submit</button><button type="reset" class="btn btn-secondary waves-effect m-l-5">Cancel</button>
+                    </div>
+                </form>
                 </div>
-              </div> <!-- end col -->
-            </div><!-- container -->
-          </div><!-- Page content Wrapper -->
-        </div><!-- content -->            
-		<?php include('footer.php'); } ?>
+              </div>
+            </div> <!-- end col -->
+          </div><!-- container -->
+        </div><!-- Page content Wrapper -->
+      </div><!-- content -->            
+	<?php include('footer.php'); } ?>
 </html>

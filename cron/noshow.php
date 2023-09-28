@@ -1,8 +1,7 @@
 <?php
   use PHPMailer\PHPMailer\PHPMailer;
   use PHPMailer\PHPMailer\SMTP;
-  use PHPMailer\PHPMailer\Exception;
-
+  use PHPMailer\PHPMailer\Exception;
   require '../PHPMailer/src/Exception.php';
   require '../PHPMailer/src/PHPMailer.php';
   require '../PHPMailer/src/SMTP.php';
@@ -33,21 +32,31 @@
 			$mail->msgHTML($msg);
 			//Replace the plain text body with one created manually
 			$mail->AltBody = 'Cron job completed.';
-			$mail->send();
+			$mail->send();
   }
+  
+//   $query = "SELECT arr_date FROM `entrance_codes` WHERE status != 'no-show'";
+//   $result = mysqli_query($con,$query) or die(mysql_error());
+//   $arrival = $result->fetch_object()->arr_date;
+  //$atime = date("H:i:sa",strtotime($arrival));
+  //$adate = date("YYYY-MM-DD",strtotime($arrival));
+  //$nowtime = date('h:i:sa', strtotime("10:00:00 pm"));//date("h:i:sa");  
+  //$nowdate = date("Y-m-d");
   date_default_timezone_set('Africa/Lagos');
   $time_check = date('h:i:s',strtotime("10 PM")); $time = date("h:i:s");
+  //if ($time >= '22:00:00'){
+  //if ( ((int) date('H', $currentTime) ) >= 22) {
   if ($time >= $time_check) {
     //$query = "UPDATE entrance_codes set status='no-show' where  (CURDATE() >= DATE(".$arrival."))  AND (CURTIME() > '22:00:00'))";
     //$query = "select code,status,arr_date from entrance_codes where status='invite' AND arr_date <= CURDATE()";
     $query = "UPDATE entrance_codes set status='no-show' where status='invite' AND DATE(arr_date) <= CURDATE()";
     $result = mysqli_query($con,$query); 
     if($result){
-	//echo 'No-shows successfully confirmed.';
-	notification('Dear Admin <br><br>No-show successfully implemented using date("h:i:s")!!!<br>Update time: '.$time);
+	  //echo 'No-shows successfully confirmed.';
+	  notification('Dear Admin <br><br>No-show successfully implemented using date("h:i:s")!!!<br>Update time: '.$time);
     }
     else{
-    //echo 'No-shows No-show could not be implemented.';
-	notification('Dear Admin <br><br>Error. No-show could not be implemented date("h:i:s").<br>Update time: '.$time);
+      //echo 'No-shows No-show could not be implemented.';
+	  notification('Dear Admin <br><br>Error. No-show could not be implemented date("h:i:s").<br>Update time: '.$time);
     }
   }

@@ -365,3 +365,96 @@ Stack trace:
 [05-Jul-2023 11:48:48 America/New_York] PHP Notice:  Undefined index: owner in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 35
 [05-Jul-2023 14:04:41 America/New_York] PHP Notice:  Undefined index: estate_name in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 35
 [05-Jul-2023 14:04:41 America/New_York] PHP Notice:  Undefined index: estate_address in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 35
+[01-Aug-2023 19:07:49 Africa/Lagos] PHP Fatal error:  Cannot redeclare deadline() (previously declared in /home/realeoki/managerr.net/users/functions.php:3) in /home/realeoki/managerr.net/users/functions.php on line 3
+[01-Aug-2023 19:10:23 Africa/Lagos] PHP Fatal error:  Cannot redeclare deadline() (previously declared in /home/realeoki/managerr.net/users/functions.php:3) in /home/realeoki/managerr.net/users/functions.php on line 3
+[01-Aug-2023 19:27:31 Africa/Lagos] PHP Fatal error:  Cannot redeclare deadline() (previously declared in /home/realeoki/managerr.net/users/functions.php:3) in /home/realeoki/managerr.net/users/functions.php on line 3
+[03-Aug-2023 16:20:49 Africa/Lagos] PHP Fatal error:  Cannot redeclare deadline() (previously declared in /home/realeoki/managerr.net/users/functions.php:3) in /home/realeoki/managerr.net/users/functions.php on line 3
+[03-Aug-2023 16:27:06 Africa/Lagos] PHP Fatal error:  Cannot redeclare deadline() (previously declared in /home/realeoki/managerr.net/users/functions.php:3) in /home/realeoki/managerr.net/users/functions.php on line 3
+[03-Aug-2023 16:39:25 Africa/Lagos] PHP Fatal error:  Cannot redeclare deadline() (previously declared in /home/realeoki/managerr.net/users/functions.php:3) in /home/realeoki/managerr.net/users/functions.php on line 3
+[03-Aug-2023 16:42:36 Africa/Lagos] PHP Fatal error:  Cannot redeclare deadline() (previously declared in /home/realeoki/managerr.net/users/functions.php:3) in /home/realeoki/managerr.net/users/functions.php on line 3
+[03-Aug-2023 16:46:50 Africa/Lagos] PHP Fatal error:  Cannot redeclare deadline() (previously declared in /home/realeoki/managerr.net/users/functions.php:3) in /home/realeoki/managerr.net/users/functions.php on line 3
+[03-Aug-2023 17:24:16 Africa/Lagos] PHP Fatal error:  Cannot redeclare deadline() (previously declared in /home/realeoki/managerr.net/users/functions.php:3) in /home/realeoki/managerr.net/users/functions.php on line 3
+[03-Aug-2023 17:26:41 Africa/Lagos] PHP Fatal error:  Cannot redeclare deadline() (previously declared in /home/realeoki/managerr.net/users/functions.php:3) in /home/realeoki/managerr.net/users/functions.php on line 3
+[04-Aug-2023 04:06:44 America/New_York] PHP Notice:  Undefined index: estate_name in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 35
+[04-Aug-2023 04:06:44 America/New_York] PHP Notice:  Undefined index: estate_address in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 35
+[06-Aug-2023 01:57:31 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/realeoki/managerr.net/users/electric/post2.php on line 160
+[06-Aug-2023 01:57:39 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/realeoki/managerr.net/users/electric/post2.php on line 160
+[06-Aug-2023 01:57:42 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/realeoki/managerr.net/users/electric/post2.php on line 160
+[06-Aug-2023 01:58:25 America/New_York] PHP Notice:  Undefined variable: con in /home/realeoki/managerr.net/users/electric/post2.php on line 22
+[06-Aug-2023 01:58:25 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/realeoki/managerr.net/users/electric/post2.php on line 22
+[06-Aug-2023 01:58:30 America/New_York] PHP Notice:  Undefined variable: con in /home/realeoki/managerr.net/users/electric/post2.php on line 22
+[06-Aug-2023 01:58:30 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/realeoki/managerr.net/users/electric/post2.php on line 22
+[06-Aug-2023 03:50:41 America/New_York] PHP Notice:  Undefined variable: con in /home/realeoki/managerr.net/users/electric/post2.php on line 22
+[06-Aug-2023 03:50:41 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/realeoki/managerr.net/users/electric/post2.php on line 22
+[06-Aug-2023 09:01:39 America/New_York] PHP Notice:  Undefined index: estate_name in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 35
+[06-Aug-2023 09:01:39 America/New_York] PHP Notice:  Undefined index: estate_address in /home/realeoki/managerr.net/users/electric/verifystatus.php on line 35
+[06-Aug-2023 10:26:41 America/New_York] PHP Notice:  Undefined variable: meterPAN in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 43
+[06-Aug-2023 10:26:41 America/New_York] PHP Notice:  Undefined variable: vendTime in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 43
+[06-Aug-2023 10:26:41 America/New_York] PHP Notice:  Undefined variable: value in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 43
+[06-Aug-2023 10:26:41 America/New_York] PHP Notice:  Undefined variable: flat in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 43
+[06-Aug-2023 10:26:41 America/New_York] PHP Notice:  Undefined variable: block in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 43
+[06-Aug-2023 10:26:41 America/New_York] PHP Notice:  Undefined variable: unitsActual in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 43
+[06-Aug-2023 10:26:41 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 46
+[06-Aug-2023 10:27:48 America/New_York] PHP Notice:  Undefined variable: meterPAN in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 43
+[06-Aug-2023 10:27:48 America/New_York] PHP Notice:  Undefined variable: vendTime in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 43
+[06-Aug-2023 10:27:48 America/New_York] PHP Notice:  Undefined variable: value in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 43
+[06-Aug-2023 10:27:48 America/New_York] PHP Notice:  Undefined variable: flat in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 43
+[06-Aug-2023 10:27:48 America/New_York] PHP Notice:  Undefined variable: block in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 43
+[06-Aug-2023 10:27:48 America/New_York] PHP Notice:  Undefined variable: unitsActual in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 43
+[06-Aug-2023 10:27:48 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 46
+[06-Aug-2023 10:36:32 America/New_York] PHP Notice:  Undefined variable: meterPAN in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 44
+[06-Aug-2023 10:36:32 America/New_York] PHP Notice:  Undefined variable: vendTime in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 44
+[06-Aug-2023 10:36:32 America/New_York] PHP Notice:  Undefined variable: value in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 44
+[06-Aug-2023 10:36:32 America/New_York] PHP Notice:  Undefined variable: flat in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 44
+[06-Aug-2023 10:36:32 America/New_York] PHP Notice:  Undefined variable: block in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 44
+[06-Aug-2023 10:36:32 America/New_York] PHP Notice:  Undefined variable: unitsActual in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 44
+[06-Aug-2023 11:02:28 America/New_York] PHP Notice:  Undefined variable: meterPAN in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 47
+[06-Aug-2023 11:02:28 America/New_York] PHP Notice:  Undefined variable: vendTime in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 47
+[06-Aug-2023 11:02:28 America/New_York] PHP Notice:  Undefined variable: amount in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 47
+[06-Aug-2023 11:02:28 America/New_York] PHP Notice:  Undefined variable: unitsActual in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 47
+[06-Aug-2023 11:03:45 America/New_York] PHP Notice:  Undefined variable: meterPAN in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 47
+[06-Aug-2023 11:03:45 America/New_York] PHP Notice:  Undefined variable: vendTime in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 47
+[06-Aug-2023 11:03:45 America/New_York] PHP Notice:  Undefined variable: amount in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 47
+[06-Aug-2023 12:36:38 America/New_York] PHP Notice:  Undefined variable: meterPAN in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 47
+[06-Aug-2023 12:36:38 America/New_York] PHP Notice:  Undefined variable: vendTime in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 47
+[06-Aug-2023 12:36:38 America/New_York] PHP Notice:  Undefined variable: amount in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 47
+[06-Aug-2023 14:12:24 America/New_York] PHP Notice:  Undefined variable: result in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 43
+[06-Aug-2023 14:12:24 America/New_York] PHP Notice:  Undefined variable: result in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 51
+[06-Aug-2023 14:14:41 America/New_York] PHP Notice:  Undefined variable: result in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 43
+[06-Aug-2023 14:14:41 America/New_York] PHP Notice:  Undefined variable: result in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 51
+[06-Aug-2023 14:16:08 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 42
+[06-Aug-2023 14:16:08 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 49
+[06-Aug-2023 14:17:50 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 42
+[06-Aug-2023 14:17:50 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, object given in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 48
+[06-Aug-2023 14:17:50 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 50
+[06-Aug-2023 14:17:50 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, object given in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 57
+[06-Aug-2023 14:21:05 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 43
+[06-Aug-2023 14:21:05 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, object given in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 49
+[06-Aug-2023 14:21:05 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, object given in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 51
+[06-Aug-2023 14:21:05 America/New_York] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, object given in /home/realeoki/managerr.net/users/electric/addtransaction.php on line 58
+[22-Aug-2023 12:03:55 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$vendingData in /home/realeoki/managerr.net/users/electric/post2.php on line 60
+[22-Aug-2023 12:03:55 Africa/Lagos] PHP Notice:  Trying to get property 'tokenDec' of non-object in /home/realeoki/managerr.net/users/electric/post2.php on line 60
+[22-Aug-2023 12:03:55 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$vendingData in /home/realeoki/managerr.net/users/electric/post2.php on line 60
+[22-Aug-2023 12:03:55 Africa/Lagos] PHP Notice:  Trying to get property 'unitsActual' of non-object in /home/realeoki/managerr.net/users/electric/post2.php on line 60
+[22-Aug-2023 12:03:55 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$vendingData in /home/realeoki/managerr.net/users/electric/post2.php on line 61
+[22-Aug-2023 12:03:55 Africa/Lagos] PHP Notice:  Trying to get property 'description' of non-object in /home/realeoki/managerr.net/users/electric/post2.php on line 61
+[22-Aug-2023 12:03:55 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$vendingData in /home/realeoki/managerr.net/users/electric/post2.php on line 61
+[22-Aug-2023 12:03:55 Africa/Lagos] PHP Notice:  Trying to get property 'vendTime' of non-object in /home/realeoki/managerr.net/users/electric/post2.php on line 61
+[22-Aug-2023 12:03:55 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$vendingData in /home/realeoki/managerr.net/users/electric/post2.php on line 62
+[22-Aug-2023 12:03:55 Africa/Lagos] PHP Notice:  Trying to get property 'tariff' of non-object in /home/realeoki/managerr.net/users/electric/post2.php on line 62
+[22-Aug-2023 12:03:55 Africa/Lagos] PHP Notice:  Undefined property: stdClass::$vendingData in /home/realeoki/managerr.net/users/electric/post2.php on line 62
+[22-Aug-2023 12:03:55 Africa/Lagos] PHP Notice:  Trying to get property 'unitName' of non-object in /home/realeoki/managerr.net/users/electric/post2.php on line 62
+[09-Sep-2023 13:36:09 America/New_York] PHP Notice:  Undefined index: meterPAN in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[09-Sep-2023 13:36:09 America/New_York] PHP Notice:  Undefined index: customerName in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 13
+[09-Sep-2023 13:36:09 America/New_York] PHP Notice:  Undefined index: description in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 14
+[09-Sep-2023 13:36:09 America/New_York] PHP Notice:  Undefined index: value in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 15
+[09-Sep-2023 13:36:09 America/New_York] PHP Notice:  Undefined index: tariff in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 15
+[09-Sep-2023 13:36:09 America/New_York] PHP Notice:  Undefined index: token in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 16
+[09-Sep-2023 13:36:09 America/New_York] PHP Notice:  Undefined index: unitsActual in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 16
+[09-Sep-2023 13:36:09 America/New_York] PHP Notice:  Undefined index: unitName in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 17
+[09-Sep-2023 13:36:09 America/New_York] PHP Notice:  Undefined index: generated_by in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 17
+[09-Sep-2023 13:36:09 America/New_York] PHP Notice:  Undefined index: transactionDate in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 18
+[09-Sep-2023 13:36:09 America/New_York] PHP Notice:  Undefined index: transactionId in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 19
+[09-Sep-2023 13:36:09 America/New_York] PHP Notice:  Undefined index: estate_name in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 19
+[09-Sep-2023 13:36:09 America/New_York] PHP Notice:  Undefined index: estate_address in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 20
+[09-Sep-2023 13:36:09 America/New_York] PHP Notice:  Undefined index: email in /home/realeoki/managerr.net/users/electric/electricity-token-receipt.php on line 41

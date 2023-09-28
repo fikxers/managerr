@@ -29,6 +29,8 @@ curl_setopt_array($curl, array(
 	'subaccount' => $split_code, //"ACCT_zojwl8jr1974ctr",
     //'split_code' => $split_code, //"ACCT_zojwl8jr1974ctr",
 	//'purpose'=>$_SESSION['purpose'],
+	'phone' => $_SESSION['phone'], //new additional details
+	'full_name' => $_SESSION['owner'], //new additional details
     'callback_url' => $callback_url
   ]),
   CURLOPT_HTTPHEADER => [

@@ -35,12 +35,14 @@
 					<div class="table-rep-plugin">
 					  <div class="table-responsive b-0" data-pattern="priority-columns">
 					  <?php include ('../db.php');
-						$sql = "SELECT * FROM payments where estate='".$_SESSION['estate']."' ORDER BY pay_date DESC"; $result = $con->query($sql); 
+						//$sql = "SELECT * FROM payments where estate='".$_SESSION['estate']."' ORDER BY pay_date DESC"; 
+						$sql = "SELECT * FROM `payments` join flats on payments.estate=flats.estate_code where payments.estate='".$_SESSION['estate']."'AND payments.flat = flats.flat_no AND payments.block = flats.block_no";
+						$result = $con->query($sql); 
 						if ($result->num_rows > 0) { ?>
-						<table id="tech-companies-1" class="table  table-striped table-sm">
-						  <thead><tr class="titles"><th>Payment Amount</th><th>Block</th><th>Flat</th><th>Date Paid</th><th>Description</th> </tr></thead>
+						<table id="tech-companies-1" class="table table-bordered table-striped table-sm">
+						  <thead><tr class="titles"><th>Payment Amount</th><th>Resident</th><th>Block</th><th>Flat</th><th>Date Paid</th><th>Description</th> </tr></thead>
 						  <tbody> <?php while($row = $result->fetch_assoc()) { ?>
-							<tr><td><?php echo "&#8358;".$row['amount']; ?></td><td><?php echo $row['block']; ?></td><td><?php echo $row['flat']; ?></td><td><?php echo $row['pay_date'];  ?></td><td><?php echo $row['description']; ?></td></tr>
+							<tr><td><?php echo "&#8358;".$row['amount']; ?></td><td><?php echo $row['owner']; ?><td><?php echo $row['block']; ?></td><td><?php echo $row['flat']; ?></td><td><?php echo format_date($row['pay_date']); ?></td><td><?php echo $row['description']; ?></td></tr>
 						<?php } } else {echo "No Payment Detected.";} $con->close(); ?>
 						   </tbody>
 						</table>

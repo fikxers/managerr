@@ -54,7 +54,7 @@ else if (isset($_POST['vcode'])){
   	while($row = $result->fetch_assoc()) {
   	  $v=$row['visitor']; $comp=$row['comp']; $regno=$row['reg_no']; $arr_date=$row['arr_date']; $arr_time=$row['arr_time']; 
   	}
-  	$r='Code: '.$code.'\nVisitor: '.$v.'\nVehicle Reg No.: '.$regno.'\nNo. of companions: '.$comp.'\nArrival Date: '.$arr_date.'\nExpected Time: '.$arr_time;
+  	$r='Code: '.$code.'\nVisitor: '.$v.'\nVehicle Reg No.: '.$regno.'\nNo. of companions: '.$comp.'\nArrival Date: '.format_date2($arr_date).'\nExpected Time: '.$arr_time;
    $_SESSION['msg'] = '<div class="row"><div class="col-lg-12"><div class="alert alert-success" role="alert">'.$r.'</div></div></div>';
    echo '<script type="text/javascript">alert("'.$r.'");</script>';
    echo "<script type='text/javascript'>window.top.location='validate_code.php';</script>";

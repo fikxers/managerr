@@ -4,112 +4,90 @@
 @author - Software Dev Team
 -->
 <?php session_start();
-
+require('../../db.php'); 
 $value = $_POST["value"];
 $maxMonthlyPayment = $_POST["estate_max_electric"];
 $electric_this_month = $_POST["electric_this_month"];
 $last_electricity_payment = $_POST["last_electricity_payment"];
+$acct_bal = $_SESSION['acct_bal']; $new_bal = $acct_bal - $value;
 //echo $maxMonthlyPayment."<br>".$last_electricity_payment."<br>".$electric_this_month;
+
 //CHECK MONTHLY MAX ELECTRICITY
 include '../functions.php';
 //MAX MONTHLY ELECTRIC PAYMENT FOR RESIDENTS
- 
 $check = check_electric_max($value, $maxMonthlyPayment, $electric_this_month, $last_electricity_payment);
-if($check > 0){
-	// echo 'Good Standing. You can vend: '.$check.' <br>'; require('../../db.php');
-	// $query = "UPDATE flats set electric_this_month = electric_this_month + ".$check." WHERE estate_code='".$_SESSION['estate']."' AND flat_no='".$_SESSION['flat_no']."' AND block_no='".$_SESSION['block_no']."'";
-	// $result2 = mysqli_query($con,$query); 
+//if($check > $value){
+//temporarily disable the max monthly check
+if($maxMonthlyPayment > $value){
+	$query = "UPDATE flats set electric_this_month = electric_this_month + ".$check." WHERE estate_code='".$_SESSION['estate']."' AND flat_no='".$_SESSION['flat_no']."' AND block_no='".$_SESSION['block_no']."'";
+	$result2 = mysqli_query($con,$query); 
 
-include 'atl_constants.php';
-$transactionId = $_POST["transactionId"];
-$meterPAN = $_POST["meterPAN"];
-$generated_by = $_POST["generated_by"];
-//$transactionDate = $_POST["transactionDate"];
-//if( ! ini_get('date.timezone') ){date_default_timezone_set('Africa/Lagos');}
-date_default_timezone_set('Africa/Lagos'); $transactionDate = date("Y-m-d H:i:s");
-$responseurl = PATH . "/receipt.php";
-
-//pull meter details first to verify meterPAN provided
-$mac = hash('sha512', PRIVATEKEY . "|" . PUBLICKEY . "|" .$meterPAN);
-
-$data = '{"publicKey":"' .PUBLICKEY. '","merchantId":"'.MERCHANTID.'","mac":"' .$mac. '",'.
-			'"meterPAN":"' . $meterPAN .'"}';
-$verifyResponse = apiCall(VERIFY_METER, $data);
-$verifyResponse = json_decode($verifyResponse);
-if ($verifyResponse->statusCode == "0"){
-	echo "METER VERIFICATION \r\n <br>";
-	//$meterPAN = $verifyResponse->meterPAN;
-	$merchantName = $verifyResponse->merchant;
-	//$merchantId = $verifyResponse->merchantId;
-	$customerName = $verifyResponse->customerName; $_SESSION['customerName'] = $customerName;
-	$description = $verifyResponse->description;
-	echo "<h2>Customer: ".$customerName;
-	echo "<br>Merchant name: ".$description;
-	echo "<br>Description: ".$description."</h2><br><br>";
-}else{
-	//echo "<h2>Unable to pull meter details</h2>";
-	die("<h2>Unable to pull meter details</h2><br><br><button class='btn btn-primary' onclick='history.back()'>Go Back</button>");
-}
-
-$mac = hash('sha512', PRIVATEKEY . "|" . PUBLICKEY . "|" . $meterPAN . "|" . $transactionId);
-//echo $mac."<br>".$transactionId."<br>".$value."<br>";
-
-//Going ahead to vend after meter details were pulled
-/*$data = '{"publicKey":"' .PUBLICKEY. '","merchantId":"'.MERCHANTID.'","mac":"' .$mac. '",'.
-			'"meterPAN":"' . $meterPAN .'","transactionId":"'. $transactionId .'",'.
-			'"value":"' .$value. '"}';*/
-$data = '{"publicKey":"' .PUBLICKEY. '","merchantId":"'.MERCHANTID.'","mac":"' .$mac. '",'.
-			'"meterPAN":"' . $meterPAN .'","transactionId":"'. $transactionId .'",'.
-			'"value":' .$value. '}';
-
-$json_response = apiCall(VEND_CREDIT_TOKEN, $data);
-$vendResponse = json_decode($json_response);
-//$statusCode = $vendResponse->statusCode; 
-$status = $vendResponse->status; 
-echo "<br>VEND CREDIT TOKEN<br>";
-if ($vendResponse->statusCode == "0"){
+    include 'atl_constants.php';
+    $transactionId = $_POST["transactionId"];
+    $meterPAN = $_POST["meterPAN"];
+    $generated_by = $_POST["generated_by"];
+    //if( ! ini_get('date.timezone') ){date_default_timezone_set('Africa/Lagos');}
+    date_default_timezone_set('Africa/Lagos'); $transactionDate = date("Y-m-d H:i:s");
+    $responseurl = PATH . "/receipt.php";
+    
+    //pull meter details first to verify meterPAN provided
+    $mac = hash('sha512', PRIVATEKEY . "|" . PUBLICKEY . "|" .$meterPAN);
+    
+    $data = '{"publicKey":"' .PUBLICKEY. '","merchantId":"'.MERCHANTID.'","mac":"' .$mac. '",'.
+    			'"meterPAN":"' . $meterPAN .'"}';
+    $verifyResponse = apiCall(VERIFY_METER, $data);
+    $verifyResponse = json_decode($verifyResponse);
+    if ($verifyResponse->statusCode == "0"){
+    	echo "METER VERIFICATION \r\n <br>";
+    	$merchantName = $verifyResponse->merchant;
+    	$customerName = $verifyResponse->customerName; $_SESSION['customerName'] = $customerName;
+    	$description = $verifyResponse->description;
+    	echo "<h2>Customer: ".$customerName;
+    	echo "<br>Merchant name: ".$description;
+    	echo "<br>Description: ".$description."</h2><br><br>";
+    }else{
+    	die("<h2>Unable to pull meter details. Please verify your meter.</h2><br><br><button class='btn btn-primary' onclick='history.back()'>Go Back</button>");
+    }   
+    $mac = hash('sha512', PRIVATEKEY . "|" . PUBLICKEY . "|" . $meterPAN . "|" . $transactionId);
+    //Going ahead to vend after meter details were pulled
+    $data = '{"publicKey":"' .PUBLICKEY. '","merchantId":"'.MERCHANTID.'","mac":"' .$mac. '",'.
+    			'"meterPAN":"' . $meterPAN .'","transactionId":"'. $transactionId .'",'.
+    			'"value":' .$value. '}';    
+    $json_response = apiCall(VEND_CREDIT_TOKEN, $data);
+    $vendResponse = json_decode($json_response);
+    $statusCode = $vendResponse->statusCode; 
+    $status = $vendResponse->status; 
+    //echo "<br>VEND CREDIT TOKEN<br>";
 	$tokenDec = $vendResponse->vendingData->tokenDec; $unitsActual = $vendResponse->vendingData->unitsActual;
-	$description = $vendResponse->vendingData->description; $vendTime = $vendResponse->vendingData->vendTime;
-	$tariff = $vendResponse->vendingData->tariff; $unitName = $vendResponse->vendingData->unitName;
-	include('../functions.php');
-	$arr_result = submystr_to_array($tokenDec, 4);
-	$formatted_token = $arr_result[0]." ".$arr_result[1]." ".$arr_result[2]." ".$arr_result[3]." ".$arr_result[4];
-	require('../../db.php'); $f = $_SESSION['flat_no'];$b = $_SESSION['block_no']; $e=$_SESSION['estate'];
-	$query = "INSERT into `transactions` (meter_pan, transaction_id,transaction_date,amount,flat,block,estate,token,units,generated_by) VALUES ('".$meterPAN."', '".$transactionId."','".$transactionDate."',$value,'".$f."', '".$b."','".$e."','".$formatted_token."',$unitsActual,'".$generated_by."')";
-	$result = mysqli_query($con,$query);
-	if($result){
-		//echo "<script>alert('Your Token is ".$tokenDec."');</script>";
-		//echo "<script type='text/javascript'>window.top.location='../electric-bill.php';</script>"; exit;
-		//echo json_encode($vendResponse, JSON_PRETTY_PRINT);	
-		$change_bal = "UPDATE flats set amount_paid=amount_paid-$value WHERE id=".$_SESSION['id']; $result = mysqli_query($con,$change_bal); 
-		//echo "<br><h2>Your Token is ".$formatted_token."</h2>";
-		//include ("electricity-token-receipt.php");
-		$_SESSION['meterPAN'] = $meterPAN; $_SESSION['description'] = $description; $_SESSION['value'] = $value;
-		$_SESSION['tariff'] = $tariff; $_SESSION['token'] = $formatted_token; $_SESSION['unitsActual'] = $unitsActual;
-		$_SESSION['unitName'] = $unitName; $_SESSION['generated_by'] = $generated_by; $_SESSION['transactionDate'] = $transactionDate; $_SESSION['transactionId'] = $transactionId;
-		echo "<script type='text/javascript'>window.top.location='electricity-token-receipt.php';</script>"; exit;
-	}
-	else{
-		echo "<h2>Error: ".mysqli_error($con);
-		echo "<br>". $query."</h2>";
-		//echo "<script>alert('Error: ".mysqli_error($con)."');</script>";
-		//echo "<script type='text/javascript'>window.top.location='../electric-bill.php';</script>"; exit;
-	}
-	/*echo json_encode($vendResponse, JSON_PRETTY_PRINT);
-	//$meterPAN = $vendResponse->meterPAN;
-	$messageId = $vendResponse->messageId;
-	$unitsActual = $vendResponse->unitsActual;
-	
-	$tokenHex = $vendResponse->tokenHex;
-	$tokenDec = $vendResponse->tokenDec;*/
-
-	//echo "Your Token is ".$tokenDec;
-	//echo "Your Token is $tokenDec";
-}
-else{
-	echo "<h2>Error occured: Status = ".$status."</h2>";
-}
-
+    $description = $vendResponse->vendingData->description; $vendTime = $vendResponse->vendingData->vendTime;
+    $tariff = $vendResponse->vendingData->tariff; $unitName = $vendResponse->vendingData->unitName;
+	$f = $_SESSION['flat_no'];$b = $_SESSION['block_no']; $e=$_SESSION['estate'];
+    if ($vendResponse->statusCode == "0"){
+    	//include('../functions.php');
+    	$arr_result = submystr_to_array($tokenDec, 4);
+    	$formatted_token = $arr_result[0]." ".$arr_result[1]." ".$arr_result[2]." ".$arr_result[3]." ".$arr_result[4];
+    	require('../../db.php'); 
+    	$query = "INSERT into `transactions` (meter_pan, transaction_id,transaction_date,amount,flat,block,estate,token,units,generated_by,new_bal) VALUES ('".$meterPAN."', '".$transactionId."','".$transactionDate."',$value,'".$f."', '".$b."','".$e."','".$formatted_token."',$unitsActual,'".$generated_by."',$new_bal)";
+    	$result = mysqli_query($con,$query);
+    	if($result){	
+    		$change_bal = "UPDATE flats set amount_paid=amount_paid-$value WHERE id=".$_SESSION['id']; $result = mysqli_query($con,$change_bal); 
+    		$_SESSION['meterPAN'] = $meterPAN; $_SESSION['description'] = $description; $_SESSION['value'] = $value;
+    		$_SESSION['tariff'] = $tariff; $_SESSION['token'] = $formatted_token; $_SESSION['unitsActual'] = $unitsActual;
+    		$_SESSION['unitName'] = $unitName; $_SESSION['generated_by'] = $generated_by; $_SESSION['transactionDate'] = $transactionDate; $_SESSION['transactionId'] = $transactionId;
+    		echo "<script type='text/javascript'>window.top.location='electricity-token-receipt.php';</script>"; exit;
+    	}
+    	else{
+    		echo "<h2>Error: ".mysqli_error($con);
+    		echo "<br>". $query."</h2>";
+    	}
+    }
+    else{
+		//Also Save Failed Transactions
+		require('../../db.php'); 
+		$query = "INSERT into `transactions` (meter_pan, transaction_id,transaction_date,amount,flat,block,estate,token,units,generated_by,new_bal) VALUES ('".$meterPAN."', '".$transactionId."','".$transactionDate."',$value,'".$f."', '".$b."','".$e."','Transaction Failed',$unitsActual,'".$generated_by."',$acct_bal)"; 
+		$result = mysqli_query($con,$query);
+    	echo "<h2>Error occured: Status = ".$status."</h2>";
+    }
 } //close big if
 else{
 	$message = '
@@ -180,7 +158,4 @@ else{
 	</html>';
 	echo $message;
 }
-
-
 ?>
-<!-- <br><br><button class="btn btn-primary" onclick="history.back()">Go Back</button> -->

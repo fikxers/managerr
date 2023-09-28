@@ -1,40 +1,5 @@
 <?php
-  use PHPMailer\PHPMailer\PHPMailer;
-  use PHPMailer\PHPMailer\SMTP;
-  use PHPMailer\PHPMailer\Exception;
-
-  require '../PHPMailer/src/Exception.php';
-  require '../PHPMailer/src/PHPMailer.php';
-  require '../PHPMailer/src/SMTP.php';
-  require('../db.php');
-  
-  function notification($m) {
-	  	$msg = ' 
-          <html> 
-            <head> 
-              <title>Auto Deduction <FIkxers> Completed</title> 
-            </head> 
-            <body>'.$m.' 
-			  <hr><p>Thank you for choosing Managerr.</p> 
-            </body> 
-          </html>'; 
-	  	  //Create a new PHPMailer instance
-		  $mail = new PHPMailer();
-			//Set PHPMailer to use the sendmail transport
-			$mail->isSendmail();
-			//Set who the message is to be sent from
-			$mail->setFrom('support@managerr.net', 'Manager Support');
-			//Set an alternative reply-to address
-			$mail->addReplyTo('info@managerr.net', 'Manager Support');
-			//Set who the message is to be sent to
-			$mail->addAddress('support@managerr.net');
-			//Set the subject line
-			$mail->Subject = 'Auto Deduction <FIkxers> Completed.';
-			$mail->msgHTML($msg);
-			//Replace the plain text body with one created manually
-			$mail->AltBody = 'Auto Deduction <FIkxers> Completed.';
-			$mail->send();
-  }
+  session_start(); require('../db.php'); 
   date_default_timezone_set('Africa/Lagos');
   $pay_date = date("Y-m-d H:i:s"); 
   //date("Y-m-d H:i:s"); // 2001-03-10 17:16:18 (the MySQL DATETIME format)
@@ -49,22 +14,25 @@
   $nextMonth->modify('+1 month'); // Add 1 month to the cloned object
 
   $note = "Auto Due Deduction for "; //.". Paid on ".$pay_date;
-
-  function last_day_of_the_month() 
+  require('../users/functions.php');
+  /*function last_day_of_the_month() 
   {
 	$lastDayThisMonth = date("Y-m-t");
 	$day = date('d', strtotime($lastDayThisMonth));
     return $day;
-  }
+  }*/
   function dues_table($estate,$current_monthly_due, $note, $pay_date) 
-  {  require('../db.php'); $i=0;
+  { require('../db.php'); $i=0; 
     $get_resident_sql = "SELECT id,email,flat_no,block_no,amount_paid,total_debt FROM flats WHERE estate_code = '".$estate."'";
     $res = $con->query($get_resident_sql); 
     if ($res->num_rows > 0) {
       while($resident = $res->fetch_assoc()) {
-        $flat = $resident['flat_no']; $block = $resident['block_no']; $email = $resident['email']; $id = $resident['id'];
+        $flat = $resident['flat_no']; $block = $resident['block_no']; 
+		$email = $resident['email']; $id = $resident['id'];
+		$acct_bal = acct_bal2($resident['amount_paid'],$resident['total_debt']);
+		//$new_bal = $acct_bal - $current_monthly_due;
         //record due
-        $pay_due_query = "INSERT INTO `dues`(`flat`,`estate`, `amount`, `date_paid`, `note`, `category`) VALUES ('".$email."','".$estate."',$current_monthly_due,'".$pay_date."','".$note."','monthly_due')";
+        $pay_due_query = "INSERT INTO `dues`(`flat`,`estate`, `amount`, `date_paid`, `note`, `category`,`new_bal`) VALUES ('".$email."','".$estate."',$current_monthly_due,'".$pay_date."','".$note."','monthly_due',$acct_bal)";
         $res2 = mysqli_query($con,$pay_due_query); //$res2 = $con->query($pay_due_query);
         // if ($res2) {
         //   echo "<br>Record #$i updated";
@@ -78,7 +46,7 @@
   }
   function make_deduction($estate, $current_monthly_due, $note, $pay_date) 
   { 
-    require('../db.php');
+    require('../db.php'); $flag = 0;
 	  //Get residents in the esate
   	$get_resident_sql = "SELECT flat_no,block_no,amount_paid,total_debt FROM flats WHERE estate_code = '".$estate."'";
   // 	$res = $con->query($sql); 
@@ -104,27 +72,38 @@
 	 //   }
 	 // }
    $change_bal = "UPDATE flats set amount_paid=amount_paid-$current_monthly_due, updated_at='".$pay_date.
-   "' WHERE estate_code='".$estate."' AND (amount_paid-total_debt) >= ".$current_monthly_due; 
+   "' WHERE estate_code='".$estate."' AND (amount_paid-total_debt) >= ".$current_monthly_due;  
    $change_bal2 = "UPDATE flats set total_debt=total_debt+$current_monthly_due, updated_at='".$pay_date.
    "'  WHERE estate_code='".$estate."' AND (amount_paid-total_debt) < ".$current_monthly_due; 
-   $result = mysqli_query($con,$change_bal); $result2 = mysqli_query($con,$change_bal2);
+   $result = mysqli_query($con,$change_bal); 
+   /*$result2 = mysqli_query($con,$change_bal2);
    if ($result) { 
     echo "Auto Due Deduction Step 1 Complete.<br>";
    }  
    else { 
     echo mysqli_error($con);
    }
-   
+
    if ($result2) { 
     dues_table($estate,$current_monthly_due, $note, $pay_date);
-    notification('Dear Admin <br><br>Auto Deduction <FIkxers> Completed.<br>Update time: '.date("d-M-Y H:i:s"));
     echo "<br>Auto Due Deduction Step 2 Complete.";
    }  
    else { 
-    notification('Dear Admin <br><br>Error. Auto Detection failed.<br>Update time: '.date("d-M-Y H:i:s"));
+    echo mysqli_error($con);
+   }*/
+   //Correct duplicate deduction
+   if ($result) {
+    dues_table($estate,$current_monthly_due, $note, $pay_date);
+    //echo "Auto Due Deduction Step 1 Complete.<br>";
+   }  
+   else { 
+    $result2 = mysqli_query($con,$change_bal2);
+    if ($result2) { 
+      dues_table($estate,$current_monthly_due, $note, $pay_date);
+      //echo "<br>Auto Due Deduction Step 2 Complete.";
+    }  
     echo mysqli_error($con);
    }
-   
   }
 
   function get_estates(){
@@ -179,7 +158,7 @@
       make_deduction($estate, $current_monthly_due, $note, $pay_date); //MAKE DEDUCTIONS
     }
     // if ($r) { echo "Auto Due Deduction Complete."; }
-    // else { echo "Could not Perform Auto Due Deduction."; }
+    else { echo "Could not Perform Auto Due Deduction. Today is ".$today." and due date is ".$due_date; }
 }
 
 function update_all_estates(){

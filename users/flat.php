@@ -114,25 +114,25 @@
 						 </div>
 						</div>
 						<!--</div>-->
-        <div class="row">
-		  		<div class="col-lg-12">
+        <div class="row"> 
+		  <div class="col-lg-12">
             <div class="card m-b-30">
               <div class="card-body">
                 <h4 class="mt-0 header-title">Recent Payments</h4>
                 <div class="table-rep-plugin">
                   <div class="table-responsive b-0" data-pattern="priority-columns">
-								  <?php include ('../db.php');
-									$sql = "SELECT * FROM payments where estate='".$_SESSION['estate']."' and flat='".$_SESSION['flat_no']."' and block='".$_SESSION['block_no']."' ORDER BY pay_date DESC"; $result = $con->query($sql); 
-									if ($result !== false && $result->num_rows > 0) { ?>
-										<table id="tech-companies-1" class="table  table-striped table-sm">
+					<?php include ('../db.php');
+					$sql = "SELECT * FROM payments where estate='".$_SESSION['estate']."' and flat='".$_SESSION['flat_no']."' and block='".$_SESSION['block_no']."' ORDER BY pay_date DESC"; $result = $con->query($sql); 
+					if ($result !== false && $result->num_rows > 0) { ?>
+					<table id="tech-companies-1" class="table  table-striped table-sm">
                       <thead><tr class="titles"><th>Payment Amount</th><!--<th>Payment Mode</th>--> <th>Date Paid</th><th>Description</th> </tr></thead>
-										  <tbody> <?php while($row = $result->fetch_assoc()) { ?>
-											<tr><td><?php echo "&#8358;".$row['amount']; ?></td><td><?php echo $row['pay_date']; //$row['last_payment_date'] ?></td><td><?php echo $row['description']; ?></td></tr>
-									    <?php } } else {echo "No Payment Detected.";} $con->close(); ?>
+					  <tbody> <?php while($row = $result->fetch_assoc()) { ?>
+						<tr><td><?php echo "&#8358;".$row['amount']; ?></td><td><?php echo format_date($row['pay_date']);  //$row['last_payment_date'] ?></td><td><?php echo $row['description']; ?></td></tr>
+					<?php } } else {echo "No Payment Detected.";} $con->close(); ?>
                       </tbody>
                     </table>
                   </div>
-								</div>
+				</div>
               </div>
             </div>
           </div> 

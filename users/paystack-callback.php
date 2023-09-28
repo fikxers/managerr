@@ -42,13 +42,13 @@ if('success' == $tranx->data->status){
   //echo "<h2>Thank you for making a purchase. Your file has bee sent your email.</h2>";
   $ref = $tranx->data->reference;
   include ("../db.php");
-  $amount = $_SESSION['amount'];
+  $amount = $_SESSION['amount']; $new_bal = $_SESSION['acct_bal'] - $amount;
   //if( ! ini_get('date.timezone') ){ date_default_timezone_set('Africa/Lagos'); }
   date_default_timezone_set('Africa/Lagos'); $trn_date = date("Y-m-d H:i:s");
   $change_bal = "UPDATE flats set amount_paid=amount_paid+$amount, last_payment_date = '".$trn_date."', last_payment_type = 'online' WHERE email = '".$_SESSION['email']."' and estate_code='".$_SESSION['estate']."'";
   $result2 = mysqli_query($con,$change_bal);
 
-  $insertPayment = "INSERT INTO `payments`(`flat`, `block`, `estate`, `amount`, `reference`, `pay_date`, `description`) VALUES ('".$_SESSION['flat_no']."','".$_SESSION['block_no']."','".$_SESSION['estate']."',$amount,'$ref','$trn_date', 'Deposit to Wallet')";
+  $insertPayment = "INSERT INTO `payments`(`flat`, `block`, `estate`, `amount`, `reference`, `pay_date`, `description`,`new_bal`) VALUES ('".$_SESSION['flat_no']."','".$_SESSION['block_no']."','".$_SESSION['estate']."',$amount,'$ref','$trn_date', 'Deposit to Wallet',$new_bal)";
   $result3 = mysqli_query($con,$insertPayment); //$result3 = $con->query($insertPayment);
   
   if($tranx->data->authorization->reusable==TRUE){

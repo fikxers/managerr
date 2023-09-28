@@ -1,87 +1,44 @@
 <?php
-
 // ini_set('display_errors', 1);
-
 // ini_set('display_startup_errors', 1);
-
 // error_reporting(E_ALL); 
-
 use PHPMailer\PHPMailer\PHPMailer;
-
-	  use PHPMailer\PHPMailer\SMTP;
-
-	  use PHPMailer\PHPMailer\Exception;
-
-
-
-	  require '../PHPMailer/src/Exception.php';
-
-	  require '../PHPMailer/src/PHPMailer.php';
-
-	  require '../PHPMailer/src/SMTP.php';
-
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+require '../PHPMailer/src/Exception.php';
+require '../PHPMailer/src/PHPMailer.php';
+require '../PHPMailer/src/SMTP.php';
 include('auth.php'); $title="Visitor Management";
-
 include('flat_sidebar.php');	
-
 require('../db.php');
-
 function notification($m) {
-
 	  	$msg = ' 
-
           <html> 
-
             <head> 
-
               <title>Guest Successfully Invited</title> 
-
             </head> 
-
             <body>'.$m.' 
-
 			  <hr><p>Thank you for choosing Managerr.</p> 
-
             </body> 
-
           </html>'; 
-
 	  	  //Create a new PHPMailer instance
-
 		  $mail = new PHPMailer();
-
 			//Set PHPMailer to use the sendmail transport
-
 			$mail->isSendmail();
-
 			//Set who the message is to be sent from
-
-			$mail->setFrom('support@managerr.net', 'Manager Support');
-
+			$mail->setFrom('support@managerr.net', 'Managerr Support');
 			//Set an alternative reply-to address
-
-			$mail->addReplyTo('info@managerr.net', 'Manager Support');
-
+			$mail->addReplyTo('info@managerr.net', 'Managerr Support');
 			//Set who the message is to be sent to
-
 			$mail->addAddress($_SESSION['email']);//$mail->addAddress('ypolycarp@gmail.com');
-
 			//Set the subject line
-
 			$mail->Subject = 'Guest Successfully Invited';
-
 			$mail->msgHTML($msg);//$mail->msgHTML(file_get_contents('contents.html'), __DIR__);
-
 			//Replace the plain text body with one created manually
-
 			$mail->AltBody = 'Guest Successfully Invited.';
-
 			$mail->send();
-
 }
-
 //https://wa.me/?text=urlencodedtext'
-
 if (isset($_POST['code'])){ 
   $name = stripslashes($_REQUEST['test']);
   $regno = stripslashes($_REQUEST['regno']);
@@ -119,13 +76,10 @@ if (isset($_POST['code'])){
 	  $m .= 'Entrance access code: <b>'.strtoupper($final).'</b>.'."<br>";
 	  $m .= '<hr><p>Thank you for choosing Managerr.</p'> 
     notification($m);
-
     //create qr code
-
 	$code = $final;
-
 	$final = 'Code: '.$final;
-  echo '<script type="text/javascript">alert("'.$final.'");</script>';
+    echo '<script type="text/javascript">alert("'.$final.'");</script>';
 	if (isset($_POST['addqr'])) {
 	  $query = "UPDATE entrance_codes set qr=1 WHERE code = '".$code."'";
 	  $res = mysqli_query($con,$query); 
@@ -303,7 +257,7 @@ else if (isset($_POST['update'])){
 			  </div>
 			</div>
 			<!-- /Modal -->
-			<button type='button' class='btn btn-success btn-sm' style='border-radius: 10px; float: right;' data-toggle="modal" data-target="#passmodal-<?php echo 1; ?>" data-original-title="Visitor's Pass"><i class="fa fa-plus"> </i> <b> Visitor's Pass</b></button><br>			
+			<button type='button' class='btn btn-danger btn-sm' style='border-radius: 10px; float: right;' data-toggle="modal" data-target="#passmodal-<?php echo 1; ?>" data-original-title="Visitor's Pass"><i class="fa fa-plus"> </i> <b> Visitor's Pass</b></button><br>			
 			<nav>
 			  <div class="nav nav-tabs mt-2 mb-1 ent" id="nav-tab" role="tablist">
 			  	<button class="nav-link active" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><span class="text-info"><?php echo $pending; ?> Pending</span></button>
@@ -350,7 +304,7 @@ else if (isset($_POST['update'])){
 							else{
 								echo '
 								<small>
-								  Signed Out On: '.$formatSignout.'
+								  <b>Signed Out On:</b> '.$formatSignout.'
 								</small>
 								';
 							}
@@ -625,35 +579,20 @@ else if (isset($_POST['update'])){
 				echo '<a href="pay.php" class="btn btn-primary btn-sm">Fund Wallet</a>';
 			} ?>
 	  </div>
-
 	</div>
-
   </div>
-
 </div><!-- end row -->
-
 </div><!-- container -->
-
 </div><!-- Page content Wrapper -->
-
 </div><!-- content -->
-
 <?php include('footer.php'); ?>
-
 <script type="text/javascript">
-
   function ftest(){
-
   	const now = new Date();
-
   	var curr_time = now.toLocaleTimeString();
-
 	window.location="../qr-code/barcode-script.php?test="+document.getElementById('test').value+"&regno="+document.getElementById('regno').value+"&comp="+document.getElementById('comp').value+"&val="+document.getElementById('val').value+"&t="+now;
-
 	//window.location="../qr-code/barcode-script.php?test="+document.getElementById('test').value+"&regno="+document.getElementById('regno').value+"&comp="+document.getElementById('comp').value+"&val="+document.getElementById('val').value+"&t="+now+"&arr_date="+document.getElementById('arr_date').value+"&arr_time="+document.getElementById('arr_time').value;
-
   }
-
 </script>
 
 </html>

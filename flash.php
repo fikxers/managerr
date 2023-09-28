@@ -5,10 +5,13 @@
 	//     login();
 	// }
 	//checkRememberMeCookie();
-	if(isset($_SESSION["username"]) || isset($_SESSION["email"]))
+	if(isset($_SESSION["username"]) || isset($_SESSION["email"])){
 		$button_value = "<a href='logout.php' class='nav-link'>Logout</a>";
-	else
-		$button_value = "<a href='login.php' class='nav-link'>Login</a>";
+	}
+	else{
+	 echo "<script type='text/javascript'>window.top.location='login.php';</script>"; exit;
+		//$button_value = "<a href='login.php' class='nav-link'>Login</a>";
+	}
 	include('db.php');
 ?>
 <!DOCTYPE html>
@@ -33,8 +36,6 @@
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 		<meta name="theme-color" content="#ffffff">
-
-
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 			<!--
 			CSS
@@ -138,222 +139,111 @@
 			    	</div>
 			    </div>
 			  </header><!-- #header --><br><br><br>
-
 			<!-- start banner Area -->
-
 			<section class="banner-area relative" id="home">	
-
 				<div class="overlay overlay-bg"></div>
-
 				<div class="container">				
-
 					<div class="row d-flex align-items-center justify-content-center">
-
 						<div class="about-content col-lg-12">
-
-							<h2 class="text-white"><?php echo $title;  //echo "<br />".$_COOKIE['remember_me']. "<br />";?></h2>	
+							<h2 class="text-white"><?php echo $title;  //echo "<br />".$_COOKIE['remember_me']. "<br />";?></h2>
 							<!-- <p class="text-white link-nav"><a href="index.php">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="login.php"> <?php echo $title; ?></a></p> -->
-
 						</div>	
-
 					</div>
-
 				</div>
-
 			</section>
-
 			<!-- End banner Area -->				  
-
 			<br>
-
 			<!-- Start contact-page Area -->
-
 			<section class="contact-page-area">
-
 			  <!--<div class="row m-1">
-
 				<div class="col-lg-4">
-
 				  <button type="submit" name="login" class="genric-btn btn-outline-primary btn-lg btn-block">Estate</button>
-
 			    </div>
-
 				<div class="col-lg-4">
-
 				  <button type="submit" name="login" class="genric-btn btn-outline-success btn-lg btn-block">Hostel</button>
-
 				</div>
-
 				<div class="col-lg-4">
-
 				  <button type="submit" name="login" class="genric-btn btn-outline-info btn-lg btn-block">Hotel</button>
-
 				</div>
-
 				<div class="col-lg-3">
-
 				  <button type="submit" name="login" class="genric-btn btn-outline-danger btn-lg btn-block">Login</button>
-
 				</div>
-
 			  </div>-->
-
 			  <div class="container">		
-
 			    <div class="row">
-
 			        <!-- <h4 class="mt-0 header-title">Your Managerr Accounts</h4> -->
-
 			        <?php
-
 			        //FM
-
 			        $sql = "SELECT estate_name,address,estate_code,estate_manager.id as id FROM estates join estate_manager on (estates.estate_code = estate_manager.estate) where estate_manager.email='".$_SESSION['email']."'";
-
 			        $result = $con->query($sql);
-
 			        if ($result->num_rows > 0) { 
-
 			        //while($row = $result->fetch_assoc()) { 
-
 			        //foreach ($result->fetch_assoc() as $row) {
-
 			        while($row = mysqli_fetch_assoc($result)) { ?>
-
 			        <div class="col-sm-4 mb-3">
-
 			            <div class="alert alert-primary" role="alert">
-
 			              <h6 class="alert-heading text-muted"><?php echo $row['estate_name']; ?></h6>
-
 			              <p class="text-muted"><b>Account Type:</b> Facility Manager</p>
-
 			              <a class="btn btn-block btn-outline-success shadow" href="users/estate_mgr.php?id=<?php echo $row['id']; ?>&admin_type=mgr">Goto Profile</a>
-
 			            </div>
-
 			        </div>
-
 			        <!-- <div class="col-sm-4 mb-3">
-
 			            <a href="users/estate_mgr.php?id=<?php echo $row['id']; ?>&admin_type=mgr">
-
 			              <div class="alert alert-primary" role="alert">
-
 			                <h6 class="alert-heading text-muted"><?php echo $row['estate_name']; ?></h6>
-
 			                <p class="text-muted"><b>Account Type:</b> Facility Manager</p>
-
 			              </div>
-
 			            </a>
-
 			        </div> -->
-
 			        <?php } } 
-
 			        //Resident
-
 			        $sql = "SELECT estate_name,address,flats.id as id FROM estates join flats using(estate_code) where flats.email='".$_SESSION['email']."'";
-
 			        $result = $con->query($sql);
-
 			        if ($result->num_rows > 0) { 
-
 			        while($row = mysqli_fetch_assoc($result)) {  ?>
-
 			        <div class="col-sm-4 mb-3">
-
 			        	<div class="alert alert-info" role="alert">          
-
 			              <h6 class="alert-heading text-muted"><?php echo $row['estate_name']; ?></h6>
-
 			              <!-- <p class="text-muted">Estate Address: <?php echo $row['address']; ?></p> -->
-
 			              <p class="text-muted"><b>Account Type:</b> Resident</p>
-
 			              <a class="btn btn-block btn-outline-success" href="users/flat.php?id=<?php echo $row['id']; ?>&admin_type=flat">Goto Profile</a>
-
 			            </div>
-
 			        </div>
-
 			        <!-- <div class="col-sm-4 mb-3">
-
 			            <a href="users/flat.php?id=<?php echo $row['id']; ?>&admin_type=flat">
-
 			              <div class="alert alert-info" role="alert">
-
 			                <h6 class="alert-heading text-muted"><?php echo $row['estate_name']; ?></h6>
-
 			                <!-- <p class="text-muted">Estate Address: <?php echo $row['address']; ?></p> 
-
 			                <p class="text-muted"><b>Account Type:</b> Resident</p>
-
 			              </div>
-
 			            </a>
-
 			        </div> -->
-
 			        <?php } } 
-
 			        //Admin
-
 			        $sql = "SELECT admin_type FROM users where email='".$_SESSION['email']."' and admin_type='admin'";
-
 			        $result = $con->query($sql);
-
 			        if ($result->num_rows > 0) { 
-
 			        while($row = mysqli_fetch_assoc($result)) {
-
 			        ?>
-
 			        <div class="col-sm-12 mb-3">
-
 			            <div class="alert alert-info" role="alert">
-
-			              <p class="text-muted"><b>Account Type:</b> Super Admin</p>
-
-			              <h6 class="alert-heading text-muted">Admin email: <?php echo $_SESSION['email']; ?></h6>
-
+			              <p class="text-muted"><b>Account Type:</b> Super Admin | <b>Email:</b> <?php echo $_SESSION['email']; ?></p>
 			              <a class="btn btn-block btn-outline-success" href="users/index.php">Goto Profile</a>
-
 			            </div>
-
 			        </div>
-
 			        <!-- <div class="col-sm-12 mb-3">
-
 			            <a href="users/index.php">
-
 			              <div class="alert alert-info" role="alert">
-
 			                <p class="text-muted"><b>Account Type:</b> Super Admin</p>
-
 			                <h6 class="alert-heading text-muted">Admin email: <?php echo $_SESSION['email']; ?></h6>
-
 			              </div>
-
 			            </a>
-
 			        </div> -->
-
 			    <?php } } ?>
-
 			    </div>			
-
 			  </div>	
-
 			</section><br>
-
 			<!-- End contact-page Area -->
-
-
-
 			<?php include('footer.php'); ?>	
-
 		</body>
-
 	</html>

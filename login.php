@@ -9,16 +9,17 @@
 	session_start();
 	checkRememberMeCookie(); 
 	$title='Login'; 
-	if(isset($_SESSION["username"]) || isset($_SESSION["email"])) $button_value = "<a href='logout.php' class='nav-link'>Logout</a>";
+	if(isset($_SESSION["username"]) || isset($_SESSION["email"])) 
+	  $button_value = "<a href='logout.php' class='nav-link'>Logout</a>";
 	else $button_value = "<a href='login.php' class='nav-link'>Login</a>";
 	// Check if the user is logged in
-  if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true && $title != 'Managerr Accounts') {
+    if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true && $title != 'Managerr Accounts') {
 	  // Redirect the user to another page
 	  login();
 	}
 
-
 	function login() {
+	    include('db.php');
 	    if($_SESSION['admin_type'] == 'student'){
 	      echo "<script type='text/javascript'>window.top.location='hostel/room.php';</script>"; exit;
 	    }
@@ -36,13 +37,13 @@
 		
   	// Function to generate a random token
   	function generate_token()
-		{
-      //$validator = bin2hex(random_bytes(32));
-			$str = random_bytes(12);
-			$random_password = password_hash($str, PASSWORD_DEFAULT);
-   	  return $random_password;
-		}
-		function generateToken() {
+	{
+        //$validator = bin2hex(random_bytes(32));
+	    $str = random_bytes(12);
+		$random_password = password_hash($str, PASSWORD_DEFAULT);
+   	    return $random_password;
+	}
+	function generateToken() {
 	    $tokenLength = 32; // Set the desired token length
 	    $charset = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 	    $token = '';
@@ -50,18 +51,18 @@
 	        $token .= $charset[rand(0, strlen($charset) - 1)];
 	    }
 	    return $token;
-		}
-		// Function to set the remember me cookie
-		function setRememberMeCookie($userId, $token) {
+	}
+	// Function to set the remember me cookie
+	function setRememberMeCookie($userId, $token) {
 	    // $token = generateToken();
 	    $_SESSION['user'] = $userId; $_SESSION['token'] = $token;
 	    //header('Location: testcookie.php');
-			echo "<script type='text/javascript'>window.top.location='testcookie.php';</script>"; exit; 
+		echo "<script type='text/javascript'>window.top.location='testcookie.php';</script>"; exit; 
 	    // $expiry = time() + (30 * 24 * 60 * 60); // Set the cookie expiry (e.g., 30 days)
 	    // setcookie('remember_me', $userId . ':' . $token, $expiry, '/');
-		}
-		// Function to check if the remember me cookie is set and valid
-		function checkRememberMeCookie() {
+	}
+	// Function to check if the remember me cookie is set and valid
+	function checkRememberMeCookie() {
 	    if (isset($_COOKIE['remember_me'])) {
 	        $cookie = $_COOKIE['remember_me'];
 	        $cookieParts = explode(':', $cookie);
@@ -75,10 +76,10 @@
 	          loginUser($userId, $token);
 	        }
 	    }
-		}
-		// Example functions for validation and login actions (replace with your own logic)
-		function isValidToken($userId, $token) {
-			include('db.php');
+	}
+	// Example functions for validation and login actions (replace with your own logic)
+	function isValidToken($userId, $token) {
+		include('db.php');
 	    // Add your validation logic here
 	    $query = "SELECT * FROM `users` WHERE email='".$userId."' and remember_token='".$token."'";
 	  	$result = mysqli_query($con,$query) or die(mysqli_error());
@@ -94,39 +95,39 @@
 	      return false;
 	    }
 	    // Verify that the token matches the user ID and is valid in your database
+	}
+	function loginUser($userId, $token) {
+		include('db.php');
+		// Add your login actions here
+		$sql = "SELECT admin_type FROM `users` WHERE email='".$userId."' and remember_token='".$token."'";
+		$code = mysqli_query($con,$sql) or die(mysql_error());
+		$_SESSION['email'] = $userId;
+	    $_SESSION['admin_type'] = $code->fetch_object()->admin_type;  
+		// Log the user in or set the necessary session variables
+		// echo 'User with ID ' . $userId . ' logged in successfully.';
+		if($_SESSION['admin_type'] == 'student'){
+			echo "<script type='text/javascript'>window.top.location='hostel/room.php';</script>"; exit;
 		}
-		function loginUser($userId, $token) {
-			include('db.php');
-		  // Add your login actions here
-		  $sql = "SELECT admin_type FROM `users` WHERE email='".$userId."' and remember_token='".$token."'";
-		  $code = mysqli_query($con,$sql) or die(mysql_error()); $_SESSION['email'] = $userId;
-		  $_SESSION['admin_type'] = $code->fetch_object()->admin_type;  
-		  // Log the user in or set the necessary session variables
-		  // echo 'User with ID ' . $userId . ' logged in successfully.';
-		  if($_SESSION['admin_type'] == 'student'){
-				echo "<script type='text/javascript'>window.top.location='hostel/room.php';</script>"; exit;
-			}
-			else if($_SESSION['admin_type'] == 'security'){
-				$query = "SELECT name FROM `security_team` WHERE email='".$_SESSION['email']."'";
-				$result = mysqli_query($con,$query) or die(mysqli_error());
-				$_SESSION['secname'] = $result->fetch_object()->name;
-				echo "<script type='text/javascript'>window.top.location='security/';</script>"; exit;
-			}
-			else if($_SESSION['admin_type'] == 'hmgr'){
-				echo "<script type='text/javascript'>window.top.location='hostel/hostel_mgr.php';</script>"; exit;
-			}
-			else{ echo "<script type='text/javascript'>window.top.location='flash.php';</script>"; exit; }
+		else if($_SESSION['admin_type'] == 'security'){
+			$query = "SELECT name FROM `security_team` WHERE email='".$_SESSION['email']."'";
+			$result = mysqli_query($con,$query) or die(mysqli_error());
+			$_SESSION['secname'] = $result->fetch_object()->name;
+			echo "<script type='text/javascript'>window.top.location='security/';</script>"; exit;
 		}
-		// send notification via 
-		function notification($to, $m) {
+		else if($_SESSION['admin_type'] == 'hmgr'){
+			echo "<script type='text/javascript'>window.top.location='hostel/hostel_mgr.php';</script>"; exit;
+		}
+		else{ echo "<script type='text/javascript'>window.top.location='flash.php';</script>"; exit; }
+	}
+	// send notification via 
+	function notification($to, $m) {
 	  	$msg = ' 
           <html> 
           <head> 
               <title>Successful Signup Notification</title> 
           </head> 
-          <body>'.$m.' 
-            
-						<hr><p>Thank you for choosing Managerr.</p> 
+          <body>'.$m.'  
+			 <hr><p>Thank you for choosing Managerr.</p> 
           </body> 
           </html>'; 
 	  	//Create a new PHPMailer instance
@@ -134,9 +135,9 @@
 			//Set PHPMailer to use the sendmail transport
 			$mail->isSendmail();
 			//Set who the message is to be sent from
-			$mail->setFrom('support@managerr.net', 'Manager Support');
+			$mail->setFrom('support@managerr.net', 'Managerr Support');
 			//Set an alternative reply-to address
-			$mail->addReplyTo('info@managerr.net', 'Manager Support');
+			$mail->addReplyTo('info@managerr.net', 'Managerr Support');
 			//Set who the message is to be sent to
 			$mail->addAddress($to);//$mail->addAddress('ypolycarp@gmail.com');
 			//Set the subject line
@@ -150,18 +151,7 @@
 			//$mail->addAttachment('images/phpmailer_mini.png');
 
 			$mail->send();
-			//send the message, check for errors
-			// if (!$mail->send()) {
-			//     //echo 'Mailer Error: ' . $mail->ErrorInfo;
-			//     echo "<script>alert('Error: ".$mail->ErrorInfo."');</script>";
-			// 	echo "<script type='text/javascript'>window.top.location='recover_password.php';</script>";
-			// } else {
-			//     //echo 'Message sent!';
-			//     echo "<script>alert('Check email for reset token.');</script>";
-			// 	echo "<script type='text/javascript'>window.top.location='recover_password.php';</script>";
-			// }
-	  }
-
+	}
   	function send_email($user_email,$msg){
 	  	//$to = 'user@example.com'; 
 			$from = 'support@managerr.net'; 
@@ -199,9 +189,9 @@
 		    echo "<script type='text/javascript'>window.top.location='recover_password.php';</script>";
 			}
       //echo RandomString(20);
-	  }
-	  include('db.php');
-	  //User Login
+   }
+	include('db.php');
+	//User Login
     if (isset($_POST['login'])){
   	  $email = stripslashes($_REQUEST['email']); 
   	  $email = mysqli_real_escape_string($con,$email); 
@@ -224,37 +214,37 @@
       	$_SESSION['admin_type'] = $result->fetch_object()->admin_type;
       	//if remember me selected
       	if(isset($_POST["remember"])) {
-					$token = generateToken();
-					$query = "UPDATE users SET `remember_token`='".$token."' WHERE email='".$email."'";
-					$r = mysqli_query($con,$query) or die(mysqli_error()); //$rs = mysqli_num_rows($r);
-					setRememberMeCookie($email, $token);
-				} 
+			$token = generateToken();
+			$query = "UPDATE users SET `remember_token`='".$token."' WHERE email='".$email."'";
+			$r = mysqli_query($con,$query) or die(mysqli_error()); //$rs = mysqli_num_rows($r);
+			setRememberMeCookie($email, $token);
+		} 
       	if($_SESSION['admin_type'] == 'student'){
-				  echo "<script type='text/javascript'>window.top.location='hostel/room.php';</script>"; exit;
-				}
-			  else if($_SESSION['admin_type'] == 'security'){
-				  $query = "SELECT name FROM `security_team` WHERE email='".$_SESSION['email']."'";
-				  $result = mysqli_query($con,$query) or die(mysqli_error());
-				  $_SESSION['secname'] = $result->fetch_object()->name;
-				  echo "<script type='text/javascript'>window.top.location='security/';</script>"; exit;
-				}
-				else if($_SESSION['admin_type'] == 'hmgr'){
-				  //include('hostel/functions.php'); $token = getToken(10);
-				  $_SESSION['email'] = $email;
-				  echo "<script type='text/javascript'>window.top.location='hostel/hostel_mgr.php';</script>"; exit;
-				}
-				// else if($_SESSION['admin_type'] == 'event-mgr'){
-				// 	$_SESSION['email'] = $_SESSION['username'] = $email;
-				// 	echo "<script type='text/javascript'>window.top.location='event-manager/';</script>"; exit;
-				// }
-				else{ echo "<script type='text/javascript'>window.top.location='flash.php';</script>"; exit; }
+			echo "<script type='text/javascript'>window.top.location='hostel/room.php';</script>"; exit;
+		}
+		else if($_SESSION['admin_type'] == 'security'){
+			$query = "SELECT name FROM `security_team` WHERE email='".$_SESSION['email']."'";
+			$result = mysqli_query($con,$query) or die(mysqli_error());
+			$_SESSION['secname'] = $result->fetch_object()->name;
+			echo "<script type='text/javascript'>window.top.location='security/';</script>"; exit;
+		}
+		else if($_SESSION['admin_type'] == 'hmgr'){
+			//include('hostel/functions.php'); $token = getToken(10);
+			$_SESSION['email'] = $email;
+			echo "<script type='text/javascript'>window.top.location='hostel/hostel_mgr.php';</script>"; exit;
+		}
+		// else if($_SESSION['admin_type'] == 'event-mgr'){
+		// 	$_SESSION['email'] = $_SESSION['username'] = $email;
+		// 	echo "<script type='text/javascript'>window.top.location='event-manager/';</script>"; exit;
+		// }
+		else{ echo "<script type='text/javascript'>window.top.location='flash.php';</script>"; exit; }
       }
-	  	//user doesnt exist
-     	else{
-  		  echo "<script>alert('Username/password is incorrect.');</script>";
-			  echo "<script type='text/javascript'>window.top.location='login.php';</script>";
-			  //echo "<div class='form'><h3>Username/password is incorrect.</h3><br/>Click here to <a href='login.php'>Login</a></div>";
-	    }
+	  //user doesnt exist
+      else{
+  		echo "<script>alert('Username/password is incorrect.');</script>";
+		echo "<script type='text/javascript'>window.top.location='login.php';</script>";
+		//echo "<div class='form'><h3>Username/password is incorrect.</h3><br/>Click here to <a href='login.php'>Login</a></div>";
+	   }
     }
     else if (isset($_REQUEST['signup'])){
 			$email = stripslashes($_REQUEST['email']);

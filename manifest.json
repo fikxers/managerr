@@ -1,7 +1,7 @@
 {
   "name": "Managerr",
   "short_name": "Managerr",
-  "start_url": "https://managerr.net/",
+  "start_url": "https://managerr.net/login.php",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",

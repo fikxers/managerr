@@ -1,0 +1,34 @@
+[29-Oct-2020 15:29:42 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/realeoki/fikxers.com/hostel/import-csv/DataSource.php:84
+Stack trace:
+#0 /home/realeoki/fikxers.com/hostel/import-csv/index.php(179): Phppot\DataSource->select('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hostel/import-csv/DataSource.php on line 84
+[29-Oct-2020 15:30:18 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/realeoki/fikxers.com/hostel/import-csv/DataSource.php:84
+Stack trace:
+#0 /home/realeoki/fikxers.com/hostel/import-csv/index.php(179): Phppot\DataSource->select('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hostel/import-csv/DataSource.php on line 84
+[29-Oct-2020 20:21:19 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/realeoki/fikxers.com/hostel/import-csv/DataSource.php:84
+Stack trace:
+#0 /home/realeoki/fikxers.com/hostel/import-csv/index.php(179): Phppot\DataSource->select('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hostel/import-csv/DataSource.php on line 84
+[29-Oct-2020 20:23:57 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/realeoki/fikxers.com/hostel/import-csv/DataSource.php:84
+Stack trace:
+#0 /home/realeoki/fikxers.com/hostel/import-csv/index.php(186): Phppot\DataSource->select('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hostel/import-csv/DataSource.php on line 84
+[29-Oct-2020 21:05:11 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/realeoki/fikxers.com/hostel/import-csv/DataSource.php:84
+Stack trace:
+#0 /home/realeoki/fikxers.com/hostel/import-csv/residents.php(205): Phppot\DataSource->select('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hostel/import-csv/DataSource.php on line 84
+[29-Oct-2020 21:22:57 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/fikxers.com/hostel/import-csv/residents.php on line 224
+[29-Oct-2020 21:22:57 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/fikxers.com/hostel/import-csv/residents.php on line 225
+[29-Oct-2020 21:22:57 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/fikxers.com/hostel/import-csv/residents.php on line 226
+[29-Oct-2020 21:22:57 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/fikxers.com/hostel/import-csv/residents.php on line 227
+[31-Oct-2020 18:49:19 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/realeoki/fikxers.com/hostel/import-csv/DataSource.php:84
+Stack trace:
+#0 /home/realeoki/fikxers.com/hostel/import-csv/index.php(183): Phppot\DataSource->select('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hostel/import-csv/DataSource.php on line 84

@@ -17,6 +17,7 @@
   if(isset($_GET['id']) || isset($_GET['admin_type'])){
     $_SESSION['id'] = $_GET['id']; $_SESSION['admin_type'] = $_GET['admin_type'];
   }
+  include('functions.php');
   if($_SESSION['admin_type'] != 'mgr'){ session_destroy(); header("Location: ../login.php");}
   require('../db.php'); //require('functions.php');
   $query = "SELECT * FROM `estate_manager` WHERE id='".$_SESSION['id']."'";

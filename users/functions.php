@@ -1,5 +1,14 @@
 <?php
-  
+  function format_date($the_date){
+    $phpdate = strtotime( $the_date );
+	$myFormatForView = date("d-M-Y g:i A", $phpdate);
+	return $myFormatForView;
+  }
+  function format_date2($the_date){
+    $phpdate = strtotime( $the_date );
+	$myFormatForView = date("d-M-Y", $phpdate);
+	return $myFormatForView;
+  }
   function deadline(int $day = 10) {
 	//$m = date("m");$y = date("Y"); 
 	$d = date("d");

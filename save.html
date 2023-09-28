@@ -1,82 +1,82 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>HTML-to-PDF Example</title>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1"
-    />
-    <!-- html2pdf CDN link -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
-      integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <style>
-      th, td {
-        padding: 5px;
-        text-align: left;
-        /*border: 1px solid;*/
-      }
-      button{
-        border-radius: 10px; margin-top: 20px !important;
-        background-color: green; font-size: 20px; padding: 10px 15px; color: #ffffff; margin: 30px 0px;
-        box-shadow: 0 4px 2px 0 rgba(0,0,0,0.2), 0 1px 10px 0 rgba(0,0,0,0.01);
-      }
-	  body{
-	    padding: 20px; float: center;
-	  }
-      div{
-        border: solid; 
-        float: center; padding: 20px; overflow-x:auto;
-        width: auto;
-      }
-      #title{
-        /*background-color: green;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
-        color: green; padding: 5px 0px; 
-        font-weight: 800;        
-      }
-      table{
-        margin-top: 50px;
-        float: center; border: 2px solid;
-      }
-    </style>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  </head>
-  <body>
-    <div id="receipt">
-      <h2><span id="title">Electricity Token Receipt</span></h2>
-      <table class="table table-bordered border-success">
-        <tbody>
-          <tr> <td><strong>Meter PAN: </strong></td><td>012440009222</td></tr>
-          <tr> <td><strong>Meter Name: </strong></td><td>Mr Abbimbola Cole</td></tr>
-          <tr> <td><strong>Description: </strong></td><td>Pearl Nuga Estate Electricity Token</td></tr>
-          <tr> <td><strong> Amount: </strong></td><td>10, 000</td></tr>       
-          <tr> <td><h3><strong>Electricity Token: </strong></h3></td><td><h3>1234 0000 1203 5698</h3></td></tr>
-          <tr> <td><strong>Units: </strong></td><td>121 kw</td></tr>
-          <tr> <td><strong> Date: </strong></td><td>4-06-2023</td></tr>
-        </tbody>
-      </table><!--#914c53  &emsp;&emsp;--><br><br>
-      <h4>Powered by <a href="https://managerr.net">Managerr</a>  </h4> 
-    </div>
-	<button id="download-button">  Download Receipt </button>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <script>
-      const button = document.getElementById('download-button');
-
-      function generatePDF() {
-        // Choose the element that your content will be rendered to.
-        const element = document.getElementById('receipt');
-        // Choose the element and save the PDF for your user.
-        html2pdf().from(element).save();
-      }
-      button.addEventListener('click', generatePDF);
-    </script>
-  </body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>HTML-to-PDF Example</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <!-- html2pdf CDN link -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+      integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <style>
+      th, td {
+        padding: 5px;
+        text-align: left;
+        /*border: 1px solid;*/
+      }
+      button{
+        border-radius: 10px; margin-top: 20px !important;
+        background-color: green; font-size: 20px; padding: 10px 15px; color: #ffffff; margin: 30px 0px;
+        box-shadow: 0 4px 2px 0 rgba(0,0,0,0.2), 0 1px 10px 0 rgba(0,0,0,0.01);
+      }
+	  body{
+	    padding: 20px; float: center;
+	  }
+      div{
+        border: solid; 
+        float: center; padding: 20px; overflow-x:auto;
+        width: auto;
+      }
+      #title{
+        /*background-color: green;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+        color: green; padding: 5px 0px; 
+        font-weight: 800;        
+      }
+      table{
+        margin-top: 50px;
+        float: center; border: 2px solid;
+      }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+    <div id="receipt">
+      <h2><span id="title">Electricity Token Receipt</span></h2>
+      <table class="table table-bordered border-success">
+        <tbody>
+          <tr> <td><strong>Meter PAN: </strong></td><td>012440009222</td></tr>
+          <tr> <td><strong>Meter Name: </strong></td><td>Mr Abbimbola Cole</td></tr>
+          <tr> <td><strong>Description: </strong></td><td>Pearl Nuga Estate Electricity Token</td></tr>
+          <tr> <td><strong> Amount: </strong></td><td>10, 000</td></tr>       
+          <tr> <td><h3><strong>Electricity Token: </strong></h3></td><td><h3>1234 0000 1203 5698</h3></td></tr>
+          <tr> <td><strong>Units: </strong></td><td>121 kw</td></tr>
+          <tr> <td><strong> Date: </strong></td><td>4-06-2023</td></tr>
+        </tbody>
+      </table><!--#914c53  &emsp;&emsp;--><br><br>
+      <h4>Powered by <a href="https://managerr.net">Managerr</a>  </h4> 
+    </div>
+	<button id="download-button">  Download Receipt </button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script>
+      const button = document.getElementById('download-button');
+
+      function generatePDF() {
+        // Choose the element that your content will be rendered to.
+        const element = document.getElementById('receipt');
+        // Choose the element and save the PDF for your user.
+        html2pdf().from(element).save();
+      }
+      button.addEventListener('click', generatePDF);
+    </script>
+  </body>
 </html>

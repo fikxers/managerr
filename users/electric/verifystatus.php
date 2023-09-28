@@ -100,7 +100,7 @@ if ($vendResponse->statusCode == "0"){
 	          <tr> <td><strong>Amount </strong></td><td><strong>&#8358;'.$value.'</strong></td></tr>
 	          <tr> <td><strong>Vend Time </strong></td><td><strong>'.$vendTime.'</strong></td></tr> 
 	          <tr> <td><strong>Units </strong></td><td><strong>'.$unitsActual.'</strong></td></tr> 
-	          <tr> <td><h5><strong>Electricity Token </h5></td><td><h5>'.$formatted_token.'</strong></h5></td></tr>
+	          <tr> <td><h3><strong>Electricity Token </h3></td><td><h3>'.$formatted_token.'</strong></h3></td></tr>
 	          <tr> <td><strong>Description </strong></td><td><strong>'.$description.'</strong></td></tr>
 	          <tr> <td><strong> Vend Time </strong></td><td><strong>'.$vendTime.'</strong></td></tr>
 	          <tr> <td><strong> Status </strong></td><td><strong>'.$status.'</strong></td></tr>

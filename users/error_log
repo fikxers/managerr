@@ -8160,51 +8160,562 @@ Stack trace:
 [20-Jul-2023 14:24:17 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
 [20-Jul-2023 14:26:39 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
 [20-Jul-2023 14:27:04 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
-[21-Jul-2023 12:26:29 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 487
-[21-Jul-2023 12:29:31 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[21-Jul-2023 12:43:01 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[21-Jul-2023 12:46:05 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[21-Jul-2023 12:52:14 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[21-Jul-2023 12:54:44 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[21-Jul-2023 12:56:00 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[21-Jul-2023 18:08:33 Africa/Lagos] PHP Notice:  Undefined index: owner in /home/realeoki/fikxers.com/users/tmpl/transactions.php on line 26
-[21-Jul-2023 13:29:31 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[21-Jul-2023 13:32:05 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[21-Jul-2023 13:38:18 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[21-Jul-2023 13:39:52 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[21-Jul-2023 13:40:43 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[21-Jul-2023 13:43:06 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[21-Jul-2023 13:49:30 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[21-Jul-2023 13:54:38 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/dues.php on line 165
-[21-Jul-2023 14:37:22 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/dues.php on line 165
-[21-Jul-2023 19:00:40 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[23-Jul-2023 05:25:20 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[23-Jul-2023 05:25:52 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[23-Jul-2023 05:35:03 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[23-Jul-2023 08:05:13 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[23-Jul-2023 08:05:17 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[23-Jul-2023 08:05:23 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[23-Jul-2023 11:04:24 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/dues.php on line 165
-[23-Jul-2023 11:06:26 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[23-Jul-2023 11:12:26 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/dues.php on line 165
-[23-Jul-2023 11:27:49 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[23-Jul-2023 12:15:11 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[23-Jul-2023 12:17:01 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[24-Jul-2023 04:58:58 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[24-Jul-2023 05:00:15 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[24-Jul-2023 10:01:02 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/fikxers.com/users/electric-bill.php on line 94
-[24-Jul-2023 10:07:28 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/fikxers.com/users/electric-bill.php on line 94
-[24-Jul-2023 05:08:46 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[24-Jul-2023 07:51:02 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[24-Jul-2023 07:52:02 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/fikxers.com/users/dues.php on line 165
-[24-Jul-2023 07:53:31 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[29-Jul-2023 11:19:34 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[22-Aug-2023 04:12:19 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[23-Aug-2023 11:20:21 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[23-Aug-2023 11:20:55 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[23-Aug-2023 16:21:45 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/fikxers.com/users/electric-bill.php on line 94
-[23-Aug-2023 11:22:21 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[02-Sep-2023 12:07:33 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[02-Sep-2023 12:08:26 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[02-Sep-2023 12:23:40 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
-[02-Sep-2023 12:23:50 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/fikxers.com/users/flat_sidebar.php on line 475
+[21-Jul-2023 12:36:44 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[21-Jul-2023 13:19:49 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[21-Jul-2023 18:19:57 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/managerr.net/users/electric-bill.php on line 94
+[21-Jul-2023 18:27:45 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/managerr.net/users/electric-bill.php on line 94
+[21-Jul-2023 13:27:57 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[21-Jul-2023 13:40:36 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[22-Jul-2023 03:13:52 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[22-Jul-2023 03:14:25 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[22-Jul-2023 03:14:59 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[22-Jul-2023 03:43:42 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[22-Jul-2023 03:44:06 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[22-Jul-2023 03:44:58 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[22-Jul-2023 03:45:59 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[22-Jul-2023 09:13:47 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[22-Jul-2023 09:15:35 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[22-Jul-2023 09:15:50 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[22-Jul-2023 11:37:56 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[22-Jul-2023 17:52:46 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[22-Jul-2023 17:53:06 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[22-Jul-2023 19:09:34 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[23-Jul-2023 05:20:05 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[23-Jul-2023 08:04:22 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[23-Jul-2023 10:57:53 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 487
+[23-Jul-2023 11:50:15 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[23-Jul-2023 12:02:06 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[23-Jul-2023 12:04:02 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[23-Jul-2023 12:04:06 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[23-Jul-2023 13:16:45 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[23-Jul-2023 13:33:00 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 165
+[23-Jul-2023 13:46:12 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 165
+[23-Jul-2023 14:32:06 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[23-Jul-2023 14:32:10 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[23-Jul-2023 19:32:28 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/managerr.net/users/electric-bill.php on line 94
+[23-Jul-2023 23:22:00 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[24-Jul-2023 11:28:01 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[24-Jul-2023 11:44:38 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[24-Jul-2023 16:47:26 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/managerr.net/users/electric-bill.php on line 94
+[24-Jul-2023 11:47:44 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[24-Jul-2023 11:47:58 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[24-Jul-2023 12:30:27 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[24-Jul-2023 17:04:53 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[24-Jul-2023 21:58:21 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[24-Jul-2023 21:58:52 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[24-Jul-2023 22:00:29 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[25-Jul-2023 03:13:01 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 165
+[25-Jul-2023 09:05:40 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[25-Jul-2023 09:06:21 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[25-Jul-2023 12:08:23 America/New_York] PHP Notice:  Undefined index: phone in /home/realeoki/managerr.net/users/validate_code.php on line 10
+[25-Jul-2023 12:40:59 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[25-Jul-2023 12:41:35 America/New_York] PHP Notice:  Trying to get property 'estate' of non-object in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 25
+[25-Jul-2023 12:41:35 America/New_York] PHP Notice:  Trying to get property 'name' of non-object in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 81
+[25-Jul-2023 12:41:35 America/New_York] PHP Notice:  Trying to get property 'updated_at' of non-object in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 83
+[25-Jul-2023 12:41:35 America/New_York] PHP Notice:  Trying to get property 'due_date' of non-object in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 86
+[25-Jul-2023 12:41:35 America/New_York] PHP Notice:  Trying to get property 'estate_name' of non-object in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 89
+[25-Jul-2023 12:41:35 America/New_York] PHP Notice:  Trying to get property 'address' of non-object in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 92
+[25-Jul-2023 12:41:35 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 96
+[25-Jul-2023 12:41:35 America/New_York] PHP Notice:  Trying to get property 'deadline_option' of non-object in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 302
+[25-Jul-2023 12:41:35 America/New_York] PHP Notice:  Trying to get property 'maxMonthlyPayment' of non-object in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 321
+[25-Jul-2023 12:48:14 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 165
+[25-Jul-2023 13:18:25 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[25-Jul-2023 13:18:44 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[25-Jul-2023 18:33:04 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/managerr.net/users/electric-bill.php on line 94
+[25-Jul-2023 13:33:15 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[25-Jul-2023 13:35:18 America/New_York] PHP Notice:  Trying to get property 'status' of non-object in /home/realeoki/managerr.net/users/update_flat.php on line 79
+[25-Jul-2023 13:47:32 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 165
+[26-Jul-2023 06:08:24 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 165
+[26-Jul-2023 09:03:56 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[27-Jul-2023 09:34:51 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 165
+[29-Jul-2023 10:52:16 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[29-Jul-2023 10:52:46 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[29-Jul-2023 10:54:20 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[31-Jul-2023 09:26:45 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[31-Jul-2023 09:28:20 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[31-Jul-2023 09:39:32 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 12:43:26 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 12:44:39 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 12:45:19 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 12:45:40 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 13:22:26 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 13:51:17 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 13:51:30 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 13:52:11 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 13:52:15 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 13:52:26 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 14:00:04 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 14:07:03 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 14:07:27 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 14:09:47 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 14:12:32 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 14:27:11 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 14:28:30 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 14:38:54 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 14:40:23 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 19:40:41 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/managerr.net/users/electric-bill.php on line 94
+[01-Aug-2023 14:42:38 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 19:42:57 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/managerr.net/users/electric-bill.php on line 94
+[01-Aug-2023 14:44:57 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 14:50:32 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 14:51:48 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 14:51:59 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 14:56:45 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 14:57:01 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 19:57:34 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/managerr.net/users/electric-bill.php on line 94
+[01-Aug-2023 19:58:36 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/managerr.net/users/electric-bill.php on line 94
+[01-Aug-2023 15:14:20 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 15:14:48 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 15:31:16 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 19:04:49 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[01-Aug-2023 19:04:59 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[02-Aug-2023 09:30:08 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[02-Aug-2023 14:37:15 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[03-Aug-2023 03:21:20 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[03-Aug-2023 11:20:27 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[03-Aug-2023 11:21:14 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[03-Aug-2023 11:22:35 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[03-Aug-2023 11:24:38 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[03-Aug-2023 11:26:23 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[03-Aug-2023 11:27:28 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[03-Aug-2023 11:27:59 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[03-Aug-2023 11:36:49 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[03-Aug-2023 11:38:59 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[03-Aug-2023 11:41:44 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[03-Aug-2023 11:46:28 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[03-Aug-2023 12:17:24 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[03-Aug-2023 17:17:35 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/managerr.net/users/electric-bill.php on line 94
+[03-Aug-2023 12:23:46 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[03-Aug-2023 12:34:07 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[03-Aug-2023 13:18:28 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[03-Aug-2023 13:51:32 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[04-Aug-2023 04:11:30 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[04-Aug-2023 06:02:17 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[04-Aug-2023 06:03:20 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[04-Aug-2023 06:03:44 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[04-Aug-2023 11:03:53 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/managerr.net/users/electric-bill.php on line 94
+[04-Aug-2023 06:16:49 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[04-Aug-2023 06:25:58 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[04-Aug-2023 07:58:32 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[04-Aug-2023 11:15:38 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[04-Aug-2023 13:55:54 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[04-Aug-2023 13:59:42 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[04-Aug-2023 14:15:49 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/notifications.php on line 141
+[04-Aug-2023 14:22:41 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/notifications.php on line 141
+[04-Aug-2023 14:24:42 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[04-Aug-2023 15:49:05 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[04-Aug-2023 15:49:59 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[04-Aug-2023 16:34:20 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[04-Aug-2023 21:34:28 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/managerr.net/users/electric-bill.php on line 94
+[04-Aug-2023 16:47:21 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[04-Aug-2023 21:48:11 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/managerr.net/users/electric-bill.php on line 94
+[04-Aug-2023 16:52:40 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[04-Aug-2023 18:58:22 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[04-Aug-2023 20:03:18 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[05-Aug-2023 01:03:29 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/managerr.net/users/electric-bill.php on line 94
+[05-Aug-2023 04:37:48 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[05-Aug-2023 09:37:54 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/managerr.net/users/electric-bill.php on line 94
+[05-Aug-2023 04:39:05 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[05-Aug-2023 17:10:40 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[06-Aug-2023 01:19:47 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[06-Aug-2023 06:26:12 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/managerr.net/users/electric-bill.php on line 94
+[06-Aug-2023 01:44:21 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[06-Aug-2023 06:44:57 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/managerr.net/users/electric-bill.php on line 95
+[06-Aug-2023 06:45:13 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/managerr.net/users/electric-bill.php on line 95
+[06-Aug-2023 06:48:16 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/managerr.net/users/electric-bill.php on line 94
+[06-Aug-2023 06:48:51 Africa/Lagos] PHP Notice:  Trying to get property 'transaction_date' of non-object in /home/realeoki/managerr.net/users/electric-bill.php on line 94
+[06-Aug-2023 01:51:39 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[06-Aug-2023 02:21:10 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/notifications.php on line 141
+[06-Aug-2023 02:21:55 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/notifications.php on line 141
+[06-Aug-2023 02:22:50 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/notifications.php on line 141
+[06-Aug-2023 02:23:13 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/notifications.php on line 141
+[06-Aug-2023 02:23:55 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[06-Aug-2023 02:25:02 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/notifications.php on line 141
+[06-Aug-2023 02:28:16 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[06-Aug-2023 02:57:25 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 165
+[06-Aug-2023 03:49:06 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[06-Aug-2023 03:49:42 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[06-Aug-2023 03:50:20 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[06-Aug-2023 04:33:34 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[06-Aug-2023 05:37:35 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[06-Aug-2023 08:23:59 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[06-Aug-2023 09:09:35 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[06-Aug-2023 09:10:20 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[06-Aug-2023 09:11:53 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 165
+[06-Aug-2023 09:13:42 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 165
+[06-Aug-2023 09:14:01 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[06-Aug-2023 09:14:05 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[06-Aug-2023 10:26:40 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/managerr.net/users/electric-bill.php on line 54
+[06-Aug-2023 10:26:40 America/New_York] PHP Notice:  Undefined index: transaction_id in /home/realeoki/managerr.net/users/electric-bill.php on line 57
+[06-Aug-2023 10:27:46 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/managerr.net/users/electric-bill.php on line 54
+[06-Aug-2023 10:27:46 America/New_York] PHP Notice:  Undefined index: transaction_id in /home/realeoki/managerr.net/users/electric-bill.php on line 57
+[06-Aug-2023 10:36:30 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/managerr.net/users/electric-bill.php on line 54
+[06-Aug-2023 10:36:30 America/New_York] PHP Notice:  Undefined index: transaction_id in /home/realeoki/managerr.net/users/electric-bill.php on line 57
+[06-Aug-2023 10:42:55 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/managerr.net/users/electric-bill.php on line 54
+[06-Aug-2023 10:50:09 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/managerr.net/users/electric-bill.php on line 54
+[06-Aug-2023 10:57:28 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/managerr.net/users/electric-bill.php on line 54
+[06-Aug-2023 13:28:15 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 165
+[06-Aug-2023 13:28:38 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[06-Aug-2023 16:01:24 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[06-Aug-2023 18:08:02 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[07-Aug-2023 07:20:26 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[07-Aug-2023 07:25:19 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 165
+[07-Aug-2023 07:28:50 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[07-Aug-2023 07:37:43 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[07-Aug-2023 07:38:05 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[07-Aug-2023 07:39:20 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[07-Aug-2023 07:40:11 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[07-Aug-2023 07:40:47 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[07-Aug-2023 07:49:35 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 165
+[07-Aug-2023 07:50:39 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[07-Aug-2023 07:50:43 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[07-Aug-2023 08:12:59 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[07-Aug-2023 08:24:52 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[07-Aug-2023 08:25:18 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[07-Aug-2023 08:27:27 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[07-Aug-2023 14:25:28 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 166
+[07-Aug-2023 19:02:43 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[07-Aug-2023 19:03:17 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[07-Aug-2023 20:00:09 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 166
+[07-Aug-2023 20:06:05 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[07-Aug-2023 20:06:18 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[07-Aug-2023 20:06:24 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[08-Aug-2023 07:51:27 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[08-Aug-2023 07:51:43 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[08-Aug-2023 16:17:13 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 166
+[10-Aug-2023 21:42:43 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[10-Aug-2023 21:46:23 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[10-Aug-2023 21:48:37 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[10-Aug-2023 21:51:01 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[10-Aug-2023 21:52:40 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[10-Aug-2023 21:53:02 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[10-Aug-2023 22:01:29 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[11-Aug-2023 06:57:59 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[11-Aug-2023 07:14:40 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[11-Aug-2023 07:21:11 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[11-Aug-2023 12:10:03 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[11-Aug-2023 16:35:25 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[11-Aug-2023 16:36:01 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[11-Aug-2023 16:49:57 America/New_York] PHP Notice:  Undefined variable: admin_type in /home/realeoki/managerr.net/users/view_flats.php on line 40
+[11-Aug-2023 16:49:57 America/New_York] PHP Notice:  Undefined variable: name in /home/realeoki/managerr.net/users/view_flats.php on line 45
+[11-Aug-2023 16:52:24 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 166
+[11-Aug-2023 16:52:58 America/New_York] PHP Notice:  Undefined index: lstMntlyDuePaid in /home/realeoki/managerr.net/users/update_due.php on line 65
+[11-Aug-2023 16:52:58 America/New_York] PHP Notice:  Undefined index: noMntsOwed in /home/realeoki/managerr.net/users/update_due.php on line 69
+[11-Aug-2023 16:52:58 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/managerr.net/users/update_due.php on line 74
+[11-Aug-2023 16:52:58 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/update_due.php on line 74
+[11-Aug-2023 16:52:58 America/New_York] PHP Notice:  Undefined index: totalAmountOwed in /home/realeoki/managerr.net/users/update_due.php on line 77
+[11-Aug-2023 16:52:58 America/New_York] PHP Notice:  Undefined index: amntOwedThisYr in /home/realeoki/managerr.net/users/update_due.php on line 81
+[11-Aug-2023 16:53:51 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 166
+[11-Aug-2023 16:54:36 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 166
+[11-Aug-2023 16:54:41 America/New_York] PHP Notice:  Undefined index: lstMntlyDuePaid in /home/realeoki/managerr.net/users/update_due.php on line 65
+[11-Aug-2023 16:54:41 America/New_York] PHP Notice:  Undefined index: noMntsOwed in /home/realeoki/managerr.net/users/update_due.php on line 69
+[11-Aug-2023 16:54:41 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/managerr.net/users/update_due.php on line 74
+[11-Aug-2023 16:54:41 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/update_due.php on line 74
+[11-Aug-2023 16:54:41 America/New_York] PHP Notice:  Undefined index: totalAmountOwed in /home/realeoki/managerr.net/users/update_due.php on line 77
+[11-Aug-2023 16:54:41 America/New_York] PHP Notice:  Undefined index: amntOwedThisYr in /home/realeoki/managerr.net/users/update_due.php on line 81
+[11-Aug-2023 16:54:48 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 166
+[11-Aug-2023 16:55:05 America/New_York] PHP Notice:  Undefined index: lstMntlyDuePaid in /home/realeoki/managerr.net/users/update_due.php on line 65
+[11-Aug-2023 16:55:05 America/New_York] PHP Notice:  Undefined index: noMntsOwed in /home/realeoki/managerr.net/users/update_due.php on line 69
+[11-Aug-2023 16:55:05 America/New_York] PHP Notice:  Undefined variable: row in /home/realeoki/managerr.net/users/update_due.php on line 74
+[11-Aug-2023 16:55:05 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/update_due.php on line 74
+[11-Aug-2023 16:55:05 America/New_York] PHP Notice:  Undefined index: totalAmountOwed in /home/realeoki/managerr.net/users/update_due.php on line 77
+[11-Aug-2023 16:55:05 America/New_York] PHP Notice:  Undefined index: amntOwedThisYr in /home/realeoki/managerr.net/users/update_due.php on line 81
+[11-Aug-2023 16:55:12 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 166
+[12-Aug-2023 09:22:08 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[12-Aug-2023 09:27:00 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[12-Aug-2023 09:31:17 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[12-Aug-2023 09:34:45 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[12-Aug-2023 09:36:58 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[12-Aug-2023 09:36:58 America/New_York] PHP Notice:  A non well formed numeric value encountered in /home/realeoki/managerr.net/users/flat.php on line 130
+[12-Aug-2023 09:37:40 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[12-Aug-2023 09:38:09 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[12-Aug-2023 09:38:09 America/New_York] PHP Notice:  A non well formed numeric value encountered in /home/realeoki/managerr.net/users/flat.php on line 130
+[12-Aug-2023 09:40:14 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[12-Aug-2023 09:44:58 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[12-Aug-2023 09:45:43 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[12-Aug-2023 09:53:20 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function format_date() in /home/realeoki/managerr.net/users/estate_mgr.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/realeoki/managerr.net/users/estate_mgr.php on line 43
+[12-Aug-2023 09:53:40 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function format_date() in /home/realeoki/managerr.net/users/estate_mgr.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/realeoki/managerr.net/users/estate_mgr.php on line 43
+[12-Aug-2023 09:54:25 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function format_date() in /home/realeoki/managerr.net/users/estate_mgr.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/realeoki/managerr.net/users/estate_mgr.php on line 43
+[12-Aug-2023 09:55:37 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function format_date() in /home/realeoki/managerr.net/users/estate_mgr.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/realeoki/managerr.net/users/estate_mgr.php on line 43
+[12-Aug-2023 09:56:24 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function format_date() in /home/realeoki/managerr.net/users/estate_mgr.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/realeoki/managerr.net/users/estate_mgr.php on line 43
+[12-Aug-2023 09:56:35 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function format_date() in /home/realeoki/managerr.net/users/estate_mgr.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/realeoki/managerr.net/users/estate_mgr.php on line 43
+[12-Aug-2023 14:58:09 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function format_date() in /home/realeoki/managerr.net/users/tmpl/transactions.php:24
+Stack trace:
+#0 /home/realeoki/managerr.net/users/electric-bill.php(170): include()
+#1 {main}
+  thrown in /home/realeoki/managerr.net/users/tmpl/transactions.php on line 24
+[12-Aug-2023 09:59:57 America/New_York] PHP Warning:  Use of undefined constant functions - assumed 'functions' (this will throw an Error in a future version of PHP) in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 20
+[12-Aug-2023 09:59:57 America/New_York] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 20
+[12-Aug-2023 09:59:57 America/New_York] PHP Warning:  include(functionsphp): failed to open stream: No such file or directory in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 20
+[12-Aug-2023 09:59:57 America/New_York] PHP Warning:  include(): Failed opening 'functionsphp' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 20
+[12-Aug-2023 14:59:57 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function format_date() in /home/realeoki/managerr.net/users/tmpl/transactions.php:24
+Stack trace:
+#0 /home/realeoki/managerr.net/users/electric-bill.php(170): include()
+#1 {main}
+  thrown in /home/realeoki/managerr.net/users/tmpl/transactions.php on line 24
+[12-Aug-2023 10:00:03 America/New_York] PHP Warning:  Use of undefined constant functions - assumed 'functions' (this will throw an Error in a future version of PHP) in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 20
+[12-Aug-2023 10:00:03 America/New_York] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 20
+[12-Aug-2023 10:00:03 America/New_York] PHP Warning:  include(functionsphp): failed to open stream: No such file or directory in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 20
+[12-Aug-2023 10:00:03 America/New_York] PHP Warning:  include(): Failed opening 'functionsphp' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 20
+[12-Aug-2023 15:00:03 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function format_date() in /home/realeoki/managerr.net/users/tmpl/transactions.php:24
+Stack trace:
+#0 /home/realeoki/managerr.net/users/electric-bill.php(170): include()
+#1 {main}
+  thrown in /home/realeoki/managerr.net/users/tmpl/transactions.php on line 24
+[12-Aug-2023 10:00:07 America/New_York] PHP Warning:  Use of undefined constant functions - assumed 'functions' (this will throw an Error in a future version of PHP) in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 20
+[12-Aug-2023 10:00:07 America/New_York] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 20
+[12-Aug-2023 10:00:07 America/New_York] PHP Warning:  include(functionsphp): failed to open stream: No such file or directory in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 20
+[12-Aug-2023 10:00:07 America/New_York] PHP Warning:  include(): Failed opening 'functionsphp' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/realeoki/managerr.net/users/mgr_sidebar.php on line 20
+[12-Aug-2023 15:00:07 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function format_date() in /home/realeoki/managerr.net/users/tmpl/transactions.php:24
+Stack trace:
+#0 /home/realeoki/managerr.net/users/electric-bill.php(170): include()
+#1 {main}
+  thrown in /home/realeoki/managerr.net/users/tmpl/transactions.php on line 24
+[12-Aug-2023 10:04:57 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function formate_date() in /home/realeoki/managerr.net/users/notifications.php:208
+Stack trace:
+#0 {main}
+  thrown in /home/realeoki/managerr.net/users/notifications.php on line 208
+[12-Aug-2023 10:05:44 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 166
+[12-Aug-2023 10:10:04 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 150
+[12-Aug-2023 10:11:11 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[12-Aug-2023 10:12:04 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[12-Aug-2023 11:13:19 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[12-Aug-2023 11:21:19 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[13-Aug-2023 11:13:25 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[14-Aug-2023 06:46:39 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[14-Aug-2023 10:08:23 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[14-Aug-2023 10:08:36 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[14-Aug-2023 10:34:29 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[14-Aug-2023 16:19:49 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/managerr.net/users/flat_sidebar.php on line 31
+[14-Aug-2023 16:19:49 America/New_York] PHP Notice:  Trying to get property 'estate_code' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 47
+[14-Aug-2023 16:19:49 America/New_York] PHP Notice:  Trying to get property 'flat_no' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 49
+[14-Aug-2023 16:19:49 America/New_York] PHP Notice:  Trying to get property 'block_no' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 51
+[14-Aug-2023 16:19:49 America/New_York] PHP Notice:  Trying to get property 'owner' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 53
+[14-Aug-2023 16:19:49 America/New_York] PHP Notice:  Trying to get property 'amount_paid' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 55
+[14-Aug-2023 16:19:49 America/New_York] PHP Notice:  Trying to get property 'total_debt' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 57
+[14-Aug-2023 16:19:49 America/New_York] PHP Notice:  Trying to get property 'status' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 59
+[14-Aug-2023 16:19:49 America/New_York] PHP Notice:  Trying to get property 'due_date' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 65
+[14-Aug-2023 16:19:49 America/New_York] PHP Notice:  Trying to get property 'estate_name' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 71
+[14-Aug-2023 16:19:49 America/New_York] PHP Notice:  Trying to get property 'address' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 77
+[14-Aug-2023 16:19:49 America/New_York] PHP Notice:  Trying to get property 'split_code' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 83
+[14-Aug-2023 16:19:49 America/New_York] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to acct_bal2() must be of the type float, null given, called in /home/realeoki/managerr.net/users/flat_sidebar.php on line 87 and defined in /home/realeoki/managerr.net/users/functions.php:52
+Stack trace:
+#0 /home/realeoki/managerr.net/users/flat_sidebar.php(87): acct_bal2(NULL, NULL)
+#1 /home/realeoki/managerr.net/users/qr-code.php(25): include('/home/realeoki/...')
+#2 {main}
+  thrown in /home/realeoki/managerr.net/users/functions.php on line 52
+[14-Aug-2023 16:19:54 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/managerr.net/users/flat_sidebar.php on line 31
+[14-Aug-2023 16:19:54 America/New_York] PHP Notice:  Trying to get property 'estate_code' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 47
+[14-Aug-2023 16:19:54 America/New_York] PHP Notice:  Trying to get property 'flat_no' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 49
+[14-Aug-2023 16:19:54 America/New_York] PHP Notice:  Trying to get property 'block_no' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 51
+[14-Aug-2023 16:19:54 America/New_York] PHP Notice:  Trying to get property 'owner' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 53
+[14-Aug-2023 16:19:54 America/New_York] PHP Notice:  Trying to get property 'amount_paid' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 55
+[14-Aug-2023 16:19:54 America/New_York] PHP Notice:  Trying to get property 'total_debt' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 57
+[14-Aug-2023 16:19:54 America/New_York] PHP Notice:  Trying to get property 'status' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 59
+[14-Aug-2023 16:19:54 America/New_York] PHP Notice:  Trying to get property 'due_date' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 65
+[14-Aug-2023 16:19:54 America/New_York] PHP Notice:  Trying to get property 'estate_name' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 71
+[14-Aug-2023 16:19:54 America/New_York] PHP Notice:  Trying to get property 'address' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 77
+[14-Aug-2023 16:19:54 America/New_York] PHP Notice:  Trying to get property 'split_code' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 83
+[14-Aug-2023 16:19:54 America/New_York] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to acct_bal2() must be of the type float, null given, called in /home/realeoki/managerr.net/users/flat_sidebar.php on line 87 and defined in /home/realeoki/managerr.net/users/functions.php:52
+Stack trace:
+#0 /home/realeoki/managerr.net/users/flat_sidebar.php(87): acct_bal2(NULL, NULL)
+#1 /home/realeoki/managerr.net/users/qr-code.php(25): include('/home/realeoki/...')
+#2 {main}
+  thrown in /home/realeoki/managerr.net/users/functions.php on line 52
+[14-Aug-2023 16:27:16 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[14-Aug-2023 16:27:19 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[14-Aug-2023 16:27:25 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 150
+[14-Aug-2023 16:29:37 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[15-Aug-2023 04:59:14 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[15-Aug-2023 06:31:54 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[15-Aug-2023 06:32:25 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[15-Aug-2023 06:41:07 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 06:43:01 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 06:52:34 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 06:52:48 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 06:53:35 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 06:53:44 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 06:54:08 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 07:02:06 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[15-Aug-2023 07:03:08 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 07:03:51 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 07:04:45 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 07:04:52 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 07:05:05 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 07:07:42 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 07:07:48 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 07:08:31 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 07:09:02 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 07:09:25 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 150
+[15-Aug-2023 07:09:37 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 07:21:51 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 07:23:18 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/realeoki/managerr.net/users/view_flats.php on line 148
+[15-Aug-2023 07:23:22 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/realeoki/managerr.net/users/view_flats.php on line 148
+[15-Aug-2023 07:23:39 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/realeoki/managerr.net/users/view_flats.php on line 148
+[15-Aug-2023 07:23:42 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/realeoki/managerr.net/users/view_flats.php on line 148
+[15-Aug-2023 07:26:35 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 07:26:45 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 07:27:24 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 07:27:31 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 07:29:51 America/New_York] PHP Fatal error:  Cannot redeclare format_date() (previously declared in /home/realeoki/managerr.net/users/functions.php:2) in /home/realeoki/managerr.net/users/functions.php on line 2
+[15-Aug-2023 07:31:58 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[15-Aug-2023 07:32:07 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function acct_bal() in /home/realeoki/managerr.net/users/view_flats.php:135
+Stack trace:
+#0 {main}
+  thrown in /home/realeoki/managerr.net/users/view_flats.php on line 135
+[15-Aug-2023 07:36:16 America/New_York] PHP Notice:  Undefined variable: con in /home/realeoki/managerr.net/users/view_flats.php on line 78
+[15-Aug-2023 07:36:16 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/realeoki/managerr.net/users/view_flats.php on line 78
+[15-Aug-2023 07:36:35 America/New_York] PHP Notice:  Undefined variable: con in /home/realeoki/managerr.net/users/view_flats.php on line 78
+[15-Aug-2023 07:36:35 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/realeoki/managerr.net/users/view_flats.php on line 78
+[15-Aug-2023 07:50:47 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[15-Aug-2023 07:54:12 America/New_York] PHP Notice:  Undefined variable: con in /home/realeoki/managerr.net/users/view_flats.php on line 78
+[15-Aug-2023 07:54:12 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/realeoki/managerr.net/users/view_flats.php on line 78
+[15-Aug-2023 07:56:29 America/New_York] PHP Notice:  Undefined variable: con in /home/realeoki/managerr.net/users/view_flats.php on line 78
+[15-Aug-2023 07:56:29 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/realeoki/managerr.net/users/view_flats.php on line 78
+[15-Aug-2023 07:57:04 America/New_York] PHP Notice:  Undefined variable: con in /home/realeoki/managerr.net/users/view_flats.php on line 78
+[15-Aug-2023 07:57:04 America/New_York] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/realeoki/managerr.net/users/view_flats.php on line 78
+[15-Aug-2023 08:19:57 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[15-Aug-2023 08:21:32 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[15-Aug-2023 08:36:41 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[15-Aug-2023 08:53:29 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[15-Aug-2023 08:54:11 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[16-Aug-2023 12:36:04 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[16-Aug-2023 14:25:29 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[16-Aug-2023 14:26:18 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[17-Aug-2023 02:51:34 America/New_York] PHP Notice:  Undefined variable: num_hom in /home/realeoki/managerr.net/users/flat_sidebar.php on line 475
+[17-Aug-2023 03:25:25 America/New_York] PHP Notice:  Undefined variable: amnt_paid in /home/realeoki/managerr.net/users/flat_sidebar.php on line 146
+[17-Aug-2023 03:25:25 America/New_York] PHP Notice:  Undefined variable: total_debt in /home/realeoki/managerr.net/users/flat_sidebar.php on line 146
+[17-Aug-2023 03:25:25 America/New_York] PHP Notice:  Undefined variable: acct_bal in /home/realeoki/managerr.net/users/flat_sidebar.php on line 314
+[17-Aug-2023 03:25:25 America/New_York] PHP Notice:  Undefined variable: acct_bal in /home/realeoki/managerr.net/users/flat_sidebar.php on line 316
+[17-Aug-2023 03:25:36 America/New_York] PHP Notice:  Undefined variable: amnt_paid in /home/realeoki/managerr.net/users/flat_sidebar.php on line 146
+[17-Aug-2023 03:25:36 America/New_York] PHP Notice:  Undefined variable: total_debt in /home/realeoki/managerr.net/users/flat_sidebar.php on line 146
+[17-Aug-2023 03:25:36 America/New_York] PHP Notice:  Undefined variable: acct_bal in /home/realeoki/managerr.net/users/flat_sidebar.php on line 314
+[17-Aug-2023 03:25:36 America/New_York] PHP Notice:  Undefined variable: acct_bal in /home/realeoki/managerr.net/users/flat_sidebar.php on line 316
+[17-Aug-2023 03:25:41 America/New_York] PHP Notice:  Undefined variable: amnt_paid in /home/realeoki/managerr.net/users/flat_sidebar.php on line 146
+[17-Aug-2023 03:25:41 America/New_York] PHP Notice:  Undefined variable: total_debt in /home/realeoki/managerr.net/users/flat_sidebar.php on line 146
+[17-Aug-2023 03:25:41 America/New_York] PHP Notice:  Undefined variable: acct_bal in /home/realeoki/managerr.net/users/flat_sidebar.php on line 314
+[17-Aug-2023 03:25:41 America/New_York] PHP Notice:  Undefined variable: acct_bal in /home/realeoki/managerr.net/users/flat_sidebar.php on line 316
+[17-Aug-2023 03:25:41 America/New_York] PHP Notice:  Undefined variable: amnt_paid in /home/realeoki/managerr.net/users/qr-code.php on line 237
+[17-Aug-2023 03:25:41 America/New_York] PHP Notice:  Undefined variable: total_debt in /home/realeoki/managerr.net/users/qr-code.php on line 237
+[17-Aug-2023 03:25:41 America/New_York] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to acct_bal2() must be of the type float, null given, called in /home/realeoki/managerr.net/users/qr-code.php on line 237 and defined in /home/realeoki/managerr.net/users/functions.php:52
+Stack trace:
+#0 /home/realeoki/managerr.net/users/qr-code.php(237): acct_bal2(NULL, NULL)
+#1 {main}
+  thrown in /home/realeoki/managerr.net/users/functions.php on line 52
+[17-Aug-2023 03:26:00 America/New_York] PHP Notice:  Undefined variable: amnt_paid in /home/realeoki/managerr.net/users/flat_sidebar.php on line 146
+[17-Aug-2023 03:26:00 America/New_York] PHP Notice:  Undefined variable: total_debt in /home/realeoki/managerr.net/users/flat_sidebar.php on line 146
+[17-Aug-2023 03:26:00 America/New_York] PHP Notice:  Undefined variable: acct_bal in /home/realeoki/managerr.net/users/flat_sidebar.php on line 314
+[17-Aug-2023 03:26:00 America/New_York] PHP Notice:  Undefined variable: acct_bal in /home/realeoki/managerr.net/users/flat_sidebar.php on line 316
+[17-Aug-2023 03:26:00 America/New_York] PHP Notice:  Undefined variable: amnt_paid in /home/realeoki/managerr.net/users/qr-code.php on line 237
+[17-Aug-2023 03:26:00 America/New_York] PHP Notice:  Undefined variable: total_debt in /home/realeoki/managerr.net/users/qr-code.php on line 237
+[17-Aug-2023 03:26:00 America/New_York] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to acct_bal2() must be of the type float, null given, called in /home/realeoki/managerr.net/users/qr-code.php on line 237 and defined in /home/realeoki/managerr.net/users/functions.php:52
+Stack trace:
+#0 /home/realeoki/managerr.net/users/qr-code.php(237): acct_bal2(NULL, NULL)
+#1 {main}
+  thrown in /home/realeoki/managerr.net/users/functions.php on line 52
+[17-Aug-2023 03:26:47 America/New_York] PHP Notice:  Undefined variable: amnt_paid in /home/realeoki/managerr.net/users/flat_sidebar.php on line 8
+[17-Aug-2023 03:26:47 America/New_York] PHP Notice:  Undefined variable: total_debt in /home/realeoki/managerr.net/users/flat_sidebar.php on line 8
+[17-Aug-2023 03:26:47 America/New_York] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to acct_bal2() must be of the type float, null given, called in /home/realeoki/managerr.net/users/flat_sidebar.php on line 8 and defined in /home/realeoki/managerr.net/users/functions.php:52
+Stack trace:
+#0 /home/realeoki/managerr.net/users/flat_sidebar.php(8): acct_bal2(NULL, NULL)
+#1 /home/realeoki/managerr.net/users/qr-code.php(25): include('/home/realeoki/...')
+#2 {main}
+  thrown in /home/realeoki/managerr.net/users/functions.php on line 52
+[17-Aug-2023 03:26:52 America/New_York] PHP Notice:  Undefined variable: amnt_paid in /home/realeoki/managerr.net/users/flat_sidebar.php on line 8
+[17-Aug-2023 03:26:52 America/New_York] PHP Notice:  Undefined variable: total_debt in /home/realeoki/managerr.net/users/flat_sidebar.php on line 8
+[17-Aug-2023 03:26:52 America/New_York] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to acct_bal2() must be of the type float, null given, called in /home/realeoki/managerr.net/users/flat_sidebar.php on line 8 and defined in /home/realeoki/managerr.net/users/functions.php:52
+Stack trace:
+#0 /home/realeoki/managerr.net/users/flat_sidebar.php(8): acct_bal2(NULL, NULL)
+#1 /home/realeoki/managerr.net/users/qr-code.php(25): include('/home/realeoki/...')
+#2 {main}
+  thrown in /home/realeoki/managerr.net/users/functions.php on line 52
+[17-Aug-2023 03:26:56 America/New_York] PHP Notice:  Undefined variable: amnt_paid in /home/realeoki/managerr.net/users/flat_sidebar.php on line 8
+[17-Aug-2023 03:26:56 America/New_York] PHP Notice:  Undefined variable: total_debt in /home/realeoki/managerr.net/users/flat_sidebar.php on line 8
+[17-Aug-2023 03:26:56 America/New_York] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to acct_bal2() must be of the type float, null given, called in /home/realeoki/managerr.net/users/flat_sidebar.php on line 8 and defined in /home/realeoki/managerr.net/users/functions.php:52
+Stack trace:
+#0 /home/realeoki/managerr.net/users/flat_sidebar.php(8): acct_bal2(NULL, NULL)
+#1 /home/realeoki/managerr.net/users/messages.php(3): include('/home/realeoki/...')
+#2 {main}
+  thrown in /home/realeoki/managerr.net/users/functions.php on line 52
+[17-Aug-2023 03:27:01 America/New_York] PHP Notice:  Undefined variable: amnt_paid in /home/realeoki/managerr.net/users/flat_sidebar.php on line 8
+[17-Aug-2023 03:27:02 America/New_York] PHP Notice:  Undefined variable: total_debt in /home/realeoki/managerr.net/users/flat_sidebar.php on line 8
+[17-Aug-2023 03:27:02 America/New_York] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to acct_bal2() must be of the type float, null given, called in /home/realeoki/managerr.net/users/flat_sidebar.php on line 8 and defined in /home/realeoki/managerr.net/users/functions.php:52
+Stack trace:
+#0 /home/realeoki/managerr.net/users/flat_sidebar.php(8): acct_bal2(NULL, NULL)
+#1 /home/realeoki/managerr.net/users/messages.php(3): include('/home/realeoki/...')
+#2 {main}
+  thrown in /home/realeoki/managerr.net/users/functions.php on line 52
+[17-Aug-2023 05:12:50 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 159
+[17-Aug-2023 05:23:48 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 167
+[17-Aug-2023 05:24:59 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 170
+[17-Aug-2023 05:26:42 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 171
+[17-Aug-2023 05:29:02 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 171
+[17-Aug-2023 05:29:17 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 171
+[17-Aug-2023 05:29:19 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 171
+[17-Aug-2023 05:30:05 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 171
+[17-Aug-2023 05:30:12 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 171
+[17-Aug-2023 05:30:15 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 171
+[17-Aug-2023 05:30:24 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 171
+[17-Aug-2023 05:31:18 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 171
+[17-Aug-2023 05:31:51 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 171
+[17-Aug-2023 05:36:41 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 173
+[17-Aug-2023 05:37:03 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 173
+[17-Aug-2023 05:37:29 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 173
+[17-Aug-2023 05:37:34 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 173
+[17-Aug-2023 05:40:05 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 173
+[18-Aug-2023 00:07:29 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 177
+[21-Aug-2023 05:17:15 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 150
+[23-Aug-2023 00:16:12 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 150
+[23-Aug-2023 10:31:43 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 177
+[25-Aug-2023 07:37:04 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 177
+[25-Aug-2023 07:40:19 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 177
+[25-Aug-2023 07:40:23 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 177
+[04-Sep-2023 01:52:10 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 177
+[04-Sep-2023 12:45:16 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 150
+[04-Sep-2023 16:11:28 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 150
+[05-Sep-2023 04:51:40 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 150
+[05-Sep-2023 04:56:14 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 150
+[05-Sep-2023 05:26:41 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 150
+[05-Sep-2023 05:27:28 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 150
+[05-Sep-2023 05:31:00 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 150
+[05-Sep-2023 05:41:04 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 177
+[05-Sep-2023 18:07:37 America/New_York] PHP Notice:  Trying to access array offset on value of type null in /home/realeoki/managerr.net/users/dues.php on line 150
+[08-Sep-2023 12:50:13 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 177
+[08-Sep-2023 12:51:22 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 177
+[08-Sep-2023 12:51:26 America/New_York] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/realeoki/managerr.net/users/messages.php on line 177
+[08-Sep-2023 13:11:37 America/New_York] PHP Notice:  Undefined index: id in /home/realeoki/managerr.net/users/flat_sidebar.php on line 25
+[08-Sep-2023 13:11:37 America/New_York] PHP Notice:  Trying to get property 'estate_code' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 33
+[08-Sep-2023 13:11:37 America/New_York] PHP Notice:  Trying to get property 'flat_no' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 34
+[08-Sep-2023 13:11:37 America/New_York] PHP Notice:  Trying to get property 'block_no' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 35
+[08-Sep-2023 13:11:37 America/New_York] PHP Notice:  Trying to get property 'owner' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 36
+[08-Sep-2023 13:11:37 America/New_York] PHP Notice:  Trying to get property 'amount_paid' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 37
+[08-Sep-2023 13:11:37 America/New_York] PHP Notice:  Trying to get property 'total_debt' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 38
+[08-Sep-2023 13:11:37 America/New_York] PHP Notice:  Trying to get property 'status' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 39
+[08-Sep-2023 13:11:37 America/New_York] PHP Notice:  Trying to get property 'due_date' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 42
+[08-Sep-2023 13:11:37 America/New_York] PHP Notice:  Trying to get property 'estate_name' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 45
+[08-Sep-2023 13:11:37 America/New_York] PHP Notice:  Trying to get property 'address' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 48
+[08-Sep-2023 13:11:37 America/New_York] PHP Notice:  Trying to get property 'split_code' of non-object in /home/realeoki/managerr.net/users/flat_sidebar.php on line 51
+[08-Sep-2023 13:11:37 America/New_York] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to acct_bal2() must be of the type float, null given, called in /home/realeoki/managerr.net/users/flat_sidebar.php on line 52 and defined in /home/realeoki/managerr.net/users/functions.php:52
+Stack trace:
+#0 /home/realeoki/managerr.net/users/flat_sidebar.php(52): acct_bal2(NULL, NULL)
+#1 /home/realeoki/managerr.net/users/pay.php(3): include('/home/realeoki/...')
+#2 {main}
+  thrown in /home/realeoki/managerr.net/users/functions.php on line 52

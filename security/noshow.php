@@ -37,20 +37,18 @@ else{
           <div class="card-body">
 						<div class="table-rep-plugin">
               <div class="table-responsive b-0" data-pattern="priority-columns">
-                <button type='button' onclick="window.location.href = 'report.php?title=3';" class='btn btn-success btn-sm ml-1 mb-3' style='border-radius: 10px; float: right;'><b>Download CSV Report</b></button>
-                <button type='button' onclick="window.location.href = 'reportpdf.php?title=3';" class='btn btn-danger btn-sm mb-3' style='border-radius: 10px; float: right;'><b>Download PDF Report</b></button>
-                <?php //include ('tmpl/download_buttons.php?title=3'); 
-                    include ('../db.php');
-					$sql = "SELECT * FROM entrance_codes where estate='".$_SESSION['estate']."' and status='no-show'";
-					$result = $con->query($sql);
-					if ($result->num_rows > 0) { ?>
-					<table id="tech-companies-1" class="table  table-bordered">
-                        <thead><tr class="titles"><th>Guest</th><th>Vehicle No.</th><th>Companions</th><th>Duration</th><th>Arrival</th><th>Phone</th><!--<th>Action</th--><th style="display:none">Code</th></tr></thead>
-                        <tbody> 
-                        <?php while($row = $result->fetch_assoc()) { 
-							$phpdate = strtotime( $row['arr_date'] );
-							$myFormatForView = date("d-M-Y g:i A", $phpdate);
-                  	    ?>
+              	<!-- <button type='button' onclick="window.location.href = 'report.php?title=3';" class='btn btn-success btn-sm ml-1 mb-3' style='border-radius: 10px; float: right;'><b>Download CSV Report</b></button>
+								<button type='button' onclick="window.location.href = 'reportpdf.php?title=3';" class='btn btn-danger btn-sm mb-3' style='border-radius: 10px; float: right;'><b>Download PDF Report</b></button> -->
+                <?php include ('../db.php');
+								$sql = "SELECT * FROM entrance_codes where estate='".$_SESSION['estate']."' and status='no-show'";
+								$result = $con->query($sql);
+								if ($result->num_rows > 0) { ?>
+								<table id="tech-companies-1" class="table  table-bordered">
+                  <thead><tr class="titles"><th>Guest</th><th>Vehicle No.</th><th>Companions</th><th>Duration</th><th>Arrival</th><th>Phone</th><!--<th>Action</th--><th style="display:none">Code</th></tr></thead>
+                  <tbody> <?php while($row = $result->fetch_assoc()) { 
+										$phpdate = strtotime( $row['arr_date'] );
+										$myFormatForView = date("d-M-Y g:i A", $phpdate);
+                  	?>
 									<tr><td><?php echo $row['visitor']; ?></td>
 									<td><?php echo $row['reg_no']; ?></td><td><?php echo $row['comp']; ?></td>
 									<td><?php echo $row['duration']; ?></td><td><?php echo $myFormatForView; ?></td>

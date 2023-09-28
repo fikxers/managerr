@@ -76,7 +76,7 @@
   { 
 	$status_sql = "SELECT status FROM users WHERE email = '$id'";
 	$rs = mysqli_query($con,$status_sql) or die(mysql_error());
-	$status_now = $rs->fetch_object()->status; echo $status_sql;
+	$status_now = $rs->fetch_object()->status; //echo $status_sql;
   ?>
 	  <form class="" action="" method="POST">
 		<div class="form-row">

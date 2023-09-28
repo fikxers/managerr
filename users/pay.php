@@ -1,5 +1,5 @@
 		<?php
-      include('auth.php'); $title='Fund Wallet';
+      include('auth.php'); $title='Payment';
       include('flat_sidebar.php');	  
 		  if (isset($_POST['pay_now'])){	
 			//include('paystack-initialize.php'); $_SESSION['email']
@@ -14,7 +14,7 @@
 		  <div class="col-lg-12">
 	        <div class="card m-b-30">
 	          <div class="card-body">
-	      	    <h4 class="mt-0 header-title">Enter Amount</h4>
+	      	    <h4 class="mt-0 header-title">Make Payment</h4>
 				<form action="" method="POST">
 				  <div class="form-row">
 					<div class="form-group col-lg-12">

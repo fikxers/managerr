@@ -49,29 +49,37 @@ else if (isset($_POST['updatemeter'])){
 	}
 }
 
-	$permitted_chars = '0123456789';
-	function generate_string($input, $strength = 16) {
-	    $input_length = strlen($input);
-	    $random_string = '';
-	    for($i = 0; $i < $strength; $i++) {
-	        $random_character = $input[mt_rand(0, $input_length - 1)];
-	        $random_string .= $random_character;
-	    }
-	    return $random_string;
-	}
-    $final = generate_string($permitted_chars, 2);
-	$meterPAN="";
-	//$transactionID=$final.DATE("dmyHis");
-	$transactionId = "O" . DATE("dmyHis");
-	date_default_timezone_set('Africa/Lagos');
-    $transactionDate = date("Y-m-d H:i:s");
+//Add External Transaction
+else if (isset($_POST['addtransaction'])){ 
+    $flat = $_POST['flat']; $block = $_POST['block']; $id = $_POST['id']; 
+    $transaction = $_POST['transid']; $owner = $_POST['owner']; 
+    
+	echo "<script type='text/javascript'>window.top.location='electric/addtransaction.php?transaction=".$transaction."&flat=".$flat."&block=".$block."&owner=".$owner."&id=$id';</script>"; exit;
+}
+
+$permitted_chars = '0123456789';
+function generate_string($input, $strength = 16) {
+    $input_length = strlen($input);
+    $random_string = '';
+    for($i = 0; $i < $strength; $i++) {
+        $random_character = $input[mt_rand(0, $input_length - 1)];
+        $random_string .= $random_character;
+    }
+    return $random_string;
+}
+$final = generate_string($permitted_chars, 2);
+$meterPAN="";
+//$transactionID=$final.DATE("dmyHis");
+$transactionId = "O" . DATE("dmyHis");
+date_default_timezone_set('Africa/Lagos');
+$transactionDate = date("Y-m-d H:i:s");
 
 if($_SESSION['admin_type'] == 'flat') {  ?>
 <div class="row">
   <div class="col-lg-12">
     <div class="card m-b-30">
       <div class="card-body">
-				<?php $meterPAN = "";
+				<?php require('../db.php'); $meterPAN = "";
 				$sql = "SELECT meter_pan FROM flats where estate_code='".$_SESSION['estate']."' AND flat_no='".$_SESSION['flat_no']."' AND block_no='".$_SESSION['block_no']."'";
 				$result = $con->query($sql);
 				$row =mysqli_fetch_assoc($result);
@@ -89,9 +97,12 @@ if($_SESSION['admin_type'] == 'flat') {  ?>
 				$result = mysqli_query($con,$electric_this_month) or die(mysqli_error($con));
 				$e = $result->fetch_object()->electric_this_month;
 				//Get last date of electricity payment
+				$l = 0; //initialize
 				$last_electricity_payment = "select transaction_date from transactions where estate='".$_SESSION['estate']."' AND flat='".$_SESSION['flat_no']."' AND block='".$_SESSION['block_no']."'";
-				$result = mysqli_query($con,$last_electricity_payment) or die(mysqli_error($con));
-				$l = $result->fetch_object()->transaction_date;
+				$result=mysqli_query($con,$last_electricity_payment);
+				if (mysqli_num_rows($result) > 0){
+				    $l = $result->fetch_object()->transaction_date;
+				}
 			  ?>
 			  <label>Meter PAN: <?php echo $meterPAN; ?></label><?php if ($meterPAN == "Meter PAN not set") { ?><span style="float: right"><button type='button' class='btn btn-dark btn-outline btn-sm' data-toggle='modal' data-target='#metermodal' data-original-title='Set Meter PAN'>Set Meter PAN</button></span><?php } ?>
 			  <br><label>Your Account Balance: <?php echo "&#8358;".$acct_bal; ?></label>

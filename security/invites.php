@@ -30,19 +30,19 @@ else if (isset($_POST['signout'])){
 }
 else{
 ?>
-	<div class="row">
-	  <div class="col-lg-12">
-		<div class="card m-b-30">
+		<div class="row">
+		  <div class="col-lg-12">
+				<div class="card m-b-30">
           <div class="card-body">
-			<div class="table-rep-plugin">
+						<div class="table-rep-plugin">
               <div class="table-responsive table-bordered">
                 <?php include ('../db.php'); 
-				$sql = "SELECT * FROM entrance_codes where estate='".$_SESSION['estate']."'";
-				$result = $con->query($sql);
-				if ($result->num_rows > 0) { ?>
-					<!--<button type='button' onclick="window.location.href = 'report.php?title=1';" class='btn btn-success btn-sm ml-1 mb-3' style='border-radius: 10px; float: right;'><b>Download CSV Report</b></button>-->
-					<!--<button type='button' onclick="window.location.href = 'reportpdf.php?title=1';" class='btn btn-danger btn-sm mb-3' style='border-radius: 10px; float: right;'><b>Download PDF Report</b></button>-->
-					<table id="tech-companies-1" class="table table-bordered">
+								$sql = "SELECT * FROM entrance_codes where estate='".$_SESSION['estate']."'";
+								$result = $con->query($sql);
+								if ($result->num_rows > 0) { ?>
+								<!-- <button type='button' onclick="window.location.href = 'report.php?title=1';" class='btn btn-success btn-sm ml-1 mb-3' style='border-radius: 10px; float: right;'><b>Download CSV Report</b></button>
+								<button type='button' onclick="window.location.href = 'reportpdf.php?title=1';" class='btn btn-danger btn-sm mb-3' style='border-radius: 10px; float: right;'><b>Download PDF Report</b></button> -->
+								<table id="tech-companies-1" class="table table-bordered">
 	                <thead><tr class="titles"><th>S/No</th><th>Guest</th><th>Vehicle No.</th><th>Companions</th><th>Duration</th><th>Arrival</th><th>Phone</th><!--<th>Action</th>--><th>Status</th><th  style="display: none;">Code</th></tr></thead>
 	                <tbody> <?php $i=1; while($row = $result->fetch_assoc()) { 
 										$phpdate = strtotime( $row['arr_date'] );

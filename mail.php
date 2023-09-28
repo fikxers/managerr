@@ -94,9 +94,10 @@ else {
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+if(isset($_POST['name'])) $name = $_POST['name'];
+else $name = "";
 
-
-$name = $_POST['name'];
+if(isset($_POST['email']) && isset($_POST['message'])) {
 $email = $_POST['email'];
 $message = $_POST['message'];
 $formcontent="From: $name \n Message: $message";
@@ -135,8 +136,13 @@ mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>';*/
+$m = "Thanks for contacting us, we will get back to you shortly.";
+}
+else{
+$m = "Error: Email or Message cannot be empty.";    
+}
 echo '<script language="javascript">';
-echo 'alert("Thanks for contacting us, we will get back to you shortly.")';
+echo 'alert("'.$m.'")';
 echo '</script>';
 echo "<script type='text/javascript'>window.top.location='contact.php';</script>";
 ?>

@@ -6,6 +6,7 @@
 	}
 	checkRememberMeCookie();
 	function login() {
+	    include('db.php');
 	    if($_SESSION['admin_type'] == 'student'){
 	      echo "<script type='text/javascript'>window.top.location='hostel/room.php';</script>"; exit;
 	    }
@@ -22,15 +23,16 @@
 	}
 	// Function to check if the remember me cookie is set and valid
 	function checkRememberMeCookie() {
+	    include('db.php');
 	    if (isset($_COOKIE['remember_me'])) {
 	        $cookie = $_COOKIE['remember_me'];
 	        $cookieParts = explode(':', $cookie);
 	        $userId = $cookieParts[0];
 	        $token = $cookieParts[1];
-
 	        // Verify the token and user ID (example logic)
 	        if (isValidToken($userId, $token)) {
 	        	$_SESSION['logged_in'] = true;
+	        	$_SESSION['email'] = $userId;
 	          // The cookie is valid, perform the necessary login actions (example)
 	          loginUser($userId, $token);
 	        }
@@ -59,7 +61,8 @@
 			include('db.php');
 		  // Add your login actions here
 		  $sql = "SELECT admin_type FROM `users` WHERE email='".$userId."' and remember_token='".$token."'";
-		  $code = mysqli_query($con,$sql) or die(mysql_error()); $_SESSION['email'] = $userId;
+		  $code = mysqli_query($con,$sql) or die(mysql_error()); 
+		  $_SESSION['email'] = $userId;
 		  $_SESSION['admin_type'] = $code->fetch_object()->admin_type;  
 		  // Log the user in or set the necessary session variables
 		  // echo 'User with ID ' . $userId . ' logged in successfully.';

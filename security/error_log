@@ -214,13 +214,5 @@
 [07-Jul-2023 18:30:09 America/New_York] PHP Notice:  Trying to get property 'name' of non-object in /home/realeoki/managerr.net/security/security_sidebar.php on line 26
 [07-Jul-2023 18:30:09 America/New_York] PHP Notice:  Trying to get property 'updated_at' of non-object in /home/realeoki/managerr.net/security/security_sidebar.php on line 28
 [07-Jul-2023 18:30:09 America/New_York] PHP Notice:  Trying to get property 'due_date' of non-object in /home/realeoki/managerr.net/security/security_sidebar.php on line 31
-[02-Sep-2023 09:31:56 America/New_York] PHP Warning:  include(tmpl/download_buttons.php?title=3): failed to open stream: No such file or directory in /home/realeoki/fikxers.com/security/noshow.php on line 40
-[02-Sep-2023 09:31:56 America/New_York] PHP Warning:  include(): Failed opening 'tmpl/download_buttons.php?title=3' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/realeoki/fikxers.com/security/noshow.php on line 40
-[02-Sep-2023 09:32:35 America/New_York] PHP Warning:  include(tmpl/download_buttons.php?title=3): failed to open stream: No such file or directory in /home/realeoki/fikxers.com/security/noshow.php on line 40
-[02-Sep-2023 09:32:35 America/New_York] PHP Warning:  include(): Failed opening 'tmpl/download_buttons.php?title=3' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/realeoki/fikxers.com/security/noshow.php on line 40
-[02-Sep-2023 11:33:00 America/New_York] PHP Warning:  fopen(): remote host file access not supported, file://security_report.pdf in /home/realeoki/fikxers.com/security/tcpdf/include/tcpdf_static.php on line 1811
-[02-Sep-2023 11:33:00 America/New_York] PHP Warning:  fopen(file://security_report.pdf): failed to open stream: no suitable wrapper could be found in /home/realeoki/fikxers.com/security/tcpdf/include/tcpdf_static.php on line 1811
-[02-Sep-2023 11:35:24 America/New_York] PHP Warning:  fopen(): remote host file access not supported, file://security_report.pdf in /home/realeoki/fikxers.com/security/tcpdf/include/tcpdf_static.php on line 1811
-[02-Sep-2023 11:35:24 America/New_York] PHP Warning:  fopen(file://security_report.pdf): failed to open stream: no suitable wrapper could be found in /home/realeoki/fikxers.com/security/tcpdf/include/tcpdf_static.php on line 1811
-[02-Sep-2023 11:35:34 America/New_York] PHP Warning:  fopen(): remote host file access not supported, file://security_report.pdf in /home/realeoki/fikxers.com/security/tcpdf/include/tcpdf_static.php on line 1811
-[02-Sep-2023 11:35:34 America/New_York] PHP Warning:  fopen(file://security_report.pdf): failed to open stream: no suitable wrapper could be found in /home/realeoki/fikxers.com/security/tcpdf/include/tcpdf_static.php on line 1811
+[24-Jul-2023 05:23:35 America/New_York] PHP Notice:  Undefined index: estate in /home/realeoki/managerr.net/security/report.php on line 10
+[24-Jul-2023 07:20:17 America/New_York] PHP Notice:  Undefined index: estate in /home/realeoki/managerr.net/security/report.php on line 10

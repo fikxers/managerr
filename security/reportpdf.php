@@ -88,8 +88,5 @@ $pdf->writeHTML($tableData, true, false, false, false, '');
 $con->close();
 
 // Output the PDF as a download
-header('Content-Type: text/pdf'); //new fix
-header('X-Content-Type-Options: nosniff'); //new fix
 $pdf->Output('security_report.pdf', 'D');
-//$pdf->Output('security_report.pdf', 'F');
 ?>
