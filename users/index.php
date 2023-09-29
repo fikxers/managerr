@@ -6,13 +6,21 @@ $title ='Dashboard';
 //echo '<script type="text/javascript">alert("Admn: '.$_SESSION['admin_type'].'");</script>';
 ?>
 <?php include('admin_sidebar.php'); ?>
-	<div class="row">       
+	<div class="row"> 
+		<div class="col-lg-6">
+            <div class="card m-b-30">
+                <div class="card-body">
+                    <h4 class="mt-0 header-title">All Quotes</h4>
+					<?php include('charts/sample.php') ?>
+                </div>
+            </div>
+        </div> <!-- end col -->	
 		<div class="col-lg-12">
             <div class="card m-b-30">
                 <div class="card-body">
                     <h4 class="mt-0 header-title">All Quotes</h4>
                     <div class="table-rep-plugin">
-                      <div class="table-responsive b-0" style="overflow-y: scroll;" data-pattern="priority-columns">
+                      <div class="table-responsive b-0" data-pattern="priority-columns">
 						<?php include ('db.php');
 							$sql = "SELECT * FROM quotes join flats on flats.email=quotes.flat";
 							$stmt = $con->prepare($sql);
