@@ -16,7 +16,6 @@
    <link rel="stylesheet" href="../css/style.css"><link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
 </head>
 <body>
-
  <section class="site-section">
  <div class="container">
  <h1>Update Flat</h1>

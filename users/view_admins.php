@@ -81,71 +81,71 @@
 		}
 	?>
 	<div class="page-content-wrapper ">
-      <div class="container-fluid">
-		<div class="row">       
-		  <div class="col-lg-12">
+    <div class="container-fluid">
+			<div class="row">       
+			  <div class="col-lg-12">
 	        <div class="card m-b-30">
 	          <div class="card-body">
 	            <h4 class="mt-0 header-title">All Admins</h4>
-		        <div class="table-rep-plugin">
-		          <div class="table-responsive b-0" data-pattern="priority-columns">
-		          <?php include ('../db.php');
-					$sql = "SELECT * FROM admins";
-					$result = $con->query($sql);
-					if ($result->num_rows > 0) { ?>
-					<table id="tech-companies-1" class="table table-bordered table-striped">
+		        	<div class="table-rep-plugin">
+			          <div class="table-responsive b-0" data-pattern="priority-columns">
+			          <?php include ('../db.php');
+								$sql = "SELECT * FROM admins";
+								$result = $con->query($sql);
+								if ($result->num_rows > 0) { ?>
+								<table id="tech-companies-1" class="table table-bordered table-striped">
 		              <thead><tr class="titles"><th>Name</th><th>Email</th><th>Action</th></tr></thead>
 		              <tbody> <?php while($row = $result->fetch_assoc()) { ?>
-						<tr><td><?php echo $row['fullname']; ?></td><td><?php echo $row['email']; ?></td>
-						  	<?php 
-							echo "<td><button type='button' class='btn text-success btn-success btn-sm' style='background-color: transparent; border-width: 0px;' data-toggle='modal' data-target='#editmodal-".$row['id']."' data-original-title='Update Resident'><i class='fa fa-pencil' aria-hidden='true'></i></button> <button type='button' class='btn text-danger btn-danger btn-sm' style='background-color: transparent; border-width: 0px;' data-toggle='modal' data-target='#delmodal-".$row['id']."' data-original-title='Delete Resident'><i class='fa fa-trash' aria-hidden='true'></i></button></td>";
-							?></tr>
-							<!-- Edit Modal -->
-							<div class="modal fade" id="editmodal-<?php echo $row['id']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    		  <div class="modal-dialog modal-dialog-centered" role="document">
-                    		    <div class="modal-content">
-                    			  <div class="modal-header">
-                    			    <h5 class="modal-title" id="exampleModalLongTitle">Update <?php echo $row['fullname']; ?></h5>
-                    			    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<tr><td><?php echo $row['fullname']; ?></td><td><?php echo $row['email']; ?></td>
+							  	<?php 
+									echo "<td><button type='button' class='btn text-success btn-success btn-sm' style='background-color: transparent; border-width: 0px;' data-toggle='modal' data-target='#editmodal-".$row['id']."' data-original-title='Update Resident'><i class='fa fa-pencil' aria-hidden='true'></i></button> <button type='button' class='btn text-danger btn-danger btn-sm' style='background-color: transparent; border-width: 0px;' data-toggle='modal' data-target='#delmodal-".$row['id']."' data-original-title='Delete Resident'><i class='fa fa-trash' aria-hidden='true'></i></button></td>";
+									?></tr>
+									<!-- Edit Modal -->
+									<div class="modal fade" id="editmodal-<?php echo $row['id']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                    	<div class="modal-content">
+                    		<div class="modal-header">
+                    			<h5 class="modal-title" id="exampleModalLongTitle">Update <?php echo $row['fullname']; ?></h5>
+                    			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     				  <span aria-hidden="true">&times;</span>
-                    			    </button>
-                    			  </div>
-                    			  <div class="modal-body">
-                    			    <form class="" action="" method="POST">
-										<div class="form-group col-lg-12">
-											<label>Full name</label>
-											<input type="text" name="fullname" class="form-control"  value="<?php echo $row['fullname']; ?>" />
-											<input type="hidden" name="updateid" value="<?php echo $row['id']; ?>" />
-										</div>
-										<div class="form-group col-lg-12">
-											<button type="submit" name="update" class="btn btn-outline-primary btn-block"> Update Admin</button>
-										</div>
-									</form>  
-                    			  </div>
-                    		    </div>
-                    		  </div>
-							</div>
-							<!-- Edit Modal -->
-							<!-- Delete Modal -->
-							<div class="modal fade" id="delmodal-<?php echo $row['id']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    		  <div class="modal-dialog modal-dialog-centered" role="document">
-                    		    <div class="modal-content">
-                    				<div class="modal-header">
-                    				  <h5 class="modal-title" id="exampleModalLongTitle">Delete <?php echo $row['fullname']; ?>?</h5>
-                    				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    			</button>
+                    		</div>
+                    		<div class="modal-body">
+                    			<form class="" action="" method="POST">
+														<div class="form-group col-lg-12">
+															<label>Full name</label>
+															<input type="text" name="fullname" class="form-control"  value="<?php echo $row['fullname']; ?>" />
+															<input type="hidden" name="updateid" value="<?php echo $row['id']; ?>" />
+														</div>
+														<div class="form-group col-lg-12">
+															<button type="submit" name="update" class="btn btn-outline-primary btn-block"> Update Admin</button>
+														</div>
+													</form>  
+                    		</div>
+                    	</div>
+                    </div>
+									</div>
+									<!-- Edit Modal -->
+									<!-- Delete Modal -->
+									<div class="modal fade" id="delmodal-<?php echo $row['id']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                    	<div class="modal-content">
+                    		<div class="modal-header">
+                    			<h5 class="modal-title" id="exampleModalLongTitle">Delete <?php echo $row['fullname']; ?>?</h5>
+                    			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     					<span aria-hidden="true">&times;</span>
-                    				  </button>
-                    				</div>
-                    				<div class="modal-body">
-                    				  <form action="" method="POST"> 
-                    					<input type="hidden" value="<?php echo $row['id']; ?>" name="delid">
-                    					<div class="form-group"><button type="submit" name="delete" class="btn btn-outline-primary btn-block">Yes. Delete</button></div>
-                    				  </form>   
-                    				</div>
-                    			</div>
-                    		  </div>
-                    	    </div>
-                    	    <!-- Delete Modal -->
+                    			</button>
+                    		</div>
+                    		<div class="modal-body">
+                    			<form action="" method="POST"> 
+                    				<input type="hidden" value="<?php echo $row['id']; ?>" name="delid">
+                    				<div class="form-group"><button type="submit" name="delete" class="btn btn-outline-primary btn-block">Yes. Delete</button></div>
+                    			 </form>   
+                    		</div>
+                    	</div>
+                    </div>
+                  </div>
+                  <!-- Delete Modal -->
 							<?php } 
 						    } else { echo "No Admin in database.";}
 							$con->close(); ?>                                  
