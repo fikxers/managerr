@@ -8,14 +8,14 @@
 			    <div class="main-menu">
 			    	<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="index.php"><img src="img/logo.png" height="54px" alt="" title="" /></a><br>
+				        <a href="index.php"><img src="img/logo.png" alt="" title="" /></a><br>
 						<!--<small class="text-muted"><i>Ensuring exceptional service delivery for less</i></small>-->
 				      </div>
 				      <nav id="nav-menu-container">
-				        <ul class="nav-menu">
-				                    
-						  <li class="login-btn"><a href="login.php"></a>LOG IN</li>
-						  <li class="menu-active get-started-btn"><a href="index.php">GET STARTED</a></li>
+				        <ul class="nav">
+
+						  <li class="nav-item login-btn"><a href="#/"></a>LOG IN</li>
+						  <li class="nav-item menu-active get-started-btn"><a href="signup.php">GET STARTED</a></li>
 				      </nav>			  
 			    	</div>
 			    </div>
