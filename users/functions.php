@@ -123,7 +123,7 @@
    $decimalplaces = 2;
    $decimalcharacter = '.';
    $thousandseparater = ',';
-   return number_format($number,$decimalplaces,$decimalcharacter,$thousandseparater);
+   return number_format((int)$number,$decimalplaces,$decimalcharacter,$thousandseparater);
   }
   function check_electric_max($amount, $max, $this_month, $last_payment){
 	  //$return_value = true;

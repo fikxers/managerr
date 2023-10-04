@@ -161,6 +161,17 @@
                                     echo $num_eqpm;                             
                                    ?>
                                 </span></a></li>
+                                <li><a href="view_security.php" class="waves-effect">Security Team<span class="badge badge-success pull-right">
+                                  <?php
+                                    include ('../db.php');
+                                    $sql = "SELECT COUNT(*) AS cnt FROM security_team"; 
+                                    //include where clause for specific flat
+                                    $result = $con->query($sql);
+                                    $values = mysqli_fetch_assoc($result); 
+                                    $num_eqpm = $values['cnt']; 
+                                    echo $num_eqpm;                             
+                                   ?>
+                                </span></a></li>
                             </ul>
                         </li>
                         <!--<li>
