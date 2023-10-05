@@ -1,4 +1,0 @@
-[05-Jun-2019 16:36:10 America/New_York] PHP Notice:  Undefined index: username in /home/realeoki/fikxers.com/account/setup.php on line 181
-[05-Jun-2019 16:36:10 America/New_York] PHP Notice:  Undefined index: email in /home/realeoki/fikxers.com/account/setup.php on line 182
-[05-Jun-2019 16:36:10 America/New_York] PHP Notice:  Undefined index: password in /home/realeoki/fikxers.com/account/setup.php on line 183
-[05-Jun-2019 16:36:10 America/New_York] PHP Notice:  Undefined index: password2 in /home/realeoki/fikxers.com/account/setup.php on line 184
