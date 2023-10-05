@@ -178,7 +178,7 @@
                             <a href="view_hostels.php" class="waves-effect"><i class="ti-calendar"></i><span> Hostels </span></a>
                         </li>-->
 						<li class="has_sub">
-                            <a href="javascript:void(0);" class="waves-effect"><i class="ti-layers"></i> <span> Estate Mgt </span> <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span></a>
+                            <a href="javascript:void(0);" class="waves-effect"><i class="ti-book"></i> <span> Estate Mgt </span> <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span></a>
                             <ul class="list-unstyled">
                                 <li><a href="assign_fixers.php">Assign Fixers</a></li>
                                 <li><a href="completed.php">Work Orders</a></li>
