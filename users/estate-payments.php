@@ -1,11 +1,41 @@
 		<?php
-          include('auth.php'); $title='Estate Payments';
-          include('flat_sidebar.php'); include ('../db.php');
-		  $sql = "SELECT monthly_due FROM estates where estate_code='".$_SESSION['estate']."'";
+      include('auth.php'); $title='Estate Payments';
+      include ('../db.php');
+      if( ($_SESSION['admin_type']=='admin') && isset($_GET['flat_id']) ){
+		  	$id = $_GET['flat_id']; 
+				$query = "SELECT * FROM `flats` WHERE id=$id";
+		    $result = mysqli_query($con,$query) or die(mysql_error());
+		    $flat = mysqli_query($con,$query) or die(mysql_error());
+		    $block = mysqli_query($con,$query) or die(mysql_error());
+		    $owner = mysqli_query($con,$query) or die(mysql_error());
+		    $flat_email = mysqli_query($con,$query) or die(mysql_error());
+		    $phone = mysqli_query($con,$query) or die(mysql_error());
+		    $amnt_paid = mysqli_query($con,$query) or die(mysql_error());
+		    $total_debt = mysqli_query($con,$query) or die(mysql_error());
+				$flat_no = $flat->fetch_object()->flat_no;
+				$block = $block->fetch_object()->block_no;
+				$full_name = $owner->fetch_object()->owner;
+				$flat_email = $flat_email->fetch_object()->email;
+				$phone = $phone->fetch_object()->phone;
+				$amnt_paid = $amnt_paid->fetch_object()->amount_paid;
+				$total_debt = $total_debt->fetch_object()->total_debt;
+				$estate = mysqli_query($con,$query) or die(mysql_error());
+				$estate_code = $estate->fetch_object()->estate_code;
+				include('admin_sidebar.php'); 
+		  }
+			else if($_SESSION['admin_type']=='flat'){
+				include('flat_sidebar.php'); $estate_code = $_SESSION['estate'];
+				$id = $_SESSION['id']; $flat_email = $_SESSION['email'];
+			}
+			else{
+				echo "<script type='text/javascript'>window.top.location='index.php';</script>"; exit;
+			}
+
+		  $sql = "SELECT monthly_due FROM estates where estate_code='".$estate_code."'";
 		  $result = $con->query($sql);
 		  $row =mysqli_fetch_assoc($result);
 		  $monthly_due = $row['monthly_due'];
-		  //$query = "SELECT amount_paid FROM `flats` WHERE email='".$_SESSION['email']."'";
+		  //$query = "SELECT amount_paid FROM `flats` WHERE email='".$flat_email."'";
 		  $acct_bal = acct_bal2($amnt_paid,$total_debt);
 		  //echo $acct_bal;
 		  if ($_SERVER['REQUEST_METHOD'] === 'POST'){
@@ -17,10 +47,10 @@
 				  if (isset($_POST['pay_service_charge']) && $_REQUEST['amount']<=$acct_bal){
 					$amount = $_REQUEST['amount']; $levy = $_REQUEST['answer']; 
 					$note = "Estate ".$levy; $new_bal = $acct_bal - $amount;
-					$pay_due_query = "INSERT INTO `dues`(`flat`,`estate`, `amount`, `date_paid`, `note`, `category`,`new_bal`) VALUES ('".$_SESSION['email']."','".$_SESSION['estate']."',$amount,'".$pay_date."','".$note."','service_charge',$new_bal)";
+					$pay_due_query = "INSERT INTO `dues`(`flat`,`estate`, `amount`, `date_paid`, `note`, `category`,`new_bal`) VALUES ('".$flat_email."','".$estate_code."',$amount,'".$pay_date."','".$note."','service_charge',$new_bal)";
 					$result2 = mysqli_query($con,$pay_due_query); 
 					if($result2){
-					  $change_bal = "UPDATE flats set amount_paid=amount_paid-$amount WHERE id=".$_SESSION['id']; $result = mysqli_query($con,$change_bal); 
+					  $change_bal = "UPDATE flats set amount_paid=amount_paid-$amount WHERE id=".$id; $result = mysqli_query($con,$change_bal); 
 					  echo "<script>alert('".$levy." Paid Successfully.');</script>";
 					  echo "<script type='text/javascript'>window.top.location='estate-payments.php';</script>"; exit;
 					}
@@ -33,10 +63,10 @@
 				  else if (isset($_POST['pay_due']) && ($_REQUEST['months']*$monthly_due)<=$acct_bal){
 					$months = $_REQUEST['months']; $total = $months*$monthly_due;
 					$note = "Monthly due for $months months"; $new_bal = $acct_bal - $total;
-					$pay_due_query = "INSERT INTO `dues`(`flat`,`estate`, `amount`, `date_paid`, `note`, `category`,`new_bal`) VALUES ('".$_SESSION['email']."','".$_SESSION['estate']."',$total,'".$pay_date."','".$note."','monthly_due',$new_bal)";
+					$pay_due_query = "INSERT INTO `dues`(`flat`,`estate`, `amount`, `date_paid`, `note`, `category`,`new_bal`) VALUES ('".$flat_email."','".$estate_code."',$total,'".$pay_date."','".$note."','monthly_due',$new_bal)";
 					$result2 = mysqli_query($con,$pay_due_query); 
 					if($result2){
-					  $change_bal = "UPDATE flats set amount_paid=amount_paid-$total WHERE id=".$_SESSION['id']; $result = mysqli_query($con,$change_bal); 
+					  $change_bal = "UPDATE flats set amount_paid=amount_paid-$total WHERE id=".$id; $result = mysqli_query($con,$change_bal); 
 					  echo "<script>alert('Monthly Due Paid Successfully.');</script>";
 					  echo "<script type='text/javascript'>window.top.location='estate-payments.php';</script>"; exit;
 					}
@@ -88,8 +118,8 @@
 								<h4 class="mt-0 header-title">Recent Transactions</h4>
 								<div class="table-rep-plugin">
 								  <div class="table-responsive b-0" data-pattern="priority-columns">
-								  <?php include ('../db.php'); //echo $_SESSION['estate'];
-									$sql = "SELECT * FROM dues join flats on dues.flat=flats.email where dues.estate='".$_SESSION['estate']."' and dues.flat='".$_SESSION['email']."' ORDER BY dues.date_paid DESC"; $result = $con->query($sql); 
+								  <?php include ('../db.php'); //echo $estate_code;
+									$sql = "SELECT * FROM dues join flats on dues.flat=flats.email where dues.estate='".$estate_code."' and dues.flat='".$flat_email."' ORDER BY dues.date_paid DESC"; $result = $con->query($sql); 
 									if ($result->num_rows > 0) { ?>
 									<table id="tech-companies-1" class="table table-bordered table-striped table-sm">
 									  <thead><tr class="titles"><th>Payment Amount</th><!--<th>Payment Mode</th>--> <th>Date Paid</th><th>Note</th><th>New Balance</th> </tr></thead>
