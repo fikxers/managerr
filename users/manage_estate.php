@@ -206,55 +206,208 @@
 							$outs = $result->fetch_object()->cnt;
 							echo '<div class="alert alert-info" role="alert">DAILY TRAFFIC CONTROL<br>Checkouts: '.$outs.' | Checkins: '.$ins.' | Total Visits: '.($ins+$outs).' </div>';
 					?>
-					<!--<div class="table-rep-plugin">
-					  <div class="table-responsive b-0" data-pattern="priority-columns">
-					  <?php include ('../db.php');
-						$sql = "SELECT * FROM `payments` join flats on payments.estate=flats.estate_code where payments.estate='".$id."'AND payments.flat = flats.flat_no AND payments.block = flats.block_no";
-						$result = $con->query($sql); 
-						if ($result->num_rows > 0) { ?>
-						<table id="tech-companies-1" class="table table-bordered table-striped table-sm">
-						  <thead><tr class="titles"><th>Payment Amount</th><th>Resident</th><th>Block</th><th>Flat</th><th>Date Paid</th><th>Description</th> </tr></thead>
-						  <tbody> <?php while($row = $result->fetch_assoc()) { ?>
-							<tr><td><?php echo "&#8358;".$row['amount']; ?></td><td><?php echo $row['owner']; ?><td><?php echo $row['block']; ?></td><td><?php echo $row['flat']; ?></td><td><?php echo format_date($row['pay_date']); ?></td><td><?php echo $row['description']; ?></td></tr>
-						<?php } } else {echo "No Payment Detected.";} $con->close(); ?>
-						   </tbody>
-						</table>
-					   </div>
-					</div>-->
 					<div class="row">
 						<div class="col-lg-3">
-							<div class="alert alert-info text-center p-4 border border-info" role="alert">Transactions</div>
+							<a href="notifications.php?id=<?php echo $id; ?>">
+								<button class="btn p-4 mb-3 border border-info shadow-sm btn-outline-info btn-block">
+									<h6>Notifications</h6>
+								</button>
+							</a>
 						</div>
 						<div class="col-lg-3">
-							<div class="alert alert-info text-center p-4 border border-info" role="alert">Visitor Management</div>
+							<a href="validate_code.php?id=<?php echo $id; ?>">
+								<button class="btn p-4 mb-3 border border-info shadow-sm btn-outline-info btn-block">
+									<h6>Visitor Management</h6>
+								</button>
+							</a>
 						</div>
 						<div class="col-lg-3">
-							<div class="alert alert-info text-center p-4 border border-info" role="alert">Electricity</div>
+							<a href="electric-bill.php?id=<?php echo $id; ?>">
+								<button class="btn p-4 mb-3 border border-info shadow-sm btn-outline-info btn-block">
+									<h6>Electricity</h6>
+								</button>
+							</a>
 						</div>
 						<div class="col-lg-3">
-							<div class="alert alert-info text-center p-4 border border-info" role="alert">Notifications</div>
+							<a href="dues.php?id=<?php echo $id; ?>">
+								<button class="btn p-4 mb-3 border border-info shadow-sm btn-outline-info btn-block">
+									<h6>Estate Payments</h6>
+								</button>
+							</a>
 						</div>
 
 					</div>
-					<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-					  <li class="nav-item" role="presentation">
-					    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
-					  </li>
-					  <li class="nav-item" role="presentation">
-					    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
-					  </li>
-					  <li class="nav-item" role="presentation">
-					    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
-					  </li>
-					</ul>
-					<div class="tab-content" id="pills-tabContent">
-					  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">...</div>
-					  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-					  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
+				</div>
+			</div>
+			<div class="card m-b-30">
+				<div class="card-body">
+					<h4 class="mt-0 header-title">Manage Residents</h4>
+					<div class="table-rep-plugin">
+              <div class="table-responsive b-0" data-pattern="priority-columns">
+                <?php include ('../db.php'); 
+                $sql = "SELECT * FROM flats JOIN estates using(estate_code) where flats.estate_code='".$estate_code."' ORDER BY block_no, flat_no";
+								if($_SESSION['admin_type']=='mgr'){
+				  			$sql = "SELECT * FROM flats where estate_code='".$_SESSION['estate']."' ORDER BY block_no, flat_no"; }
+							  $result = $con->query($sql);
+							  if ($result->num_rows > 0) { ?>
+				  			<table id="tech-companies-1" class="table table-bordered table-striped">
+                  <thead><tr class="titles"><th>Flat</th><th>Block</th>
+                    <th>Resident</th><th>Phone</th>
+                    <th># of assets</th><th>Status</th><th>Acct Bal</th><th>Action</th></tr>
+                  </thead>
+                  <tbody> <?php while($row = $result->fetch_assoc()) { ?>
+										<tr><td><?php echo $row['flat_no']; ?></td><td><?php echo $row['block_no']; ?></td>											
+											<td><?php echo $row['owner']; ?></td><td><?php echo $row['phone']; ?></td>
+											<?php $sql = "SELECT COUNT(*) AS cnt FROM equipments where flat='".$row['email']."'"; 
+												$res = $con->query($sql); $values = mysqli_fetch_assoc($res); $num_eqpm = $values['cnt']; ?>
+											<td><?php echo $num_eqpm; ?></td>
+											<td><?php if($row['amount_paid']-$row['total_debt'] >= 0)	{echo '<span class="badge badge-success">Good</span>';}  
+												else{echo '<span class="badge badge-danger">Owing</span>';}?></td>
+											<td><?php echo acct_bal($row['amount_paid'],$row['total_debt']); ?></td>
+											<?php echo "<td><button type='button' class='btn text-success btn-success btn-sm' style='background-color: transparent; border-width: 0px;' data-toggle='modal' data-target='#editmodal-".$row['id']."' data-original-title='Update Resident'><i class='fa fa-pencil' aria-hidden='true'></i></button><button type='button' class='btn text-danger btn-danger btn-sm' style='background-color: transparent; border-width: 0px;' data-toggle='modal' data-target='#delmodal-".$row['id']."' data-original-title='Delete Resident'><i class='fa fa-trash' aria-hidden='true'></i></button>
+											 <button type='button' class='btn btn-info text-info btn-sm' style='background-color: transparent; border-width: 0px;' data-toggle='modal' data-target='#creditmodal-" .$row['id']."' title='Update Resident Balance' data-original-title='Update Resident Balance'><i class='ti-wallet text-info'></i></button>
+											 <a href='history.php?flat_id=".$row['id']."' data-toggle='tooltip' data-original-title='View Resident History'><i class='fa fa-solid fa-eye'></i></a></td>"; ?>
+										</tr>
+										<!-- Delete Modal -->
+										<div class="modal fade" id="delmodal-<?php echo $row['id']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	                    <div class="modal-dialog modal-dialog-centered" role="document">
+	                    	<div class="modal-content">
+	                    		<div class="modal-header">
+	                    			<h5 class="modal-title" id="exampleModalLongTitle">Delete <?php echo $row['owner']; ?>?</h5>
+	                    			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	                    				<span aria-hidden="true">&times;</span>
+	                    			</button>
+	                    		</div>
+	                    		<div class="modal-body">
+	                    			<form action="" method="POST"> 
+	                    				<input type="hidden" value="<?php echo $row['id']; ?>" name="delid">
+	                    				<div class="form-group"><button type="submit" name="delete" class="btn btn-outline-primary btn-block">Yes. Delete</button></div>
+	                    			 </form>   
+	                    		</div>
+	                    	</div>
+	                    </div>
+	                  </div>
+	                  <!-- Delete Modal -->
+										<!-- Edit Modal -->
+										<div class="modal fade" id="editmodal-<?php echo $row['id']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	                    <div class="modal-dialog modal-dialog-centered" role="document">
+	                    	<div class="modal-content">
+	                    		<div class="modal-header">
+	                    			<h5 class="modal-title" id="exampleModalLongTitle">Update <?php echo $row['owner']; ?></h5>
+	                    			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	                    				  <span aria-hidden="true">&times;</span>
+	                    			</button>
+	                    		</div>
+	                    		<div class="modal-body">
+	                    			<form class="" action="" method="POST">
+															<div class="form-row">
+																<div class="form-group col-lg-6">
+																	<label>Update Resident Name</label>
+													        <input type="text" name="owner" class="form-control"  value="<?php echo $row['owner']; ?>" />
+													      </div>		
+																<div class="form-group col-lg-6">
+																	<label>Update Resident's Phone No.</label>
+													        <input type="text" name="phone" class="form-control"  value="<?php echo $row['phone']; ?>" />
+													      </div>
+													      <div class="form-group col-lg-6">
+																	<label>Update Flat/House No.</label>
+																	<input type="text" name="flat" value="<?php echo $row['flat_no']; ?>" class="form-control" />
+																</div>
+															  <div class="form-group col-lg-6">
+																	<label>Update Block/Street No.</label>
+																	<input type="text" name="block" value="<?php echo $row['block_no']; ?>" class="form-control" />
+																</div>
+																<div class="form-group col-lg-6">
+																	<label>New Passsword (If Applicable)</label>
+																	<input type="password" name="password" class="form-control" />
+																	<input type="hidden" name="id" value="<?php echo $row['id']; ?>" />
+																	<input type="hidden" name="email" value="<?php echo $row['email']; ?>" />
+																</div>
+																<div class="form-group col-lg-6">
+																	<label>Update Meter No.</label>
+																	<input type="text" name="meter" value="<?php echo $row['meter_pan']; ?>" class="form-control" />
+																</div>
+																<!--<div class="form-group col-lg-12"><br>
+													        <?php if($status_now==0){echo "<b>Current Status: Not Active</b>"; } else{echo "<b>Current Status: Active</b>"; } ?>
+															 		Activate <input type="radio" name="status" checked="checked" value="1"/> 
+															    Deactivate <input type="radio" name="status" value="0"/> <br><br>
+													      </div>-->
+													      <div class="form-group col-lg-12">
+													        <button type="submit" name="update" class="btn btn-primary">Update Resident</button>
+													      </div>
+													    </div>
+													  </form>  
+	                    		</div>
+	                    	</div>
+	                    </div>
+										</div>
+										<!-- Edit Modal -->
+							      <!-- Credit Modal -->
+                    <div class="modal fade" id="creditmodal-<?php echo $row['id']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                      		<div class="modal-header">
+                      		  <!--<h6 class="modal-title" id="exampleModalLongTitle">Credit <?php echo $row['owner']."'s Account"; ?></h6>-->
+                            <h6 class="modal-title" id="exampleModalLongTitle">Current Balance: <?php echo acct_bal($row['amount_paid'],$row['total_debt']); ?></h6>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <form class="" action="" method="POST">
+                              <div class="form-row">
+                                <div class="form-group col-lg-12">
+            										  <label>What do you want to do?</label><br>
+            										  Credit Account <input class="" type="radio" name="bal" checked="checked" value="cred" /> 
+            										  Add Debt <input class="" type="radio" name="bal" value="debt" /> <br>
+                                  <input type="number" name="amount" step="500" min="1000" class="form-control" />
+                                  <input type="hidden" name="id" value="<?php echo $row['id']; ?>" />
+                                </div>		
+                                <div class="form-group col-lg-12">
+                                  <button type="submit" name="credit" class="btn btn-success"> Update Account</button> 
+                                  <button type="reset" name="cancel" class="btn btn-dark">Reset</button>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /Credit Modal -->
+											<?php } } else {echo "No resident in database.";}
+											$con->close(); ?>
+                    </tbody>
+                  </table>
+                </div>
+			   			</div>
+				</div>
+			</div>
+			<div class="card m-b-30">
+				<div class="card-body">
+					<h4 class="mt-0 header-title">Payment History</h4>
+					<div class="table-rep-plugin">
+						<div class="table-responsive b-0" data-pattern="priority-columns">
+							<?php include ('../db.php'); 
+								$sql = "SELECT flats.owner, note, amount, date_paid FROM dues JOIN flats ON flats.email=dues.flat WHERE estate='".$id."' UNION SELECT flats.owner,'Electricity Vend', amount, transaction_date FROM transactions JOIN flats ON transactions.flat=flats.flat_no AND transactions.block=flats.block_no WHERE estate='".$id."' UNION SELECT flats.owner, description, amount, pay_date FROM payments JOIN flats ON payments.flat=flats.flat_no AND payments.block=flats.block_no WHERE estate='".$id."' ORDER BY date_paid";
+								$result = $con->query($sql); 
+								if ($result->num_rows > 0) { ?>
+								<table id="tech-companies-1" class="table table-bordered table-striped table-sm">
+									<thead>
+										<tr class="titles"><th>Resident</th><th>Transaction</th><th>Transaction Date</th><th>Amount</th></tr>
+									</thead>
+									<tbody> <?php while($row = $result->fetch_assoc()) { ?>
+										<tr><td><?php echo $row['owner']; ?></td><td><?php echo $row['note']; ?></td>
+											<td><?php echo format_date2($row['date_paid']); ?></td>
+											<td><?php echo "&#8358;".currency_format($row['amount']); ?></td></tr>
+										<?php } } else {echo "No Transaction Detected.";} $con->close(); ?>
+									</tbody>
+								</table>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div> 
+		</div>
+	</div>
   </div><!-- end row -->
   </div><!-- container -->
   </div><!-- Page content Wrapper -->

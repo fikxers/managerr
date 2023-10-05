@@ -1,23 +1,26 @@
 <?php 
-	require('auth.php'); $title ='Dues'; 
+	require('auth.php'); $title ='Estate Payments'; 
 	require('../db.php'); //require('functions.php');
 	//echo "<script>alert('Error');</script>";
-	if($_SESSION['admin_type']=='admin'){
-	   include('admin_sidebar.php'); 
+	if(isset($_GET['id']) && $_SESSION['admin_type']=='admin'){
+		include('admin_sidebar.php'); $estate = $_GET['id'];
+		$sql = "SELECT * FROM estates where estate_code = '".$estate."'"; 
+		$result = mysqli_query($con,$sql) or die(mysqli_error($con));
+    $estate_name = $result->fetch_object()->estate_name;
 	}
 	else if($_SESSION['admin_type']=='mgr'){
-	   include('mgr_sidebar.php');
+	   include('mgr_sidebar.php'); $estate = $_SESSION['estate'];
 	}
 	/*else{
 		echo "<script type='text/javascript'>window.top.location='login.php';</script>"; exit;
 	}*/
 	if (isset($_POST['flat'])){
-	    $flat = stripslashes($_REQUEST['flat']);
+	  $flat = stripslashes($_REQUEST['flat']);
 		$flat = explode("|",$flat);
 		$flat_email = $flat[0]; $flat_amnt = $flat[1]; $flat_debt = $flat[2];
-	    $amount = $_REQUEST['amount'];
-	    $date_paid = $_REQUEST['date_paid'];
-	    //$note = $_REQUEST['note'];
+	  $amount = $_REQUEST['amount'];
+	  $date_paid = $_REQUEST['date_paid'];
+	  //$note = $_REQUEST['note'];
 		$category = $_REQUEST['category'];   
 		$note = 'Building Levy'; if($category == 'devt_levy') $note = 'Development Levy';
 		$payment_type = $_REQUEST['payment_type'];
@@ -53,41 +56,45 @@
 	}
 	else{
 ?>
-            <div class="page-content-wrapper ">
-                <div class="container-fluid">
-				    <div class="row">       
-						<div class="col-lg-12">
-                              <div class="card m-b-30">
-                                  <div class="card-body">
-                                      <h4 class="mt-0 header-title">Flat Dues</h4>
-                                        <div class="table-rep-plugin">
-                                           <div class="table-responsive b-0" data-pattern="priority-columns">
+  <div class="page-content-wrapper ">
+    <div class="container-fluid">
+			<div class="row">       
+				<div class="col-lg-12">
+          <div class="card m-b-30">
+            <div class="card-body">
+              <h4 class="mt-0 header-title">
+              	Residents' Estate Payments 
+              	<?php if($_SESSION['admin_type']=='admin'){ echo 'for '.$estate_name; } ?>
+              	
+              </h4>
+              <div class="table-rep-plugin">
+                <div class="table-responsive b-0" data-pattern="priority-columns">
 										<?php
 										include ('../db.php');
-										$sql = "SELECT * FROM dues";
-										if($_SESSION['admin_type']=='mgr'){
+										//$sql = "SELECT * FROM dues";
+										//if($_SESSION['admin_type']=='mgr'){
 										//$sql = "SELECT * FROM dues join flats on dues.flat=flats.email where flats.estate_code='".$_SESSION['estate']."'";
-										$sql = "SELECT sum(amount) as total FROM dues where estate='".$_SESSION['estate']."'";
+										$sql = "SELECT sum(amount) as total FROM dues where estate='".$estate."'";
 										$sql2 = "select sum(amount) as total from dues
 											   where MONTH(date_paid) = MONTH(now())
-											   and YEAR(date_paid) = YEAR(now()) and estate='".$_SESSION['estate']."'";
+											   and YEAR(date_paid) = YEAR(now()) and estate='".$estate."'";
 										$res = $con->query($sql); $values = mysqli_fetch_assoc($res); $total = $values['total'];
 										$res = $con->query($sql2); $values = mysqli_fetch_assoc($res); $total2 = $values['total'];		
 										echo '<div class="alert text-dark alert-info" role="alert">All Time Due Collected: <b>&#8358;'.currency_format($total).'</b>
 										 | Due Collected This Month: <b>&#8358;'.currency_format($total2).'</b></div>';
-										$sql = "SELECT * FROM dues join flats on dues.flat=flats.email where dues.estate='".$_SESSION['estate']."'";
-										//$sql = "SELECT * FROM dues join flats on dues.flat=flats.email where dues.estate='".$_SESSION['estate']."'";
-										}
+										$sql = "SELECT * FROM dues join flats on dues.flat=flats.email where dues.estate='".$estate."'";
+										//$sql = "SELECT * FROM dues join flats on dues.flat=flats.email where dues.estate='".$estate."'";
+										//}
 										$result = $con->query($sql);
 										if ($result->num_rows > 0) { ?>
 										<table id="tech-companies-1" class="table  table-striped">
-                                            <thead>
-                                              <tr class="titles">
-                                                <th>Flat</th><th>Block</th>
-                                                <?php if($_SESSION['admin_type']=='admin'){echo "<th>Estate</th>";} ?>
-                                                 <th>Resident</th> <th>Amount</th><th>Date paid</th> <th>Category</th><th>Note</th> <!--<th>Status</th> <th>Expiry</th>--><th>Action</th> 
-                                              </tr> 
-                                            </thead>
+                      <thead>
+                        <tr class="titles">
+                          <th>Flat</th><th>Block</th>
+                          <?php if($_SESSION['admin_type']=='admin'){echo "<th>Estate</th>";} ?>
+                          <th>Resident</th> <th>Amount</th><th>Date paid</th> <th>Category</th><th>Note</th> <!--<th>Status</th> <th>Expiry</th>--><th>Action</th> 
+                        </tr> 
+                      </thead>
                                              <tbody> <?php while($row = $result->fetch_assoc()) { ?>
 											  <tr>
 												<td><?php echo $row['flat_no']; ?></td><td><?php echo $row['block_no']; ?></td><?php if($_SESSION['admin_type']=='admin'){echo "<td>".$row['estate_code']."</td>";} ?> 
@@ -119,7 +126,7 @@
 											  <label for="name">Select Flat</label>
 											  <select class="form-control" required name="flat" >
 											    <?php include ('../db.php');
-												$sql="select flat_no,block_no,email,amount_paid,total_debt from flats where estate_code='".$_SESSION['estate']."'"; 
+												$sql="select flat_no,block_no,email,amount_paid,total_debt from flats where estate_code='".$estate."'"; 
 											    $result = $con->query($sql);; 
 											    while($row = $result->fetch_assoc()) { 
 												 $flat = "Flat ".$row['flat_no'].", Block ".$row['block_no'];

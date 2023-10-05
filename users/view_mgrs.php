@@ -1,6 +1,4 @@
-<?php require('auth.php'); $title ='Estate Managers'; ?>
-
-	<?php
+<?php require('auth.php'); $title ='Estate Managers'; 
 	  require('../db.php');
 	  if (isset($_POST['estate_code'])){
 		  $mgr_name = stripslashes($_REQUEST['mgr_name']);
@@ -92,7 +90,7 @@
                 <div class="table-rep-plugin">
                   <div class="table-responsive b-0" data-pattern="priority-columns">
                   <?php include ('../db.php');
-									$sql = "SELECT * FROM estate_manager";
+									$sql = "SELECT * FROM estate_manager e JOIN estates es on e.estate=es.estate_code";
 									$result = $con->query($sql);
 									if ($result->num_rows > 0) { ?>
 									<table id="tech-companies-1" class="table table-bordered table-striped">
@@ -100,7 +98,7 @@
                     <tbody> <?php while($row = $result->fetch_assoc()) { ?>
 										<tr><td><?php echo $row['name']; ?></td>
 										<td><?php echo $row['phone']; ?></td>
-										<td><?php echo $row['estate']; ?></td>
+										<td><?php echo $row['estate_name']; ?></td>
 									  	<?php echo "<td><button type='button' class='btn text-success btn-success btn-sm' style='background-color: transparent; border-width: 0px;' data-toggle='modal' data-target='#editmodal-".$row['id']."' data-original-title='Update Resident'><i class='fa fa-pencil' aria-hidden='true'></i></button> <button type='button' class='btn text-danger btn-danger btn-sm' style='background-color: transparent; border-width: 0px;' data-toggle='modal' data-target='#delmodal-".$row['id']."' data-original-title='Delete Resident'><i class='fa fa-trash' aria-hidden='true'></i></button></td> </td>"; ?></tr>
 									  	<!-- Edit Modal -->
 											<div class="modal fade" id="editmodal-<?php echo $row['id']; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

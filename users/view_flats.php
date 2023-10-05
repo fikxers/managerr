@@ -161,7 +161,7 @@
             <div class="table-rep-plugin">
               <div class="table-responsive b-0" data-pattern="priority-columns">
                 <?php include ('../db.php'); 
-                $sql = "SELECT * FROM flats ORDER BY block_no, flat_no";
+                $sql = "SELECT * FROM flats JOIN estates using(estate_code) ORDER BY block_no, flat_no";
 								if($_SESSION['admin_type']=='mgr'){
 				  			$sql = "SELECT * FROM flats where estate_code='".$_SESSION['estate']."' ORDER BY block_no, flat_no"; }
 							  $result = $con->query($sql);
@@ -175,7 +175,7 @@
                   <tbody> <?php while($row = $result->fetch_assoc()) { ?>
 										<tr><td><?php echo $row['flat_no']; ?></td>
 											<td><?php echo $row['block_no']; ?></td>
-											<?php if($_SESSION['admin_type']=='admin'){echo "<td>".$row['estate_code']."</td>";} ?>
+											<?php if($_SESSION['admin_type']=='admin'){echo "<td>".$row['estate_name']."</td>";} ?>
 											<td><?php echo $row['owner']; ?></td><!--<td><?php echo $row['ownership']; ?></td>-->
 											<td><?php echo $row['phone']; ?></td>
 											<?php $sql = "SELECT COUNT(*) AS cnt FROM equipments where flat='".$row['email']."'"; 

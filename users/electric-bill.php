@@ -2,7 +2,10 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 'On');
 include('auth.php'); $title="Electricity Bill Payment";
-if($_SESSION['admin_type'] == 'admin') { include('admin_sidebar.php'); }
+//if($_SESSION['admin_type'] == 'admin') { include('admin_sidebar.php'); }
+if(isset($_GET['id']) && $_SESSION['admin_type']=='admin'){
+	include('admin_sidebar.php'); $_SESSION['estate'] = $_GET['id'];
+}
 else if($_SESSION['admin_type'] == 'mgr') { include('mgr_sidebar.php'); }
 else if($_SESSION['admin_type'] == 'flat') { include('flat_sidebar.php'); }
 require('../db.php');

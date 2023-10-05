@@ -183,11 +183,11 @@
                                 <li><a href="assign_fixers.php">Assign Fixers</a></li>
                                 <li><a href="completed.php">Work Orders</a></li>
 								<li><a href="view_estates.php">View Estates</a></li>
-								<li><a href="#" class="waves-effect"><!--<i class="ti-id-badge"></i>--><span> Visitor Mgt </span></a></li>
-								<li><a href="#">Notifications</a></li>
+								<!-- <li><a href="#" class="waves-effect"><span> Visitor Mgt </span></a></li>
+								<li><a href="#">Notifications</a></li> -->
                             </ul>
                         </li>
-						<li class="has_sub">
+						<!-- <li class="has_sub">
                             <a href="javascript:void(0);" class="waves-effect"><i class="ti-wallet"></i> <span> Transactions </span> <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span></a>
                             <ul class="list-unstyled">
 								<li><a href="#" class="waves-effect"><span> Wallet Deposits </span></a></li>
@@ -195,7 +195,7 @@
 								<li><a href="#">Estate Payments</a></li> <li><a href="#">Deposits</a></li>
 								<li><a href="#">History</a></li>
                             </ul>
-                        </li>
+                        </li> -->
                         <li class="has_sub">
                             <a href="javascript:void(0);" class="waves-effect"><i class="ti-id-badge"></i> <span> Hostel Mgt </span> <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span></a>
                             <ul class="list-unstyled">

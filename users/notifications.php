@@ -1,6 +1,15 @@
 <?php require('auth.php'); $title ='Notifications'; 
-		include('mgr_sidebar.php'); 
+		 
 		require('../db.php');
+		if(isset($_GET['id']) && $_SESSION['admin_type']=='admin'){
+			include('admin_sidebar.php'); $estate_code = $_GET['id'];
+		}
+		else if($_SESSION['admin_type']=='mgr'){
+			include('mgr_sidebar.php');$estate_code = $_SESSION['estate'];
+		}
+		else{
+			echo "<script type='text/javascript'>window.top.location='index.php';</script>"; exit;
+		}
 		use PHPMailer\PHPMailer\PHPMailer;
 	  use PHPMailer\PHPMailer\SMTP;
 	  use PHPMailer\PHPMailer\Exception;
@@ -8,7 +17,7 @@
 	  require '../PHPMailer/src/Exception.php';
 	  require '../PHPMailer/src/PHPMailer.php';
 	  require '../PHPMailer/src/SMTP.php';
-		$estate_code = $_SESSION['estate'];
+		//$estate_code = $_SESSION['estate'];
 	  function notification($to, $m, $d, $s) {
 	  	$msg = ' 
           <html> 
