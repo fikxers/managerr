@@ -91,101 +91,98 @@
                       <thead>
                         <tr class="titles">
                           <th>Flat</th><th>Block</th>
-                          <?php if($_SESSION['admin_type']=='admin'){echo "<th>Estate</th>";} ?>
                           <th>Resident</th> <th>Amount</th><th>Date paid</th> <th>Category</th><th>Note</th> <!--<th>Status</th> <th>Expiry</th>--><th>Action</th> 
                         </tr> 
                       </thead>
-                                             <tbody> <?php while($row = $result->fetch_assoc()) { ?>
+                      <tbody> <?php while($row = $result->fetch_assoc()) { ?>
 											  <tr>
-												<td><?php echo $row['flat_no']; ?></td><td><?php echo $row['block_no']; ?></td><?php if($_SESSION['admin_type']=='admin'){echo "<td>".$row['estate_code']."</td>";} ?> 
-										<td><?php echo $row['owner']; ?></td>
-										<td><?php echo "&#8358;".$row['amount']; ?></td><td><?php echo format_date2($row['date_paid']); ?></td><td><?php echo $row['category']; ?></td><td><?php echo $row['note']; ?></td><?php //echo "<td>".$row['status']."</td>"; ?>
-										<?php /*<td> $stat = $row['status']; if($stat=='good'){echo '<span class="badge badge-success">'.$stat.'</span>';} 
-										else {echo '<span class="badge badge-danger">'.$stat.'</span>';} 
-										</td>*/?><!--<td><?php //echo deadline(5)." days"; ?></td>-->
-										<?php echo "<td><a href='update_due.php?id=" .$row['due_id']."' data-toggle='tooltip' data-original-title='Update'><i class='fa fa-pencil text-success m-r-10'></i></a> </td>"; ?>
+												<td><?php echo $row['flat_no']; ?></td><td><?php echo $row['block_no']; ?></td>
+												<td><?php echo $row['owner']; ?></td>
+												<td><?php echo "&#8358;".$row['amount']; ?></td><td><?php echo format_date2($row['date_paid']); ?></td><td><?php echo $row['category']; ?></td><td><?php echo $row['note']; ?></td><?php //echo "<td>".$row['status']."</td>"; ?>
+												<?php /*<td> $stat = $row['status']; if($stat=='good'){echo '<span class="badge badge-success">'.$stat.'</span>';} 
+												else {echo '<span class="badge badge-danger">'.$stat.'</span>';} 
+												</td>*/?><!--<td><?php //echo deadline(5)." days"; ?></td>-->
+												<?php echo "<td><a href='update_due.php?id=" .$row['due_id']."' data-toggle='tooltip' data-original-title='Update'><i class='fa fa-pencil text-success m-r-10'></i></a> </td>"; ?>
 										     </tr>
-										<?php
-												}
-											} else {
-												echo "Please add dues.";
-											} $con->close(); ?>                   </tbody>
-                                        </table>
-                                       </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- end col -->
-						<div class="col-lg-12">
-                              <div class="card m-b-30">
-                                  <div class="card-body">
-                                      <h4 class="mt-0 header-title">Add Due</h4>
-                                        <!--<p class="text-muted m-b-30 font-14">Enter details of a new flat.</p>-->
-                                          <form class="" action="" method="POST">
-										    <div class="form-group">
-											  <label for="name">Select Flat</label>
-											  <select class="form-control" required name="flat" >
-											    <?php include ('../db.php');
-												$sql="select flat_no,block_no,email,amount_paid,total_debt from flats where estate_code='".$estate."'"; 
-											    $result = $con->query($sql);; 
-											    while($row = $result->fetch_assoc()) { 
-												 $flat = "Flat ".$row['flat_no'].", Block ".$row['block_no'];
-												 $flatt = $row['email']."|".$row['amount_paid']."|".$row['total_debt'];
-											    ?>
-											    <option value="<?php echo $flatt; ?>"><?php echo $flat; ?></option><?php } ?>
-											  </select>
-											</div>
-                                            <div class="form-group">
-											  <label for="name">Amount</label>
-                                              <input data-parsley-type="number" type="number" name="amount" class="form-control" required value="0" min="0" step="100"/>
-                                            </div>
-											<div class="form-group">
-											  <label for="name">Date paid</label>
-                                              <input type="date" name="date_paid" class="form-control" required placeholder="Choose Date">
-                                            </div>
-											<div class="form-group">
-											  <label for="name">Payment mode</label>
-											  <select class="form-control" required name="payment_type" >
-											    <option value="cash">Cash</option>
-											    <option value="transfer">Transfer</option>
-												<option value="online">Online</option>
-											  </select>
-											</div>
-											<?php 
-											  if($_SESSION['admin_type']=='admin'){
-											   include('estate_div.php'); 
-											  } 
+												<?php
+														}
+													} else {
+														echo "Please add dues.";
+													} $con->close(); ?>                   
+											</tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- end col -->
+					<div class="col-lg-12">
+            <div class="card m-b-30">
+              <div class="card-body">
+                <h4 class="mt-0 header-title">Add Due</h4>
+                <!--<p class="text-muted m-b-30 font-14">Enter details of a new flat.</p>-->
+                <form class="" action="" method="POST">
+									<div class="form-group">
+										<label for="name">Select Flat</label>
+										<select class="form-control" required name="flat" >
+											<?php include ('../db.php');
+											$sql="select flat_no,block_no,email,amount_paid,total_debt from flats where estate_code='".$estate."'";
+											$result = $con->query($sql);; 
+											while($row = $result->fetch_assoc()) { 
+												$flat = "Flat ".$row['flat_no'].", Block ".$row['block_no'];
+												$flatt = $row['email']."|".$row['amount_paid']."|".$row['total_debt'];
 											?>
-											<input type="hidden" name="estate" value="<?php echo $row['estate']; ?>" />
-											<div class="form-group">
-											  <label for="name">Category</label>
-											  <select class="form-control" required name="category" >
-												<option value="devt_levy">Development Levy</option>
-												<option value="building_levy">Building Levy</option>
-											  </select>
-											</div>
-											<div class="form-group">
-											  <label for="name">Status</label>
-											  <select class="form-control" required name="status" >
-											    <option value="good">Good</option>
-											    <option value="owing">Owing</option>
-											  </select>
-											</div>
-											<!--<div class="form-group">
-											  <label for="name">Note</label>
-											  <textarea name="note" class="form-control"  rows="3" cols="50"></textarea>
-                                            </div>-->
-                                            <div class="form-group">
-                                               <button type="submit" class="btn btn-primary waves-effect waves-light">Add Due</button>
-                                               <button type="reset" class="btn btn-secondary waves-effect m-l-5">Cancel</button>
-                                            </div>
-                                          </form>
-                                        </div>
-                                    </div>
-                                </div> <!-- end col -->   
-                    </div><!-- container -->
-                </div><!-- Page content Wrapper -->
-            </div><!-- content -->
-        <?php include('footer.php');  
-		} ?>
+											<option value="<?php echo $flatt; ?>"><?php echo $flat; ?></option><?php } ?>
+										</select>
+									</div>
+                  <div class="form-group">
+										<label for="name">Amount</label>
+                    <input data-parsley-type="number" type="number" name="amount" class="form-control" required value="0" min="0" step="100"/>
+                  </div>
+									<div class="form-group">
+										<label for="name">Date paid</label>
+                    <input type="date" name="date_paid" class="form-control" required placeholder="Choose Date">
+                  </div>
+									<div class="form-group">
+										<label for="name">Payment mode</label>
+										<select class="form-control" required name="payment_type" >
+											<option value="cash">Cash</option>
+											<option value="transfer">Transfer</option>
+											<option value="online">Online</option>
+										</select>
+									</div>
+									<?php 
+										if($_SESSION['admin_type']=='admin'){ include('estate_div.php'); } 
+									?>
+									<input type="hidden" name="estate" value="<?php echo $row['estate']; ?>" />
+									<div class="form-group">
+										<label for="name">Category</label>
+										<select class="form-control" required name="category" >
+											<option value="devt_levy">Development Levy</option>
+											<option value="building_levy">Building Levy</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<label for="name">Status</label>
+										<select class="form-control" required name="status" >
+											<option value="good">Good</option>
+											<option value="owing">Owing</option>
+										</select>
+									</div>
+									<!--<div class="form-group">
+										<label for="name">Note</label>
+										<textarea name="note" class="form-control"  rows="3" cols="50"></textarea>
+                  </div>-->
+                  <div class="form-group">
+                    <button type="submit" class="btn btn-primary waves-effect waves-light">Add Due</button>
+                    <button type="reset" class="btn btn-secondary waves-effect m-l-5">Cancel</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div> <!-- end col -->   
+        </div><!-- container -->
+      </div><!-- Page content Wrapper -->
+    </div><!-- content -->
+  <?php include('footer.php'); } ?>
 </html>
