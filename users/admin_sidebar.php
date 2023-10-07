@@ -187,6 +187,9 @@
 								<li><a href="#">Notifications</a></li> -->
                             </ul>
                         </li>
+                        <!-- <li>
+                            <a href="view_estates.php" class="waves-effect"><i class="fa-solid fa-door-open"></i><span> Estate Mgt </span></a>
+                        </li> -->
 						<!-- <li class="has_sub">
                             <a href="javascript:void(0);" class="waves-effect"><i class="ti-wallet"></i> <span> Transactions </span> <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span></a>
                             <ul class="list-unstyled">
