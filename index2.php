@@ -50,8 +50,8 @@
 							<div class="heading-one"><h2>communities to live SMART</h2></div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-md-2 spacing-empower">
+					<div class="row services">
+						<div class="spacing-empower">
 							<div class="header-two">
 								<span><img src="./img/4019.png" /></span>
 								<span class="title">Access Control & Security </span>
@@ -63,7 +63,7 @@
 								With real-time monitoring and advanced security features, you can trust that your community remains secure 24/7. 
 							</p>
 						</div>
-						<div class="col-md-2 spacing-empower">
+						<div class="spacing-empower">
 							<div class="header-two">
 								<span><img src="./img/4020.png" /></span>
 								<span class="title">Bills & Financial management</span>
@@ -76,7 +76,7 @@
 
 							</p>
 						</div>
-						<div class="col-md-2 spacing-empower">
+						<div class="spacing-empower">
 							<div class="header-two">
 								<span><img src="./img/4021.png" /></span>
 								<span class="title">Community & Engagement</span>
