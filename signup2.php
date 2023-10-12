@@ -11,8 +11,8 @@
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
 
-                <li class="login-btn"><a href="#/"></a>LOG IN</li>
-                <li class="menu-active get-started-btn"><a href="signup.php">GET STARTED</a></li>
+                    <li class="login-btn"><a href="#/"></a>LOG IN</li>
+                    <li class="menu-active get-started-btn"><a href="signup.php">GET STARTED</a></li>
             </nav>
         </div>
     </div>
@@ -51,7 +51,7 @@
 
                                 <div class="col-lg-4 pad-0">
                                     <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                        <a class="cs-nav nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                        <a class="cs-nav nav-link" id="v-pills-home-tab" href="/signup.php" role="tab" aria-controls="v-pills-home" aria-selected="false">
                                         <span class="active">
                                             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <circle cx="16" cy="16" r="16" fill="#1ED760"/>
@@ -60,7 +60,7 @@
                                             <span class="img"><img src="./img/home-select.png" /></span>
                                             <span class="text">Resident</span>
                                         </a>
-                                        <a class="cs-nav nav-link" href="/signup2.php" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                                        <a class="cs-nav nav-link active" id="v-pills-profile-tab" data-toggle="pill" href="signup2.php" role="tab" aria-controls="v-pills-profile" aria-selected="true">
                                         <span class="inactive">
                                             <svg width="32" height="32" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                               <circle cx="18" cy="18" r="17" stroke="#060C2C" stroke-width="2"/>
@@ -101,49 +101,65 @@
                                     <button class="btn btn-danger provide-btn">+ Join Community</button>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                                <form class="col-lg-5 search-residential">
-                                    <div class="col">
-                                        <input type="text" class="form-control form-control-custom" placeholder="Type Estate Or Community Name">
+                            <div class="tab-pane fade body-wrapper-address" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                <h5 class="register-what-2">Address line</h5>
+
+                                <div class="col-lg-12 address-line">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <input type="text" class="form-control form-control-custom" value=""  placeholder="Estate/Community name">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="text"  value="" class="form-control form-control-custom" placeholder="Address">
+                                        </div>
                                     </div>
-                                </form>
-                                <hr>
-                                <div class="result-count-text">3 Results found</div>
-                                <div class="row result-wrapper">
-                                    <div class="col-md-3">
-                                        Pearl Nuga
-                                    </div>
-                                    <div class="col-md-5">
-                                        25 Shobarinde off Lingali Bustop
-                                    </div>
-                                    <div class="col-md-4">
-                                        <button class="btn btn-select">SELECT</button>
-                                    </div>
-                                </div>
-                                <div class="row result-wrapper">
-                                    <div class="col-md-3">
-                                        Pearl Nuga
-                                    </div>
-                                    <div class="col-md-5">
-                                        25 Shobarinde off Lingali Bustop
-                                    </div>
-                                    <div class="col-md-4">
-                                        <button class="btn btn-select">SELECT</button>
+                                    <div class="row mb-3 forgot-pass">
+                                        <div class="col-lg-6">
+                                            <input type="text" class="form-control form-control-custom" placeholder="City">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <select type="text" class="form-control">
+                                                <option>State</option>
+                                                <option>Lagos</option>
+                                                <option>Abuja</option>
+                                            </select>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="row result-wrapper">
-                                    <div class="col-md-3">
-                                        Pearl Nuga
-                                    </div>
-                                    <div class="col-md-5">
-                                        25 Shobarinde off Lingali Bustop
-                                    </div>
-                                    <div class="col-md-4">
-                                        <button class="btn btn-select">SELECT</button>
-                                    </div>
-                                </div>
+                                <h5 class="register-what-3">Excos for verification</h5>
+
                                 <div class="col-lg-12">
-                                    <button class="btn btn-danger provide-btn grey-btn">Verify Account</button>
+                                    <div class="row forgot-pass">
+                                        <div class="col-lg-6">
+                                            <input type="text" class="form-control form-control-custom" value=""  placeholder="Email of Exco 1 for verification">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="text"  value="" class="form-control form-control-custom" placeholder="Email of Exco 2 for verification">
+                                        </div>
+                                    </div>
+                                </div>
+                                <h5 class="register-what-3">Estate / Community Information</h5>
+
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <input type="text" class="form-control form-control-custom" value=""  placeholder="Number of residents or members">
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <input type="text"  value="" class="form-control form-control-custom" placeholder="Cost of monthly dues">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="pad-33">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label style="font-size: 24px" class="form-check-label" for="flexCheckDefault">
+                                        I accept terms & conditions
+                                    </label>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <button class="btn btn-danger provide-btn">Next</button>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="pills-password" role="tabpanel" aria-labelledby="pills-password">
@@ -171,6 +187,7 @@
                                     <button class="btn btn-danger provide-btn">Verify Account</button>
                                 </div>
                             </div>
+
                         </div>
                     </nav>
                 </div>

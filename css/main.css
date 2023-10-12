@@ -985,8 +985,9 @@ h5.register-what{color: rgba(29, 44, 77, 1); font-size: 36px; font-weight: 500; 
 .form-control-custom{padding: 0px 30px;height: 66px; border-radius: 36px}
 .pad-33{padding-top: 33px; padding-bottom: 60px;}
 h5.register-what-2{color: rgba(29, 44, 77, 1); font-size: 36px; font-weight: 500; padding-top: 55px; padding-bottom: 60px}
+h5.register-what-3{color: rgba(29, 44, 77, 1); font-size: 36px; font-weight: 500; padding-top: 60px; padding-bottom: 20px}
 .search-residential{padding-top: 20px; padding-bottom: 20px}
-.result-count-text{padding-bottom: 20px;padding-top: 20px}
+.result-count-text{padding-bottom: 20px;padding-top: 30px}
 .result-wrapper{background: rgba(19, 36, 126, 0.10);padding: 14px; color: #060c2c; font-size: 24px; margin-bottom: 10px}
 .btn.btn-select{padding: 10px 38px; background: #13247E; border-radius: 15px;color: #ffff; float: right}
 .grey-btn{background: #d8d8d8;}
@@ -994,6 +995,8 @@ h5.register-what-2{color: rgba(29, 44, 77, 1); font-size: 36px; font-weight: 500
 .pad-0{padding:0}
 .services{padding:20px;width:95%;margin: 0 auto}
 .login-btn{padding-right: 5px;}
+.address-line .col-lg-6{margin-bottom: 20px}
+.body-wrapper-address{padding-bottom: 100px;}
 
 @media only screen and (max-width: 600px){
     img{width: 100%}
@@ -1022,4 +1025,12 @@ h5.register-what-2{color: rgba(29, 44, 77, 1); font-size: 36px; font-weight: 500
     .custom-nav .cs-nav span.inactive {padding-right: 5px;margin: 0 auto}
     .custom-nav .cs-nav span.text{ font-size: 16px;}
     .custom-nav .cs-nav span.active{padding-right: 5px;}
+    .custom-nav .nav-pills .nav-item{width: 100%}
+    .body-wrapper-signup{padding: 10px; margin-bottom: 100px}
+    /*.provide-btn{width: 50%}*/
+    .custom-nav .cs-nav span.img{padding-right: 20px; width: 45px; height: 45px}
+    .custom-nav .cs-nav span.inactive{padding-right: 20px}
+    custom-nav .cs-nav span.active{padding-right: 20px}
+    .forgot-pass .col-lg-6{margin-bottom: 10px}
+    .result-wrapper{margin: 2px}
 }
