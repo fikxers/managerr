@@ -15,9 +15,13 @@
 	header('Pragma: no-cache');*/
 	require('db.php');
 	// Check if the user is logged in
-  	if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true && $title != 'Managerr Accounts') {
+	if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true && $title != 'Managerr Accounts') {
+  //if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
 	    // Redirect the user to another page
 	    login();
+	}
+	else if(!isset($_SESSION['logged_in']) && $title == 'Managerr Accounts'){
+		echo "<script type='text/javascript'>window.top.location='login.php';</script>";
 	}
 
 	if ($title != 'Managerr Accounts'){ checkRememberMeCookie(); }
