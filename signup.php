@@ -52,7 +52,8 @@ include('menu.php');
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
-                                   <a href="#pills-profile" aria-controls="pills-home"><button class="btn btn-danger mb-5 provide-btn">Provide Personal Info</button></a>
+                                   <button class="btn btn-danger mb-5 provide-btn nxt" >Provide Personal Info</button>
+                                   <p id="demo"></p>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"> <form method="POST" action="">
@@ -74,7 +75,7 @@ include('menu.php');
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
-                                    <button class="btn btn-danger mb-5 provide-btn">+ Join Community</button>
+                                    <button class="btn btn-danger mb-5 provide-btn nxt">+ Join Community</button>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
@@ -97,53 +98,18 @@ include('menu.php');
                                         </select>
                                     </div>
                                 </div>
-                                <!--<hr>
-                                <div class="result-count-text">3 Results found</div>
-                                <div class="row result-wrapper">
-                                    <div class="col-md-3">
-                                        Pearl Nuga
-                                    </div>
-                                    <div class="col-md-5">
-                                        25 Shobarinde off Lingali Bustop
-                                    </div>
-                                    <div class="col-md-4">
-                                        <button class="btn btn-select">SELECT</button>
-                                    </div>
-                                </div>
-                                <div class="row result-wrapper">
-                                    <div class="col-md-3">
-                                        Pearl Nuga
-                                    </div>
-                                    <div class="col-md-5">
-                                        25 Shobarinde off Lingali Bustop
-                                    </div>
-                                    <div class="col-md-4">
-                                        <button class="btn btn-select">SELECT</button>
-                                    </div>
-                                </div>
-                                <div class="row result-wrapper">
-                                    <div class="col-md-3">
-                                        Pearl Nuga
-                                    </div>
-                                    <div class="col-md-5">
-                                        25 Shobarinde off Lingali Bustop
-                                    </div>
-                                    <div class="col-md-4">
-                                        <button class="btn btn-select">SELECT</button>
-                                    </div>
-                                </div>-->
                                 <div class="col-lg-12">
-                                    <button class="btn btn-danger provide-btn">Create Password</button>
+                                    <button class="btn btn-danger provide-btn nxt">Create Password</button>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="pills-password" role="tabpanel" aria-labelledby="pills-password">
                                 <h5 class="register-what-2">Please Create Password</h5>
                                 <div class="row mb-1 mt-3 forgot-pass">
                                     <div class="col-lg-6 mb-5">
-                                        <input type="text" name="password" class="form-control form-control-custom" required placeholder="Password" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                                        <input type="password" name="password" class="form-control form-control-custom" required placeholder="Password" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                                     </div>
                                     <div class="col-lg-6">
-                                        <input type="text" name="rpassword" class="form-control form-control-custom" placeholder="Repeat Password" required data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                                        <input type="password" name="rpassword" class="form-control form-control-custom" placeholder="Repeat Password" required data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                                         <input type="hidden" name="admin_type" value="flat">
                                     </div>
                                 </div>
@@ -159,4 +125,40 @@ include('menu.php');
         </div>
     </section>
 </div>
+<script type="text/javascript">
+    var personal_info_btn = document.querySelector('#provide-info')
+    var someTabTriggerEl = document.querySelector('#pills-profile')
+    var tab = new bootstrap.Tab(someTabTriggerEl)
+    personal_info_btn.addEventListener('shown.bs.tab', function (event) {
+      tab.show()
+    }) 
+
+    
+    // var personal_info_btn = document.querySelector('button[data-bs-toggle="tab"]')
+    // personal_info_btn.addEventListener('shown.bs.tab', function (event) {
+    //   event.target // newly activated tab
+    //   event.relatedTarget // previous active tab
+    // }) 
+
+</script>
+<script>
+  var firstTabEl = document.querySelector('#pills-tab li:last-child a')
+  var firstTab = new bootstrap.Tab(firstTabEl)
+
+  firstTab.show()
+</script>
+<script>
+document.getElementById("provide-info").addEventListener("click", displayDate);
+
+function displayDate() {
+  //document.getElementById("demo").innerHTML = Date();
+  // const triggerEl = document.querySelector('#pills-tab button[data-bs-target="#pills-profile"]')
+  // bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
+  // const triggerFirstTabEl = document.querySelector('#pills-tab li:first-child button')
+  // bootstrap.Tab.getInstance(triggerFirstTabEl).show() // Select first tab
+  var someTabTriggerEl = document.querySelector('#pills-profile')
+  var tab = new bootstrap.Tab(someTabTriggerEl)
+  tab.show()
+}
+</script>
 <?php include('footer.php'); ?>

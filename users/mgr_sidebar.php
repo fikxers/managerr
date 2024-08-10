@@ -141,7 +141,7 @@
 					<li class="has_sub">
                         <a href="javascript:void(0);" class="waves-effect"><i class="ti-user"></i><span> Users </span> <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span></a>
                         <ul class="list-unstyled">
-                          <!-- <li><a href="view_fixers.php" class="waves-effect"><i class="ti-settings"></i><span> Fikxers</span></a></li> -->
+                          <li><a href="view_fixers.php" class="waves-effect"><i class="ti-settings"></i><span> Fikxers</span></a></li>
 						  <li><a href="view_security.php" class="waves-effect"><i class="ti-settings"></i><span> Security Team</span></a></li>
 						  <li><a href="view_flats.php" class="waves-effect"><i class="ti-crown"></i><span> Residents </span></a></li>
                         </ul>
@@ -152,10 +152,20 @@
                           <!-- <li><a href="completed.php" class="waves-effect"><i class="ti-calendar"></i><span> Work Orders</span></a></li>
 						  <li><a href="asset_types.php" class="waves-effect"><i class="ti-calendar"></i><span> Asset Types</span></a></li> -->
 						  <li><a href="dues.php" class="waves-effect"><i class="ti-wallet"></i><span> Dues</span></a></li>
+                          <li><a href="partners.php" class="waves-effect"><i class="ti-agenda"></i><span> Partners</span></a></li> 
                         </ul>
                     </li>
 					<li><a href="notifications.php" class="waves-effect"><i class="ti-comments"></i><span> Notifications </span></a></li>
-                    <li><a href="validate_code.php" class="waves-effect"><i class="ti-id-badge"></i><span> Validate Code </span></a></li>
+                    <li class="has_sub">
+                        <a href="javascript:void(0);" class="waves-effect"><i class="ti-calendar"></i><span> Visitor Mgt </span> <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span></a>
+                        <ul class="list-unstyled">
+                            <li><a href="invites.php" class="waves-effect"><i class="ti-agenda"></i><span> Invites </span></a></li>
+                            <li><a href="visits.php" class="waves-effect"><i class="ti-book"></i><span> Visits </span></a></li>
+                            <li><a href="noshow.php" class="waves-effect"><i class="ti-heart-broken"></i><span> No Show </span></a></li>
+                            <li><a href="validate_code.php" class="waves-effect"><i class="ti-id-badge"></i><span> Validate Code </span></a></li>
+                        </ul>
+                    </li>
+                    <!-- <li><a href="validate_code.php" class="waves-effect"><i class="ti-id-badge"></i><span> Validate Code </span></a></li> -->
 					<li><a href="electric-bill.php" class="waves-effect"><i class="ti-bolt-alt"></i><span> Electricity Bill </span></a></li>
 					<!--<li class="has_sub">
                         <a href="javascript:void(0);" class="waves-effect"><i class="ti-layout"></i><span> Forum </span> <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span></a>
@@ -265,7 +275,7 @@
 										$values = mysqli_fetch_assoc($result); 
 										$num_f = $values['cnt']; 
 										echo $num_f;*/
-									   ?></span> Managerr
+									   ?></span> HAIVEN
                                     </div>
                                 </div>
 								</a>

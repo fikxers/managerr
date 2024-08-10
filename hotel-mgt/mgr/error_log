@@ -1,0 +1,65 @@
+[24-Mar-2024 16:24:59 UTC] PHP Warning:  require(db.php): Failed to open stream: No such file or directory in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php on line 3
+[24-Mar-2024 16:24:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php on line 3
+[24-Mar-2024 16:25:04 UTC] PHP Warning:  require(db.php): Failed to open stream: No such file or directory in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php on line 3
+[24-Mar-2024 16:25:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php on line 3
+[24-Mar-2024 16:27:52 UTC] PHP Warning:  mysqli_connect(): Error while reading greeting packet. PID=3915944 in /home/realeoki/fikxers.com/hotel-mgt/db.php on line 3
+[24-Mar-2024 16:27:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: MySQL server has gone away in /home/realeoki/fikxers.com/hotel-mgt/db.php:3
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/db.php(3): mysqli_connect()
+#1 /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php(3): require('/home/realeoki/...')
+#2 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/db.php on line 3
+[24-Mar-2024 16:27:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No such file or directory in /home/realeoki/fikxers.com/hotel-mgt/db.php:3
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/db.php(3): mysqli_connect()
+#1 /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php(3): require('/home/realeoki/...')
+#2 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/db.php on line 3
+[25-Mar-2024 05:06:42 UTC] PHP Warning:  Undefined array key "admin_type" in /home/realeoki/fikxers.com/hotel-mgt/menu.php on line 3
+[25-Mar-2024 05:06:42 UTC] PHP Warning:  Undefined array key "hotel" in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php on line 145
+[25-Mar-2024 05:06:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php:146
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php(146): mysqli->query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php on line 146
+[25-Mar-2024 05:06:52 UTC] PHP Warning:  Undefined array key "admin_type" in /home/realeoki/fikxers.com/hotel-mgt/menu.php on line 3
+[25-Mar-2024 05:06:52 UTC] PHP Warning:  Undefined array key "hotel" in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php on line 145
+[25-Mar-2024 05:06:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php:146
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php(146): mysqli->query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php on line 146
+[25-Mar-2024 05:07:03 UTC] PHP Warning:  Undefined array key "admin_type" in /home/realeoki/fikxers.com/hotel-mgt/menu.php on line 3
+[25-Mar-2024 05:07:03 UTC] PHP Warning:  Undefined array key "hotel" in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php on line 145
+[25-Mar-2024 05:07:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php:146
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php(146): mysqli->query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php on line 146
+[29-Mar-2024 11:06:58 UTC] PHP Warning:  Undefined array key "admin_type" in /home/realeoki/fikxers.com/hotel-mgt/menu.php on line 3
+[29-Mar-2024 11:06:58 UTC] PHP Warning:  Undefined array key "hotel" in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php on line 145
+[29-Mar-2024 11:06:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php:146
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php(146): mysqli->query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php on line 146
+[29-Mar-2024 11:07:13 UTC] PHP Warning:  Undefined array key "admin_type" in /home/realeoki/fikxers.com/hotel-mgt/menu.php on line 3
+[29-Mar-2024 11:07:13 UTC] PHP Warning:  Undefined array key "hotel" in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php on line 145
+[29-Mar-2024 11:07:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php:146
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php(146): mysqli->query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php on line 146
+[29-Mar-2024 11:08:53 UTC] PHP Warning:  Undefined array key "admin_type" in /home/realeoki/fikxers.com/hotel-mgt/menu.php on line 3
+[29-Mar-2024 11:08:53 UTC] PHP Warning:  Undefined array key "hotel" in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php on line 145
+[29-Mar-2024 11:08:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php:146
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php(146): mysqli->query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/mgr/rooms.php on line 146

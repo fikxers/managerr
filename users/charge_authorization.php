@@ -1,47 +1,44 @@
 <?php
- session_start();
+  session_start();
   $email = $_GET['email']; $amount = $_GET['amount']*100; $authorization_code = $_GET['authorization_code'];
-$url = 'https://api.paystack.co/transaction/charge_authorization';
+  $subaccount = $_SESSION['split_code']; $url = 'https://api.paystack.co/transaction/charge_authorization';
  
-$curl = curl_init();
+  $curl = curl_init();
  
-$fields = array(
+  $fields = array(
     'email' => $email,
     'amount' => $amount,
-    "authorization_code" => $authorization_code
-);
+    'subaccount' => $subaccount,
+    'authorization_code' => $authorization_code
+  );
  
-$json_string = json_encode($fields);
+  $json_string = json_encode($fields);
  
-curl_setopt($curl, CURLOPT_URL, $url);
-curl_setopt($curl, CURLOPT_POST, TRUE);
-curl_setopt($curl, CURLOPT_POSTFIELDS, $json_string);
-curl_setopt($curl, CURLOPT_HTTPHEADER, array("Authorization: Bearer sk_live_a90524d08aa8ac2ab0917e43918b5b9c1da33084",
+  curl_setopt($curl, CURLOPT_URL, $url);
+  curl_setopt($curl, CURLOPT_POST, TRUE);
+  curl_setopt($curl, CURLOPT_POSTFIELDS, $json_string);
+  curl_setopt($curl, CURLOPT_HTTPHEADER, array("Authorization: Bearer sk_live_a90524d08aa8ac2ab0917e43918b5b9c1da33084",
     "Cache-Control: no-cache",'Content-Type:application/json'));
-// curl_setopt($curl, CURLOPT_HTTPHEADER, array("Authorization: Bearer sk_test_2d3a8408d19664562d17cd95322b02b3edb886d8",
-//     "Cache-Control: no-cache",'Content-Type:application/json'));
-curl_setopt($curl, CURLOPT_RETURNTRANSFER, true );
+  // curl_setopt($curl, CURLOPT_HTTPHEADER, array("Authorization: Bearer sk_test_2d3a8408d19664562d17cd95322b02b3edb886d8",
+  //     "Cache-Control: no-cache",'Content-Type:application/json'));
+  curl_setopt($curl, CURLOPT_RETURNTRANSFER, true );
  
-//$data = curl_exec($curl);
-$response = curl_exec($curl);
-	$err = curl_error($curl);
-
-	if($err){
+  //$data = curl_exec($curl);
+  $response = curl_exec($curl);
+  $err = curl_error($curl);
+  if($err){
 		// there was an error contacting the Paystack API
 	  die('Curl returned error: ' . $err);
-	}
-
-	$tranx = json_decode($response);
-  
+  }
+  $tranx = json_decode($response);
   if($err){
     // there was an error contacting the Paystack API
-  die('Curl returned error: ' . $err);
-	}
-
-	if(!$tranx->status){
-	  // there was an error from the API
-	  die('API returned error: ' . $tranx->message);
-	}
+   die('Curl returned error: ' . $err);
+  }
+  if(!$tranx->status){
+    // there was an error from the API
+    die('API returned error: ' . $tranx->message);
+  }
 
 	if('success' == $tranx->data->status){
 	  // transaction was successful...

@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html>
-	<?php include('script.php'); ?>
+	<?php 
+	// header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
+	// header('Cache-Control: no-store, no-cache, must-revalidate');
+	// header('Cache-Control: post-check=0, pre-check=0', FALSE);
+	// header('Pragma: no-cache');
+	include('script.php'); ?>
 	<head>
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Favicon-->
 		<link rel="shortcut icon" href="img/favicon.ico">
 		<!-- Author Meta -->
-		<meta name="Managerr" content="Managerr">
+		<meta name="HAIVEN" content="HAIVEN">
 		<!-- Meta Description -->
-		<meta name="description" content="Managerr is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead.">
+		<meta name="description" content="HAIVEN is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead.">
 		<!-- Meta Keyword -->
-		<meta name="about" content="Managerr is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead.">
+		<!-- <meta name="about" content="HAIVEN is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead."> -->
 		<!-- meta character set -->
 		<meta charset="UTF-8">
+		<!-- Open Graph Tags -->
+		<meta name="og:title" property="og:title" content="HAIVEN">
+		<!-- Twitter card -->
+		<meta name="twitter:card" content="HAIVEN is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead.">
+		<!-- Canonical Tage -->
+		<link rel="canonical" href="https://HAIVEN.net/">
+		<!-- Robots Tage -->
+		<meta name="robots" content="noindex, nofollow">
 		<!-- Site Title -->
-		<title>Managerr | <?php echo $title; ?></title>
+		<title>HAIVEN | <?php echo $title; ?></title>
 		<!-- Manifest for A2HS -->
 		<!-- <link rel="manifest" href="manifest.webmanifest" /> -->
 		<link rel="manifest" href="manifest.json" />

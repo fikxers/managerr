@@ -15,16 +15,16 @@
 	header('Pragma: no-cache');*/
 	require('db.php');
 	// Check if the user is logged in
-	if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true && $title != 'Managerr Accounts') {
+	if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true && $title != 'HAIVEN Accounts') {
   //if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
 	    // Redirect the user to another page
 	    login();
 	}
-	else if(!isset($_SESSION['logged_in']) && $title == 'Managerr Accounts'){
+	else if(!isset($_SESSION['logged_in']) && $title == 'HAIVEN Accounts'){
 		echo "<script type='text/javascript'>window.top.location='login.php';</script>";
 	}
 
-	if ($title != 'Managerr Accounts'){ checkRememberMeCookie(); }
+	// if ($title != 'HAIVEN Accounts'){ checkRememberMeCookie(); }
 
 	//LOGIN PROCESS
 	if ($title=='Login'){
@@ -46,12 +46,12 @@
 	      	$_SESSION['email'] = $email; $_SESSION['logged_in'] = true; 
 	      	$_SESSION['admin_type'] = $result->fetch_object()->admin_type;
 	      	//if remember me selected
-	      	if(isset($_POST["remember"])) {
-						$token = generateToken();
-						$query = "UPDATE users SET `remember_token`='".$token."' WHERE email='".$email."'";
-						$r = mysqli_query($con,$query) or die(mysqli_error()); //$rs = mysqli_num_rows($r);
-						setRememberMeCookie($email, $token);
-					} 
+	      	// if(isset($_POST["remember"])) {
+					// 	$token = generateToken();
+					// 	$query = "UPDATE users SET `remember_token`='".$token."' WHERE email='".$email."'";
+					// 	$r = mysqli_query($con,$query) or die(mysqli_error()); //$rs = mysqli_num_rows($r);
+					// 	setRememberMeCookie($email, $token);
+					// } 
 			    if($_SESSION['admin_type'] == 'student'){
 						echo "<script type='text/javascript'>window.top.location='hostel/room.php';</script>"; exit;
 					}
@@ -65,6 +65,10 @@
 						//include('hostel/functions.php'); $token = getToken(10);
 						$_SESSION['email'] = $email;
 						echo "<script type='text/javascript'>window.top.location='hostel/hostel_mgr.php';</script>"; exit;
+					}
+					else if($_SESSION['admin_type'] == 'hotelmgr'){
+						$_SESSION['email'] = $email;
+						echo "<script type='text/javascript'>window.top.location='users/hotel_mgr.php';</script>"; exit;
 					}
 					else{ echo "<script type='text/javascript'>window.top.location='flash.php';</script>"; exit; }
 		    }
@@ -125,13 +129,13 @@
 				  if($result2 && $result){
 					//mail(to,subject,message,headers,parameters);
 					// the message
-					$msg = "<p>Dear ".$name.",<br><br>You have successfully registered on Managerr.<br><hr>Welcome on board!<p>";
+					$msg = "<p>Dear ".$name.",<br><br>You have successfully registered on HAIVEN.<br><hr>Welcome on board!<p>";
 
 					// use wordwrap() if lines are longer than 70 characters
 					$msg = wordwrap($msg,70);
 
 					// send email
-					//mail($email,"Successful Registration on managerr.net",$msg);
+					//mail($email,"Successful Registration on HAIVEN.net",$msg);
 
 					//send_email($email,$msg);
 					notification($email,$msg);
@@ -159,13 +163,13 @@
 			//$new_password = md5($token);
 			$query = "SELECT * FROM `users` WHERE `email`='".$email_to."'";
 			$result = mysqli_query($con,$query) or die(mysqli_error());
-		  	$rows = mysqli_num_rows($result);
-		    if($rows==1){
+		  $rows = mysqli_num_rows($result);
+		  if($rows==1){
 				$expFormat = mktime(date("H"), date("i"), date("s"), date("m") ,date("d")+1, date("Y"));
-	  			$expDate = date("Y-m-d H:i:s",$expFormat);
-		      	// Insert Temp Table
+	  		$expDate = date("Y-m-d H:i:s",$expFormat);
+		   	// Insert Temp Table
 				mysqli_query($con, "INSERT INTO `password_reset_temp` (`email`, `key`, `expDate`) VALUES ('".$email_to."', '".$token."', '".$expDate."');");
-		      	sendmail($email_to, $token);
+		   	sendmail($email_to, $token);
 			}
 			else{
 			  echo "<script>alert('User does not exist.');</script>";
@@ -190,8 +194,8 @@
           </head> 
           <body> 
               <p>Hello,</p> <br>
-              <p>Please click on <a target="_blank" href="https://managerr.net/reset-password.php?token=' . $token . '&email=' . $to . '">this link</a> to reset your password.</p><br><br>
-              <p>If you have a difficulty with the link you can copy and paste this link on your browser: <b>https://managerr.net/reset-password.php?token=' . $token . '&email=' . $to . '</b></p>
+              <p>Please click on <a target="_blank" href="https://HAIVEN.net/reset-password.php?token=' . $token . '&email=' . $to . '">this link</a> to reset your password.</p><br><br>
+              <p>If you have a difficulty with the link you can copy and paste this link on your browser: <b>https://fikxers.com/reset-password.php?token=' . $token . '&email=' . $to . '</b></p>
               <p>If you did not request this forgotten password email, no action is needed, your password will not be reset. However, you may want to log into your account and change your security password as someone may have guessed it.</p>
           </body> 
           </html>'; 
@@ -200,9 +204,9 @@
 		//Set PHPMailer to use the sendmail transport
 		$mail->isSendmail(); //$mail->IsSMTP(); 
 		//Set who the message is to be sent from
-		$mail->setFrom('support@managerr.net', 'Managerr Support');
+		$mail->setFrom('support@HAIVEN.net', 'HAIVEN Support');
 		//Set an alternative reply-to address
-		$mail->addReplyTo('info@managerr.net', 'Managerr Support');
+		$mail->addReplyTo('info@HAIVEN.net', 'HAIVEN Support');
 		//Set who the message is to be sent to
 		$mail->addAddress($to);//$mail->addAddress('ypolycarp@gmail.com');
 		//Set the subject line
@@ -226,6 +230,50 @@
 			echo "<script type='text/javascript'>window.top.location='recover_password.php';</script>";
 		}
 	}
+	function send_booking_mail($to,$hotel,$fullname,$room_no)  {
+      $msg = ' 
+          <html> 
+          <head> 
+              <title>Hotel Room Booked via HAIVEN</title> 
+          </head> 
+          <body> 
+              <p>Hello '.$fullname.',</p> <br><br>
+              <p>You have successfully booked Room '.$room_no.' in '.$hotel.'.</p><br><br>
+              <h5>Enjoy your stay.</h5><br><br>
+              <p>Powered by <a target="_blank" href="HAIVEN.net">HAIVEN</a></p>
+          </body> 
+          </html>'; 
+      //Create a new PHPMailer instance
+        $mail = new PHPMailer();
+        //Set PHPMailer to use the sendmail transport
+        $mail->isSendmail(); //$mail->IsSMTP(); 
+        //Set who the message is to be sent from
+        $mail->setFrom('support@HAIVEN.net', 'HAIVEN');
+        //Set an alternative reply-to address
+        $mail->addReplyTo('info@HAIVEN.net', 'HAIVEN');
+        //Set who the message is to be sent to
+        $mail->addAddress($to);//$mail->addAddress('ypolycarp@gmail.com');
+        //Set the subject line
+        $mail->Subject = 'Hotel Booking Successful';
+        //Read an HTML message body from an external file, convert referenced images to embedded,
+        //convert HTML into a basic plain-text alternative body
+        $mail->msgHTML($msg);//$mail->msgHTML(file_get_contents('contents.html'), __DIR__);
+        //Replace the plain text body with one created manually
+        $mail->AltBody = 'You have successfully booked Room via HAIVEN!';
+        //Attach an image file
+        //$mail->addAttachment('images/phpmailer_mini.png');
+
+        //send the message, check for errors
+        if (!$mail->send()) {
+            //echo 'Mailer Error: ' . $mail->ErrorInfo;
+            echo "<script>alert('Error: ".$mail->ErrorInfo."');</script>";
+            echo "<script type='text/javascript'>window.top.location='index.php';</script>";
+        } else {
+            //echo 'Message sent!';
+            echo "<script>alert('Check email for reset token.');</script>";
+            echo "<script type='text/javascript'>window.top.location='index.php';</script>";
+        }
+    }
 	// Function to generate a random token
   function generate_token()
 	{
@@ -264,6 +312,9 @@
 	    }
 	    else if($_SESSION['admin_type'] == 'hmgr'){
 	      echo "<script type='text/javascript'>window.top.location='hostel/hostel_mgr.php';</script>"; exit;
+	    }
+	    else if($_SESSION['admin_type'] == 'hotelmgr'){
+	      echo "<script type='text/javascript'>window.top.location='users/hotel_mgr.php';</script>"; exit;
 	    }
 	    else{ echo "<script type='text/javascript'>window.top.location='flash.php';</script>"; exit; }
 	}
@@ -332,7 +383,7 @@
               <title>Successful Signup Notification</title> 
           </head> 
           <body>'.$m.'  
-			 		<hr><p>Thank you for choosing Managerr.</p> 
+			 		<hr><p>Thank you for choosing HAIVEN.</p> 
           </body> 
           </html>'; 
 	  	//Create a new PHPMailer instance
@@ -340,9 +391,9 @@
 			//Set PHPMailer to use the sendmail transport
 			$mail->isSendmail();
 			//Set who the message is to be sent from
-			$mail->setFrom('support@managerr.net', 'Managerr Support');
+			$mail->setFrom('support@HAIVEN.net', 'HAIVEN Support');
 			//Set an alternative reply-to address
-			$mail->addReplyTo('info@managerr.net', 'Managerr Support');
+			$mail->addReplyTo('info@HAIVEN.net', 'HAIVEN Support');
 			//Set who the message is to be sent to
 			$mail->addAddress($to);//$mail->addAddress('ypolycarp@gmail.com');
 			//Set the subject line
@@ -359,10 +410,10 @@
 	}
   function send_email($user_email,$msg){
 	  	//$to = 'user@example.com'; 
-			$from = 'support@managerr.net'; 
-			$fromName = 'Managerr Support Team'; 
+			$from = 'support@HAIVEN.net'; 
+			$fromName = 'HAIVEN Support Team'; 
 			 
-			$subject = "Managerr - Reset Password"; 
+			$subject = "HAIVEN - Reset Password"; 
 			 
 			$htmlContent = ' 
 			    <html> 
@@ -401,8 +452,11 @@
 	  $button_value = '<li class="get-started-btn"><a href="logout.php">LOG OUT</a></li>';
 	}
 	else{
-	  $button_value = '<li class="login-btn"><a href="login.php">LOG IN</a></li>';
-    $button_value .= '<li class="get-started-btn"><a href="signup.php">GET STARTED</a></li>';
-                
+    if($title=="Hotel Management"){
+	  	$button_value = "<a href='hotel-mgt/login.php' class='nav-link'>Login</a>";
+	  }else{
+		  $button_value = '<li class="login-btn"><a href="login.php">LOG IN</a></li>';
+      $button_value .= '<li class="get-started-btn"><a href="signup.php">GET STARTED</a></li>';
+	  }         
 	}
 ?>

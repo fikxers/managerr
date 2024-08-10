@@ -13,7 +13,7 @@
 	  $button_value = "<a href='logout.php' class='nav-link'>Logout</a>";
 	else $button_value = "<a href='login.php' class='nav-link'>Login</a>";
 	// Check if the user is logged in
-  if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true && $title != 'Managerr Accounts') {
+  if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true && $title != 'HAIVEN Accounts') {
 	  // Redirect the user to another page
 	  login();
 	}
@@ -127,7 +127,7 @@
               <title>Successful Signup Notification</title> 
           </head> 
           <body>'.$m.'  
-			 <hr><p>Thank you for choosing Managerr.</p> 
+			 <hr><p>Thank you for choosing HAIVEN.</p> 
           </body> 
           </html>'; 
 	  	//Create a new PHPMailer instance
@@ -135,9 +135,9 @@
 			//Set PHPMailer to use the sendmail transport
 			$mail->isSendmail();
 			//Set who the message is to be sent from
-			$mail->setFrom('support@managerr.net', 'Managerr Support');
+			$mail->setFrom('support@HAIVEN.net', 'HAIVEN Support');
 			//Set an alternative reply-to address
-			$mail->addReplyTo('info@managerr.net', 'Managerr Support');
+			$mail->addReplyTo('info@HAIVEN.net', 'HAIVEN Support');
 			//Set who the message is to be sent to
 			$mail->addAddress($to);//$mail->addAddress('ypolycarp@gmail.com');
 			//Set the subject line
@@ -154,10 +154,10 @@
 	}
   	function send_email($user_email,$msg){
 	  	//$to = 'user@example.com'; 
-			$from = 'support@managerr.net'; 
-			$fromName = 'Managerr Support Team'; 
+			$from = 'support@HAIVEN.net'; 
+			$fromName = 'HAIVEN Support Team'; 
 			 
-			$subject = "Managerr - Reset Password"; 
+			$subject = "HAIVEN - Reset Password"; 
 			 
 			$htmlContent = ' 
 			    <html> 
@@ -289,13 +289,13 @@
 				  if($result2 && $result){
 					//mail(to,subject,message,headers,parameters);
 					// the message
-					$msg = "<p>Dear ".$name.",<br><br>You have successfully registered on Managerr.<br><hr>Welcome on board!<p>";
+					$msg = "<p>Dear ".$name.",<br><br>You have successfully registered on HAIVEN.<br><hr>Welcome on board!<p>";
 
 					// use wordwrap() if lines are longer than 70 characters
 					$msg = wordwrap($msg,70);
 
 					// send email
-					//mail($email,"Successful Registration on managerr.net",$msg);
+					//mail($email,"Successful Registration on HAIVEN.net",$msg);
 
 					//send_email($email,$msg);
 					notification($email,$msg);
@@ -321,15 +321,15 @@
 		<!-- Favicon-->
 		<link rel="shortcut icon" href="img/favicon.ico">
 		<!-- Author Meta -->
-		<meta name="Managerr" content="Managerr">
+		<meta name="HAIVEN" content="HAIVEN">
 		<!-- Meta Description -->
-		<meta name="description" content="Managerr is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead.">
+		<meta name="description" content="HAIVEN is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead.">
 		<!-- Meta Keyword -->
-		<meta name="about" content="Managerr is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead.">
+		<meta name="about" content="HAIVEN is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead.">
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
-		<title>Managerr | <?php echo $title; ?></title>
+		<title>HAIVEN | <?php echo $title; ?></title>
 		<!-- Manifest for A2HS -->
 		<!-- <link rel="manifest" href="manifest.webmanifest" /> -->
 		<link rel="manifest" href="manifest.json">
@@ -402,7 +402,7 @@
 				  			</div>
 				  			<div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
 				  				<a href="tel:08037852881">08037852881 | 07026000053</a>
-				  				<a href="mailto:support@managerr.net">support@Managerr.net</a>			
+				  				<a href="mailto:support@HAIVEN.net">support@HAIVEN.net</a>			
 				  			</div>
 				  		</div>			  					
 		  			</div>
@@ -415,7 +415,7 @@
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
-				          <?php if($title=='Managerr Accounts'){ ?>		          
+				          <?php if($title=='HAIVEN Accounts'){ ?>		          
 				          <!-- <li><a href="reset-password.php">Reset Password</a></li> -->
 						  <li><a href="login.php"><?php echo $button_value ?></a></li>
 						  <?php } else { ?>

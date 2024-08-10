@@ -1,6 +1,6 @@
 		<?php
       include('auth.php'); 
-      $title='Managerr Dashboard';
+      $title='HAIVEN Dashboard';
       include('dashboard-sidebar.php');
 		  require('../db.php');	
 		?>
@@ -8,7 +8,7 @@
 						 <div class="col-lg-12">
 						  <div class="card m-b-30">
                 <div class="card-body">
-								  <h4 class="mt-0 header-title">Your Managerr Accounts</h4>
+								  <h4 class="mt-0 header-title">Your HAIVEN Accounts</h4>
 								  
 								  <div class="row">
 								  	<?php

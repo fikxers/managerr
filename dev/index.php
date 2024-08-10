@@ -19,7 +19,7 @@
 			  </header><!-- #header --><br><br><br>
 					<div class="fullscreen d-flex align-items-center wall-paper">
 						<div class="banner-content col-lg-8 col-md-6 justify-content-center ">
-							<h5 class="sub-title-o">WELCOME TO MANAGERR</h5>
+							<h5 class="sub-title-o">WELCOME TO HAIVEN</h5>
 							<h1>
 								Empowering Smart Community Living		
 							</h1>
@@ -68,7 +68,7 @@
 							<h2>Streamlined Financial Operations for a Well-Managed Community</h2>
 							<p>
 							<!-- Streamlined Financial Operations for a Well-Managed Community -->
-							Managerr offers a seamless and automated solution to handle community-wide billing, invoicing, and financial tracking. 
+							HAIVEN offers a seamless and automated solution to handle community-wide billing, invoicing, and financial tracking. 
 							Efficiently manage dues, utility payments, and expenses, while residents enjoy convenient online payment options.
 
 							</p>
@@ -82,7 +82,7 @@
 							<p>
 							<!-- Foster a Strong and Connected Community -->
 							Our platform offers various tools to engage and connect residents, promoting a sense of belonging and cooperation. From community forums to event management, 
-							Managerr keeps residents actively involved and connected.
+							HAIVEN keeps residents actively involved and connected.
 							</p>
 						</div>
 					</div>
@@ -117,7 +117,7 @@
 						<div class="col-md-9 this-for">
 							<h1>Who is this for?</h1>
 							<p class="mt-5">
-								Managerr delivers tailored solutions that foster convenience, safety, engagement, and efficient community 
+								HAIVEN delivers tailored solutions that foster convenience, safety, engagement, and efficient community 
 								management for wide range of user types. Our platform is designed to create harmony and a connected living experience, 
 								regardless of the type of community, bringing our vision of a SMART CITY to life.
 							</p>
@@ -145,7 +145,7 @@
 							<img src="./img/3968.png" class="this-for-col-img" />
 							<h3 class="pt-4 pb-4 pr-4">Commercial / Recreational Facilities</h3>
 							<p>
-								These spaces encompass business parks, commercial estates, and recreational areas, where efficient facility management is essential to creating a positive experience for employees, visitors, and patrons. Managerr equips facility managers in these spaces with powerful tools to manage access control, handle billing and financial operations, and engage with stakeholders effectively.
+								These spaces encompass business parks, commercial estates, and recreational areas, where efficient facility management is essential to creating a positive experience for employees, visitors, and patrons. HAIVEN equips facility managers in these spaces with powerful tools to manage access control, handle billing and financial operations, and engage with stakeholders effectively.
 							</p>
 							<a href="signup.php"><button class="primary-btn add-btn btn btn-green btn-green-rd">Join Now</button></a>
 						</div>

@@ -41,11 +41,11 @@
 		  if($result){
 		  $result2 = mysqli_query($con,$query2);
 			// the message
-			$msg = "Dear ".$name."\n\nYou have successfully registered on Managerr.com\n\nYou are welcome.";
+			$msg = "Dear ".$name."\n\nYou have successfully registered on HAIVEN.com\n\nYou are welcome.";
 			// use wordwrap() if lines are longer than 70 characters
 			$msg = wordwrap($msg,70);
 			// send email
-			mail($email,"Successful Registration on Managerr.com",$msg);
+			mail($email,"Successful Registration on HAIVEN.com",$msg);
 			echo "<script>alert('Resident added successfully.');</script>";
 		    echo "<script type='text/javascript'>window.top.location='view_flats.php';</script>"; exit;
 		  }

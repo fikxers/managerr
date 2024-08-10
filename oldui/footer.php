@@ -5,9 +5,9 @@
 					<div class="row text-white">
 						<div class="col-lg-4  col-md-6 col-sm-6">
 							<div class="single-footer-widget text-white">
-								<h6>Managerr</h6>
+								<h6>HAIVEN</h6>
 								<p class="text-white">
-									<em>Managerr</em> is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead. We simplify the entire Integrated Facilities Management process.
+									<em>HAIVEN</em> is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead. We simplify the entire Integrated Facilities Management process.
 								</p>
 							</div>
 						</div>
@@ -32,7 +32,7 @@
 								<h6>Links</h6>
 								<div class="row text-white">
 									<div class="col text-white">
-										<?php if($title=='Managerr Accounts'){ ?>
+										<?php if($title=='HAIVEN Accounts'){ ?>
 										<ul>
 											<li><a class="text-white" target="_blank" href="index.php">Home</a></li>
 											<li><a class="text-white" target="_blank" href="about.php">Overview</a></li>
@@ -93,7 +93,7 @@
 					</div>
 					<!-- Install button, hidden by default -->
 			    <div id="installContainer" class="hidden">
-			      <button class = "btn btn-outline-primary" id="butInstall" type="button">Add Managerr To Home Screen</button>
+			      <button class = "btn btn-outline-primary" id="butInstall" type="button">Add HAIVEN To Home Screen</button>
 			    </div>
 				</div>
 			</footer>

@@ -18,7 +18,7 @@
 			  //echo $hemail;
 			  //notify_admins($service,$service_date,$moreinfo,$equipment,$_SESSION['room'],$_SESSION['hostel']); 
 			  $message = '<html><body>';
-			  $message .= '<img src="//Managerr.com/hostel/assets/images/users/DEX.png" alt="Kanchies Logo" />';
+			  $message .= '<img src="//HAIVEN.com/hostel/assets/images/users/DEX.png" alt="Kanchies Logo" />';
 			  $message .= '<h2>REQUEST SUMMARY</h2>';
 			  $message .= '<table rules="all" style="border-color: #666;" cellpadding="10">';
 			  $message .= "<tr style='background: #eee;'><td><strong>Room:</strong> </td><td>".$r."</td></tr>";
@@ -31,8 +31,8 @@
 			  //Notify Student//Notify Manager
 			  $recipient = $admin_email;
 			  //$subject = "Service Booking Request";
-			  $headers = "From: support@Managerr.com \r\n";
-			  $headers .= "Reply-To: support@Managerr.com \r\n";
+			  $headers = "From: support@HAIVEN.com \r\n";
+			  $headers .= "Reply-To: support@HAIVEN.com \r\n";
 			  //$headers .= "CC: susan@example.com\r\n";
 			  $headers .= "MIME-Version: 1.0\r\n";
 			  $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";

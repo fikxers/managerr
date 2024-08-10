@@ -26,8 +26,8 @@
           </head> 
           <body> 
               <p>Hello,</p> <br>
-              <p>Please click on <a target="_blank" href="https://managerr.net/reset-password.php?token=' . $token . '&email=' . $to . '">this link</a> to reset your password.</p><br><br>
-              <p>If you have a difficulty with the link you can copy and paste this link on your browser: <b>https://managerr.net/reset-password.php?token=' . $token . '&email=' . $to . '</b></p>
+              <p>Please click on <a target="_blank" href="https://HAIVEN.net/reset-password.php?token=' . $token . '&email=' . $to . '">this link</a> to reset your password.</p><br><br>
+              <p>If you have a difficulty with the link you can copy and paste this link on your browser: <b>https://HAIVEN.net/reset-password.php?token=' . $token . '&email=' . $to . '</b></p>
               <p>If you did not request this forgotten password email, no action is needed, your password will not be reset. However, you may want to log into your account and change your security password as someone may have guessed it.</p>
           </body> 
           </html>'; 
@@ -36,9 +36,9 @@
 		//Set PHPMailer to use the sendmail transport
 		$mail->isSendmail(); //$mail->IsSMTP(); 
 		//Set who the message is to be sent from
-		$mail->setFrom('support@managerr.net', 'Managerr Support');
+		$mail->setFrom('support@HAIVEN.net', 'HAIVEN Support');
 		//Set an alternative reply-to address
-		$mail->addReplyTo('info@managerr.net', 'Managerr Support');
+		$mail->addReplyTo('info@HAIVEN.net', 'HAIVEN Support');
 		//Set who the message is to be sent to
 		$mail->addAddress($to);//$mail->addAddress('ypolycarp@gmail.com');
 		//Set the subject line

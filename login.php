@@ -29,8 +29,7 @@ include('menu.php');
                 
                     <div class="row mb-4">
                         <div class="col-lg-6 mb-5">
-                            <h4><span id="remtext">Remember me&ensp;<input type="checkbox" id="rem" name="remember" /> &emsp;&emsp;
-                                <br>Forgot Password? <a id="linka" href="recover_password.php">Click here</a></span></h4>
+                            <h4><!--<span id="remtext">Keep me signed in&ensp;<input type="checkbox" id="rem" name="remember" /> &emsp;&emsp;<br>-->Forgot Password? <a id="linka" href="recover_password.php">Click here</a></span></h4>
                         </div>
                         <div class="col-lg-12">
                             <input type="submit" name="login" class="btn btn-danger provide-btn" value="Proceed to Dashboard">

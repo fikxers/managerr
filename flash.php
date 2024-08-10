@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<?php  $title='Managerr Accounts'; include('header.php'); 
-
+<?php  $title='HAIVEN Accounts'; include('header.php'); 
+// if($_SESSION['admin_type'] == 'hotelmgr' || $_SESSION['admin_type'] == 'hmgr' || $_SESSION['admin_type'] == 'security' || $_SESSION['admin_type'] == 'student'){
+//     echo "<script type='text/javascript'>window.top.location='login.php';</script>"; exit;
+// }
 include('menu.php');
 ?>
 

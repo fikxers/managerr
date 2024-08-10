@@ -128,13 +128,13 @@
 					$con->close();
 					//mail(to,subject,message,headers,parameters);
 					// the message
-					$msg = "Dear ".$name."\n\nYou have successfully registered on managerr.net\n\nYou are welcome.";
+					$msg = "Dear ".$name."\n\nYou have successfully registered on HAIVEN.net\n\nYou are welcome.";
 
 					// use wordwrap() if lines are longer than 70 characters
 					$msg = wordwrap($msg,70);
 
 					// send email
-					mail($email,"Successful Registration on managerr.net",$msg);
+					mail($email,"Successful Registration on HAIVEN.net",$msg);
 					
 					echo "<script>alert('You are registered successfully. Please contact Estate Admin to activate your profile.');</script>";
 					echo "<script type='text/javascript'>window.top.location='login.php';</script>";

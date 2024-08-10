@@ -121,7 +121,7 @@ $message = '
 	  </head>
 	  <body>
 	    <div id="receipt">
-	      <img src="../../img/logo.png" alt="Managerr" width="200" height="auto"><br>
+	      <img src="../../img/logo.png" alt="HAIVEN" width="200" height="auto"><br>
 	      <!--<h2><span id="title">Transaction Added to the System</span></h2>-->
 	      <h2>'.$msg.'</h2><br>
 	      <h3><em>'.$msg2.'</em></h3>

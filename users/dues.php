@@ -65,7 +65,6 @@
               <h4 class="mt-0 header-title">
               	Residents' Estate Payments 
               	<?php if($_SESSION['admin_type']=='admin'){ echo 'for '.$estate_name; } ?>
-              	
               </h4>
               <div class="table-rep-plugin">
                 <div class="table-responsive b-0" data-pattern="priority-columns">
@@ -82,6 +81,7 @@
 										$res = $con->query($sql2); $values = mysqli_fetch_assoc($res); $total2 = $values['total'];		
 										echo '<div class="alert text-dark alert-info" role="alert">All Time Due Collected: <b>&#8358;'.currency_format($total).'</b>
 										 | Due Collected This Month: <b>&#8358;'.currency_format($total2).'</b></div>';
+										echo '<form method="post" action="report.php"><button type="submit" class="btn btn-success btn-sm mb-3" style="border-radius: 10px; float: right;""><b>Download Report</b></button></form>';
 										$sql = "SELECT * FROM dues join flats on dues.flat=flats.email where dues.estate='".$estate."'";
 										//$sql = "SELECT * FROM dues join flats on dues.flat=flats.email where dues.estate='".$estate."'";
 										//}

@@ -51,7 +51,7 @@
 									<span class="lnr lnr-envelope"></span>
 								</div>
 								<div class="contact-details">
-									<h5>support@managerr.net</h5>
+									<h5>support@HAIVEN.net</h5>
 									<p>Send us your query anytime!</p>
 								</div>
 							</div>														

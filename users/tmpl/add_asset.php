@@ -34,7 +34,7 @@
 													</div>
 													<?php 
 													  if($_SESSION['admin_type']=='admin'){
-													   include('../flats_div.php'); 
+													   include('flats_div.php'); 
 													  }
 													?>
 													<div class="form-group">

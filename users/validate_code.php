@@ -18,9 +18,8 @@ if (isset($_POST['gencode'])){
   $arr_date = stripslashes($_REQUEST['arr_date']);
   $phone = stripslashes($_REQUEST['phone']);
   $duration = stripslashes($_REQUEST['val']);
-  $flat = stripslashes($_REQUEST['flat']);
-  $block = stripslashes($_REQUEST['block']);
-  
+  $flat = strtoupper(stripslashes($_REQUEST['flat']));
+  $block = strtoupper(stripslashes($_REQUEST['block']));  
   $_SESSION['arr_date'] = $arr_date;
   $_SESSION['phone'] = $phone;
   
@@ -95,41 +94,45 @@ else{
 						  </div>
 						  <div class="modal-body">
 							<form action="" method="POST">
-							   <div class="form-row">
-								<div class="form-group col-lg-6">
-								  <label for="arr_date">Flat</label><input type="number" name="flat" class="form-control" placeholder="Flat #" required />
-								</div>
-								<div class="form-group col-lg-6">
-								  <label for="arr_date">Block</label><input type="number" name="block" class="form-control" placeholder="Block #" required />
-								</div>
-								<div class="form-group col-lg-6">
-								  <label for="arr_date">Guest Name</label><input type="text" name="test" id="test" class="form-control" placeholder="John Doe" required />
-								</div>
-								<div class="form-group col-lg-6">
-								  <label for="arr_date">Vehicle Reg No</label><input type="text" name="regno" id="regno" class="form-control" placeholder="ABJ1234" />
-								</div>
-								<div class="form-group col-lg-6">
-								  <label for="arr_date">Companions</label><input type="number" min="0" name="comp" id="comp" class="form-control" />
-								</div>
-								<div class="form-group col-lg-6">
-								  <label for="arr_date">Duration (hours)</label><input type="number" min="0" name="val" id="val" class="form-control" />
-								</div>
-								<div class="form-group col-lg-6">
-								  <label for="arr_date">Arrival date</label><input type="date" name="arr_date" id="arr_date" class="form-control" />
-								</div>
-								<div class="form-group col-lg-6">
-								  <label for="arr_time">Arrival time</label><input type="time" name="arr_time" id="arr_time" class="form-control" />
-								</div>
-								<div class="form-group col-lg-12">
-								  <div class="form-check">
-								   <input type="checkbox" class="form-check-input" name="addqr" id="exampleCheck1">
-								   <label class="form-check-label" for="exampleCheck1">Include QR Code</label>
-								  </div>
-								</div>
-								<div class="form-group col-lg-12">
-								  <input type="submit" name="gencode" value="Generate Code" class="btn btn-block btn-outline-info">
-								</div>
-							   </div>
+							  <div class="form-row">
+									<!-- <div class="form-group col-lg-6">
+									  <label for="arr_date">Flat</label><input type="text" name="flat" class="form-control" placeholder="Flat #" required />
+									</div>
+									<div class="form-group col-lg-6">
+									  <label for="arr_date">Block</label><input type="text" name="block" class="form-control" placeholder="Block #" required />
+									</div> -->
+									<input type="hidden" name="block" value="0" /><input type="hidden" name="flat" value="0" />
+									<div class="form-group col-lg-12">
+									  <label for="arr_date">Guest Name</label><input type="text" name="test" id="test" class="form-control" placeholder="John Doe" required />
+									</div>
+									<div class="form-group col-lg-6">
+									  <label for="arr_date">Phone</label><input type="text" name="phone" id="phone" class="form-control" placeholder="0801234567890" required />
+									</div>
+									<div class="form-group col-lg-6">
+									  <label for="arr_date">Vehicle Reg No</label><input type="text" name="regno" id="regno" class="form-control" placeholder="ABJ1234" />
+									</div>
+									<div class="form-group col-lg-6">
+									  <label for="arr_date">Companions</label><input type="number" value="0" min="0" name="comp" id="comp" class="form-control" />
+									</div>
+									<div class="form-group col-lg-6">
+									  <label for="arr_date">Duration (hours)</label><input type="number" value="1" min="1" name="val" id="val" class="form-control" />
+									</div>
+									<div class="form-group col-lg-6">
+									  <label for="arr_date">Arrival date</label><input type="date" name="arr_date" id="arr_date" class="form-control" />
+									</div>
+									<div class="form-group col-lg-6">
+									  <label for="arr_time">Arrival time</label><input type="time" name="arr_time" id="arr_time" class="form-control" />
+									</div>
+									<div class="form-group col-lg-12">
+									  <div class="form-check">
+									   <input type="checkbox" class="form-check-input" name="addqr" id="exampleCheck1">
+									   <label class="form-check-label" for="exampleCheck1">Include QR Code</label>
+									  </div>
+									</div>
+									<div class="form-group col-lg-12">
+									  <input type="submit" name="gencode" value="Generate Code" class="btn btn-block btn-outline-info">
+									</div>
+							  </div>
 							</form>
 						  </div>										  
 						</div>

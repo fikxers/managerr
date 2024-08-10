@@ -8,6 +8,15 @@ include 'atl_constants.php';
 $transactionId = $_GET["transactionId"];
 $responseurl = PATH . "/receipt.php";
 
+if(isset($_GET["flat"]) && isset($_GET["block"])){
+	$flat = $_GET["flat"];
+	$block = $_GET["block"];
+}
+else{
+	$flat = $_SESSION['flat_no'];
+	$block = $_SESSION['block_no'];
+}
+
 $mac = hash('sha512', PRIVATEKEY . "|" . PUBLICKEY . "|" . $transactionId);
 
 //Going ahead to vend after meter details were pulled
@@ -31,8 +40,9 @@ if ($vendResponse->statusCode == "0"){
 	$description = $vendResponse->description;
 	include_once("../functions.php");
 	$arr_result = submystr_to_array($tokenDec, 4);
-	$formatted_token = $arr_result[0]." ".$arr_result[1]." ".$arr_result[2]." ".$arr_result[3]." ".$arr_result[4];
-	$estate=$_SESSION['estate_name']; $address= $_SESSION['estate_address']; $customerName = $_GET['owner'];
+	$formatted_token = $arr_result[0]." ".$arr_result[1]." ".$arr_result[2]." ".$arr_result[3]." ".$arr_result[4]; $estate=$_SESSION['estate_name']; 
+	$customerName = $_GET['owner']; 
+	$address= $_SESSION['estate_address'];
 	$message = '
 	<html lang="en">
 	  <head>
@@ -90,13 +100,13 @@ if ($vendResponse->statusCode == "0"){
 	  </head>
 	  <body>
 	    <div id="receipt">
-	      <img src="../../img/logo.png" alt="Managerr" width="200" height="auto"><br>
+	      <img src="../../img/logo.png" alt="HAIVEN" width="200" height="auto"><br>
 	      <h2><span id="title">TOKEN TRANSACTION STATUS</span></h2>
 	      <table class="table table-sm table-bordered border-success">
 	        <tbody>          
 	          <tr> <td><strong>Meter PAN </strong></td><td><strong>'.$meterPAN.'</strong></td></tr>
 	          <tr> <td><strong>Meter Name </strong></td><td><strong>'.$customerName.'</strong></td></tr>
-	          <tr> <td><strong>Address </strong></td><td><strong>'.$estate.', '.$address.'</strong></td></tr>
+	          <tr> <td><strong>Address </strong></td><td><strong>'."Block ".$block.", House ".$flat.", ".$estate.', '.$address.'</strong></td></tr>
 	          <tr> <td><strong>Amount </strong></td><td><strong>&#8358;'.$value.'</strong></td></tr>
 	          <tr> <td><strong>Vend Time </strong></td><td><strong>'.$vendTime.'</strong></td></tr> 
 	          <tr> <td><strong>Units </strong></td><td><strong>'.$unitsActual.'</strong></td></tr> 

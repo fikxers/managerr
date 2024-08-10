@@ -6,6 +6,11 @@
 			//$purpose = $_REQUEST['answer'];
 			//if($purpose = 'Others'){$purpose = $_REQUEST['otherAnswer'];}
 			$_SESSION['amount'] = $_REQUEST['amount']; //$_SESSION['purpose'] = $purpose;
+			echo("<script>console.log('Subacount/split_code: " . $split_code . "');</script>");
+			echo("<script>console.log('Email: " . $_SESSION['email'] . "');</script>");
+			echo("<script>console.log('Amount: " . $_SESSION['amount'] . "');</script>");
+			echo("<script>console.log('Phone: " . $_SESSION['phone'] . "');</script>");
+			echo("<script>console.log('Name: " . $_SESSION['owner'] . "');</script>");
 			echo "<script type='text/javascript'>window.top.location='proceed_pay.php';</script>";
 		  }
 		  else{

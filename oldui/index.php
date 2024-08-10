@@ -11,7 +11,7 @@
 								The Integrated Facilities Management Application			
 							</h1>
 							<p class="text-white">
-								Managerr is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead.
+								HAIVEN is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead.
 							</p>
 							<a href="about.php" class="primary-btn header-btn text-uppercase mt-10">Know More</a>
 							
@@ -93,9 +93,9 @@
 							<h3>
 								The Integrated Facilities <br>Management Application
 							</h3>
-							<p><b><em>Managerr</em></b> is a Cloud-based Integrated Facilities Service Management Application tailored and scaled to meet the need of a wide range of users from Real Estate residents to large industries.</p><p>
+							<p><b><em>HAIVEN</em></b> is a Cloud-based Integrated Facilities Service Management Application tailored and scaled to meet the need of a wide range of users from Real Estate residents to large industries.</p><p>
 							Now, in the comfort of your home or office, you can raise a work request for any required repair or service and the platform will ensure you get the best deal by creating a bidding system to enable you choose from a list of vetted and accredited service providers with the best price for the service.</p><p>
-							<b><em>Managerr</em></b> aims to ensure value for money by creating a competitive system that enables service providers deliver qualitative service to our clients always.
+							<b><em>HAIVEN</em></b> aims to ensure value for money by creating a competitive system that enables service providers deliver qualitative service to our clients always.
 							</p>
 							<!--<div class="row no-gutters">
 								<div class="single-services col">
@@ -129,9 +129,9 @@
 				<div class="container">
 					<div class="row align-items-center justify-content-between no-gutters">
 						<div class="col-lg-12 text-center">
-							<h1 class="text-white">Why Managerr?</h1>
+							<h1 class="text-white">Why HAIVEN?</h1>
 							<p class="text-white">
-								Some benefits of Managerr Integrated Facilities Management Application are listed below:
+								Some benefits of HAIVEN Integrated Facilities Management Application are listed below:
 							</p>
 						</div>
 						<div class="row text-white">

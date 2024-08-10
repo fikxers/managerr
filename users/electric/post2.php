@@ -147,7 +147,7 @@ else{
 	  </head>
 	  <body>
 	    <div id="receipt">
-	      <img src="../../img/logo.png" alt="Managerr" width="200" height="auto"><br>
+	      <img src="../../img/logo.png" alt="HAIVEN" width="200" height="auto"><br>
 	      <h2><span id="title">Vend Error</span></h2>
 	      <h5 class="text-danger">You cannot vend more than &#8358;'.number_format($maxMonthlyPayment, 2, '.', ',').' in a month!</h5>
 	      <h5 class="text-success">This month: &#8358;'.number_format($electric_this_month, 2, '.', ',').'.</h5>

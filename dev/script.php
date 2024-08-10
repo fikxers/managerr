@@ -15,12 +15,12 @@
 	header('Pragma: no-cache');*/
 	require('db.php');
 	// Check if the user is logged in
-  	if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true && $title != 'Managerr Accounts') {
+  	if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true && $title != 'HAIVEN Accounts') {
 	    // Redirect the user to another page
 	    login();
 	}
 
-	if ($title != 'Managerr Accounts'){ checkRememberMeCookie(); }
+	if ($title != 'HAIVEN Accounts'){ checkRememberMeCookie(); }
 
 	//LOGIN PROCESS
 	if ($title=='Login'){
@@ -121,13 +121,13 @@
 				  if($result2 && $result){
 					//mail(to,subject,message,headers,parameters);
 					// the message
-					$msg = "<p>Dear ".$name.",<br><br>You have successfully registered on Managerr.<br><hr>Welcome on board!<p>";
+					$msg = "<p>Dear ".$name.",<br><br>You have successfully registered on HAIVEN.<br><hr>Welcome on board!<p>";
 
 					// use wordwrap() if lines are longer than 70 characters
 					$msg = wordwrap($msg,70);
 
 					// send email
-					//mail($email,"Successful Registration on managerr.net",$msg);
+					//mail($email,"Successful Registration on HAIVEN.net",$msg);
 
 					//send_email($email,$msg);
 					notification($email,$msg);
@@ -186,8 +186,8 @@
           </head> 
           <body> 
               <p>Hello,</p> <br>
-              <p>Please click on <a target="_blank" href="https://managerr.net/reset-password.php?token=' . $token . '&email=' . $to . '">this link</a> to reset your password.</p><br><br>
-              <p>If you have a difficulty with the link you can copy and paste this link on your browser: <b>https://managerr.net/reset-password.php?token=' . $token . '&email=' . $to . '</b></p>
+              <p>Please click on <a target="_blank" href="https://HAIVEN.net/reset-password.php?token=' . $token . '&email=' . $to . '">this link</a> to reset your password.</p><br><br>
+              <p>If you have a difficulty with the link you can copy and paste this link on your browser: <b>https://HAIVEN.net/reset-password.php?token=' . $token . '&email=' . $to . '</b></p>
               <p>If you did not request this forgotten password email, no action is needed, your password will not be reset. However, you may want to log into your account and change your security password as someone may have guessed it.</p>
           </body> 
           </html>'; 
@@ -196,9 +196,9 @@
 		//Set PHPMailer to use the sendmail transport
 		$mail->isSendmail(); //$mail->IsSMTP(); 
 		//Set who the message is to be sent from
-		$mail->setFrom('support@managerr.net', 'Managerr Support');
+		$mail->setFrom('support@HAIVEN.net', 'HAIVEN Support');
 		//Set an alternative reply-to address
-		$mail->addReplyTo('info@managerr.net', 'Managerr Support');
+		$mail->addReplyTo('info@HAIVEN.net', 'HAIVEN Support');
 		//Set who the message is to be sent to
 		$mail->addAddress($to);//$mail->addAddress('ypolycarp@gmail.com');
 		//Set the subject line
@@ -328,7 +328,7 @@
               <title>Successful Signup Notification</title> 
           </head> 
           <body>'.$m.'  
-			 		<hr><p>Thank you for choosing Managerr.</p> 
+			 		<hr><p>Thank you for choosing HAIVEN.</p> 
           </body> 
           </html>'; 
 	  	//Create a new PHPMailer instance
@@ -336,9 +336,9 @@
 			//Set PHPMailer to use the sendmail transport
 			$mail->isSendmail();
 			//Set who the message is to be sent from
-			$mail->setFrom('support@managerr.net', 'Managerr Support');
+			$mail->setFrom('support@HAIVEN.net', 'HAIVEN Support');
 			//Set an alternative reply-to address
-			$mail->addReplyTo('info@managerr.net', 'Managerr Support');
+			$mail->addReplyTo('info@HAIVEN.net', 'HAIVEN Support');
 			//Set who the message is to be sent to
 			$mail->addAddress($to);//$mail->addAddress('ypolycarp@gmail.com');
 			//Set the subject line
@@ -355,10 +355,10 @@
 	}
   function send_email($user_email,$msg){
 	  	//$to = 'user@example.com'; 
-			$from = 'support@managerr.net'; 
-			$fromName = 'Managerr Support Team'; 
+			$from = 'support@HAIVEN.net'; 
+			$fromName = 'HAIVEN Support Team'; 
 			 
-			$subject = "Managerr - Reset Password"; 
+			$subject = "HAIVEN - Reset Password"; 
 			 
 			$htmlContent = ' 
 			    <html> 

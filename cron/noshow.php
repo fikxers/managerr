@@ -1,7 +1,8 @@
 <?php
   use PHPMailer\PHPMailer\PHPMailer;
   use PHPMailer\PHPMailer\SMTP;
-  use PHPMailer\PHPMailer\Exception;
+  use PHPMailer\PHPMailer\Exception;
+
   require '../PHPMailer/src/Exception.php';
   require '../PHPMailer/src/PHPMailer.php';
   require '../PHPMailer/src/SMTP.php';
@@ -14,7 +15,7 @@
               <title>Cron job completed</title> 
             </head> 
             <body>'.$m.' 
-			  <hr><p>Thank you for choosing Managerr.</p> 
+			  <hr><p>Thank you for choosing HAIVEN.</p> 
             </body> 
           </html>'; 
 	  	  //Create a new PHPMailer instance
@@ -22,17 +23,18 @@
 			//Set PHPMailer to use the sendmail transport
 			$mail->isSendmail();
 			//Set who the message is to be sent from
-			$mail->setFrom('support@managerr.net', 'Manager Support');
+			$mail->setFrom('support@HAIVEN.net', 'Manager Support');
 			//Set an alternative reply-to address
-			$mail->addReplyTo('info@managerr.net', 'Manager Support');
+			$mail->addReplyTo('info@HAIVEN.net', 'Manager Support');
 			//Set who the message is to be sent to
-			$mail->addAddress('support@managerr.net');
+			$mail->addAddress('support@HAIVEN.net');
 			//Set the subject line
 			$mail->Subject = 'Cron job completed.';
 			$mail->msgHTML($msg);
 			//Replace the plain text body with one created manually
 			$mail->AltBody = 'Cron job completed.';
-			$mail->send();
+			$mail->send();
+
   }
   
 //   $query = "SELECT arr_date FROM `entrance_codes` WHERE status != 'no-show'";

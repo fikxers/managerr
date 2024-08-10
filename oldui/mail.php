@@ -1,5 +1,5 @@
 <?php
-    /*$to = 'support@managerr.net';
+    /*$to = 'support@HAIVEN.net';
     $fullname = $_POST["fname"];
     $email= $_POST["email"];
     $text= $_POST["message"];
@@ -21,7 +21,7 @@
 
     if (@mail($to, $email, $message, $headers))
     {
-        echo "<script>alert('Message sent. We'll contact you shortly.\nManagerr');</script>";
+        echo "<script>alert('Message sent. We'll contact you shortly.\nHAIVEN');</script>";
 		echo "<script type='text/javascript'>window.top.location='contact.php';</script>"; exit;
     }else{
         echo "<script>alert('Message was not sent. Please try again.');</script>";
@@ -37,20 +37,20 @@
 		$subject= $_POST["subject"];
 		$subject2 = 'Copy of your Enquiry, '.$fullname;
 		$message2 = 'Thank you '.$fullname.' for contacting us. Below is the copy of your enquiry.\n'.$message;
-		$headers = 'From: support@managerr.net';
+		$headers = 'From: support@HAIVEN.net';
 		$headers2 = 'From: '.$email;
 		$email_body = "New Enquiry.\n\n"."Here are the details:\n\nName: $fullname\n\nEmail: $email\n\nSubject: $subject\n\nMessage:\n$message";
-		mail('support@managerr.net',$subject,$email_body,$headers2); //to admin
+		mail('support@HAIVEN.net',$subject,$email_body,$headers2); //to admin
 		mail($email,$subject2,$message2,$headers); //to customer
-		echo "<script>alert('Thanks for contacting us, we'll get back to you shortly.\nManagerr');</script>";
+		echo "<script>alert('Thanks for contacting us, we'll get back to you shortly.\nHAIVEN');</script>";
 		echo "<script type='text/javascript'>window.top.location='contact.php';</script>";
     }else{
 	   echo "<script type='text/javascript'>window.top.location='contact.php';</script>";
 	}
 
 // configure
-$from = 'Demo contact form <support@managerr.net>';
-$sendTo = 'Demo contact form <support@managerr.net>';
+$from = 'Demo contact form <support@HAIVEN.net>';
+$sendTo = 'Demo contact form <support@HAIVEN.net>';
 $subject = 'New message from contact form';
 $fields = array('fullname' => 'Name', 'subject' => 'Subject', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in email
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
@@ -101,11 +101,11 @@ if(isset($_POST['email']) && isset($_POST['message'])) {
 $email = $_POST['email'];
 $message = $_POST['message'];
 $formcontent="From: $name \n Message: $message";
-$recipient = "support@managerr.net";
+$recipient = "support@HAIVEN.net";
 $subject = "Contact Form";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-//echo "<script>alert('Thanks for contacting us, we'll get back to you shortly.\nManagerr');</script>";
+//echo "<script>alert('Thanks for contacting us, we'll get back to you shortly.\nHAIVEN');</script>";
 //echo "<script type='text/javascript'>window.top.location='contact.php';</script>";
 /*echo
 '<!doctype html>

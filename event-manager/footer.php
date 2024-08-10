@@ -5,7 +5,7 @@
 	if(intval($year) > date('Y')){ echo date('Y'); } 
  } ?>
 <footer class="footer">
-                &copy; <?php auto_copyright("2018"); ?> <i class="mdi mdi-settings text-info"></i> Managerr
+                &copy; <?php auto_copyright("2018"); ?> <i class="mdi mdi-settings text-info"></i> HAIVEN
             </footer>
 
         </div>

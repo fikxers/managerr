@@ -7,17 +7,21 @@ $curl = curl_init();
 
 $email = $_SESSION['email'];
 $amount = ($_SESSION['amount']*100);
-$split_code = $_SESSION['split_code']; //"ACCT_y4m98c3sihmvtxh";
+$split_code = $_SESSION['split_code']; //"ACCT_y4m98c3sihmvtxh"; ACCT_g6jw71ofnglzmar
 if($split_code == NULL || $split_code == "" || $split_code == " "){ $split_code = "ACCT_zojwl8jr1974ctr"; }
 
 //echo "Split: ".$split_code;
 // echo "<script>alert('Split: ".$split_code."');</script>";
 // header("Location: " . $_SERVER["HTTP_REFERER"]);
 //echo "<script type='text/javascript'>window.top.location='recover_password.php';</script>";
-
+echo("<script>console.log('Subacount/split_code: " . $split_code . "');</script>");
+echo("<script>console.log('Email: " . $email . "');</script>");
+echo("<script>console.log('Amount: " . $amount . "');</script>");
+echo("<script>console.log('Phone: " . $_SESSION['phone'] . "');</script>");
+echo("<script>console.log('Name: " . $_SESSION['owner'] . "');</script>");
 // url to go to after payment
-$callback_url = 'https://managerr.net/users/paystack-callback.php';  
-//$callback_url = 'http://localhost/Managerr.com/users/paystack-callback.php'; 
+$callback_url = 'https://HAIVEN.net/users/paystack-callback.php';  
+//$callback_url = 'http://localhost/HAIVEN.com/users/paystack-callback.php'; 
 
 curl_setopt_array($curl, array(
   CURLOPT_URL => "https://api.paystack.co/transaction/initialize",
@@ -26,11 +30,11 @@ curl_setopt_array($curl, array(
   CURLOPT_POSTFIELDS => json_encode([
     'amount'=>$amount,
     'email'=>$email,
-	'subaccount' => $split_code, //"ACCT_zojwl8jr1974ctr",
+	  'subaccount' => $split_code, //"ACCT_zojwl8jr1974ctr",
     //'split_code' => $split_code, //"ACCT_zojwl8jr1974ctr",
-	//'purpose'=>$_SESSION['purpose'],
-	'phone' => $_SESSION['phone'], //new additional details
-	'full_name' => $_SESSION['owner'], //new additional details
+	  //'purpose'=>$_SESSION['purpose'],
+	  'phone' => $_SESSION['phone'], //new additional details
+	  'full_name' => $_SESSION['owner'], //new additional details
     'callback_url' => $callback_url
   ]),
   CURLOPT_HTTPHEADER => [

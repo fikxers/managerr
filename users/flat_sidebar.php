@@ -59,7 +59,7 @@
 <html>
 
 <head>
-    <title>Managerr - Flat</title>
+    <title>HAIVEN - Flat</title>
     <?php include ('tmpl/header.html'); ?>
 </head>
 <body class="fixed-left">
@@ -225,16 +225,24 @@
                             $result = mysqli_query($con,$deadline_option) or die(mysqli_error($con));
                             $deadline_option = $result->fetch_object()->deadline_option; $options = "";
                             if($deadline_option==1){ 
-                                echo '<div class="alert alert-primary text-dark" role="alert">Estate Levy Payment Day: '.$thismonth.' '.last_day_of_the_month().' </div>'; 
+                                echo '<div class="alert alert-primary text-dark" role="alert">Estate Levy Payment Day: '.$thismonth.' '.last_day_of_the_month().'. </div>'; 
                             }
                             else if ($deadline_option==2){ 
                                 $textbox_msg = "# of days after month end"; 
-                                echo '<div class="alert alert-primary text-dark" role="alert">Estate Deadline Option: 5 Days after month end</div>';
+                                echo '<div class="alert alert-primary text-dark" role="alert">Estate Deadline Option: '.$_SESSION['due_date'].' Days after month end.</div>';
                             }
                             else { 
                                 $textbox_msg = "# of days before month end";
-                                echo '<div class="alert alert-primary text-dark" role="alert">Estate Deadline Option: Days before month end</div>';
+                                echo '<div class="alert alert-primary text-dark" role="alert">Estate Deadline Option: '.$_SESSION['due_date'].' Days before month end.</div>';
                             }
+                            // else if ($deadline_option==2){ 
+                            //     $textbox_msg = "# of days after month end"; 
+                            //     echo '<div class="alert alert-primary text-dark" role="alert">Estate Deadline Option: 5 Days after month end</div>';
+                            // }
+                            // else { 
+                            //     $textbox_msg = "# of days before month end";
+                            //     echo '<div class="alert alert-primary text-dark" role="alert">Estate Deadline Option: Days before month end</div>';
+                            // }
                             //Flag Visitors not signed out
                             $query = "SELECT count(*) as cnt FROM entrance_codes where estate='".$_SESSION['estate']."' and block='".$_SESSION['block_no']."' and flat='".$_SESSION['flat_no']."' and (status='signed-in' )";
                             $result = mysqli_query($con,$query) or die(mysqli_error($con));

@@ -1,0 +1,125 @@
+[25-Mar-2024 05:07:25 UTC] PHP Warning:  Undefined array key "email" in /home/realeoki/fikxers.com/hotel-mgt/logout.php on line 3
+[25-Mar-2024 05:07:29 UTC] PHP Warning:  Undefined array key "email" in /home/realeoki/fikxers.com/hotel-mgt/logout.php on line 3
+[30-Mar-2024 05:33:48 UTC] PHP Warning:  Undefined array key "email" in /home/realeoki/fikxers.com/hotel-mgt/logout.php on line 3
+[30-Mar-2024 05:38:18 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/realeoki/fikxers.com/script.php:260) in /home/realeoki/fikxers.com/hotel-mgt/functions.php on line 20
+[30-Mar-2024 05:39:49 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/realeoki/fikxers.com/script.php:260) in /home/realeoki/fikxers.com/hotel-mgt/functions.php on line 20
+[30-Mar-2024 05:40:21 UTC] PHP Fatal error:  Cannot redeclare login() (previously declared in /home/realeoki/fikxers.com/script.php:260) in /home/realeoki/fikxers.com/hotel-mgt/functions.php on line 20
+[30-Mar-2024 05:41:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function currency_format() in /home/realeoki/fikxers.com/hotel-mgt/index.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/index.php on line 164
+[30-Mar-2024 05:41:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function currency_format() in /home/realeoki/fikxers.com/hotel-mgt/index.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/index.php on line 164
+[03-Apr-2024 15:39:27 UTC] PHP Warning:  Undefined variable $con in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:39:27 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/realeoki/fikxers.com/hotel-mgt/book.php:6
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/book.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:39:53 UTC] PHP Warning:  Undefined variable $con in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:39:53 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/realeoki/fikxers.com/hotel-mgt/book.php:6
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/book.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:40:22 UTC] PHP Warning:  Undefined variable $con in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:40:22 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/realeoki/fikxers.com/hotel-mgt/book.php:6
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/book.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:40:36 UTC] PHP Warning:  Undefined variable $con in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:40:36 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/realeoki/fikxers.com/hotel-mgt/book.php:6
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/book.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:41:45 UTC] PHP Warning:  Undefined variable $con in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:41:45 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/realeoki/fikxers.com/hotel-mgt/book.php:6
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/book.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:41:47 UTC] PHP Warning:  Undefined variable $con in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:41:47 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/realeoki/fikxers.com/hotel-mgt/book.php:6
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/book.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:42:28 UTC] PHP Warning:  Undefined variable $con in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:42:28 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/realeoki/fikxers.com/hotel-mgt/book.php:6
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/book.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:42:35 UTC] PHP Warning:  Undefined variable $con in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:42:35 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/realeoki/fikxers.com/hotel-mgt/book.php:6
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/book.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:46:16 UTC] PHP Warning:  Undefined variable $con in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:46:16 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/realeoki/fikxers.com/hotel-mgt/book.php:6
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/book.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:46:19 UTC] PHP Warning:  Undefined variable $con in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:46:19 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/realeoki/fikxers.com/hotel-mgt/book.php:6
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/book.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:46:20 UTC] PHP Warning:  Undefined variable $con in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:46:20 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/realeoki/fikxers.com/hotel-mgt/book.php:6
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/book.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:46:22 UTC] PHP Warning:  Undefined variable $con in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:46:22 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/realeoki/fikxers.com/hotel-mgt/book.php:6
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/book.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:46:25 UTC] PHP Warning:  Undefined variable $con in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:46:25 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/realeoki/fikxers.com/hotel-mgt/book.php:6
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/book.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:47:38 UTC] PHP Warning:  Undefined variable $con in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:47:38 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/realeoki/fikxers.com/hotel-mgt/book.php:6
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/book.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:48:27 UTC] PHP Warning:  Undefined variable $con in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 15:48:27 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home/realeoki/fikxers.com/hotel-mgt/book.php:6
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/book.php(6): mysqli_query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 6
+[03-Apr-2024 16:17:09 UTC] PHP Warning:  Attempt to read property "hotel_id" on null in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 8
+[03-Apr-2024 16:22:25 UTC] PHP Warning:  Attempt to read property "hotel_id" on null in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 8
+[03-Apr-2024 16:23:08 UTC] PHP Warning:  Attempt to read property "hotel_id" on null in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 8
+[03-Apr-2024 16:23:08 UTC] PHP Warning:  Attempt to read property "guest" on null in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 27
+[03-Apr-2024 16:23:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 in /home/realeoki/fikxers.com/hotel-mgt/book.php:41
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/book.php(41): mysqli_query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 41
+[03-Apr-2024 16:28:41 UTC] PHP Warning:  Attempt to read property "g" on null in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 28
+[03-Apr-2024 16:28:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1,'2024-04-11','2024-04-13',100000)' at line 1 in /home/realeoki/fikxers.com/hotel-mgt/book.php:43
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/book.php(43): mysqli_query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 43
+[03-Apr-2024 16:32:34 UTC] PHP Warning:  Attempt to read property "g" on null in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 28
+[03-Apr-2024 16:32:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1,'2024-04-05','2024-04-13',400000)' at line 1 in /home/realeoki/fikxers.com/hotel-mgt/book.php:43
+Stack trace:
+#0 /home/realeoki/fikxers.com/hotel-mgt/book.php(43): mysqli_query()
+#1 {main}
+  thrown in /home/realeoki/fikxers.com/hotel-mgt/book.php on line 43

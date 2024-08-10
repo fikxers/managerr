@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php  $title='Managerr Accounts'; include('header.php'); 
+<?php  $title='HAIVEN Accounts'; include('header.php'); 
 
 include('menu.php');
 ?>

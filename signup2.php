@@ -52,7 +52,7 @@ include('menu.php');
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
-                                    <button class="btn btn-danger provide-btn">Provide Manager Info</button>
+                                    <button class="btn btn-danger provide-btn nxt">Provide Manager Info</button>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"> <form method="POST" action="">
@@ -71,7 +71,7 @@ include('menu.php');
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
-                                    <button class="btn btn-danger provide-btn">Select Estate</button>
+                                    <button class="btn btn-danger provide-btn nxt">Select Estate</button>
                                 </div>
                             </div>
                             <div class="tab-pane fade body-wrapper-address" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
@@ -91,17 +91,17 @@ include('menu.php');
                                   </div>
                                 </div>
                                 <div class="col-lg-12">
-                                    <button class="btn btn-danger provide-btn">Next</button>
+                                    <button class="btn btn-danger provide-btn nxt">Next</button>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="pills-password" role="tabpanel" aria-labelledby="pills-password">
                                 <h5 class="register-what-2">Please Create Password</h5>
                                 <div class="row mb-3">
                                     <div class="col-lg-6 mb-3">
-                                        <input type="text" name="password" class="form-control form-control-custom" required placeholder="Password" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                                        <input type="password" name="password" class="form-control form-control-custom" required placeholder="Password" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                                     </div>
                                     <div class="col-lg-6">
-                                        <input type="text" name="rpassword" class="form-control form-control-custom" placeholder="Repeat Password" required data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                                        <input type="password" name="rpassword" class="form-control form-control-custom" placeholder="Repeat Password" required data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                                         <input type="hidden" name="admin_type" value="mgr">
                                     </div>
                                 </div>

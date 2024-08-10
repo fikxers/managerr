@@ -26,7 +26,7 @@
 							<h1>
 								The Integrated Facilities Management Application
 							</h1>
-							<p>Managerr is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead.</p><p>Deployment of Managerr ensures a competitive system where service providers and handymen bid to provide services and are engaged on an as-need basis. This will get the right people to the right place at the right time to provide excellent services to clients in an efficient manner while minimizing the number of personnel on the pay roll, resulting in cost savings for our clients.</p><p>Thanks to our best in class strategic industry partners who work with us to ensure the quality of the facilities management services we provide. We simplify the entire Integrated Facilities Management process</p>
+							<p>HAIVEN is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead.</p><p>Deployment of HAIVEN ensures a competitive system where service providers and handymen bid to provide services and are engaged on an as-need basis. This will get the right people to the right place at the right time to provide excellent services to clients in an efficient manner while minimizing the number of personnel on the pay roll, resulting in cost savings for our clients.</p><p>Thanks to our best in class strategic industry partners who work with us to ensure the quality of the facilities management services we provide. We simplify the entire Integrated Facilities Management process</p>
 							<!--<div class="row no-gutters">
 								<div class="single-services col">
 									<span class="lnr lnr-diamond"></span>
@@ -60,9 +60,9 @@
 					<div class="row align-items-center justify-content-between no-gutters">
 						<div class="col-lg-12 text-center">
 							<!--<h1 class="text-white">What’s in it for the <br>Facility Manager</h1>-->
-							<p class="text-white">Managerr is a Cloud-based Integrated Facilities Service Management Application tailored and scaled to meet the need of a wide range of users from Real Estate residents to large industries.
+							<p class="text-white">HAIVEN is a Cloud-based Integrated Facilities Service Management Application tailored and scaled to meet the need of a wide range of users from Real Estate residents to large industries.
 							Now, in the comfort of your home or office, you can raise a work request for any required repair or service and the platform will ensure you get the best deal by creating a bidding system to enable you choose from a list of vetted and accredited service providers with the best price for the service.
-							Managerr aims to ensure value for money by creating a competitive system that enables service providers deliver qualitative service to our clients always.</p>
+							HAIVEN aims to ensure value for money by creating a competitive system that enables service providers deliver qualitative service to our clients always.</p>
 							<!--<a href="#" class="header-btn">Order Service Now</a>-->
 						</div>
 						<!--<div class="col-lg-5 discount-right">
@@ -100,13 +100,13 @@
 						<div class="col-lg-6 discount-left"><br>
 							<h1 class="text-dark">What’s in it for the <br>Facility Manager</h1>
 							<p class="text-dark">
-								Facility managers have the challenging job of managing maintenance requests from individuals within an organization, building, facilities or estate while maintaining a proactive preventive maintenance schedule to keep other asset up and running. Whether you have a multi-site organization or a small building to manage, having a facilities management application in place is the first step to becoming more organized and operating more efficiently. With Managerr Facility Managers can track costs for each job, check history of estate levies, run different reports for different purposes. 
+								Facility managers have the challenging job of managing maintenance requests from individuals within an organization, building, facilities or estate while maintaining a proactive preventive maintenance schedule to keep other asset up and running. Whether you have a multi-site organization or a small building to manage, having a facilities management application in place is the first step to becoming more organized and operating more efficiently. With HAIVEN Facility Managers can track costs for each job, check history of estate levies, run different reports for different purposes. 
 							</p>
 						</div>
 						<div class="col-lg-6 discount-right"><br>
 							<h1 class="text-dark">What’s in it for the <br>Clients and Users</h1>
 							<p class="text-dark">
-								Using Managerr’ simple, easy-to-use web-based integrated facilities maintenance application will help an organization, facilities or home operate much more efficiently and allow a much higher level of service delivery. The residential estate version of this application allows residents to log on to request any maintenance or repair service with ability to track the requests as they are completed. Keeping track of work order history for home appliances, asset and general maintenance costs (labor and parts) will lead to a reduction of the total cost of maintenance for homes. Payment and tracking of estate levies by residents is also possible on Managerr. 
+								Using HAIVEN’ simple, easy-to-use web-based integrated facilities maintenance application will help an organization, facilities or home operate much more efficiently and allow a much higher level of service delivery. The residential estate version of this application allows residents to log on to request any maintenance or repair service with ability to track the requests as they are completed. Keeping track of work order history for home appliances, asset and general maintenance costs (labor and parts) will lead to a reduction of the total cost of maintenance for homes. Payment and tracking of estate levies by residents is also possible on HAIVEN. 
 							</p>
 						</div>
 					</div>

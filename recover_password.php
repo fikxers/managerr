@@ -25,14 +25,14 @@
             <div class="">
 
             </div>
-            <h1 class="login-title blue-color">Sign in</h1>
+            <h1 class="login-title blue-color">Recover Password</h1>
 
             <div class="">
                 <form method="POST" action="">
                     <label class="login-label">Enter your account details</label>
                     <div class="row mt-4">
                         <div class="col-lg-6">
-                            <input type="email" name="email" class="form-control form-control-custom mb-5" placeholder="janedoe@mail.com">
+                            <input type="email" name="email" class="form-control form-control-custom mb-5" placeholder="janedoe@mail.com" required>
                         </div>
                     </div>
                     <div class="row mb-4">

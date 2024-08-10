@@ -13,5 +13,45 @@
 <script src="js/jquery.circlechart.js"></script>
 <script src="js/mail-script.js"></script>
 <script src="js/main.js"></script>
+<script>
+  // document.getElementById('nextTabBtn').addEventListener('click', function () {
+  //   // Get the currently active tab
+  //   var activeTab = document.querySelector('.nav-link.active');
+
+  //   // Find the next tab
+  //   var nextTab = activeTab.parentElement.nextElementSibling;
+    
+  //   if (nextTab) {
+  //     // Activate the next tab
+  //     nextTab.querySelector('a').click();
+  //   } else {
+  //     // If there is no next tab, you can loop back to the first tab
+  //     document.querySelector('.nav-item:first-child a').click();
+  //   }
+  // });
+
+    // Get all the buttons with the class 'my-button'  
+    var buttons = document.getElementsByClassName('nxt');  
+  
+    // Loop over all the buttons and add an event listener to each one  
+    for (var i = 0; i < buttons.length; i++) {  
+      buttons[i].addEventListener('click', function() {  
+        //alert('Button clicked!');  
+        // Get the currently active tab
+	    var activeTab = document.querySelector('.nav-link.active');
+
+	    // Find the next tab
+	    var nextTab = activeTab.parentElement.nextElementSibling;
+	    
+	    if (nextTab) {
+	      // Activate the next tab
+	      nextTab.querySelector('a').click();
+	    } else {
+	      // If there is no next tab, you can loop back to the first tab
+	      document.querySelector('.nav-item:first-child a').click();
+	    }
+      });  
+    }  
+</script>  
 </body>
 </html>

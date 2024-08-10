@@ -27,7 +27,7 @@
           <body>
             <p>Message: '.$m.'</p><br>
             <p>Date sent: '.$d.'</p>
-			<hr><p>Powered by <a href="https://managerr.net">Managerr</p>.</p> 
+			<hr><p>Powered by <a href="https://HAIVEN.net">HAIVEN</p>.</p> 
           </body> 
           </html>'; 
           if ($s == NULL || $s == ""){
@@ -38,9 +38,9 @@
 			//Set PHPMailer to use the sendmail transport
 			$mail->isSendmail();
 			//Set who the message is to be sent from
-			$mail->setFrom('support@managerr.net', 'Manager Support');
+			$mail->setFrom('support@HAIVEN.net', 'Manager Support');
 			//Set an alternative reply-to address
-			$mail->addReplyTo('info@managerr.net', 'Manager Support');
+			$mail->addReplyTo('info@HAIVEN.net', 'Manager Support');
 			//Set who the message is to be sent to
 			$mail->addAddress($to);//$mail->addAddress('ypolycarp@gmail.com');
 			//Set the subject line

@@ -16,7 +16,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-    <title>Managerr - Admin</title>
+    <title>HAIVEN - Admin</title>
     <meta content="Admin Dashboard" name="description" />
     <meta content="ThemeDesign" name="author" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -150,6 +150,17 @@
                                     echo $num_eqpm;                             
                                    ?>
                                 </span></a></li>
+                                <li><a href="hotel_mgrs.php">Hotel Mgrs<span class="badge badge-success pull-right">
+                                  <?php
+                                    include ('../db.php');
+                                    $sql = "SELECT COUNT(*) AS cnt FROM hotel_manager"; 
+                                    //include where clause for specific flat
+                                    $result = $con->query($sql);
+                                    $values = mysqli_fetch_assoc($result); 
+                                    $num_eqpm = $values['cnt'];
+                                    echo $num_eqpm;                             
+                                   ?>
+                                </span></a></li>
                                 <li><a href="view_hmgrs.php">Hostel Mgrs<span class="badge badge-success pull-right">
                                   <?php
                                     include ('../db.php');
@@ -205,6 +216,13 @@
                                 <li><a href="#">Add Fikxer</a></li>
                                 <li><a href="#">Add Asset</a></li>
 								<li><a href="view_hostels.php">Hostels</a></li>
+                            </ul>
+                        </li>
+                        <li class="has_sub">
+                            <a href="javascript:void(0);" class="waves-effect"><i class="ti-id-badge"></i> <span> Hotel Mgt </span> <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span></a>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Rooms</a></li>
+                                <li><a href="view_hotels.php">Hotels</a></li>
                             </ul>
                         </li>
 						<li class="has_sub">

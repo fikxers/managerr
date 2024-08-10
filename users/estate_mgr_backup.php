@@ -32,7 +32,7 @@
 							
                               <div class="card m-b-30">
                                   <div class="card-body">
-                                      <h4 class="mt-0 header-title">Available Managerr</h4>
+                                      <h4 class="mt-0 header-title">Available HAIVEN</h4>
                                         <div class="table-rep-plugin">
                                            <div class="table-responsive b-0" data-pattern="priority-columns">
                                                

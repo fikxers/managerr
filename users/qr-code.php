@@ -18,7 +18,7 @@ function notification($m) {
               <title>Guest Successfully Invited</title> 
             </head> 
             <body>'.$m.' 
-			  <hr><p>Thank you for choosing Managerr.</p> 
+			  <hr><p>Thank you for choosing HAIVEN.</p> 
             </body> 
           </html>'; 
 	  	  //Create a new PHPMailer instance
@@ -26,9 +26,9 @@ function notification($m) {
 			//Set PHPMailer to use the sendmail transport
 			$mail->isSendmail();
 			//Set who the message is to be sent from
-			$mail->setFrom('support@managerr.net', 'Managerr Support');
+			$mail->setFrom('support@HAIVEN.net', 'HAIVEN Support');
 			//Set an alternative reply-to address
-			$mail->addReplyTo('info@managerr.net', 'Managerr Support');
+			$mail->addReplyTo('info@HAIVEN.net', 'HAIVEN Support');
 			//Set who the message is to be sent to
 			$mail->addAddress($_SESSION['email']);//$mail->addAddress('ypolycarp@gmail.com');
 			//Set the subject line
@@ -74,7 +74,7 @@ if (isset($_POST['code'])){
 	  $m .= 'Their Expected Arrival: '.date("d-m-Y",strtotime($arr_date)).' by '.date("g:ia",strtotime($arr_date)).'.'."<br>";
 	  $m .= 'Expected companions: '.$comp.'.'."<br><br>";
 	  $m .= 'Entrance access code: <b>'.strtoupper($final).'</b>.'."<br>";
-	  $m .= '<hr><p>Thank you for choosing Managerr.</p'> 
+	  $m .= '<hr><p>Thank you for choosing HAIVEN.</p'> 
     notification($m);
     //create qr code
 	$code = $final;
@@ -94,6 +94,20 @@ if (isset($_POST['code'])){
 		echo '<script type="text/javascript">alert("'.$error.'");</script>';
 		echo "<script type='text/javascript'>window.top.location='qr-code.php';</script>"; exit;
   }
+}
+else if (isset($_POST['signin'])){
+  $id = $_REQUEST['id']; 
+	if( ! ini_get('date.timezone') ) { date_default_timezone_set('Africa/Lagos'); } $trn_date = date("Y-m-d H:i:s");
+	$query = "UPDATE entrance_codes set status='signed-in', signin='".$trn_date."',security='Resident' WHERE id = $id";
+	$result2 = mysqli_query($con,$query); 
+	if($result2){
+	  echo "<script>alert('Guest signed in successfully.');</script>";
+	  echo "<script type='text/javascript'>window.top.location='qr-code.php';</script>"; exit;
+	}
+	else{
+	  echo "<script>alert('Sign In Error. Please try again.');</script>";
+	  echo "<script type='text/javascript'>window.top.location='qr-code.php';</script>"; exit;
+	}
 }
 else if (isset($_POST['signout'])){
   $id = $_REQUEST['id']; 
@@ -231,7 +245,7 @@ else if (isset($_POST['update'])){
 							  <!-- <input type="date" name="arr_date" id="arr_date" class="form-control" /> -->
 							  <!--<input type="datetime-local" name="arr_date" id="arr_date" class="form-control" />-->
 							  <?php $today = date("Y-m-d"); //date("Y-m-d h:i:s"); 
-							  	$min = $today." 05:00:00"; $max = $today." 21:00:00";
+							  	$min = $today." 05:00:00"; $max = $today." 23:59:00";
 							  ?>
 							  <input type="datetime-local" name="arr_date" min="<?php echo $min; ?>" max="<?php echo $max; ?>" id="arr_date" class="form-control" />
 							</div>
@@ -384,9 +398,9 @@ else if (isset($_POST['update'])){
 							$txt_4 = 'When you arrive at the Estate gate, please show the code to the Security.'."%0D%0A";
 							//if qr exists then send
 							if($row['qr']==1){
-							  $txt_0 = "%0D%0A".'View QR Code - https://managerr.net/qrcode/images/'.$row['code'].'.png'."%0D%0A";
+							  $txt_0 = "%0D%0A".'View QR Code - https://HAIVEN.net/qrcode/images/'.$row['code'].'.png'."%0D%0A";
 							}
-							$txt_5 = "%0D%0A".'Powered By *Managerr* - https://managerr.net';
+							$txt_5 = "%0D%0A".'Powered By *HAIVEN* - https://HAIVEN.net';
 							$msg= $txt_1.$txt_2.$txt_22.$txt_23.$txt_24.$txt_3.$txt_4.$txt_0.$txt_5;
 							echo '<tr>
 							<div class="list-group-item list-group-item-action">
@@ -404,7 +418,8 @@ else if (isset($_POST['update'])){
 							}
 							echo '</p>
 							<small>
-							<button type="button" class="btn btn-warning btn-sm" style="background-color: transparent; border-width: 0px;" data-toggle="modal" data-toggle="modal" data-target="#editmodal-'.$row['id'].'" data-original-title="Edit"><i class="fa fa-pencil text-warning"></i></button>&emsp;<button type="button" class="btn btn-danger text-danger btn-sm" style="background-color: transparent; border-width: 0px;" data-toggle="modal" data-target="#delmodal-'.$row['id'].'" data-original-title="Delete"><i class="ti-eraser text-danger"></i></button>&emsp;&emsp;<button type="button" class="btn btn-dark btn-sm" style="background-color: transparent; border-width: 0px;" data-toggle="modal" data-target="#noshowmodal-' .$row['id'].'" data-original-title="No Show"><i class="fa fa-times-circle-o text-dark"></i></button>&emsp;&emsp;<a href="https://wa.me/?text=' .$msg. '" data-toggle="tooltip" data-original-title="Share on WhatsApp" target="_blank"><i class="fa fa-mail-forward text-success m-r-10"></i></a>
+							<button type="button" class="btn btn-success btn-sm" style="background-color: transparent; border-width: 0px;" data-toggle="modal" data-target="#inmodal-'.$row['id'].'" data-original-title="Sign In" title="Sign In"><i class="fa fa-sign-in text-success"></i></button>
+							<button type="button" class="btn btn-warning btn-sm" style="background-color: transparent; border-width: 0px;" data-toggle="modal" data-toggle="modal" data-target="#editmodal-'.$row['id'].'" data-original-title="Edit" title="Update Code"><i class="fa fa-pencil text-warning"></i></button>&emsp;<button type="button" class="btn btn-danger text-danger btn-sm" style="background-color: transparent; border-width: 0px;" data-toggle="modal" data-target="#delmodal-'.$row['id'].'" data-original-title="Delete" title="Delete"><i class="ti-eraser text-danger"></i></button>&emsp;&emsp;<button type="button" class="btn btn-dark btn-sm" style="background-color: transparent; border-width: 0px;" data-toggle="modal" data-target="#noshowmodal-' .$row['id'].'" data-original-title="No Show" title="Declare No-Show"><i class="fa fa-times-circle-o text-dark"></i></button>&emsp;&emsp;<a href="https://wa.me/?text=' .$msg. '" data-toggle="tooltip" data-original-title="Share on WhatsApp" target="_blank"><i class="fa fa-mail-forward text-success m-r-10"></i></a>
 							</small>
 							</div>';
 								echo '<!-- No Show Modal -->
@@ -432,6 +447,30 @@ else if (isset($_POST['update'])){
 									  </div>
 									</div>
 									<!-- /No Show Modal -->
+									<!-- Sign In Modal -->
+									<div class="modal fade" id="inmodal-'.$row['id'].'" tabindex="-1" role="dialog" aria-labelledby="delmodal-'.$row['id'].'" aria-hidden="true">
+									  <div class="modal-dialog" role="document">
+										<div class="modal-content">
+										  <div class="modal-header">
+											<h5 class="modal-title" id="outmodal">Sign guest in?</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											  <span aria-hidden="true">&times;</span>
+											</button>
+										  </div>
+										  <div class="modal-body">
+											<form action="" method="POST">
+											   <div class="form-row">
+												<input type="hidden" name="id" value="'.$row['id'].'">
+												<div class="form-group col-lg-12">
+												  <input type="submit" name="signin" value="Yes. Sign In." class="btn btn-block btn-outline-info">
+												</div>
+											   </div>
+											</form>
+										  </div>
+										</div>
+									  </div>
+									</div>
+									<!-- /Sign Out Modal -->
 								<!-- Delete Modal -->
 								<div class="modal fade" id="delmodal-'.$row['id'].'" tabindex="-1" role="dialog" aria-labelledby="delmodal-'.$row['id'].'" aria-hidden="true">
 								  <div class="modal-dialog" role="document">

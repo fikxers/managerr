@@ -77,7 +77,7 @@ if ($verifyResponse->statusCode == "0"){
 	  </head>
 	  <body>
 	    <div id="receipt">
-	      <img src="../../img/logo.png" alt="Managerr" width="200" height="auto"><br>
+	      <img src="../../img/logo.png" alt="HAIVEN" width="200" height="auto"><br>
 	      <h2><span id="title">METER VERIFICATION SUCCESSFUL</span></h2>
 	      <table class="table table-sm table-bordered border-success">
 	        <tbody>          

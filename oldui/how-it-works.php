@@ -30,7 +30,7 @@
 					</div>	-->		
 					<div class="row faq-contents justify-content-center align-items-center">
 						<div class="col-lg-12 text-center"><br>
-							<img src="img/Managerr Processes.png" class="img-fluid" width="80%" alt="">
+							<img src="img/HAIVEN Processes.png" class="img-fluid" width="80%" alt="">
 						</div>						
 					</div><br>
 				</div>	

@@ -7,15 +7,15 @@
 		<!-- Favicon-->
 		<link rel="shortcut icon" href="img/favicon.ico">
 		<!-- Author Meta -->
-		<meta name="Managerr" content="Managerr">
+		<meta name="HAIVEN" content="HAIVEN">
 		<!-- Meta Description -->
-		<meta name="description" content="Managerr is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead.">
+		<meta name="description" content="HAIVEN is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead.">
 		<!-- Meta Keyword -->
-		<meta name="about" content="Managerr is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead.">
+		<meta name="about" content="HAIVEN is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead.">
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
-		<title>Managerr | <?php echo $title; ?></title>
+		<title>HAIVEN | <?php echo $title; ?></title>
 		<!-- Manifest for A2HS -->
 		<!-- <link rel="manifest" href="manifest.webmanifest" /> -->
 		<link rel="manifest" href="manifest.json" />

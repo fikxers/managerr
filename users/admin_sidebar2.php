@@ -12,7 +12,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-    <title>Managerr - Admin</title>
+    <title>HAIVEN - Admin</title>
     <meta content="Admin Dashboard" name="description" />
     <meta content="ThemeDesign" name="author" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -89,7 +89,7 @@
 									echo $num_eqpm;								
 								   ?>
 								</span></a></li>
-                                <li><a href="view_fixers.php">Managerr<span class="badge badge-success pull-right">
+                                <li><a href="view_fixers.php">HAIVEN<span class="badge badge-success pull-right">
 								  <?php
 									include ('../db.php');
 									$sql = "SELECT COUNT(*) AS cnt FROM fixers"; 
@@ -363,7 +363,7 @@
 										$values = mysqli_fetch_assoc($result);  
 										$num = $values['cnt']; 															
 										echo $num;								
-									   ?></span> Total Managerr
+									   ?></span> Total HAIVEN
                                     </div>
                                 </div>
 								</a>

@@ -30,10 +30,10 @@ $pdf = new TCPDF('P', 'mm', 'A4', true, 'UTF-8');
 
 // Set the document information and metadata
 $pdf->SetCreator(PDF_CREATOR);
-$pdf->SetAuthor('Managerr');
+$pdf->SetAuthor('HAIVEN');
 $pdf->SetTitle('Security Report');
 $pdf->SetSubject($title);
-$pdf->SetKeywords('Security, PDF, Export, Managerr, '.$title);
+$pdf->SetKeywords('Security, PDF, Export, HAIVEN, '.$title);
 
 // Set default header data
 $pdf->SetHeaderData('', 0, '', '', array(0, 0, 0), array(255, 255, 255));

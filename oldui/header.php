@@ -1,6 +1,6 @@
 <?php session_start();
 	// Check if the user is logged in
-  	if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true && $title != 'Managerr Accounts') {
+  	if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true && $title != 'HAIVEN Accounts') {
 	    // Redirect the user to another page
 	    login();
 	}
@@ -98,15 +98,15 @@
 		<!-- Favicon-->
 		<link rel="shortcut icon" href="img/favicon.ico">
 		<!-- Author Meta -->
-		<meta name="Managerr" content="Managerr">
+		<meta name="HAIVEN" content="HAIVEN">
 		<!-- Meta Description -->
-		<meta name="description" content="Managerr is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead.">
+		<meta name="description" content="HAIVEN is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead.">
 		<!-- Meta Keyword -->
-		<meta name="about" content="Managerr is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead.">
+		<meta name="about" content="HAIVEN is a Cloud-based Integrated Facilities Management Application designed to drive efficiency, eliminate wastages and minimize estates and facilities overhead.">
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
-		<title>Managerr | <?php echo $title; ?></title>
+		<title>HAIVEN | <?php echo $title; ?></title>
 		<!-- Manifest for A2HS -->
 		<!-- <link rel="manifest" href="manifest.webmanifest" /> -->
 		<link rel="manifest" href="manifest.json" />
@@ -179,7 +179,7 @@
 				  			</div>
 				  			<div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
 				  				<a href="tel:08037852881">08037852881 | 07026000053</a>
-				  				<a href="mailto:support@managerr.net">support@Managerr.net</a>			
+				  				<a href="mailto:support@HAIVEN.net">support@HAIVEN.net</a>			
 				  			</div>
 				  		</div>			  					
 		  			</div>
@@ -192,7 +192,7 @@
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
-				          <?php if($title=='Managerr Accounts'){ ?>		          
+				          <?php if($title=='HAIVEN Accounts'){ ?>		          
 				          <!-- <li><a href="reset-password.php">Reset Password</a></li> -->
 						  <li><a href="login.php"><?php echo $button_value ?></a></li>
 						  <?php } else { ?>
