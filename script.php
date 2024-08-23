@@ -452,11 +452,13 @@
 	  $button_value = '<li class="get-started-btn"><a href="logout.php">LOG OUT</a></li>';
 	}
 	else{
-    if($title=="Hotel Management"){
-	  	$button_value = "<a href='hotel-mgt/login.php' class='nav-link'>Login</a>";
-	  }else{
-		  $button_value = '<li class="login-btn"><a href="login.php">LOG IN</a></li>';
-      $button_value .= '<li class="get-started-btn"><a href="signup.php">GET STARTED</a></li>';
-	  }         
+    // if($title=="Hotel Management"){
+	  // 	$button_value = "<a href='hotel-mgt/login.php' class='nav-link'>Login</a>";
+	  // }else{
+		//   $button_value = '<li class="login-btn"><a href="login.php">LOG IN</a></li>';
+    //   $button_value .= '<li class="get-started-btn"><a href="signup.php">GET STARTED</a></li>';
+	  // } 
+	  $button_value = '<li class="login-btn"><a href="login.php">ADMIN</a></li>';
+    $button_value .= '<li class="get-started-btn"><a href="signup.php">RESIDENT</a></li>';        
 	}
 ?>
